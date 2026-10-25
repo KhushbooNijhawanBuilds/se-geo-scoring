@@ -1,0 +1,532 @@
+{
+ "page": {
+  "id": "16",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/9-series/",
+  "topic": "9 Series final distribution protection master range",
+  "target_prompts": [
+   "Which Schneider Electric 9 Series range (Resi9, Acti9, Multi9) should I use for final distribution protection?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Master range overview -> Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The 9 Series delivers the final level of protection in the electrical distribution in homes and buildings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "9 Series"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Advanced protection with comprehensive final distribution breaker ranges"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "comprehensive final distribution breaker ranges"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "dedicated to equipment manufacturers (OEMs)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "in homes and buildings"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "allowing our customers to feel safe everywhere at every moment"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "ratings per card but no selection axis"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Acti9 iC60 RCBO vs iDPN Vigi (both RCBO)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": 3,
+   "rationale": "2/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "for OEMs and control panel builders"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Resi9 CX Enclosures Residential Electrical Enclosures"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "unparalleled performance and space optimization"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Acti9 Vigi iC60 Residual current add-on devices up to 63 A for Acti9 iC60 Miniature Circuit Breakers"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "ability to be connected remotely (no protocol)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EcoStruxure ™ Asset Advisor for drives (off-topic)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "meet your needs and the major standards (none numbered)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Resi9 Protection Protection devices (no function)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "7/15 members carry a rating"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "under 50% state application"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "cards rendered 2-3 times"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "EcoStruxure ™ Asset Advisor for drives"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no table"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The Acti9 system is easy to install, maintain and upgrade"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Acti9 iID DIN Rail Residual current circuit breakers (RCCB) up to 100 A"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Acti9 iCT Modular contactors up to 100 A"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "allowing our customers to feel safe everywhere at every moment"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "unparalleled performance"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Acti 9 vs Acti9; 'Telecom nd IT'"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Acti9 iC60 RCBO (2P, 3P, 4P)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Acti9 iID DIN Rail Residual current circuit breakers (RCCB) up to 100 A"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Read more / Discover now"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

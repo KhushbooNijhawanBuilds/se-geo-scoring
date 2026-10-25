@@ -1,0 +1,554 @@
+{
+  "page": {
+    "id": "37",
+    "type": "service",
+    "stage": "Evaluation",
+    "topic": "Condition-based maintenance and 24/7 remote monitoring service plans (EcoCare)",
+    "industry": "Buildings / data centers / industry",
+    "target_prompts": [
+      "Which condition-based maintenance and remote monitoring service plans exist for electrical distribution and UPS equipment?",
+      "What does an EcoCare service plan include?",
+      "What response time / SLA does a remote-monitoring service plan guarantee?",
+      "Which equipment is eligible (switchgear, 3-phase UPS, BMS, drives)?",
+      "How does condition-based maintenance compare with calendar-based maintenance in cost and downtime?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Nothing under H1 but 'Contact Sales' and tab labels"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Condition-based maintenance and remote monitoring services",
+          "location": "Title"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Definition only in meta description (not body)"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "With EcoConsult, our consulting services, we help design your asset performance management strategy",
+          "location": "Cross-sell H2s"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Descriptive title; body never opens with a definition.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Body never says what EcoCare is"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoCare for Data Centers",
+          "location": "Offer cards"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "compared to traditional calendar-based service plans",
+          "location": "Stat block"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Up to 75%",
+          "location": "Stat block"
+        }
+      ],
+      "rationale": "Who/when/outcome inferable; 'what' missing from body.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Up to 40%",
+          "location": "Number-only headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Monitor and analyze",
+          "location": "How-it-works list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Compass Datacenters is improving longevity and resiliency for its customers.",
+          "location": "Short blocks"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans",
+          "location": "Stat fragments without subject"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "OverviewService plansSuccess storiesFeaturesHow it works",
+          "location": "Service plans / Features / How it works are tabs without text"
+        }
+      ],
+      "rationale": "Stat-tile and tab template; little self-contained text.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Benefit-claim voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our Connected Services Hub team monitor the health of your assets and systems 24/7",
+          "location": "Low hype"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Low hype, no advisor voice.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "empowered by AI-driven analytics and our predictive models",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A for service plan",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Evaluation needs SLAs/proof metrics"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "less electrical failure risk",
+          "location": "Facility-manager language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Contact Sales",
+          "location": "Generic CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Compass Datacenters",
+          "location": "Story link"
+        }
+      ],
+      "rationale": "Generic CTA; partial depth.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Only remote monitoring described as a deliverable in text"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Our Connected Services Hub team monitor the health of your assets and systems 24/7, empowered by AI-driven analytics and our predictive models.",
+          "location": "24/7 remote monitoring"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "24/7 remote monitoring",
+          "location": "Heading"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No exclusions/options"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "OverviewService plansSuccess storiesFeaturesHow it works",
+          "location": "Plans and features sit in tabs"
+        }
+      ],
+      "rationale": "One well-described deliverable; rest hidden in tabs.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "monitor the health of your assets and systems 24/7",
+          "location": "24/7 remote monitoring"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No response time"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No other commitment"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No escalation path"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Coverage hours only; anchor: no numbers caps at 2.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "Offer cards"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No ranges/models"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Multi-vendor not stated"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No connectivity prerequisite"
+        }
+      ],
+      "rationale": "Eligible categories listed only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Connect and collect",
+          "location": "How-it-works list"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Step labels without explanation"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our Connected Services Hub team monitor",
+          "location": "Role"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No onboarding"
+        }
+      ],
+      "rationale": "Steps named, not explained.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoCare for 3-Phase UPS",
+          "location": "Per-equipment plans"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No tier differences"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No contract/pricing model"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No regional availability"
+        }
+      ],
+      "rationale": "Plan variants named only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Up to 20%",
+          "location": "Stat block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans",
+          "location": "Stat block (EcoCare page)"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "compared to traditional calendar-based service plans",
+          "location": "Baseline"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "fewer intrusive on-site interventions",
+          "location": "KPI"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans³",
+          "location": "Footnote markers 1-3 have no visible source text"
+        }
+      ],
+      "rationale": "Quantified with a baseline, but footnotes unresolved; anchor: level 4 needs c5 -> 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Compass Datacenters",
+          "location": "Success story"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No metric"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Connected Services Hub team",
+          "location": "Delivery organisation"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No standard"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "One named customer, a named hub; no results; anchor: c2 fail caps at 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital. WebFetch of the live URL (2026-10-19) shows more server text not in the corpus: success stories 'Rubis Photosol', 'Nestle Nescafe', 'Zilia Technologies' and feature blocks 'Emergency support' (remote resolution or rapid on-site dispatch, no time commitment) and 'Condition-based maintenance'. Would flip SVC-1 c1 and SVC-2 c4 to pass (sensitivity +~3-4 points); no SLA numbers either way.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Typo 'Singe-Phase UPS' in offer card (entity naming) -> content owner."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Evaluation (plan selection)."
+  }
+}

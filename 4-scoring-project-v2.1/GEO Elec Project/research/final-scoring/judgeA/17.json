@@ -1,0 +1,729 @@
+{
+  "page": {
+    "id": "17",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "Line Series",
+    "industry": "Cross-segment",
+    "target_prompts": [
+      "What is the Line Series busbar trunking range and which Canalis system do I need?",
+      "Canalis KS vs KT",
+      "Busbar trunking vs cable: advantages",
+      "Busbar for data centers (iBusway)",
+      "Canalis KBA vs KBB lighting busbar"
+    ],
+    "prompts_inferred": false,
+    "fanout_inferred": true,
+    "content_source": "corpus/rendered/17_product-range-page.md",
+    "standard": "v2.0",
+    "judge": "A"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Flexible, reliable and connected busbar trunking system",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Discover Line Series",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "A flexible, safe, and reliable solution for distribution systems up to 6300A.",
+          "location": "Line Series"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our offer",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c4": "T",
+        "c5": "A"
+      },
+      "rationale": "Category + scope; 'Discover' H1.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "busbar trunking system",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "from office buildings to heavy-duty industrial sites",
+          "location": "Canalis"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "especially in data centers",
+          "location": "Canalis"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The design and installation time is optimized compared to a cable solution.",
+          "location": "Line Series"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The Line Series uses a decentralized distribution architecture based on a plug-and-play concept.",
+          "location": "6-sentence lead block"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Busbar trunking system for power distribution up to 1000 A",
+          "location": "KS"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Heavy-duty busbar trunking system, for power distribution in harsh environments, up to 6300A",
+          "location": "KR"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Lead block long; no table.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Busbar trunking system compliant with IEC",
+          "location": "no standard number"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "IEC named without number.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The Line Series uses a decentralized distribution architecture based on a plug-and-play concept.",
+          "location": "Line Series"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The design and installation time is optimized compared to a cable solution.",
+          "location": "Line Series"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "brand range page",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Explanatory, low hype.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Canalis busbar trunking systems are designed for transporting and distributing electricity",
+          "location": "Line Series - Canalis relationship never stated"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Canalis KBB",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Busbar trunking for lighting distribution (1 or 2 circuits)",
+          "location": "KBB"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Discover now",
+          "location": "CTA"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Master-range/range relationship missing.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Electrical distribution for data-centre by Canalis",
+          "location": "iBusway"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No table.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Busbar trunking system for power distribution up to 1000 A",
+          "location": "KS"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Busbar trunking system for power distribution up to 160 A",
+          "location": "KN"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Heavy-duty busbar trunking system, for power distribution in harsh environments, up to 6300A",
+          "location": "KR"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A"
+      },
+      "rationale": "Ratings + environment; no choice statements.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "from office buildings to heavy-duty industrial sites",
+          "location": "Canalis"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Busbar trunking for lighting distribution",
+          "location": "KBA"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Segments.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "The design and installation time is optimized compared to a cable solution.",
+          "location": "unquantified"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The design and installation time is optimized compared to a cable solution.",
+          "location": "Line Series"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "Basis without number.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "No accessories/connectivity despite 'connected'.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Busbar trunking system compliant with IEC",
+          "location": "no number"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Busbar trunking system compliant with IEC",
+          "location": "Canalis"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "IEC without number.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Busbar trunking for lighting distribution",
+          "location": "KBA"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "4/7 rated"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "for power distribution in harsh environments",
+          "location": "KR"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Busbar trunking system for power distribution up to 160 A",
+          "location": "KN (rendered once)"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Busbar trunking system for power distribution up to 6300A",
+          "location": "KT"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Descriptors unique in rendered view; rating coverage < 75%.",
+      "proposed_level": 4,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Server HTML clones card text (template); rendered view shows each once"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Declared stage Consideration"
+  }
+}

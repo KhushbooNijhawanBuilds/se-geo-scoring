@@ -1,0 +1,163 @@
+{
+  "page": {
+    "id": "59_doc",
+    "type": "esg_report_doc",
+    "stage": "Evaluation",
+    "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+    "topic": "Schneider Electric 2023 Sustainable Development Report (PDF text)",
+    "industry": "Energy Management & Sustainability (inferred)",
+    "target_prompts": [
+      "What were Schneider Electric's 2023 greenhouse gas emissions and sustainability results?"
+    ],
+    "prompts_inferred": true,
+    "sections_read": "cover, TOC, CSO letter, highlights (pp.1-5), SSI targets table, 1.11 frameworks/ratings, 3.2 GHG footprint, 7 methodology/assurance, 8.1 environmental indicators"
+  },
+  "page_type_key": "esg_report_doc",
+  "stage": "Evaluation",
+  "raw_score": 71.7,
+  "penalties": [
+    "superseded_no_notice"
+  ],
+  "penalty_points": 3,
+  "gates_triggered": [],
+  "cap": null,
+  "final_score": 69,
+  "band": "Average",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 18,
+      "family": "specs",
+      "m": 1.5,
+      "level": 3,
+      "checks_passed": "3/5",
+      "rationale": "full GHG table by scope in tCO2e with multi-year comparison",
+      "confidence": "medium",
+      "eff_w": 23.73,
+      "points": 14.24,
+      "impact_points": 9.49
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 8,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 1,
+      "checks_passed": "2/5",
+      "rationale": "period stated; no visible release date; superseded edition, no notice",
+      "confidence": "medium",
+      "eff_w": 7.73,
+      "points": 1.55,
+      "impact_points": 6.18
+    },
+    {
+      "id": "DOC-1",
+      "default_w": 12,
+      "family": "other",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "3/5",
+      "rationale": "highlights page in text on p.5; basis not given; no link to HTML home",
+      "confidence": "medium",
+      "eff_w": 10.54,
+      "points": 6.32,
+      "impact_points": 4.22
+    },
+    {
+      "id": "DOC-4",
+      "default_w": 12,
+      "family": "other",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "3/5",
+      "rationale": "text layer present; extraction artefacts",
+      "confidence": "medium",
+      "eff_w": 10.54,
+      "points": 6.32,
+      "impact_points": 4.22
+    },
+    {
+      "id": "U7",
+      "default_w": 6,
+      "family": "tone",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "2/3",
+      "rationale": "reporting voice but self-congratulatory letter",
+      "confidence": "medium",
+      "eff_w": 5.27,
+      "points": 3.16,
+      "impact_points": 2.11
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 6,
+      "family": "other",
+      "m": 1.0,
+      "level": 4,
+      "checks_passed": "4/5",
+      "rationale": "TOC + correspondence tables; cross-references not verifiable",
+      "confidence": "medium",
+      "eff_w": 5.27,
+      "points": 4.22,
+      "impact_points": 1.05
+    },
+    {
+      "id": "U8",
+      "default_w": 6,
+      "family": "other",
+      "m": 1.0,
+      "level": 4,
+      "checks_passed": "3/3",
+      "rationale": "consistent naming and identifiers; no KPI contradiction found",
+      "confidence": "medium",
+      "eff_w": 5.27,
+      "points": 4.22,
+      "impact_points": 1.05
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 10,
+      "family": "proof",
+      "m": 1.4,
+      "level": 5,
+      "checks_passed": "5/5",
+      "rationale": "SSI table: baseline, progress, 2025 target; SBTi validation; methodology pages",
+      "confidence": "medium",
+      "eff_w": 12.3,
+      "points": 12.3,
+      "impact_points": 0.0
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 12,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 5,
+      "checks_passed": "4/4",
+      "rationale": "GRI/SASB/TCFD, GHG Protocol market/location, period, restatements",
+      "confidence": "medium",
+      "eff_w": 10.54,
+      "points": 10.54,
+      "impact_points": 0.0
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 10,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 5,
+      "checks_passed": "4/4",
+      "rationale": "limited (ISAE 3000) + reasonable assurance, PwC, scope, CDP A List, reports included",
+      "confidence": "medium",
+      "eff_w": 8.79,
+      "points": 8.79,
+      "impact_points": 0.0
+    }
+  ],
+  "warnings": [],
+  "weights_version": "2.1-2026-10-20",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

@@ -1,0 +1,181 @@
+{
+  "page": {
+    "id": "55",
+    "type": "esg_hub",
+    "stage": "Evaluation",
+    "url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+    "topic": "Schneider Electric sustainability reports library",
+    "industry": "Energy Management & Sustainability (inferred)",
+    "target_prompts": [
+      "Where can I find Schneider Electric's latest sustainability report and ESG results?"
+    ],
+    "prompts_inferred": true
+  },
+  "page_type_key": "esg_hub",
+  "stage": "Evaluation",
+  "raw_score": 16.0,
+  "penalties": [
+    "template_artifact"
+  ],
+  "penalty_points": 2,
+  "gates_triggered": [
+    "G13",
+    "G6"
+  ],
+  "cap": 59,
+  "final_score": 14,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 20,
+      "family": "specs",
+      "m": 1.5,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "no KPIs on the hub",
+      "confidence": "medium",
+      "eff_w": 26.09,
+      "points": 0.0,
+      "impact_points": 26.09
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 12,
+      "family": "proof",
+      "m": 1.4,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "no targets",
+      "confidence": "medium",
+      "eff_w": 14.61,
+      "points": 0.0,
+      "impact_points": 14.61
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 14,
+      "family": "other",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "quarterly entries dated; annual entries undated, no descriptions/companions",
+      "confidence": "medium",
+      "eff_w": 12.17,
+      "points": 0.0,
+      "impact_points": 12.17
+    },
+    {
+      "id": "U1",
+      "default_w": 12,
+      "family": "answer_def",
+      "m": 0.9,
+      "level": 2,
+      "checks_passed": "2/5",
+      "rationale": "H1 descriptive; hero announces results but gives none; no takeaways",
+      "confidence": "medium",
+      "eff_w": 9.39,
+      "points": 3.76,
+      "impact_points": 5.63
+    },
+    {
+      "id": "U3",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 1,
+      "checks_passed": "1/5",
+      "rationale": "ZZ_ placeholders; facts only in PDFs",
+      "confidence": "medium",
+      "eff_w": 6.96,
+      "points": 1.39,
+      "impact_points": 5.57
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 6,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "no reporting basis",
+      "confidence": "medium",
+      "eff_w": 5.22,
+      "points": 0.0,
+      "impact_points": 5.22
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 6,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "no assurance/ratings",
+      "confidence": "medium",
+      "eff_w": 5.22,
+      "points": 0.0,
+      "impact_points": 5.22
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 8,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 3,
+      "checks_passed": "4/5",
+      "rationale": "dates and current quarter visible; no change notes",
+      "confidence": "medium",
+      "eff_w": 7.65,
+      "points": 4.59,
+      "impact_points": 3.06
+    },
+    {
+      "id": "U10",
+      "default_w": 6,
+      "family": "commercial",
+      "m": 1.1,
+      "level": 3,
+      "checks_passed": "3/4",
+      "rationale": "routes to quarterly results and investor information",
+      "confidence": "medium",
+      "eff_w": 5.74,
+      "points": 3.44,
+      "impact_points": 2.3
+    },
+    {
+      "id": "U7",
+      "default_w": 4,
+      "family": "tone",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/3",
+      "rationale": "neutral but no limitations; G13 cap",
+      "confidence": "medium",
+      "eff_w": 3.48,
+      "points": 1.39,
+      "impact_points": 2.09
+    },
+    {
+      "id": "U8",
+      "default_w": 4,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "consistent names; vague link text; G13 cap",
+      "confidence": "medium",
+      "eff_w": 3.48,
+      "points": 1.39,
+      "impact_points": 2.09
+    }
+  ],
+  "warnings": [
+    "ESG-5: judge proposed 1 but checks support max 0; using 0",
+    "U7: level 2 -> 3 (anchor: checks meet the level-3 definition (judge proposed 2)); using 3"
+  ],
+  "weights_version": "2.1-2026-10-20",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

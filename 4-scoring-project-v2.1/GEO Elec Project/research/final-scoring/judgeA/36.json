@@ -1,0 +1,650 @@
+{
+  "page": {
+    "id": "36",
+    "title": "Three-phase UPS efficiency comparison calculator",
+    "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/three-phase-ups-efficiency-comparison-calculator/",
+    "type": "calculator",
+    "stage": "Evaluation",
+    "topic": "Three-phase UPS efficiency comparison calculator",
+    "industry": "",
+    "target_prompts": [
+      "How does three-phase UPS efficiency affect energy cost?",
+      "Eco-mode vs double conversion efficiency",
+      "Three-phase UPS efficiency comparison",
+      "UPS losses in kWh per year calculation",
+      "Carbon impact of UPS efficiency in AI data centers"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/36_calculator-tradeoff-tool.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "how these efficiencies impact electricity cost and carbon footprint",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Three-phase UPS efficiency comparison calculator",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPS systems",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 not an answer",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPS systems",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "critical three-phase UPS applications like Gen AI training and inferencing",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "which UPS best meets your energy-saving goals",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "make informed decisions",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "tool content not rendered",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Iframe empty in the capture.",
+      "proposed_level": 0,
+      "confidence": "low"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 0,
+      "confidence": "low"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "",
+      "proposed_level": 0,
+      "confidence": "low"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Uninterruptible Power Supply (UPS)",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Eco-mode: Benefits and Risks of Energy-saving Modes of UPS Operation",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 212 discusses the escalating energy consumption of data centers",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "[iframe start]",
+          "location": "tool knowledge only in widget",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c4": "A",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 1 describes four types of UPSs",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Related TradeOff Tools",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 157",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Three-phase UPS efficiency comparison calculator",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Gen AI training and inferencing",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "The Different Types of UPS Systems",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": true,
+      "evidence": "CALC-1, CALC-2, CALC-3 all level 0 (tool iframe rendered empty)."
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Quantify now / Start calculation / Go to calculator / Explore now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 52% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 337 vs rendered 697 words).",
+    "Tool iframe rendered empty in the capture (load failure or lazy-load) → re-capture; score indicative for CALC criteria."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

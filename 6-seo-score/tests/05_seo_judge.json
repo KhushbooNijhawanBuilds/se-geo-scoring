@@ -1,0 +1,663 @@
+{
+  "page": {
+    "url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+    "title": "Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog",
+    "h1": "Using treated and recycled water in Indian data centre cooling",
+    "keyword": "data centre water recycling",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "H1 'Using treated and recycled water in Indian data centre cooling'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'A stronger approach is to reduce consumptive water demand first, then use appropriately treated and recycled water'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "How-to/explainer with a step list 'Reduce consumptive water demand ... Measure both water consumption and water source'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Treated/recycled water sources and Indian context both delivered",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Product mention confined to 'Design the complete cooling and water path'",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 <title>; text 'Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "88 chars, ~688px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "brand 'Schneider Electric Blog' x1, position end",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "keyword 'data centre water recycling' not within first ~45 chars of 'Using treated and recycled water in Indian da'",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3: none; years none",
+          "source": "computed"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "title main 'Using treated and recycled water in Indian data centre cooling' vs H1 'Using treated and recycled water in Indian data centre cooling': 100% of title content words in H1; numbers title [] H1 []",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 meta description(s)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "160 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'data centre water recycling' in meta description",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3 in meta: none",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "slug 'using-treated-and-recycled-water-in-indian-data-centre-cooling'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "slug 'using-treated-and-recycled-water-in-indian-data-centre-cooling'; hyphens, lowercase",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "query='' fragment=''",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "slug 62 chars, 10 words (convention <=60 chars)",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Slug matches title, en-IN spelling consistent ('centre')",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 H1: ['Using treated and recycled water in Indian data centre cooling']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "1167 body words, 8 H2/H3 -> ~146 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "All H2/H3 descriptive, e.g. 'Recycled water has to be engineered for the cooling system'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'Powering the industrial comeback: Can America’s grid keep pace with the manufacturing resurgence and AI boom?', 'Closed-loop cooling data center strategies for the new wave of U.S. state water rules', 'Commercial Battery Energy Storage Systems: A strategic advantage for C&I businesses', 'Four accelerators of supply chain transformation in Europe']",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "title: 'Using treated and recycled water in Indian data centre cooling'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "H1: 'Using treated and recycled water in Indian data centre cooling'",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "first 150 words contain all of ['data', 'centre', 'water', 'recycling']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "subheads with topic: ['The data centre water recycling paradox: More liquid can mean less water consumption', 'Data centre water recycling requires the right water source']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "exact phrase x5 (~1.71% of words; stuffing trigger >3%); in 25% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target.",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Why water constrains, liquid vs consumption, sources, treatment, policy, metrics, design path",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'Water Usage Effectiveness (WUE) measures...'; 'zero liquid discharge (ZLD)'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'recirculate more than 95% of its coolant'; 'more than 5,000 litres per day'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "One topic",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No padding",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "'Author: Anuj Kudesia, Managing Director SEPSL & Direct BD'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "override: byline link is 'Guest Blogger' -> /author/guest-blogger/",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'Managing Director SEPSL & Direct BD'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "'only 4% of its freshwater resources' -> worldbank.org; 'The Bureau of Energy Efficiency’s 2023 District Cooling Guidelines'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No checkable error found",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "proposed_level": 2,
+      "rationale": "c1 fail; c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND: no first-hand project detail",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND: no SE first-party data",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Decision rule: 'Reduce consumptive demand first, then determine how much of the remaining requirement can be supplied'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Stock image AdobeStock_428397714_resized-1024x538.jpg",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Original synthesis for India",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "visible date 2026-09-29",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "visible 2026-09-29 vs markup published 2026-09-29",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "published 2026-09-29, modified 2026-10-02",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "modified 3 day(s) after publication (<7): no visible Updated label expected",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "2025 rules and 2023 guidelines cited as current with dates",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "8 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'Liquid Cooling Hub' -> se.com/in/en/work/solutions/.../liquid-cooling",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "generic anchors none; same anchor -> different URLs none",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "internal links with tracking/ID params: ['https://www.se.com/in/en/product-subcategory/368881735-coolant-distribution-units/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-range/372769168-floormounted-heat-dissipation-units/?parent-subcategory-id=368881736&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#products', 'https://www.se.com/in/en/product/MCD/reardoor-heat-exchanger-for-racklevel-cooling-enabling-roomneutral-scalable-performance-for-ai-data-centers/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-subcategory/7240-chillers-and-heat-rejection/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-range/371656912-prefabricated-modular-it-pod/?parent-category-id=7550&parent-subcategory-id=7570&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#overview', 'https://www.se.com/ww/en/download/document/Liquid_Cooling_AI_Brochure/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/work/solutions/data-centers-and-networks/liquid-cooling/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/ww/en/download/document/Liquid-cooling-architecture/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "non-crawlable hrefs: none; all in-body links are <a href>",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "worldbank.org, aeee.in, rajasthan.gov.in sources",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "8 outbound editorial links; rel values ['noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Relevant; some news sources (etvbharat) are secondary",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "proposed_level": 4,
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1/1 content images have non-empty alt",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "alt 'Waste water treatment plant.'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "non-descriptive filenames: ['AdobeStock_428397714_resized-1024x538.jpg']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Placed beside 'Treated municipal wastewater is one increasingly relevant alternative'",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Article; missing none",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "author Person 'Guest Blogger', url=https://blog.se.com/author/guest-blogger/, sameAs=None",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "override: markup author 'Guest Blogger' does not match the named author 'Anuj Kudesia'",
+          "source": "judged (override)"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "missing none; og:url = canonical; og:title 'Using treated and recycled water in Indian data centre cooling'",
+          "source": "computed"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "SG1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_text_or_links",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_intro",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate_dominant",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "ai_listed_author",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "generic_anchor_overload",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E1",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/']; page URL https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/"
+    },
+    {
+      "id": "E4",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "result": "pass",
+      "evidence": "1167 body words in server HTML"
+    }
+  ]
+}

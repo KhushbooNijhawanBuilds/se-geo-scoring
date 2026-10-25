@@ -1,0 +1,617 @@
+{
+  "page": {
+    "id": "24",
+    "title": "Zicaffè: Innovation and artisanship in every cup",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Zicaffè: Innovation and artisanship in every cup",
+    "industry": "",
+    "target_prompts": [
+      "How did Zicaffè digitalize its coffee production?",
+      "Examples of food and beverage plants using software-defined automation",
+      "What is EcoStruxure Automation Expert?",
+      "Benefits of open automation in food and beverage",
+      "Coffee roasting plant automation case study"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/24_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Customer story - Zicaffe",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation and artisanship in every cup",
+          "location": "slogan H1",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Fusing tradition with innovation, Zicaffè integrates open automation",
+          "location": "33-word hero",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Slogan H1; short hero.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Sicilian coffee company Zicaffè",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "size",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Sicilian",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "to produce its signature coffee blends",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "No scale.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Greater control and a lower risk of errors to ensure the right blend",
+          "location": "unquantified",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A",
+        "c6": "A"
+      },
+      "rationale": "No numbers.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "the decades-old technology models currently in use may need to be updated",
+          "location": "generic industry challenge",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "expertly implemented by Alliance system integrator partner BitControl",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Zicaffè makes an impact: Key results",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "## A passion for coffee and innovation",
+          "location": "no challenge/solution/results segmentation",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      },
+      "rationale": "Thin narrative.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Using EcoStruxure Automation Expert immediately guaranteed the availability of an automation architecture",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Giuseppe Zichittella",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "IT Manager, Zicaffè",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "capable of integrating digitization and innovation at all levels",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Named, titled, reason-giving quote (marketing register).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure™ Automation Expert",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure™ Automation Expert, the open, software-defined automation solution",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Solutions used by Zicaffè",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Main offer role; others listed.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No results.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Zicaffè integrates open automation and state-of-the-art digital solutions",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Sicilian coffee company",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "to better control, manage, and track its processes",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Greater control and a lower risk of errors",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four, outcome vague.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "## Industries of the Future",
+          "location": "promo heading",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Modicon Edge Control",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "For nearly a century and across four generations",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Sicilian coffee company Zicaffè has been driven by an entrepreneurial spirit",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Solutions used by Zicaffè",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A"
+      },
+      "rationale": "Readable but thin; video-led.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Many of the complex automation challenges faced by the consumer packaged goods industry can be solved with digitalization.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation and artisanship in every cup",
+          "location": "slogan",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Slogans.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Customer story - Zicaffe",
+          "location": "Zicaffe vs Zicaffè",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Modicon Edge Control",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Harmony HMI",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "generic anchor",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Name inconsistency; 'TeSys contractors' (SME check).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish/project date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated results",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no review evidence",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no proof for Evaluation",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "consumer packaged goods industry",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Get the e-guide",
+          "location": "CTA names no asset",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoStruxure for Food and Beverage",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A"
+      },
+      "rationale": "Weak for Evaluation.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "No quantified customer outcome."
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Discover our solutions / Discover our services / Read more / Explore more / Find out more"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 51% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 183 vs rendered 377 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

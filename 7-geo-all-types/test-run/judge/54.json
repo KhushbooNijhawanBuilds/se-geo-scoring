@@ -1,0 +1,426 @@
+{
+ "page": {
+  "type": "news",
+  "stage": "Awareness",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-advances-energy-technology-at-world-economic-forum-annual-meeting-in-davos-696ca4813fd1732cec02a863/",
+  "topic": "Schneider Electric at WEF Davos 2026",
+  "target_prompts": [
+   "What is Schneider Electric announcing at the World Economic Forum in Davos 2026?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "NEWS-1",
+   "proposed_level": 1,
+   "rationale": "'Advances' headline, no deck",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Schneider Electric advances energy technology at World Economic Forum"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "No deck"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "World Economic Forum Annual Meeting in Davos"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 1,
+   "rationale": "Only 'what'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "announces its participation in the World Economic Forum Annual Meeting in Davos, Switzerland"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "will champion collaboration across industries to advance energy technology"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-2",
+   "proposed_level": 4,
+   "rationale": "Numeric date; absolute event dates",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "19/01/2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Davos, Switzerland"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "during the WEF Annual Meeting on January 20, 2026"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "will announce their partnership at Davos on January 21"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 2,
+   "rationale": "Few facts; hype",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This recognition marks Schneider Electric’s ninth Lighthouse award."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~5 facts in ~600 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "pioneering a future-ready, people-centric workforce model"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "MINDS (Meaningful, Intelligent, Novel, Deployable Solutions)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "accelerate the energy transition and drive global electrification for a sustainable impact"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-3",
+   "proposed_level": 4,
+   "rationale": "Third-party awards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "one of only three factories globally to be awarded a distinction for talent"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "the Forum’s Global Lighthouse Network ... has awarded Schneider Electric’s Wuhan factory"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "NEWS-4",
+   "proposed_level": 3,
+   "rationale": "CEO slogan quote only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "said Olivier Blum, CEO of Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "AI requires compute, and compute requires energy (no checkable fact)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Let us take the opportunity at Davos to advance energy technology together."
+    }
+   ]
+  },
+  {
+   "id": "NEWS-5",
+   "proposed_level": 0,
+   "rationale": "Corporate/event release: dropped",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c2",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "NEWS-6",
+   "proposed_level": 0,
+   "rationale": "No About; bare URL",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "See a full list ... at se.com / bare URL"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EDP not described"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Plain-text subheads; no lists",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "'AI applications delivering real impact' is plain text"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Four announcements not listed"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Short paragraphs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Subjects named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Facts in HTML"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Roundup",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "several announcements ... including those outlined below"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "MINDS, Lighthouse, Coalition, EDGE Transition"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Roundup of several announcements"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "dates and award names given"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Brand voice, hype, no limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "As your energy technology partner, we electrify, automate, and digitalize every industry"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "we create ecosystems where AI, data, and people work together seamlessly"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Named products",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Microgrid Advisor and SpaceLogic Touchscreen Room Controller"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure Microgrid Advisor"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "https://www.se.com/ww/en/about-us/events/davos/"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

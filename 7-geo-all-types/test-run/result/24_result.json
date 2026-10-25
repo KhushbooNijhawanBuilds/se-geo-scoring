@@ -1,0 +1,202 @@
+{
+  "page": {
+    "id": "24",
+    "type": "case_study",
+    "stage": "Consideration",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+    "topic": "Zicaffè coffee production automation with EcoStruxure Automation Expert",
+    "target_prompts": [
+      "How did Zicaffè digitalize its coffee production with open automation?"
+    ],
+    "prompts_inferred": true
+  },
+  "page_type_key": "case_study",
+  "stage": "Consideration",
+  "raw_score": 30.1,
+  "penalties": [
+    "cta_overload"
+  ],
+  "penalty_points": 1,
+  "gates_triggered": [
+    "G8"
+  ],
+  "cap": 59,
+  "final_score": 29,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "CS-3",
+      "default_w": 20,
+      "family": "proof",
+      "m": 1.2,
+      "level": 0,
+      "checks_passed": "0/6",
+      "rationale": "No quantified outcome",
+      "confidence": "medium",
+      "eff_w": 22.3,
+      "points": 0.0,
+      "impact_points": 22.3
+    },
+    {
+      "id": "CS-1",
+      "default_w": 14,
+      "family": "answer_def",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/5",
+      "rationale": "Title names customer; H1 slogan; no result",
+      "confidence": "medium",
+      "eff_w": 13.01,
+      "points": 5.2,
+      "impact_points": 7.81
+    },
+    {
+      "id": "CS-7",
+      "default_w": 6,
+      "family": "proof",
+      "m": 1.2,
+      "level": 0,
+      "checks_passed": "0/3",
+      "rationale": "No methodology",
+      "confidence": "medium",
+      "eff_w": 6.69,
+      "points": 0.0,
+      "impact_points": 6.69
+    },
+    {
+      "id": "CS-4",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 1,
+      "checks_passed": "1/4",
+      "rationale": "Generic industry challenge; vague deployment",
+      "confidence": "medium",
+      "eff_w": 7.43,
+      "points": 1.49,
+      "impact_points": 5.94
+    },
+    {
+      "id": "U7",
+      "default_w": 5,
+      "family": "tone",
+      "m": 1.2,
+      "level": 0,
+      "checks_passed": "0/3",
+      "rationale": "Promo voice and inserts",
+      "confidence": "medium",
+      "eff_w": 5.58,
+      "points": 0.0,
+      "impact_points": 5.58
+    },
+    {
+      "id": "U3",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "3/5",
+      "rationale": "Slogan headings; story in video",
+      "confidence": "medium",
+      "eff_w": 7.43,
+      "points": 2.97,
+      "impact_points": 4.46
+    },
+    {
+      "id": "U9",
+      "default_w": 4,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 0,
+      "checks_passed": "0/2",
+      "rationale": "Undated",
+      "confidence": "medium",
+      "eff_w": 4.09,
+      "points": 0.0,
+      "impact_points": 4.09
+    },
+    {
+      "id": "U8",
+      "default_w": 5,
+      "family": "other",
+      "m": 1.0,
+      "level": 1,
+      "checks_passed": "1/4",
+      "rationale": "Inconsistent names/typos",
+      "confidence": "medium",
+      "eff_w": 4.65,
+      "points": 0.93,
+      "impact_points": 3.72
+    },
+    {
+      "id": "CS-2",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "3/4",
+      "rationale": "Industry, region, scope; no size",
+      "confidence": "medium",
+      "eff_w": 7.43,
+      "points": 4.46,
+      "impact_points": 2.97
+    },
+    {
+      "id": "U10",
+      "default_w": 4,
+      "family": "commercial",
+      "m": 0.9,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "Shallow; vague CTAs",
+      "confidence": "medium",
+      "eff_w": 3.35,
+      "points": 1.34,
+      "impact_points": 2.01
+    },
+    {
+      "id": "CS-5",
+      "default_w": 7,
+      "family": "proof",
+      "m": 1.2,
+      "level": 4,
+      "checks_passed": "4/4",
+      "rationale": "Named IT manager with substantive reason",
+      "confidence": "medium",
+      "eff_w": 7.81,
+      "points": 6.25,
+      "impact_points": 1.56
+    },
+    {
+      "id": "U2",
+      "default_w": 4,
+      "family": "answer_def",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "3/4",
+      "rationale": "Defined offer, who, when; outcome not owned/concrete",
+      "confidence": "medium",
+      "eff_w": 3.72,
+      "points": 2.23,
+      "impact_points": 1.49
+    },
+    {
+      "id": "CS-6",
+      "default_w": 7,
+      "family": "other",
+      "m": 1.0,
+      "level": 4,
+      "checks_passed": "3/3",
+      "rationale": "Automation Expert named with role; cards",
+      "confidence": "medium",
+      "eff_w": 6.51,
+      "points": 5.21,
+      "impact_points": 1.3
+    }
+  ],
+  "warnings": [],
+  "weights_version": "2.1-2026-10-20",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

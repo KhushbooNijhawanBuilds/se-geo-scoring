@@ -1,0 +1,445 @@
+{
+ "page": {
+  "id": "21",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+  "topic": "Massmart retail BMS rollout with EcoStruxure Building Operation",
+  "target_prompts": [
+   "What energy savings did Massmart achieve with EcoStruxure Building Operation across its stores?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "proposed_level": 3,
+   "rationale": "Customer type + problem in H1; summary lacks quantified result",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Unifying sustainability across a retail giant’s diverse network of stores"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Unifying sustainability across a retail giant’s diverse network of stores"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer owned by Walmart and headquartered in South Africa. Over the last decade, we have worked with them to integrate EcoStruxure Building Operation into more than 250 of their stores"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Over the last decade, we have worked with them to integrate EcoStruxure Building Operation ... achieving significant energy savings"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"significant energy savings\" - no number"
+    }
+   ]
+  },
+  {
+   "id": "CS-2",
+   "proposed_level": 4,
+   "rationale": "Full profile",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer owned by Walmart"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "more than 250 of their stores"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "headquartered in South Africa"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "integrate EcoStruxure Building Operation into more than 250 of their stores"
+    }
+   ]
+  },
+  {
+   "id": "CS-3",
+   "proposed_level": 3,
+   "rationale": "One annualized saving attributed; no baseline; BMS count leads",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Annualized energy cost savings of R15 million (ZAR)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Over 155 BMS systems installed\" - deployment count"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Annualized energy cost savings"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Massmart's deployment of EcoStruxure Building Operation has yielded significant energy savings, achieving annualized energy cost reductions of R15 million (ZAR)"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "first highlight is \"Over 155 BMS systems installed across the group\""
+    }
+   ]
+  },
+  {
+   "id": "CS-4",
+   "proposed_level": 4,
+   "rationale": "Challenge/solution/results narrative (in tabs)",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Massmart required a sustainability solution that would give them comprehensive oversight and control"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Massmart partnered with Schneider Electric and Green Wave, a master-level EcoXpert partner, to implement EcoStruxure Building Operation"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Massmart's deployment of EcoStruxure Building Operation has yielded significant energy savings"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Explore how we helped drive sustainability at Massmart"
+    }
+   ]
+  },
+  {
+   "id": "CS-5",
+   "proposed_level": 0,
+   "rationale": "No customer quote",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-6",
+   "proposed_level": 4,
+   "rationale": "EBO named with role; card list",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Building Operation"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "our next generation building management system (BMS), across their store network, creating a unified system for building and power management"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "## Software and services used by Massmart ... EcoStruxure Building Advisor"
+    }
+   ]
+  },
+  {
+   "id": "CS-7",
+   "proposed_level": 0,
+   "rationale": "No methodology",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "All four present, not all in first block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Building Operation, our innovative building management system (BMS)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "With a diverse range of stores spanning across Sub-Saharan Africa"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "achieving annualized energy cost reductions of R15 million (ZAR)"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Slogan headings; narrative only in collapsed tabs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"## Real results in real-time\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Over 155 BMS systems installed across the group"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer owned by Walmart and headquartered in South Africa."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Massmart's deployment of EcoStruxure Building Operation"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Challenge, solution and results text are [hidden] tab panels"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Superlatives",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"unparalleled visibility and real-time actionable insights\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"unprecedented visibility across their operations\""
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 0,
+   "rationale": "G1: store/system counts disagree",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Operation"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Data Platform"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Over 155 BMS systems installed\" vs \"more than 250 of their stores\" vs \"spanning hundreds of stores\""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Read more\", \"Learn more\", \"Discover more\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 2,
+   "rationale": "Thin evidence for evaluation; generic white-paper CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "One number only"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "\"Are you a building owner?\""
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Download the white paper\" - asset not named"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Operation"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": true,
+   "evidence": "\"Over 155 BMS systems installed across the group\" vs \"integrate EcoStruxure Building Operation into more than 250 of their stores\""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Read more / Learn more / Discover more"
+  }
+ ]
+}

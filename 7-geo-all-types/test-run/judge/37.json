@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "37",
+  "type": "service",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/services/ecocare/",
+  "topic": "EcoCare digital-first service plans (condition-based maintenance and 24/7 remote monitoring)",
+  "target_prompts": [
+   "What does an EcoCare service plan include and how does it reduce downtime?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 4,
+   "rationale": "Strong definition H2 near top; H2s mostly open with answer; no summary block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "It’s a digital-first service plan that combines 24/7 remote monitoring with AI-powered condition-based maintenance"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Improve uptime with EcoCare digital-first services"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Asset performance management with AI-powered condition-based maintenance, 24/7 remote monitoring, and expert support."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoCare keeps your critical infrastructure running by detecting issues early, acting proactively"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "All four, outcome quantified but below first block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "It’s a digital-first service plan"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "enabling the shift from time-based to proactive, condition-based maintenance"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Up to 20%"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Descriptive question H2s, lists; process steps are labels only, details in hidden tabs; duplicated card names",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## What is EcoCare?"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Break-fix emergency intervention"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Our Connected Services Hub team monitor the health of your assets and systems 24/7"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EcoCare for 3-Phase UPS EcoCare for 3-Phase UPS"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] If our experts detect abnormal behavior which might generate a failure"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Some advisor voice; no limits; customer cards without results",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "we optimize and adapt your maintenance schedule to the real status of your assets"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Data from sensors and communicating devices are collected and uploaded via the Schneider Electric gateway"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IEC 62443‑4‑1 certified development"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Evaluation depth partial (no plan tiers/SLAs); CTA generic Contact Sales",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "condition-based maintenance"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Contact Sales"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoCare for Data Centers"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 4,
+   "rationale": "Concrete included activities; no exclusions; scope per asset on child pages",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "- Break-fix emergency intervention"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Get a trusted advisor and an actionable tailored success plan"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "resolve it remotely or via rapid on‑site dispatch of technicians"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Discount rates on training, spare parts, and on-site service"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "EcoCare for Building Management Systems"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 1,
+   "rationale": "24/7 coverage only; no response time",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "24/7 remote monitoring"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "rapid on‑site dispatch"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 1,
+   "rationale": "Equipment categories named; no ranges or multi-vendor",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoCare for 3-Phase UPS"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 3,
+   "rationale": "Four step labels; explained only in hidden tabs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "- Connect and collect"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Our remote experts at our Connected Services Hub continuously monitor"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 1,
+   "rationale": "Plans by equipment type, no differences or model",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Explore our EcoCare digital-first service plans by equipment type"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 4,
+   "rationale": "Three quantified outcomes with baseline; footnotes 1-3 do not resolve",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Up to 75%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "With EcoCare, we help you achieve:"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "OpEx savings compared to traditional calendar-based service plans"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "less electrical failure risk​ and unplanned downtime"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "unplanned downtime¹"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 4,
+   "rationale": "Named customers without results; strong credentials and standards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Nestlé Nescafé is avoiding major stoppages at the world’s largest soluble coffee plant."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Our Connected Services Hub team"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "IEC 62443‑4‑1 certified development"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "CREST‑accredited testing"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

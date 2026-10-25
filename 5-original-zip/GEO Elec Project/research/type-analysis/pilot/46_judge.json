@@ -1,0 +1,443 @@
+{
+  "page": {
+    "id": "46_46_software-page.md",
+    "type": "software_trial",
+    "stage": "Decision",
+    "topic": "EcoStruxure IT software free trials",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "Does EcoStruxure IT offer a free trial?",
+      "How long is the EcoStruxure IT free trial?",
+      "What is included in the EcoStruxure IT trial?",
+      "Do I need hardware or a credit card for the EcoStruxure IT trial?",
+      "Is the EcoStruxure IT trial available in my country?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Start your journey with EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure™ IT Software Trials",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Confirms free trials exist; nothing else answered.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "whether it's monitoring, management, or ensuring business continuity",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "What and when only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "free trials",
+          "location": "lead - no duration, scope or limits"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        }
+      ],
+      "rationale": "Trial is free and routed by country; duration, scope, eligibility and expiry missing.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No deployment model or requirements for the trial.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "whether it's monitoring, management, or ensuring business continuity",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Needs named, not trial product capabilities.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No data-handling or security info for trial sign-up.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "designed to meet your DCIM needs",
+          "location": "lead"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Decision-stage routing with a clear next step; no link back to product/requirements content.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Start your journey with EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        }
+      ],
+      "rationale": "Navigation lists only; no fact-bearing sections.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure™ IT Software Trials",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Please select your country below:",
+          "location": "H2"
+        }
+      ],
+      "rationale": "Consistent name; no product/module identifiers; 'Belgium (French)' listed twice.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Start your journey with EcoStruxure IT software free trials",
+          "location": "lead"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Duplicate country entry 'Belgium (French)' -> content owner"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Decision"
+  }
+}

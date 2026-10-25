@@ -1,0 +1,550 @@
+{
+ "page": {
+  "id": "44",
+  "type": "software_hub",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/software/by-industry/",
+  "topic": "Schneider Electric industrial software portfolio",
+  "target_prompts": [
+   "What industrial and energy management software does Schneider Electric offer?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "software_hub stage is fixed: Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Vague intro; descriptive title",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Empowering all users with a seamless and collaborative dataflow across the entire lifecycle"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Industrial software solutions | Schneider Electric"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "portfolio statement in hero/intro"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "We are your energy technology partner."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No concrete outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "We offer a vast portfolio of empowering, agnostic software solutions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Consultant, Designer, and Engineer"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "from design and build to operate and maintain"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "driving efficiency and sustainability for all"
+    }
+   ]
+  },
+  {
+   "id": "SW-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "One-liners on frequent tools only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Programming software for Modicon PACs (formerly Unity Pro)."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Schneider Electric and AVEVA"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Main grid label-only (10 of 19 cards)",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "EcoStruxure™ Machine Expert Twin"
+    }
+   ]
+  },
+  {
+   "id": "SW-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Partners named; agnostic claim unbacked",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "BIM Library - Autodesk Revit models"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Our strong agnostic software portfolio"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Download path only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Software Licensing"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "download software and firmware releases and updates"
+    }
+   ]
+  },
+  {
+   "id": "SW-6",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No proof",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Former names",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "(formerly SoMachine)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Generic headings, no lists",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Experience the CONNECT Effect"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "paragraphs at most 4 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "products named in each block"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no key fact only in an image (logos are decorative)"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Brand voice, stacked CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "We are your energy technology partner."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "View now"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "no comparative/selection claims on page"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Names and codes; vague links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "EcoStruxure™ Automation Expert"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Zelio Logic smart relays (SR2/ SR3)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no conflicting statements"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Find out more"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Undated; no lifecycle status",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superseded edition or discontinued item presented as current on the page"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Card titles rendered two-three times (card label then H3/H4 repeat)"
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "'View now' x8, 'Find out more' x3"
+  }
+ ]
+}

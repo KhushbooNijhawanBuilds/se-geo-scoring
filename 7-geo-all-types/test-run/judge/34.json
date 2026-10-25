@@ -1,0 +1,470 @@
+{
+ "page": {
+  "id": "34",
+  "type": "calculator",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/single-phase-ups-efficiency-comparison-calculator/",
+  "topic": "Single-phase UPS efficiency, energy cost and carbon",
+  "target_prompts": [
+   "How much do UPS efficiency differences change electricity cost and carbon emissions?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Opening states output and relationship",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "analyze the efficiency of one or two UPSs and gain insights on how these efficiencies impact electricity cost and carbon footprint"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Single-phase UPS efficiency comparison calculator"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 1,
+   "rationale": "Scenario only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "for critical single-phase UPS applications like Gen AI inferencing at the edge"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-1",
+   "proposed_level": 3,
+   "rationale": "Units, provenance, scope; no formula",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "CO2 emission factor ... 0.407 ... kg / kWh"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "mathematical models developed by the Schneider Electric Data Center Science Center"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "These results do not include the energy cost or carbon footprint of the load itself, only the losses associated with the UPS system."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-2",
+   "proposed_level": 2,
+   "rationale": "Defaults + location; sources referenced but empty",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Electricity cost source\" / \"Carbon emission factor source\" labels with no source shown"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "0.144 ... $ / kWh"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "United States"
+    }
+   ]
+  },
+  {
+   "id": "CALC-3",
+   "proposed_level": 0,
+   "rationale": "Default state is broken/empty",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Annual performance of 1 UPS loaded to 0 W\" and \"#VALUE!\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-4",
+   "proposed_level": 3,
+   "rationale": "Inputs and outputs listed; UPS not expanded",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "first select a location ... Next, select the quantity of UPSs in the fleet. Then on the next two tabs, select the UPS systems"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "It provides the UPS efficiency, UPS losses, energy, carbon footprint, and electricity cost"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "UPS never expanded"
+    }
+   ]
+  },
+  {
+   "id": "CALC-5",
+   "proposed_level": 3,
+   "rationale": "How to read and limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The summary table is computed at the load set by the vertical line in the graph above."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "These results do not include the energy cost or carbon footprint of the load itself"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Knowledge only in hidden panels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Single-phase UPS efficiency comparison calculator"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Instructions are [hidden] widget panel content"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 3,
+   "rationale": "Measured data method + provenance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Prepopulated data was obtained by curve fitting to measured efficiency data."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Schneider Electric Data Center Science Center"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Neutral, allows other vendors",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "users can define their own UPS (Schneider Electric or other vendor)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Note - These results do not include the energy cost or carbon footprint of the load itself"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Versioned, descriptive links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Single-phase UPS efficiency comparison calculator"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT14 Version 8"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "White Paper 157, Eco-mode: Benefits and Risks of Energy-saving Modes of UPS Operation"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Dated April 2025; no data year",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT14 Version 8 9-April-2025"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "last date 9-April-2025, over a year ago"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Fits consideration; no CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The calculator enables you to make informed decisions about which UPS best meets your energy-saving goals"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "critical single-phase UPS applications"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Li-ion vs. VRLA UPS battery TCO calculator"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "[hidden] #VALUE! and 'Annual performance of 1 UPS loaded to 0 W' rendered as live text"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

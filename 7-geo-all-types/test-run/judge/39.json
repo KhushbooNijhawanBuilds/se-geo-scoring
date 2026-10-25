@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "39",
+  "type": "service_project",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/services/ecoconsult/",
+  "topic": "EcoConsult vendor-agnostic consulting services",
+  "target_prompts": [
+   "What does an electrical and automation system consulting assessment include and what results can it deliver?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 4,
+   "rationale": "Intro defines the service; question H2; sections open with answers; no summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Discover our end-to-end, vendor-agnostic consulting services that help you assess, analyze, and optimize your electrical, automation, and cooling systems."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Turn complexity into confident decisions with EcoConsult services"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "vendor-agnostic consulting services that help you assess, analyze, and optimize"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoConsult combines vendor-agnostic advisory, AI‑powered intelligence, expert insights, and seamless implementation"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "What/who/when clear; outcome quantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoConsult is your trusted advisor to address aging infrastructure concerns"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "across industrial facilities, data centers, and buildings worldwide"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "aging infrastructure concerns, hidden safety risks, operational inefficiencies, compliance to standards"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Up to 30%*"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Good headings and numbered process; duplicated teasers; process detail hidden",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## How EcoConsult works"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- 1. Assess"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Audit and evaluate your electrical and automation systems, identifying safety, performance, and lifecycle risks."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EcoConsult Audit Start your assessment journey to discover untapped efficiencies. EcoConsult Audit"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] ## Get clear, prioritized recommendations"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Brand advisory voice, \"trusted advisor\"; no limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "EcoConsult is your trusted advisor"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Audits across 400+ sites over five years reveal recurring risks in electrical systems"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Audits across 400+ sites over five years"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 5,
+   "rationale": "Consideration fit; CTA names report asset",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## The eight most common risks in your electrical and automation systems"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "electrical, automation, and cooling systems"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Download the report"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoConsult Systems Studies"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 2,
+   "rationale": "Activities named; artifact = report in mySchneider (hidden)",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoConsult Electrical Digital Twin Build your electrical digital twin"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Clear, prioritized recommendations through a report available in our collaborative platform, mySchneider"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] ## Get clear, prioritized recommendations"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 0,
+   "rationale": "No lead time, duration, warranty",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 3,
+   "rationale": "Systems categories, vendor-agnostic",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "electrical, automation, and cooling systems"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "vendor-agnostic consulting services"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 4,
+   "rationale": "Assess/Analyze/Act ordered; explanations partly hidden; start = audit",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "- 1. Assess"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "[hidden] The consultant analyzes data"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The consultant analyzes data leveraging AI-powered intelligence"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Start with a system audit"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 1,
+   "rationale": "Offers named, no differences or model",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoConsult for Data Centers"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 5,
+   "rationale": "Quantified outcomes with stated (non-contractual) basis; footnote resolves",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Up to 90%*"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoConsult vendor-agnostic consulting services helps you optimize systems"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Percentages are non-contractual and based on Schneider Electric's data, benchmark and estimation"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "energy efficiency improvement"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "*Percentages are non-contractual"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 1,
+   "rationale": "Field data credential only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Audits across 400+ sites over five years"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+  "page": {
+    "id": "54_news-press-release",
+    "type": "news",
+    "stage": "Awareness",
+    "topic": "Schneider Electric at WEF Davos 2026 (corporate/event)",
+    "industry": "Corporate",
+    "audience": "Media, stakeholders",
+    "target_prompts": [
+      "What did Schneider Electric announce at Davos 2026?",
+      "Which Schneider Electric solutions were recognized in the WEF MINDS program?",
+      "Which Schneider Electric factory received a Lighthouse award in 2026?",
+      "What is EDGE Transition by Schneider Electric and EDP?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos",
+          "location": "abstract action"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no deck"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "World Economic Forum Annual Meeting in Davos",
+          "location": "v2 c4: event noun phrase"
+        }
+      ],
+      "rationale": "Abstract headline ('advances energy technology'), no deck, no announcement facts up top.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "announces its participation in the World Economic Forum Annual Meeting in Davos, Switzerland",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "World Economic Forum Annual Meeting in Davos",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "will champion collaboration across industries to advance energy technology",
+          "location": ""
+        }
+      ],
+      "rationale": "States participation and the event; no audience or concrete outcome.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "19/01/2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Davos, Switzerland",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "during the WEF Annual Meeting on January 20, 2026",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The organizations will announce their partnership at Davos on January 21.",
+          "location": ""
+        }
+      ],
+      "rationale": "Event dates explicit; numeric publication date.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "This recognition marks Schneider Electric’s ninth Lighthouse award.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.1 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "we create ecosystems where AI, data, and people work together seamlessly",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "MINDS (Meaningful, Intelligent, Novel, Deployable Solutions)",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "sets a new benchmark for manufacturing resilience",
+          "location": ""
+        }
+      ],
+      "rationale": "Award counts are concrete; little else quantified; quote hype.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "sets a new benchmark for manufacturing resilience",
+          "location": "no basis"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "one of only three factories globally to be awarded a distinction for talent",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The Forum’s Global Lighthouse Network, which identifies and awards the most advanced operational sites in the world",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Recognitions come from named third-party programs; benchmark claim unsupported.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Olivier Blum, CEO of Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "AI requires compute, and compute requires energy.",
+          "location": "no checkable fact"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Let us take the opportunity at Davos to advance energy technology together.",
+          "location": ""
+        }
+      ],
+      "rationale": "Single executive quote, generic, offers not named; no third-party voice.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Corporate/event release: no product offer; criterion N/A (weight redistributed).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric, a global energy technology leader, announces",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "More information on Schneider Electric’s participation at the Annual Meeting is available at",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Schneider Electric and EDP have jointly initiated EDGE Transition",
+          "location": "EDP undescribed"
+        }
+      ],
+      "rationale": "Event page referenced by URL; no About block; EDP undescribed.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "AI applications delivering real impact",
+          "location": "subhead not a heading"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no list of announcements"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Schneider Electric and EDP have jointly initiated EDGE Transition",
+          "location": "short paragraphs"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "The organizations will announce their partnership at Davos on January 21.",
+          "location": "ambiguous"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "CEO Olivier Blum will accept the trophy for EcoStruxure Microgrid Advisor and SpaceLogic Touchscreen Room Controller",
+          "location": ""
+        }
+      ],
+      "rationale": "Plain-text subheads; four announcements in prose; ambiguous references.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The company will be making several announcements over the course of this year’s Annual Meeting",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "has awarded Schneider Electric’s Wuhan factory",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The company will be making several announcements",
+          "location": "multiple intents"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Roundup answers 'what was announced' but splits into four intents, no quantified impact.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The Forum’s Global Lighthouse Network, which identifies and awards the most advanced operational sites in the world",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "we create ecosystems where AI, data, and people work together seamlessly",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Award descriptions informational; quote promotional.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Microgrid Advisor and SpaceLogic Touchscreen Room Controller",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cohorts 1 and 2 of MINDS",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Schneider Electric’s ninth Lighthouse award",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "See a full list of Schneider Electric’s delegates and participation at se.com.",
+          "location": ""
+        }
+      ],
+      "rationale": "Products named; bare URL and generic 'se.com' instead of descriptive anchors; two different press e-mails.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: page <title>/og:title duplicated (headline concatenated twice); meta description concatenates bullets without spaces -> SE Digital",
+    "Template: no article:published_time meta; visible date numeric DD/MM/YYYY",
+    "Template: in-body subheads are not heading elements in server HTML",
+    "Template: Wiztrust, share and site-footer link lists inside the extracted body"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for news"
+  }
+}

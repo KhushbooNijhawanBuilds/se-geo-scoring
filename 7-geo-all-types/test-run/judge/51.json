@@ -1,0 +1,426 @@
+{
+ "page": {
+  "type": "news",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Greenly-expand-Decarbonization-Champion-Program-to-help-SME-partners-unlock-business-value-from-sustainability-6ab3d50e4525fe7e0c094813/",
+  "topic": "Decarbonization Champion Program with Greenly",
+  "target_prompts": [
+   "What is Schneider Electric's Decarbonization Champion Program for SME partners and what does it include?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "NEWS-1",
+   "proposed_level": 4,
+   "rationale": "Good headline; one-bullet deck",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric and Greenly expand Decarbonization Champion Program"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "over 34,000 USD of annual value"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Deck has a single bullet"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Decarbonization Champion Program ... SME partners"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "What/who/when/outcome in first block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The expanded program is the company’s first sustainability initiative dedicated to helping small and medium-sized enterprises (SME) partners"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "(SME) partners across the electrical value chain"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "measure, manage and reduce carbon emissions while improving operational performance"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "over 34,000 USD of annual value"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-2",
+   "proposed_level": 1,
+   "rationale": "Numeric date; vague rollout; attachment date differs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "28/09/2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Rueil-Malmaison, France"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The program is currently being rolled out globally"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Attached PDF dated 23/09/2026 vs release 28/09/2026"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 3,
+   "rationale": "Savings quantified; low density",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "more than 34,000 USD (30,000+ EUR) per year for each channel partner"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~5 facts in ~750 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Early results show strong financial upside"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Corporate Sustainability Reporting Directive (CSRD) and Australia’s Climate-Related Financial Disclosure (CRFD)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "a Queensland-based manufacturer uncovered over 178,000 USD (250,000 AUD) in potential savings"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-3",
+   "proposed_level": 4,
+   "rationale": "Audit basis + pilots; scoped 'first'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Based on the first audits conducted for participating organizations by SE Advisory Services"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "the company’s first sustainability initiative dedicated to helping small and medium-sized enterprises"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Pilot deployments in the Pacific region"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "NEWS-4",
+   "proposed_level": 3,
+   "rationale": "SE + Greenly CEO; generic quotes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "said Bin Lu, Executive Vice President, Power Products, Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Quotes contain no checkable fact"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Alexis Normand, CEO and co-founder of Greenly"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'This program' — offer not named in quotes"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-5",
+   "proposed_level": 3,
+   "rationale": "Inclusions listed; no join path or timing",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "currently being rolled out globally (no timing)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "No price or how to join"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Greenly platform access to measure, visualize, track, and report Scopes 1 and 2 emissions"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Pilot deployments in the Pacific region ... currently being rolled out globally"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-6",
+   "proposed_level": 1,
+   "rationale": "No About; partner described",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "a global energy technology leader (slogan only)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "global carbon accounting and management platform Greenly"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "Plain-text subheads; good list",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "'A structured program to strengthen the electrical value chain' is plain text"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Access to the Schneider Electric Sustainability and Energy Tech School"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Short paragraphs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Program named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Facts in HTML"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "No join/eligibility facts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "offering a structured decarbonization roadmap that combines Greenly’s carbon accounting platform with SE Advisory Services"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "inclusions, results, regulation covered"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One announcement"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "No eligibility, cost or how to join"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Mostly factual; hype subhead",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "While many SMEs recognize the business value of decarbonization, they often lack the resources"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "report Scopes 1 and 2 emissions"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Early results show strong financial upside"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Consistent",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Decarbonization Champion Program (DCP)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "CSRD / CRFD / Scopes 1 and 2"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

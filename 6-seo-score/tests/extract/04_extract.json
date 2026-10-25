@@ -1,0 +1,373 @@
+{
+  "source": "html",
+  "facts": {
+    "url": {
+      "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+      "scheme": "https",
+      "host": "blog.se.com",
+      "path": "/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+      "slug": "leaders-need-a-new-strategy-for-ai-infrastucture-planning",
+      "slug_chars": 57,
+      "slug_words": 9,
+      "query": "",
+      "fragment": "",
+      "date_in_path": true,
+      "repeated_slug_words": []
+    },
+    "title": {
+      "count": 1,
+      "text": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+      "chars": 84,
+      "est_px_18px_arial": 662,
+      "main_text": "Leaders need a new strategy for AI infrastructure planning",
+      "main_chars": 58,
+      "brand": "Schneider Electric Blog",
+      "brand_position": "end",
+      "brand_occurrences": 1,
+      "h1": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+      "title_h1_token_overlap": 0.83,
+      "title_equals_h1": false
+    },
+    "meta_description": {
+      "count": 1,
+      "text": "AI infrastructure strategy is evolving. Learn how power, cooling, and facility strategies can adapt to support changing enterprise AI demands.",
+      "chars": 142,
+      "est_px": 861.12
+    },
+    "headings": {
+      "h1_count": 1,
+      "h1_texts": [
+        "AI is moving faster than infrastructure. Leaders need a new strategy."
+      ],
+      "list": [
+        {
+          "level": 2,
+          "text": "The AI infrastructure planning model is breaking"
+        },
+        {
+          "level": 2,
+          "text": "The physics of AI are changing infrastructure strategy"
+        },
+        {
+          "level": 2,
+          "text": "Designing for a multi-generation AI future"
+        },
+        {
+          "level": 2,
+          "text": "Three questions every infrastructure leader should ask this week"
+        },
+        {
+          "level": 2,
+          "text": "From future-ready to ROI-ready"
+        }
+      ],
+      "body_words": 1042,
+      "words_per_subhead": 208,
+      "template_h2_in_article": [
+        "Add a comment Cancel reply",
+        "Top picks",
+        "Transforming IT resilience: Why every channel partner needs a power infrastructure assessment",
+        "Why finance organizations need AI-tolerant UPSs for resilient AI infrastructure",
+        "Why Modular Data Centers are a Resilient and Flexible Choice for Digital and Virtual Learning",
+        "Wiring devices by Square D provide stylish, safe smart home solutions"
+      ]
+    },
+    "intro_first_150_words": "The AI infrastructure planning model is breaking The physics of AI are changing infrastructure strategy Designing for a multi-generation AI future Three questions every infrastructure leader should ask this week From future-ready to ROI-ready Five years ago a typical enterprise data center rack consumed 10-20 kilowatts of power Today AI-enabled racks can exceed 100 kilowatts They weigh as much as an automobile and generate more heat than traditional cooling systems were designed to handle Those are significant engineering challenges But they’re not the biggest challenge facing AI infrastructure leaders The bigger issue is time AI is advancing faster than the infrastructure built to support it As rack densities increase and technology cycles accelerate enterprise leaders must rethink AI infrastructure planning for a constantly evolving AI landscape Building a new data center typically takes 12 to 18 months often longer when permitting utility upgrades and grid connections are involved During that",
+    "dates": {
+      "visible": "2026-10-02",
+      "published_markup": "2026-10-02",
+      "modified_markup": "2026-10-16",
+      "source": "JSON-LD",
+      "modified_minus_published_days": 14
+    },
+    "links": {
+      "in_body_total": 13,
+      "internal": [
+        {
+          "href": "https://blog.se.com/energy-management-energy-efficiency/2026/04/20/why-enterprise-ai-projects-fail-before-they-start-the-ai-infrastructure-planning-gap-nobodys-talking-about/",
+          "anchor": "But they’re not the biggest challenge facing AI infrastructure leaders.",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/",
+          "anchor": "AI infrastructure investment",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "external": [
+        {
+          "href": "https://iaeimagazine.org/electrical-fundamentals/how-much-electricity-does-a-data-center-use-complete-2025-analysis/#:~:text=Some%20cutting%2Dedge%20AI%20training%20facilities%20are%20pushing%20individual%20racks%20to%20100%2B%20kW%2C%20fundamentally%20changing%20data%20center%20design%20and%20cooling%20requirements.",
+          "anchor": "exceed 100 kilowatts",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.datacenterknowledge.com/build-design/heavy-compute-ai-data-centers-have-a-weight-problem",
+          "anchor": "as an automobile",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.ingenious.build/blog-posts/how-to-build-a-data-center-without-going-over-budget-in-2025#:~:text=The%20typical%20data,24%E2%80%9336%20months.",
+          "anchor": "12 to 18 months",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.theregister.com/on-prem/2026/03/23/explainer-ai-ready-servers/5222425",
+          "anchor": "support may already be outdated",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://nvidianews.nvidia.com/news/computer-industry-ai-factories-data-centers",
+          "anchor": "timelines measured in months",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.datacenterknowledge.com/ai-data-centers/the-case-for-a-new-data-processing-benchmark-in-the-age-of-heterogeneous-computing",
+          "anchor": "introduce variability",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "internal_with_tracking_params": [],
+      "generic_anchors": [],
+      "same_anchor_different_targets": []
+    },
+    "images": [
+      {
+        "src": "https://blog.se.com/wp-content/uploads/2026/10/AdobeStock_1725140750-copy.jpeg",
+        "alt": "AI Infrastructure",
+        "role": null
+      }
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+      "og:description": "AI infrastructure strategy is evolving. Learn how power, cooling, and facility strategies can adapt to support changing enterprise AI demands.",
+      "og:url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+      "og:site_name": "Schneider Electric Blog",
+      "article:published_time": "2026-10-02T18:52:34+00:00",
+      "article:modified_time": "2026-10-16T06:15:29+00:00",
+      "og:image": "https://blog.se.com/wp-content/uploads/2026/10/AdobeStock_1725140750-copy.jpeg",
+      "og:image:width": "1000",
+      "og:image:height": "527",
+      "og:image:type": "image/jpeg"
+    },
+    "jsonld_types": [
+      "Article",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "WebPage",
+      "WebSite"
+    ],
+    "article_ld": {
+      "type": "Article",
+      "headline": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+      "datePublished": "2026-10-02T18:52:34+00:00",
+      "dateModified": "2026-10-16T06:15:29+00:00",
+      "image": true,
+      "author_name": "Aaron Dudley",
+      "author_type": "Person",
+      "author_url": "https://blog.se.com/author/aaron-dudley/",
+      "author_sameAs": [
+        "https://www.linkedin.com/in/aaron-dudley-357b847/"
+      ]
+    },
+    "canonicals": [
+      "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/"
+    ],
+    "meta_robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    ],
+    "hreflang": [],
+    "byline_links": [
+      {
+        "text": "Aaron Dudley",
+        "href": "https://blog.se.com/author/aaron-dudley/"
+      }
+    ]
+  },
+  "computed_checks": {
+    "S4.c1": {
+      "result": "pass",
+      "evidence": "slug 'leaders-need-a-new-strategy-for-ai-infrastucture-planning'"
+    },
+    "S4.c2": {
+      "result": "pass",
+      "evidence": "slug 'leaders-need-a-new-strategy-for-ai-infrastucture-planning'; hyphens, lowercase"
+    },
+    "S4.c3": {
+      "result": "pass",
+      "evidence": "query='' fragment=''"
+    },
+    "S4.c4": {
+      "result": "pass",
+      "evidence": "slug 57 chars, 9 words (convention <=60 chars)"
+    },
+    "S2.c1": {
+      "result": "pass",
+      "evidence": "1 <title>; text 'Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog'"
+    },
+    "S2.c2": {
+      "result": "fail",
+      "evidence": "84 chars, ~662px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)"
+    },
+    "S2.c3": {
+      "result": "pass",
+      "evidence": "brand 'Schneider Electric Blog' x1, position end"
+    },
+    "S2.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3: none; years none"
+    },
+    "S2.c6": {
+      "result": "pass",
+      "evidence": "title main 'Leaders need a new strategy for AI infrastructure planning' vs H1 'AI is moving faster than infrastructure. Leaders need a new strategy.': 83% of title content words in H1; numbers title [] H1 []"
+    },
+    "S2.c4": {
+      "result": "fail",
+      "evidence": "keyword 'AI infrastructure planning' not within first ~45 chars of 'Leaders need a new strategy for AI infrastruc'"
+    },
+    "S3.c1": {
+      "result": "pass",
+      "evidence": "1 meta description(s)"
+    },
+    "S3.c2": {
+      "result": "pass",
+      "evidence": "142 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)"
+    },
+    "S3.c3_partial": {
+      "result": "na",
+      "evidence": "not identical to title; judge decides if it summarises this page"
+    },
+    "S3.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3 in meta: none"
+    },
+    "S3.c4": {
+      "result": "fail",
+      "evidence": "keyword 'AI infrastructure planning' not in meta description"
+    },
+    "S5.c1": {
+      "result": "pass",
+      "evidence": "1 H1: ['AI is moving faster than infrastructure. Leaders need a new strategy.']"
+    },
+    "S5.c2": {
+      "result": "pass",
+      "evidence": "1042 body words, 5 H2/H3 -> ~208 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')"
+    },
+    "S5.c4": {
+      "result": "fail",
+      "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'Transforming IT resilience: Why every channel partner needs a power infrastructure assessment', 'Why finance organizations need AI-tolerant UPSs for resilient AI infrastructure', 'Why Modular Data Centers are a Resilient and Flexible Choice for Digital and Virtual Learning', 'Wiring devices by Square D provide stylish, safe smart home solutions']"
+    },
+    "S6.c1": {
+      "result": "pass",
+      "evidence": "title: 'Leaders need a new strategy for AI infrastructure planning'"
+    },
+    "S6.c2": {
+      "result": "fail",
+      "evidence": "H1: 'AI is moving faster than infrastructure. Leaders need a new strategy.'"
+    },
+    "S6.c3": {
+      "result": "pass",
+      "evidence": "first 150 words contain all of ['ai', 'infrastructure', 'planning']"
+    },
+    "S6.c4": {
+      "result": "pass",
+      "evidence": "subheads with topic: ['The AI infrastructure planning model is breaking']"
+    },
+    "S6.c5": {
+      "result": "pass",
+      "evidence": "exact phrase x3 (~0.86% of words; stuffing trigger >3%); in 20% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target."
+    },
+    "S10.c1": {
+      "result": "pass",
+      "evidence": "visible date 2026-10-02"
+    },
+    "S10.c2": {
+      "result": "pass",
+      "evidence": "visible 2026-10-02 vs markup published 2026-10-02"
+    },
+    "S10.c3": {
+      "result": "pass",
+      "evidence": "published 2026-10-02, modified 2026-10-16"
+    },
+    "S11.c1": {
+      "result": "fail",
+      "evidence": "2 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)"
+    },
+    "S11.c3": {
+      "result": "pass",
+      "evidence": "generic anchors none; same anchor -> different URLs none"
+    },
+    "S11.c4": {
+      "result": "pass",
+      "evidence": "internal links with tracking/ID params: none"
+    },
+    "S11.c5": {
+      "result": "pass",
+      "evidence": "non-crawlable hrefs: none; all in-body links are <a href>"
+    },
+    "S12.c2": {
+      "result": "pass",
+      "evidence": "6 outbound editorial links; rel values ['noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener']"
+    },
+    "S13.c1": {
+      "result": "pass",
+      "evidence": "1/1 content images have non-empty alt"
+    },
+    "S13.c3": {
+      "result": "fail",
+      "evidence": "non-descriptive filenames: ['AdobeStock_1725140750-copy.jpeg']"
+    },
+    "S14.c1": {
+      "result": "pass",
+      "evidence": "Article; missing none"
+    },
+    "S14.c2": {
+      "result": "pass",
+      "evidence": "author Person 'Aaron Dudley', url=https://blog.se.com/author/aaron-dudley/, sameAs=['https://www.linkedin.com/in/aaron-dudley-357b847/']"
+    },
+    "S14.c3": {
+      "result": "pass",
+      "evidence": "markup headline 'AI is moving faster than infrastructure. Leaders need a new strategy.' vs H1/title; markup author 'Aaron Dudley' vs byline 'Aaron Dudley'; dates 2026-10-02 vs 2026-10-02"
+    },
+    "S14.c4": {
+      "result": "pass",
+      "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']"
+    },
+    "S14.c5": {
+      "result": "pass",
+      "evidence": "missing none; og:url = canonical; og:title 'AI is moving faster than infrastructure. Leaders need a new strategy.'"
+    }
+  },
+  "computed_eligibility": {
+    "E2": {
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' (X-Robots-Tag and robots.txt need the HTTP response)"
+    },
+    "E3": {
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/']; page URL https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/"
+    },
+    "E4": {
+      "result": "na",
+      "evidence": "no hreflang tags"
+    },
+    "E5": {
+      "result": "pass",
+      "evidence": "scheme https"
+    },
+    "E6": {
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1' (content parity needs a mobile render)"
+    },
+    "E7": {
+      "result": "pass",
+      "evidence": "snippet directives in 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'"
+    },
+    "E8": {
+      "result": "pass",
+      "evidence": "1042 body words in server HTML"
+    }
+  }
+}

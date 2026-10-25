@@ -1,0 +1,543 @@
+{
+  "page": {
+    "id": "51",
+    "type": "news",
+    "stage": "Consideration",
+    "topic": "Decarbonization Champion Program with Greenly (partner program)",
+    "industry": "Channel partners / SMEs",
+    "audience": "SME panel builders, contractors, system integrators",
+    "target_prompts": [
+      "What is the Schneider Electric Decarbonization Champion Program?",
+      "What do partners get from the program and what is it worth?",
+      "Who is eligible and how do partners join?",
+      "What is Greenly?",
+      "What savings have pilot participants found?"
+    ],
+    "prompts_inferred": true,
+    "content_source": "corpus/rendered/51_news-press-release.md",
+    "judge": "A",
+    "standard": "v2.0-2026-10-19"
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric and Greenly expand Decarbonization Champion Program",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "over 34,000 USD of annual value",
+          "location": "deck"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Expanded global program provides SME partners with enhanced measurement tools",
+          "location": "one bullet only"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Decarbonization Champion Program to help SME partners",
+          "location": "v2 c4: program category + audience"
+        }
+      ],
+      "rationale": "Headline names partners and program; key value number only in the single deck bullet.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c3": "A"
+      }
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "the company’s first sustainability initiative dedicated to helping small and medium-sized enterprises (SME) partners",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "(SME) partners across the electrical value chain",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "scenario only in later section"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "over 34,000 USD of annual value",
+          "location": ""
+        }
+      ],
+      "rationale": "Clear definition and audience with quantified value; no trigger/scenario up front.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c3": "A"
+      }
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "28/09/2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Rueil-Malmaison, France",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The program is currently being rolled out globally",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "23/09/2026",
+          "location": "attachment date differs"
+        }
+      ],
+      "rationale": "Numeric date; rollout undated; attachments carry a different date.",
+      "proposed_level": 1,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A",
+        "c4": "T"
+      }
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "more than 34,000 USD (30,000+ EUR) per year for each channel partner",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.66 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Early results show strong financial upside",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Corporate Sustainability Reporting Directive (CSRD)",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "one contractor identified more than 28,500 USD (40,000 AUD) in annual savings opportunities",
+          "location": ""
+        }
+      ],
+      "rationale": "Program value and pilot savings quantified with currencies; 'unlock'/'strong upside' language.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      }
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Based on the first audits conducted for participating organizations by SE Advisory Services",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the company’s first sustainability initiative dedicated to",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "a Queensland-based manufacturer uncovered over 178,000 USD",
+          "location": "anonymous"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Savings basis stated and 'first' scoped; no independently verifiable participant.",
+      "proposed_level": 3,
+      "confidence": "medium",
+      "failed_tags": {
+        "c3": "A"
+      }
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Bin Lu, Executive Vice President, Power Products, Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Many SMEs want to act on carbon reduction but lack accessible tools and guidance.",
+          "location": "no fact"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Alexis Normand, CEO and co-founder of Greenly",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "This program reflects our commitment as an Energy Tech Partner",
+          "location": "program unnamed"
+        }
+      ],
+      "rationale": "Two named voices incl. partner CEO; quotes generic and do not name the program.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The program is currently being rolled out globally through Schneider Electric's partner ecosystem.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no eligibility / how to join"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Greenly platform access to measure, visualize, track, and report Scopes 1 and 2 emissions.",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Pilot deployments in the Pacific region",
+          "location": ""
+        }
+      ],
+      "rationale": "Inclusions listed and rollout status; no eligibility or how-to-join.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A"
+      }
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric, a global energy technology leader, today announced",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no program page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "global carbon accounting and management platform Greenly",
+          "location": ""
+        }
+      ],
+      "rationale": "Partner described; no About block, no canonical program page named.",
+      "proposed_level": 1,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "A"
+      }
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "A structured program to strengthen the electrical value chain",
+          "location": "subhead not a heading"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Co-branded recognition for participating partners.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The program is currently being rolled out globally",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The Decarbonization Champion Program is designed to help close that gap.",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Greenly platform access to measure",
+          "location": ""
+        }
+      ],
+      "rationale": "Plain-text subheads; inclusion list; self-contained paragraphs.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "T"
+      }
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The program delivers an estimated value of more than 34,000 USD",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Pilot deployments in the Pacific region highlight the potential business impact.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Rising expectations from end customers and an evolving regulatory landscape",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no how-to-join"
+        }
+      ],
+      "rationale": "What/value/partner/results answered; eligibility and joining missing.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c4": "A"
+      }
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "As large organizations increasingly seek emissions data and sustainability commitments from suppliers",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Early results show strong financial upside",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Context paragraph is informational; tone otherwise promotional.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      }
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Decarbonization Champion Program (DCP)",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Scopes 1 and 2",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "28,500 USD (40,000 AUD)",
+          "location": "currency conversions consistent"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "R6: no link labels in rendered capture"
+        }
+      ],
+      "rationale": "Program name and acronyms consistent; no links named.",
+      "proposed_level": 4,
+      "confidence": "medium",
+      "failed_tags": {}
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: none (server/rendered word ratio >= 1.0) -> not material",
+    "[T] Numeric DD/MM/YYYY date; in-body subheads are plain text, not headings; template 'Need help?' (Product Selector / Get a Quote / Where to buy / Help Center) block inside page body -> SE Digital",
+    "[T] About Schneider Electric block absent on 5 of 6 releases (template/process)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "declared stage from assignments.json"
+  }
+}

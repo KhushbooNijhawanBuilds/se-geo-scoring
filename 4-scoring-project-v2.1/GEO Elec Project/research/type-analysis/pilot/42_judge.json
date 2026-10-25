@@ -1,0 +1,555 @@
+{
+  "page": {
+    "id": "42",
+    "type": "service_project",
+    "stage": "Decision",
+    "topic": "Life extension and replacement services for Altivar 61/71 variable speed drives (EcoFit for drives)",
+    "industry": "Industry",
+    "target_prompts": [
+      "How can I extend the life of or replace Altivar 61 / Altivar 71 drives?",
+      "What is the replacement for the Altivar 71?",
+      "What does a drive life-extension service include and how much downtime does it need?",
+      "Are Altivar 61/71 drives still supported?",
+      "Which service plans and warranties exist for variable speed drives?"
+    ],
+    "prompts_inferred": true,
+    "subtype_note": "Project / one-off service (modernization, retrofit, consulting): SVC-2 read as lead time / duration / downtime commitments."
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "We offer multiple solutions with our certified drive experts who can extend the life of your drive technology or replace them with minimal disruption on operations.",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "EcoFit drive services",
+          "location": "Brand-first H1/title, no Altivar/VSD wording"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Optimize your drive systems with EcoFit™ drive services",
+          "location": "Top"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Unlock the full potential of your operations with our EcoFit for drives services.",
+          "location": "Benefits section opens with promo"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Answer in intro; H1 not prompt-aligned.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "extend the life of your drive technology or replace them",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "improve plant productivity",
+          "location": "Intro"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "aging Altivar 61 and Altivar 71 variable speed drives",
+          "location": "Life Extension"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Reduce downtime by updating your drives systems.",
+          "location": "Vague"
+        }
+      ],
+      "rationale": "No concrete outcome.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Benefits",
+          "location": "Generic heading"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Extend the life of your existing drives technology.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Leverage new capabilities, improved reliability and greater security.",
+          "location": "Subjectless"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Discover more",
+          "location": "Scope only behind 'Discover more'"
+        }
+      ],
+      "rationale": "Thin; benefit labels.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Unlock the full potential of your operations",
+          "location": "Promo"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No when-to-choose life extension vs replacement"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Leverage new capabilities",
+          "location": "Fluff"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "aging Altivar 61 and Altivar 71",
+          "location": "Accurate status wording"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No explicit lifecycle status or named successor"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; successor unnamed.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Decision needs successor ref, availability, docs"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "variable speed drives",
+          "location": "Maintenance language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Discover more",
+          "location": "Vague"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Extended warranty",
+          "location": "Related services"
+        }
+      ],
+      "rationale": "Below Decision needs.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Only 'life extension' and 'replacement' named; contents unspecified"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Flexible options to modernize and extend the life of aging Altivar 61 and Altivar 71 variable speed drives.",
+          "location": "Life Extension"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Advantage service plan for variable speed drives",
+          "location": "Related options"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Scope only on child pages"
+        }
+      ],
+      "rationale": "Specific target, unspecified contents.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "with minimal disruption on operations",
+          "location": "No downtime figure"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No service-level facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "variable speed drives",
+          "location": "Life Extension"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Altivar 61 and Altivar 71",
+          "location": "Life Extension"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "latest drive technology",
+          "location": "Successor not named"
+        }
+      ],
+      "rationale": "Eligible models named; no successor.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "our certified drive experts who can extend the life of your drive technology",
+          "location": "Roles"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Roles only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoFit Replacement for Drives",
+          "location": "Options"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Take advantage of the latest drive technology for new capabilities, improved reliability, and greater security.",
+          "location": "Option difference"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Two options described; no model or availability.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "No quantified outcomes.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "certified drive experts",
+          "location": "'certified' without certifying body"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Hero video ('Choose a video') without transcript in HTML."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Decision (replacement/life-extension of a named legacy range)."
+  }
+}

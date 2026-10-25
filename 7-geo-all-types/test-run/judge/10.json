@@ -1,0 +1,511 @@
+{
+ "page": {
+  "id": "10",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/real-estate/",
+  "topic": "Digital solutions for real estate portfolios",
+  "target_prompts": [
+   "What digital solutions help real estate owners cut carbon and operating costs across a building portfolio?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Intro addresses the buyer job; H1 slogan-ish but contains real estate; no H2 answers or summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "We can help you boost ROI, reduce stranded asset risk, and meet ESG goals with integrated digital solutions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Responsible and responsive real estate: maximize returns, minimize risk"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "When you're managing a real estate portfolio, every asset counts."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Trusted portfolio management technology partner"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 2,
+   "rationale": "Who is clear and an outcome is quantified via Blackstone; no definition or scenario",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "integrated digital solutions that drive sustainability, resilience, and performance"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "When you're managing a real estate portfolio"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Blackstone saved $10M and reduced emissions by 15%"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Slogan headings; key proof in hidden tabs; quotes without text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "## Cut carbon. Capture savings. Accelerate impact."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Blackstone saved $10M and reduced emissions by 15% by partnering with Schneider Electric"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] Aspiria cut labor costs and complaints by 60%"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Unsourced 37% stat; customer quote headers with no quote text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "While buildings drive 37% of emissions"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Bedeir Rizk, Co-founder and CEO, Paragon Developments"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "one building cut carbon and energy use by 22% with a two-year payback"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U6",
+   "proposed_level": 1,
+   "rationale": "Target partly answered via case results; no architecture",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "We can help you boost ROI, reduce stranded asset risk, and meet ESG goals with integrated digital solutions"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Data center lifecycle: Navigating change through collaborative innovation"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Brand voice (\"we help ... that work as hard as you do\")",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "digital, sustainable, and resilient solutions that work as hard as you do"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Read the article"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Raise GRESB scores"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 4,
+   "rationale": "Language for portfolio owners; CTAs name assets",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "grow a high-performing, future-ready portfolio"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Access the e-guide"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Case studies that maximize returns and minimize risk"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": 3,
+   "rationale": "Quantified but unsourced emissions stat, not in top block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "reduce stranded asset risk"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "While buildings drive 37% of emissions"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": 0,
+   "rationale": "No architecture or components",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 5,
+   "rationale": "Several quantified outcomes attributed to EcoStruxure; payback basis on one",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Blackstone saved $10M and reduced emissions by 15%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "cut carbon and energy use by 22% with a two-year payback"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "boost GRESB scores by up to 24 points"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 4,
+   "rationale": "Named segment customers with quantified results; quote names without text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Blackstone saved $10M"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Aspiria cut labor costs and complaints by 60%"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "At 150 Holborn in London, Schneider Electric enabled a 90-point WELL Comfort Score"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "creating a workplace that adapts to people, not the other way around"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": 0,
+   "rationale": "Applications as tab labels only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "- Energy management"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": 0,
+   "rationale": "No implementation path",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

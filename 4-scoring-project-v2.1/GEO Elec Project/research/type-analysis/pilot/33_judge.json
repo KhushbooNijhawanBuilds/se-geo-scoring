@@ -1,0 +1,552 @@
+{
+  "page": {
+    "id": "33 Data center power sizing calculator",
+    "type": "calculator",
+    "stage": "Consideration",
+    "topic": "Estimating data center IT load and utility input power",
+    "industry": "Data centers & edge IT",
+    "target_prompts": [
+      "How to calculate data center power requirements",
+      "How much power does an AI/GPU server need?",
+      "What is a typical PUE?",
+      "How much safety margin when sizing data center power?",
+      "IT load vs utility input power"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Configure different server, storage, and design attributes to explore different scenarios.",
+          "location": "intro: input families named",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data center power sizing calculator",
+          "location": "H1/title",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers.",
+          "location": "intro",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 (no answer)",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Title matches the tool query; intro invites use of the tool. States drivers/inputs. No answer-first sections.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers.",
+          "location": "intro",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "the power required by a data center",
+          "location": "intro",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "with traditional, or AI/HPC servers",
+          "location": "intro",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "explore different scenarios",
+          "location": "outcome vague",
+          "id": "c4"
+        }
+      ],
+      "rationale": "What/who/when from intro; outcome is generic ('informed decisions').",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page text; method exists only inside the iframe tool",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No formula, logic, provenance statement or scope limits in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No assumptions, default values or data vintage in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No worked example, typical range or benchmark in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Configure different server, storage, and design attributes",
+          "location": "categories only",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no input definitions/units",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "outputs not defined",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "AI/HPC servers",
+          "location": "not expanded",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Inputs/outputs not defined in text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No interpretation or decision guidance.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Calculating total power requirements for data centers",
+          "location": "descriptive H3",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no list/table of inputs, assumptions or results",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers.",
+          "location": "short paragraphs",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 3 presents methods for calculating power and cooling requirements",
+          "location": "self-contained card",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "Interactive calculators that enable exploration of",
+          "location": "key knowledge only in the tool",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Clean card text, but all tool knowledge is inside the widget (c5 fail → max 2).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "quotes not expected on a tool page",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "model owner/provenance not stated",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No sources, standards or provenance in text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers.",
+          "location": "intro",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no limitations",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 3 presents methods for calculating power and cooling requirements",
+          "location": "related cards",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Neutral instructional voice; no limitations stated.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Related TradeOff Tools",
+          "location": "consistent",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 3",
+          "location": "WP numbers",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data center power sizing calculator",
+          "location": "no contradiction found",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA anchors",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Naming mostly consistent; generic CTA anchors.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no version/update date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated data",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated; tool version date exists only inside iframe.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no numbers/criteria for the stage",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "IT equipment, cooling equipment, lighting, and power backup",
+          "location": "audience language",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Calculating total power requirements for data centers",
+          "location": "related WP",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Good related-content links; nothing stage-appropriate on the page itself.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "CALC-1, CALC-2 and CALC-3 all level 0: method, assumptions and example results absent from crawlable text."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Learn more and similar generic CTAs (≥3)"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Tool UI runs in an iframe whose own URL returns ~5 words of raw HTML (client-rendered); the tool's About, Assumptions, definitions, defaults and version text are invisible to non-JS crawlers and absent from the parent page → route to SE Digital; content fix = mirror that text on the parent page.",
+    "Inside the iframe the tool states two different 'typical' PUE values (1.8 and 1.4) – contradiction to fix before mirroring."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

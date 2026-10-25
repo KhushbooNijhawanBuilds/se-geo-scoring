@@ -1,0 +1,532 @@
+{
+ "page": {
+  "id": "15",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/pact-series/",
+  "topic": "PacT Series breakers and switches master range",
+  "target_prompts": [
+   "Which Schneider Electric PacT Series circuit breaker range should I use (MasterPact vs ComPact vs PowerPact)?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Master range overview -> Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the PacT Series comprises world-class circuit breakers, switches, residual current devices, and fuses, for all standard and specific applications"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Discover PacT Series"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "from 16 to 6300 A in low voltage and up to 40.5 kV in medium voltage"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "See product details (x7)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "MasterPact is a comprehensive range of air circuit breakers (ACB)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "panel builders and users in any MV applications up to 40.5 kV"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Circuit breakers to protect lines up to 4000 A, certified for Navy applications"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Future-proof your installation (no concrete result)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "only one conditional statement (PowerPact / UL markets)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "From 16 A to 3200 A up to 690 VAC"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "torn -> fail; no MasterPact vs ComPact rule"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "MasterPact MTZ vs NW both up to 6300 A"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": 3,
+   "rationale": "2/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Circuit-breakers to protect DC energized lines, up to 4000 A"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "MasterPact for Navy Circuit breakers to protect lines up to 4000 A, certified for Navy applications"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": 2,
+   "rationale": "1/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "from 16 to 6300 A in low voltage and up to 40.5 kV in medium voltage"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "World-class breakers and switches"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "MicroLogic control units are designed for use in both ComPact NS and MasterPact NT, NW and UR circuit breakers"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "designed for use in both ComPact NS and MasterPact NT, NW and UR circuit breakers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EcoStruxure™-ready (no software named)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": 4,
+   "rationale": "3/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "complying with UL 489 standard"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "ideal for customers who have global designs or build and sell in UL markets"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "MasterPact - UL 489 listed"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "(formerly Vigirex)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EvoPacT™ HVX 2nd Generation"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "FuPacT Fusegear to interrupt and protect distribution lines up to 1250 A"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "ComPact NS NA Switch-disconnectors to interrupt lines up to 3200 A"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "fewer than 50% state an application"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "cards rendered 2-3 times"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "mySchneider app card"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no table"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "FuPact is a complete range of double and single breaking fuse devices (from 32 A to 1250 A)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "The ComPact full range of high-performance molded-case circuit breakers (MCCB)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "MasterPact NT Circuit breakers to protect lines up to 1600 A, in a compact frame"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "complying with UL 489 standard"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Built on legendary Schneider Electric innovation"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "World-class breakers and switches"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "PacT/Pact, EvoPacT/EvoPact, FuPact/FuPacT, MasterPact/Masterpact, ComPact/Compact"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "MasterPact MTZ"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "from 16 to 6300 A vs PowerPact from 15 to 600 A"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "See product details"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": true,
+   "evidence": "\"PacT Series ... from 16 to 6300 A in low voltage\" vs \"PowerPact ... from 15 to 600 A up to 480 VAC\""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

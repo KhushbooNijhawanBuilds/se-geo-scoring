@@ -1,0 +1,470 @@
+{
+ "page": {
+  "id": "35",
+  "type": "calculator",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+  "topic": "Self-managed vs vendor-managed edge UPS fleet",
+  "target_prompts": [
+   "Is it cheaper to manage an edge UPS fleet in-house or outsource it?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Opening states output and drivers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally, or outsourcing it to a partner like Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Edge UPS fleet management comparison calculator"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "Defines fleet, who, when",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "An edge UPS fleet is a group of UPSs that provide power & availability of IT solutions in locations that are not located in a centralized or regional data center."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "retails stores, healthcare facilities, school campuses"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "In assessing the costs of managing a fleet"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-1",
+   "proposed_level": 4,
+   "rationale": "Model, variables, provenance, scope",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "results are calculated based upon a dynamic model that considers device count, rating (VA), downtime related costs, and the time spent by resources managing & maintaining the fleet"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "UPS rating (VA)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "WP283, A Quantitative Comparison of UPS Monitoring and Servicing Approaches Across Edge Environments"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "UPSs across a fleet are located within the same country"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-2",
+   "proposed_level": 3,
+   "rationale": "Assumptions + defaults + localization; sources lack years",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "UPSs are covered under warranty for 3 years"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"UPSs are remotely monitorable\" - no value"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"according to Salary.com\" - no year"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "A typical cost for this in the United States is $1000"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Select a country so that the analysis can be localized based on costs and currency."
+    }
+   ]
+  },
+  {
+   "id": "CALC-3",
+   "proposed_level": 1,
+   "rationale": "Salary range only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "typical base salary raning from $43k-$70k, according to Salary.com"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-4",
+   "proposed_level": 4,
+   "rationale": "Inputs/outputs defined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Site quantity – Enter the number of distributed sites where the UPSs reside."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Average duration per downtime event (MTTR) – When a downtime event occurs"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "A summary of the total cost for one year ... Downtime (hours) are also provided"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Mean Time to Recover or MTTR"
+    }
+   ]
+  },
+  {
+   "id": "CALC-5",
+   "proposed_level": 3,
+   "rationale": "Reading and limits; no rule/levers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "A final summary of savings or premium is presented for both costs and downtime reduction."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Some downtime events, however, cannot be avoided."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Knowledge only in hidden panels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "• UPSs are remotely monitorable"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Edge UPS fleet"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "All definitions are [hidden] widget panel content"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Provenance only; sources undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"According to independent ... research firm, Ponemon\" - no year"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"based upon findings from discussions with our customers\" - no method"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "developed by the Schneider Electric Science Center"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Framing favours vendor-managed",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"outsourcing it to a partner like Schneider Electric\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Some downtime events, however, cannot be avoided."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "self-managed described as \"more reactive ... greater costs\""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 0,
+   "rationale": "G1: contradictory failure-rate message",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Edge UPS fleet management comparison calculator"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT27 Version 6"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"The total failure rate of your assets is 80.0%. Consider reducing this to 100% or below.\""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "WP237, Digital Remote Monitoring and On-site Services’ Impact"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Dated 2024; no data year",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT27 Version 6 – 20-August-2024"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "last date 20-August-2024"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Fits consideration; no CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "evaluate the comparative costs of monitoring & maintaining approaches"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IT operations technicians"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## DCIM monitoring value calculator"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": true,
+   "evidence": "\"The total failure rate of your assets is 80.0%. Consider reducing this to 100% or below.\""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

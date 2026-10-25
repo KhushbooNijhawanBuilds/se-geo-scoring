@@ -1,0 +1,470 @@
+{
+ "page": {
+  "id": "33",
+  "type": "calculator",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-power-sizing-calculator/",
+  "topic": "Data center utility power sizing",
+  "target_prompts": [
+   "How much utility power does a data center with AI/HPC servers need?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Opening states output and drivers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "estimate the power required by a data center with traditional, or AI/HPC servers. Configure different server, storage, and design attributes"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data center power sizing calculator"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 1,
+   "rationale": "Scenario only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "with traditional, or AI/HPC servers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-1",
+   "proposed_level": 4,
+   "rationale": "Logic, units, provenance, limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "calculate how much utility input power would be required to support such a load"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "GPU server (AI/HPC) power draw is estimated at 1,300 watts/socket."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "White Paper 3, Calculating Total Power Requirements for Data Centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "this tool does not account for electrical loads of the entire building, such as office space, restrooms, kitchens, etc."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "server-count to kW mapping not fully given"
+    }
+   ]
+  },
+  {
+   "id": "CALC-2",
+   "proposed_level": 4,
+   "rationale": "Assumptions with values, sources and year",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Key assumptions of this calculator include:"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Baseline CPU server (traditional) power draw is estimated at 290 watts/socket."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "typical of external SSD drives in 2024. This value was derived from Dell PowerScale F910 All-Flash storage nodes."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Server quantity"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "CALC-3",
+   "proposed_level": 4,
+   "rationale": "Default scenario with outputs, ranges and breakdown",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Data center IT capacity rating ... 790 kW ... Utility input power ... 1,110 kW"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "A value of 10-20% is typical."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "CPU servers: 38% (421 kW)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Physical infrastructure: 29% (320 kW)"
+    }
+   ]
+  },
+  {
+   "id": "CALC-4",
+   "proposed_level": 4,
+   "rationale": "Inputs and outputs defined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Server quantity"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "External storage – The installed capacity of data storage external to CPU / GPU servers in terabytes (TB)."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Utility input power – Is the required power to support the data center."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "PUE (power usage effectiveness)"
+    }
+   ]
+  },
+  {
+   "id": "CALC-5",
+   "proposed_level": 3,
+   "rationale": "Reading + limits; no decision rules",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Smaller PUE values indicate a more efficient data center."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Final projected loads should be used for sizing the utility input power."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Knowledge only in hidden panels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "– Mainframe power is estimated to be 10,000 watts/mainframe."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data center power sizing calculator"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Definitions and assumptions are [hidden] widget panel content"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 4,
+   "rationale": "Sourced 2024 data, PUE method WP, provenance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "typical of external SSD drives in 2024. This value was derived from Dell PowerScale F910"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "White Paper 158, Guidance for Calculation of Efficiency (PUE) in Data Centers"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "developed by the Schneider Electric Data Center Science Center"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Neutral with limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The purpose of this tool is to define the basic characteristics of a data center's IT load"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "the purpose of this tool is NOT to properly size the building’s utility power service entrance"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate the power required by a data center with traditional, or AI/HPC servers."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 0,
+   "rationale": "G1: two different 'typical' PUE values",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "PUE (power usage effectiveness)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT1 Version 4"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"A PUE of 1.8 would be considered typical value.\" vs \"A PUE of 1.4 would be considered typical value.\""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "White Paper 3, Calculating Total Power Requirements for Data Centers"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 3,
+   "rationale": "Dated 2024, data year stated; not reviewed in last year",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT1 Version 4 – 10-September-2024"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "typical of external SSD drives in 2024"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "last date 10-September-2024; version also shown as \"Version 1.11\""
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Fits evaluation; no explicit CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "790 kW ... 1,110 kW"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Power usage effectiveness (PUE)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data center efficiency and PUE calculator See how alternative power and cooling systems impact energy costs"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": true,
+   "evidence": "\"A PUE of 1.8 would be considered typical value.\" vs \"A PUE of 1.4 would be considered typical value.\""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "[hidden] Lorum ipsum ... [hidden] This is an option ... Section Title Kicker"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

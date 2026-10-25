@@ -1,0 +1,586 @@
+{
+  "page": {
+    "id": "11",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "Smart hospital room management (connected room control)",
+    "industry": "Healthcare",
+    "target_prompts": [
+      "What is a smart hospital room management solution and what does it do?",
+      "Which room functions can patients control (temperature, lights, blinds, nurse call)?",
+      "How does connected room control integrate with the BMS and clinical systems?",
+      "What measurable benefits (nurse calls, length of stay, energy) do smart patient rooms deliver?",
+      "Which controllers and sensors are used?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Connected Room Solutions for Healthcare provides an integrated patient experience that puts precise room control in their hands",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Smart hospital room management",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Healthcare facilities face evolving compliance requirements, patient expectations, and resource constraints.",
+          "location": "Intro"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "A solution to address today's challenges",
+          "location": "H2s open with a stat or a bullet list"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Clear problem + definition at top; sections don't open with answers.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Connected Room Solutions for Healthcare provides an integrated patient experience",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Healthcare facilities face evolving compliance requirements",
+          "location": "Intro"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Configure rooms in multiple modes or scenes based on the room occupancy status.",
+          "location": "Benefits list"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "reduces nurse calls so they can focus on caregiving",
+          "location": "Intro"
+        }
+      ],
+      "rationale": "All four answered; outcome not quantified.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Delivering value to every customer",
+          "location": "Generic headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Reduce operating costs with integrated facility management at the building management system (BMS) level",
+          "location": "Bullet list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Provide patients with personalized control of their room temperature, lights and blinds plus noise level monitoring, nurse call and wayfinding services to enhance their experience.",
+          "location": "Short paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Configure spaces in multiple modes or scenes based on room status.",
+          "location": "Duplicated/subjectless bullets"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Reduce airborne contaminants and adjust fresh air circulation in multiple zones...",
+          "location": "Truncated product teasers"
+        }
+      ],
+      "rationale": "Good bullet list; generic headings, duplicates and truncated cards.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Global Strategy on Human Resources for Health: Workforce 2030: Reporting at 75th World Health Assembly, World Health Organization",
+          "location": "Sources"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "One properly sourced statistic.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "puts precise room control in their hands, reduces nurse calls",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Integrate clinical systems at the BMS level to ensure efficient system operation",
+          "location": "Benefits list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Hotels",
+          "location": "Adjacent segments linked out briefly"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Outcomes/proof missing"
+        }
+      ],
+      "rationale": "Seed and most fan-outs answered; no quantified outcomes or proof.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Attract, recruit, and maintain top-notch healthcare personnel.",
+          "location": "Brand voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Ensure facility uptime and continuity with a modular, simple-to-install, and scalable solution",
+          "location": "Low hype in body"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Benefit-list voice; low hype.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022 Global Strategy on Human Resources for Health",
+          "location": "Sources"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; source 2022.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No option types/selection guidance"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "integrates clinical and facilities systems to increase efficiency",
+          "location": "Facility-director language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Template CTAs only"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "SpaceLogic SE8000",
+          "location": "Product links"
+        }
+      ],
+      "rationale": "Audience fit; generic CTA.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Healthcare facilities face evolving compliance requirements, patient expectations, and resource constraints.",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "healthcare workers shortage projected by 2030",
+          "location": "Stat block"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "World Health Organization",
+          "location": "Sources"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Healthcare facilities face evolving compliance requirements",
+          "location": "First sentence"
+        }
+      ],
+      "rationale": "Problem stated first, quantified and sourced (WHO). Not segment-specific to rooms -> 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Integrate clinical systems at the BMS level to ensure efficient system operation and coordinate maintenance with actual room occupancy.",
+          "location": "Benefits list"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Enable accurate temperature control in any space",
+          "location": "SpaceLogic SE8000 card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "simple integration with customers’ third-party systems and the IoT cloud",
+          "location": "Benefits list"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No quantified parameter"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Manage the entire facility and gain actionable insights with a single convenient platform and simple integration to EcoStruxure Building Operation.",
+          "location": "Text"
+        }
+      ],
+      "rationale": "Integration architecture explained in scattered bullets; no numbers. Judge proposes 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No quantified outcome"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "Outcome markers absent (sources 2 and 3 orphaned)",
+          "location": ""
+        }
+      ],
+      "rationale": "Outcomes unquantified ('Reduce length of stay').",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "personalized control of their room temperature, lights and blinds plus noise level monitoring, nurse call and wayfinding services",
+          "location": "Reduce length of stay"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "in a wide range of healthcare facility environments",
+          "location": "Scope vague"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "simple integration with customers’ third-party systems",
+          "location": "Benefits list"
+        }
+      ],
+      "rationale": "Use cases and compatibility; no scope limits or fit guidance.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "install quickly and with minimal interruption or downtime to daily activities",
+          "location": "No number"
+        }
+      ],
+      "rationale": "No implementation path.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Placeholder alt text 'ZZ_aprimo image alt text' on 4 product images."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Sources 2 and 3 are listed but their markers are not in visible text (orphaned sources) -> check hidden carousel content."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Consideration."
+  }
+}

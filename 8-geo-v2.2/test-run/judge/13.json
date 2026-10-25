@@ -1,0 +1,613 @@
+{
+ "page": {
+  "id": "13",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/smart-ups/",
+  "topic": "Smart-UPS master range (single-phase UPS)",
+  "target_prompts": [
+   "What is APC Smart-UPS and which model should I choose for my servers and network?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "Master range page listing sub-ranges/family members -> rule 1 Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Slogan + brand line, H1 'Discover'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "The most trusted UPS in the world for business applications"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Discover Smart-UPS"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "intro paragraph sits directly under the hero"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Explore our offer"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "What/who/when; outcome generic",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "The most trusted UPS in the world for business applications"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "trusted by millions of IT professionals"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Ideal UPS for servers, point-of-sale, routers, switches, hubs and other network devices."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "protect equipment and critical data from costly interruptions"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No comparison table",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No selection guidance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Applications per member; no reference",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Ideal for servers, point-of-sale, medical equipment and other network devices."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "APC Smart-UPS BR Intelligent and efficient network power protection with scaleable runtime. Ideal for servers, point-of-sale, medical equipment"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No quantified claim; unanchored superlative",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "The most trusted UPS in the world for business applications"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "NMC with SNMP; no software named",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "APC UPS Network Management Cards allow for secure remote monitoring and control of an individual APC UPS"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "via web browser, command line interface, or SNMP"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No standards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No FAQ",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No lifecycle info",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "3 members; no ratings; shared copy; off-topic drives card",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "APC Smart-UPS On-Line High density, double-conversion on-line power protection with scalable runtime"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Ideal UPS for servers, point-of-sale, routers, switches, hubs and other network devices."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Intelligent and efficient network power protection with scaleable runtime. Ideal for servers, point-of-sale,"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Get more information on EcoStruxure Asset Advisor for electrical distribution drives."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Generic headings, no lists",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "all paragraphs 1-3 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "sections name Smart-UPS explicitly"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no fact found only in image/video; card text is in HTML"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No evidence",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Brand voice, superlatives",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Smart-UPS is trusted by millions of IT professionals"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "The most trusted UPS in the world"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "not judged on range pages"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Names ok; no model codes; vague links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "APC Smart-UPS™"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no conflicting figures found"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Read more"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Undated; no lifecycle status",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superseded edition or discontinued item presented as current on the page"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": true,
+   "evidence": "No rating, capacity or size with a unit anywhere on the range or member cards"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Each product card's text is rendered twice (teaser line then repeated under its own H3)"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

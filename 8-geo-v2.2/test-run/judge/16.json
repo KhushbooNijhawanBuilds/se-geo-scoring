@@ -1,0 +1,613 @@
+{
+ "page": {
+  "id": "16",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/9-series/",
+  "topic": "9 Series final-distribution protection master range",
+  "target_prompts": [
+   "What does the Schneider Electric 9 Series include for final distribution protection?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "Master range page listing sub-ranges/family members -> rule 1 Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Brand-only H1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "The 9 Series delivers the final level of protection in the electrical distribution in homes and buildings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "9 Series"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "definition in intro"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Explore our offer"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Outcome vague",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Advanced protection with comprehensive final distribution breaker ranges"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "dedicated to equipment manufacturers (OEMs)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "electrical distribution in homes and buildings"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "allowing our customers to feel safe everywhere at every moment"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No table",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No guidance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Segments named; no reference",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Surge Protection Device for Telecom nd IT networks"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "protection devices up to 63A for OEMs and control panel builders"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No range-level number",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "unparalleled performance and space optimization"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Add-on device only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Residual current add-on devices up to 63 A for Acti9 iC60 Miniature Circuit Breakers"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "'major standards' without numbers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "meet your needs and the major standards for industry applications"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No FAQ",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Resi9 cards bare; under 75% rated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Resi9 Protection Protection devices"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "descriptors differ across members"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "EcoStruxure Asset Advisor for electrical distribution drives"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Generic headings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "short paragraphs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "sub-ranges named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "facts in text"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No evidence",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Promotional",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "allowing our customers to feel safe everywhere at every moment"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "unparalleled performance"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "not judged on range pages"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Model codes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Acti9 iC60"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Acti9 iC60 RCBO (2P, 3P, 4P)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no conflicting figures"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Read more"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Undated; no lifecycle status",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superseded edition or discontinued item presented as current on the page"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Each product card's text is rendered twice (teaser line then repeated under its own H3)"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

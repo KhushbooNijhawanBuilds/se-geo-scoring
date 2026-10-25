@@ -1,0 +1,436 @@
+{
+  "source": "html",
+  "facts": {
+    "url": {
+      "url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+      "scheme": "https",
+      "host": "blog.se.com",
+      "path": "/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+      "slug": "using-treated-and-recycled-water-in-indian-data-centre-cooling",
+      "slug_chars": 62,
+      "slug_words": 10,
+      "query": "",
+      "fragment": "",
+      "date_in_path": true,
+      "repeated_slug_words": []
+    },
+    "title": {
+      "count": 1,
+      "text": "Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog",
+      "chars": 88,
+      "est_px_18px_arial": 688,
+      "main_text": "Using treated and recycled water in Indian data centre cooling",
+      "main_chars": 62,
+      "brand": "Schneider Electric Blog",
+      "brand_position": "end",
+      "brand_occurrences": 1,
+      "h1": "Using treated and recycled water in Indian data centre cooling",
+      "title_h1_token_overlap": 1.0,
+      "title_equals_h1": true
+    },
+    "meta_description": {
+      "count": 1,
+      "text": "Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use and support overall water resilience.",
+      "chars": 160,
+      "est_px": 987.48
+    },
+    "headings": {
+      "h1_count": 1,
+      "h1_texts": [
+        "Using treated and recycled water in Indian data centre cooling"
+      ],
+      "list": [
+        {
+          "level": 2,
+          "text": "Why water availability constrains infrastructure"
+        },
+        {
+          "level": 2,
+          "text": "The data centre water recycling paradox: More liquid can mean less water consumption"
+        },
+        {
+          "level": 2,
+          "text": "Data centre water recycling requires the right water source"
+        },
+        {
+          "level": 3,
+          "text": "Recycled water has to be engineered for the cooling system"
+        },
+        {
+          "level": 2,
+          "text": "India’s policy direction increasingly favours water reuse"
+        },
+        {
+          "level": 2,
+          "text": "Go beyond WUE: measure where the water comes from"
+        },
+        {
+          "level": 2,
+          "text": "Design the complete cooling and water path"
+        },
+        {
+          "level": 2,
+          "text": "Make water sourcing a Day One cooling decision"
+        }
+      ],
+      "body_words": 1167,
+      "words_per_subhead": 146,
+      "template_h2_in_article": [
+        "Add a comment Cancel reply",
+        "Top picks",
+        "Powering the industrial comeback: Can America’s grid keep pace with the manufacturing resurgence and AI boom?",
+        "Closed-loop cooling data center strategies for the new wave of U.S. state water rules",
+        "Commercial Battery Energy Storage Systems: A strategic advantage for C&I businesses",
+        "Four accelerators of supply chain transformation in Europe"
+      ]
+    },
+    "intro_first_150_words": "Author Anuj Kudesia Managing Director SEPSL Direct BD SummaryWater availability is becoming an infrastructure constraint for India’s data centre growth Site selection and cooling design increasingly need to account for local water availability source quality and long-term resilience Liquid cooling can use more liquid while consuming less water Closed-loop direct-to-chip systems recirculate coolant rather than continually losing water through evaporation helping reduce consumptive demand Recycled water only solves part of the problem Operators should first reduce overall water demand then determine how appropriately treated wastewater greywater or other non-potable sources can meet the remaining requirement Cooling and water strategy should be designed together from day one Water quality heat rejection coolant temperatures future rack density treatment requirements and water source all influence the right thermal architectu India has around 18 of the world’s population but only 4 of its freshwater resources This makes data centre water recycling more than a",
+    "dates": {
+      "visible": "2026-09-29",
+      "published_markup": "2026-09-29",
+      "modified_markup": "2026-10-02",
+      "source": "JSON-LD",
+      "modified_minus_published_days": 3
+    },
+    "links": {
+      "in_body_total": 16,
+      "internal": [
+        {
+          "href": "https://www.se.com/in/en/product-subcategory/368881735-coolant-distribution-units/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "Coolant Distribution Units (CDUs)",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/in/en/product-range/372769168-floormounted-heat-dissipation-units/?parent-subcategory-id=368881736&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#products",
+          "anchor": "Heat Dissipation Units (HDUs),",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/in/en/product/MCD/reardoor-heat-exchanger-for-racklevel-cooling-enabling-roomneutral-scalable-performance-for-ai-data-centers/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "rear-door heat exchangers (RDHx)",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/in/en/product-subcategory/7240-chillers-and-heat-rejection/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "chillers and heat-rejection",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/in/en/product-range/371656912-prefabricated-modular-it-pod/?parent-category-id=7550&parent-subcategory-id=7570&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#overview",
+          "anchor": "Prefabricated modular IT pods",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/ww/en/download/document/Liquid_Cooling_AI_Brochure/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "end-to-end liquid cooling portfolio",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/in/en/work/solutions/data-centers-and-networks/liquid-cooling/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "Liquid Cooling Hub",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/ww/en/download/document/Liquid-cooling-architecture/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+          "anchor": "Liquid Cooling System Architecture Guide",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.worldbank.org/en/brief/2026/03/19/how-india-is-addressing-its-water-needs",
+          "anchor": "only 4% of its freshwater resources",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.etvbharat.com/en/bharat/india-ai-data-centre-boom-heads-for-water-stressed-regions-raising-fresh-concerns-over-resource-security-enn26080706691",
+          "anchor": "75% of India’s data centre facilities",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.businesstoday.in/technology/news/story/aws-plans-treated-sewage-water-for-cooling-at-future-india-data-centres-548121-2026-08-08",
+          "anchor": "plans to use treated sewage water",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://aeee.in/our-publications/district-cooling-guidelines/",
+          "anchor": "The Bureau of Energy Efficiency’s 2023 District Cooling Guidelines",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://lsg.urban.rajasthan.gov.in/content/dam/raj/udh/lsgs/lsg-jaipur/Order/Order2025/orderseptember2025/Final%20copy%20of%20sewerage%20policy%202025.pdf",
+          "anchor": "2025 data centre policy",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.indiawaterportal.org/water-quality-and-pollution/waste-water-/indias-stricter-water-reuse-regulations-will-they-achieve-50-wastewater-reuse-by-2031",
+          "anchor": "Rules introduced in 2025",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.datacenterknowledge.com/cooling/a-guide-to-data-center-water-usage-effectiveness-wue-and-best-practices",
+          "anchor": "Water Usage Effectiveness (WUE)",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.motivaircorp.com/products/dynamic-cold-plates/",
+          "anchor": "direct-to-chip accessories",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "internal_with_tracking_params": [
+        "https://www.se.com/in/en/product-subcategory/368881735-coolant-distribution-units/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+        "https://www.se.com/in/en/product-range/372769168-floormounted-heat-dissipation-units/?parent-subcategory-id=368881736&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#products",
+        "https://www.se.com/in/en/product/MCD/reardoor-heat-exchanger-for-racklevel-cooling-enabling-roomneutral-scalable-performance-for-ai-data-centers/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+        "https://www.se.com/in/en/product-subcategory/7240-chillers-and-heat-rejection/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+        "https://www.se.com/in/en/product-range/371656912-prefabricated-modular-it-pod/?parent-category-id=7550&parent-subcategory-id=7570&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#overview",
+        "https://www.se.com/ww/en/download/document/Liquid_Cooling_AI_Brochure/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+        "https://www.se.com/in/en/work/solutions/data-centers-and-networks/liquid-cooling/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai",
+        "https://www.se.com/ww/en/download/document/Liquid-cooling-architecture/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai"
+      ],
+      "generic_anchors": [],
+      "same_anchor_different_targets": []
+    },
+    "images": [
+      {
+        "src": "https://blog.se.com/wp-content/uploads/2026/09/AdobeStock_428397714_resized-1024x538.jpg",
+        "alt": "Waste water treatment plant.",
+        "role": null
+      }
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Using treated and recycled water in Indian data centre cooling",
+      "og:description": "Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use and support overall water resilience.",
+      "og:url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+      "og:site_name": "Schneider Electric Blog",
+      "article:published_time": "2026-09-29T04:30:00+00:00",
+      "article:modified_time": "2026-10-02T07:34:54+00:00",
+      "og:image": "https://blog.se.com/wp-content/uploads/2026/09/AdobeStock_428397714_resized.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:type": "image/jpeg"
+    },
+    "jsonld_types": [
+      "Article",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "WebPage",
+      "WebSite"
+    ],
+    "article_ld": {
+      "type": "Article",
+      "headline": "Using treated and recycled water in Indian data centre cooling",
+      "datePublished": "2026-09-29T04:30:00+00:00",
+      "dateModified": "2026-10-02T07:34:54+00:00",
+      "image": true,
+      "author_name": "Guest Blogger",
+      "author_type": "Person",
+      "author_url": "https://blog.se.com/author/guest-blogger/",
+      "author_sameAs": null
+    },
+    "canonicals": [
+      "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/"
+    ],
+    "meta_robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    ],
+    "hreflang": [],
+    "byline_links": [
+      {
+        "text": "Guest Blogger",
+        "href": "https://blog.se.com/author/guest-blogger/"
+      }
+    ]
+  },
+  "computed_checks": {
+    "S4.c1": {
+      "result": "pass",
+      "evidence": "slug 'using-treated-and-recycled-water-in-indian-data-centre-cooling'"
+    },
+    "S4.c2": {
+      "result": "pass",
+      "evidence": "slug 'using-treated-and-recycled-water-in-indian-data-centre-cooling'; hyphens, lowercase"
+    },
+    "S4.c3": {
+      "result": "pass",
+      "evidence": "query='' fragment=''"
+    },
+    "S4.c4": {
+      "result": "fail",
+      "evidence": "slug 62 chars, 10 words (convention <=60 chars)"
+    },
+    "S2.c1": {
+      "result": "pass",
+      "evidence": "1 <title>; text 'Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog'"
+    },
+    "S2.c2": {
+      "result": "fail",
+      "evidence": "88 chars, ~688px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)"
+    },
+    "S2.c3": {
+      "result": "pass",
+      "evidence": "brand 'Schneider Electric Blog' x1, position end"
+    },
+    "S2.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3: none; years none"
+    },
+    "S2.c6": {
+      "result": "pass",
+      "evidence": "title main 'Using treated and recycled water in Indian data centre cooling' vs H1 'Using treated and recycled water in Indian data centre cooling': 100% of title content words in H1; numbers title [] H1 []"
+    },
+    "S2.c4": {
+      "result": "fail",
+      "evidence": "keyword 'data centre water recycling' not within first ~45 chars of 'Using treated and recycled water in Indian da'"
+    },
+    "S3.c1": {
+      "result": "pass",
+      "evidence": "1 meta description(s)"
+    },
+    "S3.c2": {
+      "result": "pass",
+      "evidence": "160 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)"
+    },
+    "S3.c3_partial": {
+      "result": "na",
+      "evidence": "not identical to title; judge decides if it summarises this page"
+    },
+    "S3.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3 in meta: none"
+    },
+    "S3.c4": {
+      "result": "pass",
+      "evidence": "keyword 'data centre water recycling' in meta description"
+    },
+    "S5.c1": {
+      "result": "pass",
+      "evidence": "1 H1: ['Using treated and recycled water in Indian data centre cooling']"
+    },
+    "S5.c2": {
+      "result": "pass",
+      "evidence": "1167 body words, 8 H2/H3 -> ~146 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')"
+    },
+    "S5.c4": {
+      "result": "fail",
+      "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'Powering the industrial comeback: Can America’s grid keep pace with the manufacturing resurgence and AI boom?', 'Closed-loop cooling data center strategies for the new wave of U.S. state water rules', 'Commercial Battery Energy Storage Systems: A strategic advantage for C&I businesses', 'Four accelerators of supply chain transformation in Europe']"
+    },
+    "S6.c1": {
+      "result": "pass",
+      "evidence": "title: 'Using treated and recycled water in Indian data centre cooling'"
+    },
+    "S6.c2": {
+      "result": "pass",
+      "evidence": "H1: 'Using treated and recycled water in Indian data centre cooling'"
+    },
+    "S6.c3": {
+      "result": "pass",
+      "evidence": "first 150 words contain all of ['data', 'centre', 'water', 'recycling']"
+    },
+    "S6.c4": {
+      "result": "pass",
+      "evidence": "subheads with topic: ['The data centre water recycling paradox: More liquid can mean less water consumption', 'Data centre water recycling requires the right water source']"
+    },
+    "S6.c5": {
+      "result": "pass",
+      "evidence": "exact phrase x5 (~1.71% of words; stuffing trigger >3%); in 25% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target."
+    },
+    "S10.c1": {
+      "result": "pass",
+      "evidence": "visible date 2026-09-29"
+    },
+    "S10.c2": {
+      "result": "pass",
+      "evidence": "visible 2026-09-29 vs markup published 2026-09-29"
+    },
+    "S10.c3": {
+      "result": "pass",
+      "evidence": "published 2026-09-29, modified 2026-10-02"
+    },
+    "S10.c4": {
+      "result": "na",
+      "evidence": "modified 3 day(s) after publication (<7): no visible Updated label expected"
+    },
+    "S11.c1": {
+      "result": "pass",
+      "evidence": "8 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)"
+    },
+    "S11.c3": {
+      "result": "pass",
+      "evidence": "generic anchors none; same anchor -> different URLs none"
+    },
+    "S11.c4": {
+      "result": "fail",
+      "evidence": "internal links with tracking/ID params: ['https://www.se.com/in/en/product-subcategory/368881735-coolant-distribution-units/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-range/372769168-floormounted-heat-dissipation-units/?parent-subcategory-id=368881736&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#products', 'https://www.se.com/in/en/product/MCD/reardoor-heat-exchanger-for-racklevel-cooling-enabling-roomneutral-scalable-performance-for-ai-data-centers/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-subcategory/7240-chillers-and-heat-rejection/?filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/product-range/371656912-prefabricated-modular-it-pod/?parent-category-id=7550&parent-subcategory-id=7570&filter=business-3-critical-power-cooling-and-racks&utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai#overview', 'https://www.se.com/ww/en/download/document/Liquid_Cooling_AI_Brochure/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/in/en/work/solutions/data-centers-and-networks/liquid-cooling/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai', 'https://www.se.com/ww/en/download/document/Liquid-cooling-architecture/?utm_source=reddit&utm_medium=organic_social&utm_campaign=2026_sept_ww_sp_dcai_local-seo&utm_content=ai_cooling&campaign_objective=awareness&mcl_name=dcai']"
+    },
+    "S11.c5": {
+      "result": "pass",
+      "evidence": "non-crawlable hrefs: none; all in-body links are <a href>"
+    },
+    "S12.c2": {
+      "result": "pass",
+      "evidence": "8 outbound editorial links; rel values ['noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener']"
+    },
+    "S13.c1": {
+      "result": "pass",
+      "evidence": "1/1 content images have non-empty alt"
+    },
+    "S13.c3": {
+      "result": "fail",
+      "evidence": "non-descriptive filenames: ['AdobeStock_428397714_resized-1024x538.jpg']"
+    },
+    "S14.c1": {
+      "result": "pass",
+      "evidence": "Article; missing none"
+    },
+    "S14.c2": {
+      "result": "fail",
+      "evidence": "author Person 'Guest Blogger', url=https://blog.se.com/author/guest-blogger/, sameAs=None"
+    },
+    "S14.c3": {
+      "result": "pass",
+      "evidence": "markup headline 'Using treated and recycled water in Indian data centre cooling' vs H1/title; markup author 'Guest Blogger' vs byline 'Guest Blogger'; dates 2026-09-29 vs 2026-09-29"
+    },
+    "S14.c4": {
+      "result": "pass",
+      "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']"
+    },
+    "S14.c5": {
+      "result": "pass",
+      "evidence": "missing none; og:url = canonical; og:title 'Using treated and recycled water in Indian data centre cooling'"
+    }
+  },
+  "computed_eligibility": {
+    "E2": {
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' (X-Robots-Tag and robots.txt need the HTTP response)"
+    },
+    "E3": {
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/']; page URL https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/"
+    },
+    "E4": {
+      "result": "na",
+      "evidence": "no hreflang tags"
+    },
+    "E5": {
+      "result": "pass",
+      "evidence": "scheme https"
+    },
+    "E6": {
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1' (content parity needs a mobile render)"
+    },
+    "E7": {
+      "result": "pass",
+      "evidence": "snippet directives in 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'"
+    },
+    "E8": {
+      "result": "pass",
+      "evidence": "1167 body words in server HTML"
+    }
+  }
+}

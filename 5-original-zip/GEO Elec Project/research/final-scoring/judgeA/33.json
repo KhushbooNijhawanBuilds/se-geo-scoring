@@ -1,0 +1,620 @@
+{
+  "page": {
+    "id": "33",
+    "title": "Data center power sizing calculator",
+    "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-power-sizing-calculator/",
+    "type": "calculator",
+    "stage": "Consideration",
+    "topic": "Data center power sizing calculator",
+    "industry": "",
+    "target_prompts": [
+      "How to calculate data center power requirements",
+      "How much power does an AI/GPU server need?",
+      "What is a typical PUE?",
+      "How much safety margin when sizing data center power?",
+      "IT load vs utility input power"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/33_calculator-tradeoff-tool.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Configure different server, storage, and design attributes to explore different scenarios.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data center power sizing calculator",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 not an answer",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required by a data center",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "the power required by a data center",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "with traditional, or AI/HPC servers",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "explore different scenarios",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "calculate how much utility input power would be required to support such a load",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "290 watts/socket",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Data Center Science Center",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "the purpose of this tool is NOT to properly size the building’s utility power service entrance",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "margin/PUE combination not stated",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Key assumptions of this calculator include:",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "1,300 watts/socket",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "typical of external SSD drives in 2024",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Safety margin for IT load 20%",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "na",
+          "evidence": "region-independent",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "1,110 kW",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "A value of 10-20% is typical.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "CPU servers: 38% (421 kW)",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Allocation of input power",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "– The number of physical servers in the data center",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "in terabytes (TB)",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "– Is the total power required by the IT load.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "PUE (power usage effectiveness)",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Smaller PUE values indicate a more efficient data center.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Final projected loads should be used for sizing the utility input power.",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Calculating total power requirements for data centers",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "– Mainframe power is estimated to be 10,000 watts/mainframe.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate the power required",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "PUE is the total power coming into the data center divided by the power going to the IT",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "[hidden] Key assumptions of this calculator include:",
+          "location": "method only in hidden tool panels (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "T"
+      },
+      "rationale": "c5 → max 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "This value was derived from Dell PowerScale F910 All-Flash storage nodes.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "mathematical models developed by the Schneider Electric Data Center Science Center",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "TT1 Version 4 – 10-September-2024",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to estimate",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "since this tool does not account for electrical loads of the entire building",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 3 presents methods",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Related TradeOff Tools",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "White Paper 158",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "A PUE of 1.8 would be considered typical value.",
+          "location": "contradicts 'A PUE of 1.4 would be considered typical value.'",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A",
+        "c4": "T"
+      },
+      "rationale": "G1.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "TT1 Version 4 – 10-September-2024",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "typical of external SSD drives in 2024",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "version > 12 months old",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "A value of 10-20% is typical.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "IT equipment, cooling equipment, lighting, and power backup",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Calculating total power requirements for data centers",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": true,
+      "evidence": "'A PUE of 1.8 would be considered typical value.' vs 'A PUE of 1.4 would be considered typical value.' in the tool panels"
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Learn more / Discover more / Download now / Go to calculator / Explore now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Design-system residue in the tool: 'Lorum ipsum', 'This is an option'"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 82% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 257 vs rendered 1454 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

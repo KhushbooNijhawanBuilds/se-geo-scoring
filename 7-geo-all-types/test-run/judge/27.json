@@ -1,0 +1,476 @@
+{
+ "page": {
+  "id": "27",
+  "type": "whitepaper_gateway",
+  "stage": "Education",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP169_EN/",
+  "topic": "Role of data centers in AI-driven decarbonization of buildings",
+  "industry": "Data Centers (inferred)",
+  "target_prompts": [
+   "How do data centers enable AI-driven decarbonization of buildings?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "title matches intent; abstract leads with background; no takeaways",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Reducing pollution from commercial and residential buildings is based on electrification and consecutive digitalization."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "abstract sits directly under the title, above \"Release date\" metadata"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no content sections below the abstract"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "WP-1",
+   "proposed_level": 0,
+   "rationale": "abstract duplicated/truncated; conclusion generic",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "abstract appears twice (second copy truncated): \"Reducing pollution from commercial and residential buildings is based on electrification and consecutive digitalization\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Reducing pollution from commercial and residential buildings"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Sectorial efficiency gains achieved thanks to smart tools are impossible without data centers providing computing power and low latency transfers."
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "smart management of HVAC that respectsbuilding occupancy, and control of emerging electrical loads likeEV charging stations located in buildings.Predictive tools"
+    }
+   ]
+  },
+  {
+   "id": "WP-2",
+   "proposed_level": 0,
+   "rationale": "no key findings in HTML; core content only in the PDF",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "no findings above the download block"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "WP-3",
+   "proposed_level": 0,
+   "rationale": "single intent; topics not exposed as headings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "only headings: the title repeated and \"Need help?\""
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "at most 1-2 of 5 fan-outs answered"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 0,
+   "rationale": "no quantified claims in the HTML",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "fewer than 1 quantified fact per 100 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Both actions show tremendous potential to deliver expected decarbonization"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "smart management of HVAC"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Sectorial efficiency gains achieved thanks to smart tools are impossible without data centers providing computing power and low latency transfers."
+    }
+   ]
+  },
+  {
+   "id": "DOC-8",
+   "proposed_level": 1,
+   "rationale": "publisher + document ref only; no author, references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Document ref. SPD_WP169_EN"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 1,
+   "rationale": "date visible; version/currency issues",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Release date 26 Mar 2024"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Version 1.1 ... WP169_V1.2_EN.pdf"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Version 1.1 (no change note)"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Release date 26 Mar 2024"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"Latest version\" exists only as a hidden element"
+    }
+   ]
+  },
+  {
+   "id": "DOC-5",
+   "proposed_level": 3,
+   "rationale": "good title; code-only file name; truncated meta description",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "WP169_V1.2_EN.pdf"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "White Paper"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reducing pollution from commercial and residential buildings is based on electrification and consecutive digitalization..."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 1,
+   "rationale": "no structure; findings only in PDF (cap 2)",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no descriptive H2/H3 beyond the repeated title"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "abstract is a single 5-sentence paragraph"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "findings live only in the PDF: WP169_V1.2_EN.pdf"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "names/identifiers ok; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Document ref. SPD_WP169_EN"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Version 1.1 vs file WP169_V1.2_EN.pdf"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Open and download"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "informational voice; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Reducing pollution from commercial and residential buildings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Both actions show tremendous potential"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "paper does not compare named options"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 1,
+   "rationale": "language fits; non-descriptive download CTA, no related links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "abstract only; no Education-depth content in HTML"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data Centers are Essential to AI-driven Decarbonization of Buildings"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Open and download"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "only generic \"Need help?\" boxes (Product Selector, Get a Quote)"
+    }
+   ]
+  },
+  {
+   "id": "DOC-9",
+   "proposed_level": 0,
+   "rationale": "not gated; criterion dropped",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "na",
+     "evidence": "not gated"
+    },
+    {
+     "id": "c2",
+     "result": "na",
+     "evidence": "not gated"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "not gated"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "WP-2 at level 0: key findings exist only in WP169_V1.2_EN.pdf"
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "abstract makes only general assertions; fewer than 3 substantive factual statements"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Metadata block (Release date / Version / Document ref. / File format) and a truncated copy of the abstract are rendered 2-3 times in the page text"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

@@ -1,0 +1,511 @@
+{
+ "page": {
+  "id": "07",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/rack-solutions-for-ai/",
+  "topic": "EcoStruxure rack solutions for AI data centers",
+  "target_prompts": [
+   "What rack and power infrastructure do I need for high-density AI data center clusters?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Definition answered early under a question H2; no section answers or summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure rack solutions support modular and scalable systems for AI."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure rack solutions for AI data centers"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Guide to scaling next‑gen AI clusters with modular, integrated rack‑to‑pod infrastructure."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Knowledge hub"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "What/who/when present; outcome vague",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This solution is part of our pod architecture for AI clusters"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "AI data centers"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "accelerated compute deployments"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "enhance flexibility, and enable future upgrades"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "List of products, short paragraphs; duplicated card names and \"our solutions\"",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## What are EcoStruxure rack systems for AI?"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "APC NetShelter Rack PDU Advanced Intelligent rack power distribution"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure rack solutions support modular and scalable systems for AI."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "APC NetShelter Open Architecture APC NetShelter Open Architecture"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Integrate MGX and ORV3 racks with high‑power PDUs, power shelves, and software"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "No sources, standards, quotes or data",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U6",
+   "proposed_level": 3,
+   "rationale": "Basic answer only; fan-outs (density, cooling, sizing, deployment) not covered",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "our solutions integrate high‑density power distribution, racks, and power shelves"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "## EcoStruxure rack solutions"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Brand voice, no trade-offs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "our solutions integrate"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Secure, high-performance rack enclosure engineered for critical IT spaces."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "supporting MGX and ORV3 architectures"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 4,
+   "rationale": "Thin for Consideration; EcoXpert CTA after content",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "high‑density power distribution, racks, and power shelves"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Talk to an EcoXpert"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Reference designs for AI infrastructure"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": 0,
+   "rationale": "No problem statement",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Ready for AI but unsure where to begin?"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": 4,
+   "rationale": "Components named with roles and interop; no numbers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Featuring APC NetShelter products, our solutions integrate high‑density power distribution, racks, and power shelves, supporting MGX and ORV3 architectures"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "APC NetShelter Power Shelf High-density, efficient power shelf delivering reliable AI and HPC power."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "supporting MGX and ORV3 architectures"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Intelligent rack power distribution providing control, visibility, and uptime."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 0,
+   "rationale": "No quantified outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 0,
+   "rationale": "No proof",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": 0,
+   "rationale": "No applications or scope",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": 1,
+   "rationale": "Only EcoXpert partner delivery named",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "trusted EcoXpert™ partners delivering scalable, future-ready AI data center solutions"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

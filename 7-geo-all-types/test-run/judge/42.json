@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "42",
+  "type": "service_project",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/services/field-services/industrial-automation/vfd-services/",
+  "topic": "EcoFit drive services (life extension and replacement of variable speed drives)",
+  "target_prompts": [
+   "How can I extend the life of or replace aging Altivar variable speed drives?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Intro states the offer; no section answers or summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "We offer multiple solutions with our certified drive experts who can extend the life of your drive technology or replace them"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# EcoFit drive services"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Optimize your drive systems with EcoFit™ drive services"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Industrial automation EcoFit drive services"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 2,
+   "rationale": "What and when; who and outcome vague",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoFit Life Extension for Drives"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "modernize and extend the life of aging Altivar 61 and Altivar 71 variable speed drives"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reduce downtime by updating your drives systems."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Short, labelled benefit blocks; empty H2; detail on child pages",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "## Benefits"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Extended warranty"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Reduce maintenance costs and manage drives replacements efficiently."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Industrial automation EcoFit drive services"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Discover more"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Promotional, no trade-offs; thin page",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Unlock the full potential of your operations"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Extend the life of your existing drives technology."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated; Altivar 61/71 lifecycle not stated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "aging Altivar 61 and Altivar 71"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Thin; generic CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "variable speed drives"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Discover more"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- Drives start-up"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 0,
+   "rationale": "Two offers, no deliverables",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 2,
+   "rationale": "Only extended warranty link and minimal disruption claim",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "with minimal disruption on operations"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "- Extended warranty"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- EcoStruxure™ Service Plan for drives"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 4,
+   "rationale": "Specific models named",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "variable speed drives"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Altivar 61 and Altivar 71"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "replace them with minimal disruption"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 1,
+   "rationale": "No process",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "certified drive experts"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 1,
+   "rationale": "Two named options, no differences",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## EcoFit Replacement for Drives"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 1,
+   "rationale": "No quantified outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Reduce downtime"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 1,
+   "rationale": "Certified experts only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "our certified drive experts"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "Fewer than 3 substantive factual statements beyond the Altivar 61/71 scope"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

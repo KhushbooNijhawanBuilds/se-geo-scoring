@@ -1,0 +1,625 @@
+{
+  "page": {
+    "id": "13_13_product-range-page.md",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "Smart-UPS master range (single-phase UPS family)",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "What is APC Smart-UPS and which Smart-UPS should I choose for a server rack?",
+      "Smart-UPS vs Smart-UPS On-Line difference",
+      "Does Smart-UPS have a lithium-ion option?",
+      "Smart-UPS remote monitoring SNMP network management card",
+      "Smart-UPS extended runtime battery packs",
+      "Smart-UPS VA / W rating range"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "APC Smart-UPS™ is trusted throughout the world to protect equipment and critical data from costly interruptions",
+          "location": "Smart-UPS (H2)"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Discover Smart-UPS",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The most trusted UPS in the world for business applications",
+          "location": "hero"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our offer",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Lead is a trust claim, not a definition; H1 'Discover…' brand-first; no scope or summary.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The most trusted UPS in the world for business applications",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Smart-UPS is trusted by millions of IT professionals throughout the world",
+          "location": "Explore our offer"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "for business applications",
+          "location": "hero"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "protect equipment and critical data from costly interruptions",
+          "location": "Smart-UPS (H2)"
+        }
+      ],
+      "rationale": "What (UPS), who (IT professionals) and outcome present; 'business applications' too generic for when.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2 x2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "APC Smart-UPS BR Intelligent and efficient network power protection with scaleable runtime",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "APC Smart-UPS On-Line High density, double-conversion on-line power protection with scalable runtime",
+          "location": "card"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Ideal UPS for servers, point-of-sale, routers, switches, hubs and other network devices",
+          "location": "card"
+        }
+      ],
+      "rationale": "Generic template headings, no lists/tables for specs; cards name their subject.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "'Trusted by millions' is unsourced; no standards, data or provenance.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "The most trusted UPS in the world for business applications",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The most trusted UPS in the world",
+          "location": "hero"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Brand range page; competitor naming not expected",
+          "location": ""
+        }
+      ],
+      "rationale": "Lead and tagline are superlative trust claims; no trade-offs.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "APC Smart-UPS™ is trusted throughout the world",
+          "location": "Smart-UPS"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "APC Smart-UPS Battery Systems Extended-run battery systems provide flexible runtime",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "promo block"
+        }
+      ],
+      "rationale": "Consistent naming, but no model codes; vague CTA labels.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "New innovations within the portfolio include the integration of Li-ion battery technology and cloud-based remote monitoring",
+          "location": "Smart-UPS"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; 'new innovations' unanchored in time; no lifecycle status.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No comparison table of Smart-UPS, BR and On-Line.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Quickly and easily find the right products and accessories for your applications",
+          "location": "Need help > Product Selector"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "APC Smart-UPS On-Line - High density, double-conversion on-line power protection with scalable runtime",
+          "location": "card"
+        }
+      ],
+      "rationale": "Selection delegated to Product Selector; topology difference implied, not explained.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Ideal UPS for servers, point-of-sale, routers, switches, hubs and other network devices",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Ideal for servers, point-of-sale, medical equipment and other network devices",
+          "location": "Smart-UPS BR card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Applications named per member; no reference/case.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "providing significant cost savings and improved lifecycle management options",
+          "location": "Smart-UPS"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The most trusted UPS in the world",
+          "location": "hero"
+        }
+      ],
+      "rationale": "Differentiators unquantified; superlative claim.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Extended-run battery systems provide flexible runtime to critical Smart-UPS applications",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "secure remote monitoring and control of an individual APC UPS via web browser, command line interface, or SNMP",
+          "location": "accessories"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "cloud-based remote monitoring",
+          "location": "Smart-UPS"
+        }
+      ],
+      "rationale": "Accessories and SNMP named; monitoring software not named.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No standards or certifications.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No legacy names, successors or lifecycle status.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "APC Smart-UPS BR - Intelligent and efficient network power protection with scaleable runtime",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Ideal for servers, point-of-sale, medical equipment and other network devices",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "APC Smart-UPS - Intelligent and efficient network power protection from entry level to scaleable runtime",
+          "location": "card text rendered twice"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure ™ Asset Advisor for drives",
+          "location": "promo block"
+        }
+      ],
+      "rationale": "Every card has a descriptor but no ratings; duplicated card text; off-topic drives promo.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": true,
+      "evidence": "No VA/W rating or any number with unit for any Smart-UPS member in text."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Hero video carousel ('Choose a video') - check video transcripts/text equivalents -> SE Digital",
+    "Card text rendered twice in server HTML (visible + duplicate) - template -> SE Digital"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Consideration"
+  }
+}

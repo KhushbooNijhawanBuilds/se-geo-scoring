@@ -1,0 +1,446 @@
+{
+ "page": {
+  "type": "article",
+  "stage": "Education",
+  "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+  "topic": "Operational priorities for AI infrastructure deployment",
+  "target_prompts": [
+   "What are the operational priorities for successful AI data center deployment?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "Hook opening; slogan H1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "The growing demand for AI is obvious. The real question is: What’s the build plan?"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "AI infrastructure deployment: Demand is easy. Execution is hard."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Leading operators make those decisions before they win the deal. They build an execution plan early"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'Scale is relative.' / 'Everyone talks about a prefabricated modular data center as if it were new.'"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ART-1",
+   "proposed_level": 0,
+   "rationale": "No takeaways block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ART-2",
+   "proposed_level": 2,
+   "rationale": "Question H2s good; title promise of 3 priorities not structured",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Demand is easy. Execution is hard."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "SEO title '3 operational priorities for successful AI infrastructure deployment' vs H1 slogan"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "How do fungible designs keep AI projects moving?"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "How does prefab help operators build at scale?"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "meta promises 'three operational priorities—power, infrastructure capacity, and workforce'; no such structure"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "Question H2s, typology list; back-references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Which AI infrastructure operating model describes you?"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "The fully committed: Power path identified. Capacity reserved."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Short paragraphs throughout"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "That changes the customer conversation. / Our role is practical"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "No facts only in image"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 2,
+   "rationale": "Almost no numbers; generic outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Only 'triple by 2030' and '50 MW a year'"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~3 facts in ~800 words"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No marketing superlatives in informational sections"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Plain terminology, no undefined acronyms"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "It reduces field time, human error, and onsite commissioning."
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "No evidence; author role not shown",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "even if demand is expected to triple by 2030 (no source)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "I see customers building 50 MW a year (no method)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Gary Lamora (no role shown)"
+    }
+   ]
+  },
+  {
+   "id": "ART-3",
+   "proposed_level": 4,
+   "rationale": "Typology, thesis, practical checks",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "I see customers building 50 MW a year and others building ten or twenty times that."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "I see three groups. / The fully committed: Power path identified. / The pragmatists: / The reactives:"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "You can’t scale AI infrastructure delivery while buying every project like a spot commodity."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Know the path to power. Know what capacity is secured. Know who will install it."
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 3,
+   "rationale": "Answer given; power and workforce fan-outs thin",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Know the path to power. Know what capacity is secured. Know who will install it."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "No section on securing power or on workforce/trades"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Single intent"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "No costs, prerequisites or limits"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Practitioner voice, admits limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Not everyone operates the same way. I see three groups."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "congratulations—you have prefab, but you still don’t have scale"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One closing CTA"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "No identifiers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric named consistently"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 4,
+   "rationale": "Dated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "October 6, 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Nothing superseded"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "October 6, 2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Vague closing CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Approach-level depth"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Operator language"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Explore how Schneider Electric can help turn AI data center plans into a build plan"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

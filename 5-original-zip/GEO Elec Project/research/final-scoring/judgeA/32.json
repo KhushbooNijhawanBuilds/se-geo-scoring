@@ -1,0 +1,623 @@
+{
+  "page": {
+    "id": "32",
+    "title": "Data Center Capital Cost Calculator",
+    "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+    "type": "calculator",
+    "stage": "Evaluation",
+    "topic": "Data Center Capital Cost Calculator",
+    "industry": "",
+    "target_prompts": [
+      "How much does it cost to build a data center per MW?",
+      "What are the main capital cost drivers of a data center?",
+      "Liquid cooling vs air cooling data center CapEx",
+      "Cost split of power vs cooling in a data center",
+      "How much does a 10 MW data center cost to build?"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/32_calculator-tradeoff-tool.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Analyze key cost drivers to inform smarter design decisions.",
+          "location": "drivers not named",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data Center Capital Cost Calculator",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 not an answer",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "physical infrastructure CapEx of data centers",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "including those with liquid cooling and high-density power distribution",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "inform smarter design decisions",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "By defining parameters such as IT load capacity, IT cooling approach (air-cooled or liquid-cooled), redundancy levels, rack densities",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Values between 1 kW/rack and 50 kW/rack are allowed.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Data Center Research & Strategy group",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Cost estimates are intended for rough-order-of-magnitude planning and comparison purposes only.",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "unit costs not given; not reproducible",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "Method steps, units, provenance and limits in tool panels.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "– Servers are traditional designs with internal power supplies (not OCP-style).",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "The electrical room size starts with a baseline of 2.57 sq ft/kW",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "cost data source/year not stated",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "$ 300 / ft²",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "Location affects capital costs due to regional differences in labor rates",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Rich assumptions; no cost-data vintage.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "$ 8.81",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no typical $/W range",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Power: $ 44.6 M (50.6%)",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data center cost per watt",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Default 10 MW case → $88.1 M, $8.81/W in UI; not narrated.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Select the country where the data center will be located.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Type in a value between 100 kW and 100,000 kW (100 MW).",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Physical infrastructure capital cost normalized on a per-watt basis",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "VRLA are valve-regulated lead acid batteries.",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Inputs/outputs defined (hidden).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "The results are intended to illustrate the impact of different design choices",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Containment is required above rack densities of 8 kW/rack with room-based coolers",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "The cooling system design has a significant influence on capital costs.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "They should not be used as formal quotations, budget approvals",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "How 6 AI Attributes Change Data Center Design",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "– The HV to MV switchgear is included for data centers of 5 MW or greater.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Schneider Electric and NVIDIA provide reference designs",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "[hidden] Assumptions",
+          "location": "method/assumptions only in hidden tool panels (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "T"
+      },
+      "rationale": "c5 → max 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no standards",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "mathematical models developed by the Schneider Electric Data Center Research & Strategy group",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "TT4 Version 10.1 – 14-September-2026",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Actual deployments may share aisles and infrastructure, resulting in a smaller total IT footprint.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Schneider Electric and NVIDIA provide reference designs",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Neutral with limits.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Related Tradeoff Tools",
+          "location": "Tradeoff vs TradeOff",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 229",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "$ 88.1 M",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "TT4 Version 10.1 – 14-September-2026",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "cost data year not stated",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "14-September-2026",
+          "location": "reviewed < 12 months",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Data center cost per watt",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "physical infrastructure CapEx",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Navigating Liquid Cooling Architectures for Data Centers with AI Workloads",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Go to calculator / Start calculation / Calculate now / Explore now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 91% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 308 vs rendered 3568 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

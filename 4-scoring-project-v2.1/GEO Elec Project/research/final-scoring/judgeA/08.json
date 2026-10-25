@@ -1,0 +1,696 @@
+{
+  "page": {
+    "id": "08",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "Industrial automation solutions",
+    "industry": "Industry",
+    "target_prompts": [
+      "Which industrial automation solutions improve plant efficiency and cybersecurity?",
+      "What is the EcoStruxure Plant architecture?",
+      "What is software-defined / universal automation?",
+      "What ROI do automation upgrades deliver?",
+      "How do automation solutions integrate with existing PLC/DCS?"
+    ],
+    "prompts_inferred": true,
+    "prompt_source": "seed from assignments.json; fan-outs inferred",
+    "content_basis": "rendered page capture (corpus/rendered), standard v2.0",
+    "rendered_file": "corpus/rendered/08_solution-page.md"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Optimize efficiency, cybersecurity, and sustainability and drive operational profitability improvements.",
+          "location": "Slogan"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Industrial automation solutions",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Transform your operations with EcoStruxure Plant",
+          "location": "Campaign H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "T",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "H1 only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Food and Beverage",
+          "location": "Industries"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "drive operational profitability improvements",
+          "location": "Vague"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Industries only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover EcoStruxure Plant successes",
+          "location": "Campaign headings"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Efficiency and profitability",
+          "location": "Tab labels only"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Respond to changes in the market and business condition in real-time.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai.",
+          "location": "Fragment"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Reliability and performance optimization",
+          "location": "Three value tabs and portfolio tabs hidden"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Tabs and cards.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our industrial automation solutions enable the scalable design and operation of connected systems with best-in-class cybersecurity.",
+          "location": "Successes"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Grow your revenue, expertise, and profitability through membership in the Alliance Program.",
+          "location": "Partner recruitment mixed in"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Offer named only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "best-in-class cybersecurity",
+          "location": "Brand voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Respond to changes in the market and business condition in real-time.",
+          "location": "Fluff 0.57/100w"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not comparison",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure™ Automation Expert",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "T"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Understand your assets' profitability by accessing meaningful information and turning it into business intelligence.",
+          "location": "Plant language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Get your e-guide",
+          "location": "Vague"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Dogfish Head Craft Brewery",
+          "location": "Story"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A"
+      },
+      "rationale": "Anchor 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Industrial businesses must prioritize safety and cybersecurity to protect their assets.",
+          "location": "[hidden] Safety tab"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Problem only in hidden tab"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Unquantified problem in hidden tab.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "EcoStruxure™ Triconex Safety Systems",
+          "location": "Products named without roles"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure Maintenance Advisor",
+          "location": "Image-card titles only"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "T"
+      },
+      "rationale": "No architecture.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Safety and stability for Sinopec Hainan",
+          "location": "[hidden] Customer stories"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No metric"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Factory automation for Wilmar Sugar",
+          "location": "[hidden]"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai.",
+          "location": "Context"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Names only; c2 fail -> <=2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Mining, Minerals and Metals",
+          "location": "Industries"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Segments only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Safety lifecycle services",
+          "location": "[hidden] Services tab"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Lifecycle services listed.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 59% of the rendered content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital (server/rendered word ratio 0.41). Three value tabs, the services/products tabs and all customer stories are rendered client-side or hidden.",
+    "Global 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) excluded from evidence; it is template content."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Consideration."
+  }
+}

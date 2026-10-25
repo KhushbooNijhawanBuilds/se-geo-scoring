@@ -1,0 +1,445 @@
+{
+ "page": {
+  "id": "19",
+  "type": "case_study",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+  "topic": "McLaren Racing power infrastructure partnership",
+  "target_prompts": [
+   "How does Schneider Electric support McLaren Racing's power and energy infrastructure?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "proposed_level": 1,
+   "rationale": "Title names customer; H1 is a slogan; no summary or results",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "McLaren Racing: Innovation in motion"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Innovation in motion\" is a slogan"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-2",
+   "proposed_level": 4,
+   "rationale": "Industry, scale, sites and scope stated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "on the track at Formula 1, F1 Academy, WEC, IndyCar"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "56,304 sqm"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "from its headquarters in Woking, UK, to the new McLaren Racing Center in Indianapolis"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "These solutions scale across McLaren Racing’s entire operations, on and off the track."
+    }
+   ]
+  },
+  {
+   "id": "CS-3",
+   "proposed_level": 0,
+   "rationale": "Only vanity numbers (parts, years, floor area); no outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"80,000 parts of the car can change\" - vanity number"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-4",
+   "proposed_level": 3,
+   "rationale": "Challenge/solution/results sections exist but deployment lacks where/by whom",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Help provide reliable and resilient power across McLaren Racing’s footprint"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Our medium- and low-voltage switchgear enhance power reliability\" - no where/how/by whom"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "McLaren Racing can channel more resources into on-track performance"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## The challenge ... ## The solution ... ## The results"
+    }
+   ]
+  },
+  {
+   "id": "CS-5",
+   "proposed_level": 3,
+   "rationale": "Named, titled customer quote but not substantive",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "“We want to be the best in our game, and Schneider Electric wants to be the best in theirs."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Dan Keyworth, Executive Director of Performance Technology and Systems, McLaren Racing."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Executive Director of Performance Technology and Systems, McLaren Racing"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "“working with people that have a winner's mindset is really refreshing” - no fact or outcome"
+    }
+   ]
+  },
+  {
+   "id": "CS-6",
+   "proposed_level": 4,
+   "rationale": "Offers named in cards and role in text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Masterpact™ MTZ/NW/M"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Our medium- and low-voltage switchgear enhance power reliability and efficiency, while energy metering brings visibility"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "- PowerLogic™ Power Meters PowerLogic™ Power Meters"
+    }
+   ]
+  },
+  {
+   "id": "CS-7",
+   "proposed_level": 0,
+   "rationale": "No methodology",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 2,
+   "rationale": "Who and when present; no definition or owned outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "McLaren Racing relies on our solutions"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "demanding trackside environments around the world"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Slogan headings, 'our' references, story pushed to video",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Where data meets drive\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Open, interoperable EcoStruxure™ software helps McLaren Racing optimize energy usage"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "For over 20 years, Schneider Electric has been supporting McLaren Racing in powering mission‑critical infrastructure and digital operations."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Our medium- and low-voltage switchgear\" - brand pronoun"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"Watch the video\" / \"Read the full story\"; offer list only in hidden carousel"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Brand voice, slogan headings, promo inserts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"See how our advanced energy tech helps the team accelerate performance.\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"## Advancing Energy Tech We are leading the convergence\""
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Names and ranges consistent; vague link text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Masterpact™ MTZ/NW/M"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "For over 20 years, Schneider Electric has been supporting McLaren Racing in powering mission‑critical infrastructure and digital operations."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Watch now\", \"Discover more\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 2,
+   "rationale": "Shallow for stage; vague CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Results are one qualitative sentence"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "mission‑critical infrastructure and digital operations"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Explore our sponsorships\" - not a specific asset"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- EcoStruxure Power Monitoring Expert EcoStruxure Power Monitoring Expert"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": true,
+   "evidence": "No customer outcome number; only parts, years, floor area"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "ZZ_Label ZZ_Heading ZZ_Description"
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Watch now / Discover more / Read the full story / Explore our sponsorships"
+  }
+ ]
+}

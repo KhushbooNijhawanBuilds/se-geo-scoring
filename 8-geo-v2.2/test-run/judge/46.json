@@ -1,0 +1,433 @@
+{
+ "page": {
+  "id": "46",
+  "type": "software_trial",
+  "stage": "Decision",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-it-software-trials/",
+  "topic": "EcoStruxure IT software free trials",
+  "target_prompts": [
+   "How do I get a free trial of EcoStruxure IT DCIM software?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "Software trial: stage fixed Decision"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "H1 and intro fit; no answer sections",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Start your journey with EcoStruxure IT software free trials"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "EcoStruxure™ IT Software Trials"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "intro under H1"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Please select your country below:"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Only 'when'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "whether it's monitoring, management, or ensuring business continuity"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Only 'free'; region chooser",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "free trials"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Please select your country below:"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Use cases only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "monitoring, management, or ensuring business continuity"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Asia Pacific"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Too thin for Decision",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "note",
+     "evidence": "no trial terms, products or requirements: depth below Decision stage"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "DCIM vocabulary suits IT/data-center buyers"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Please select your country below:"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "link targets not visible"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Region labels only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Asia Pacific"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "one short paragraph"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "product named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no fact found only in image"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Name only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "EcoStruxure™ IT"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "links not visible"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Undated; no lifecycle status",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superseded edition or discontinued item presented as current on the page"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G11",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "Fewer than 3 substantive factual statements (only the free-trial line)"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

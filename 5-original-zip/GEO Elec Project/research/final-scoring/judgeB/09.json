@@ -1,0 +1,641 @@
+{
+  "page": {
+    "id": "09",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "Digital (IoT) solutions for water and wastewater",
+    "industry": "Water and wastewater",
+    "target_prompts": [
+      "What digital solutions help water and wastewater utilities cut energy use and improve operations?"
+    ],
+    "prompts_inferred": false,
+    "fan_out": [
+      "Which software, SCADA/telemetry and automation products make up the water solution?",
+      "How much energy (kWh or %) can treatment plants and networks save, and on what basis?",
+      "How does it integrate with existing SCADA/PLC systems and protocols?",
+      "Which utilities have deployed it and with what measured results?",
+      "How is OT cybersecurity and regulatory compliance handled?"
+    ],
+    "fan_out_inferred": true,
+    "rendered_file": "corpus/rendered/09_solution-page.md",
+    "scorer": "judgeB"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Explore how the City of Conroe enhances scalability and gains up to 70% greater engineering efficiency",
+          "location": "Achieve efficient water operations that scale with demand"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Water and Wastewater IoT solutions | Schneider Electric",
+          "location": "(top)"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "# Achieve efficient water operations that scale with demand",
+          "location": "Achieve efficient water operations that scale with demand"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## Opportunity for water sector",
+          "location": "Opportunity for water sector"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Slogan H1 over a customer-story carousel; title has the noun phrase; no definition or direct answer in the first 100 words, no section answers or summary.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Achieve efficient water operations that scale with demand",
+          "location": "Achieve efficient water operations that scale with demand"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "gains up to 70% greater engineering efficiency with EcoStruxure™ Automation Expert (EAE)",
+          "location": "Achieve efficient water operations that scale with demand"
+        }
+      ],
+      "rationale": "Top block gives a scenario (scaling with demand) and a quantified EAE outcome, but no category definition or explicit audience.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## Embracing sustainability with digital",
+          "location": "Embracing sustainability with digital"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "- Microgrid solutions More and more Water and Wastewater treatment plants are choosing to implement solar and battery microgrids.",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Today, sustainability is critical for the entire water cycle.",
+          "location": "Embracing sustainability with digital"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Our solutions can help our customers increase energy efficiency",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "[hidden] ### Water treatment",
+          "location": "Water treatment [hidden]"
+        }
+      ],
+      "rationale": "Slogan H2s, frequent 'our solutions', and sub-segment solution content only in hidden tabs; lists and short paragraphs present.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "meet the Global Reporting Initiative (GRI) G4 guidelines",
+          "location": "GRI-certified sustainability reporting"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Hear from Nathalie Marcotte as she gives an overview of universal automation",
+          "location": "What is universal automation?"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Our solutions save up to 30% on energy consumption",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No sourced statistics; only standard reference is the superseded GRI G4; no quotes or method-backed evidence; no owner.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our solutions save up to 30% on energy consumption and reduce CO2 emissions in water infrastructure and operations.",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "### Digital transformation in factories and distribution centers",
+          "location": "Digital transformation in factories and distribution centers"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Seed answered loosely (up to 30% energy savings, solution areas) but fan-outs on integration, measured references and cyber are missing; sprawls into factories, AR and GRI reporting.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "In smart water, we are global leaders in hardware, software, and services that are difficult to match.",
+          "location": "Opportunity for water sector"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Create a digital revolution in Water and Wastewater management with EcoStruxure",
+          "location": "Create a digital revolution in Water and Wastewater management with EcoStruxure"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional voice with unscoped leadership claims and hype; no limitations.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "meet the Global Reporting Initiative (GRI) G4 guidelines",
+          "location": "GRI-certified sustainability reporting"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; cites superseded GRI G4 guidelines as current.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Energy efficiency and decarbonization",
+          "location": "Discover our EcoStruxure solutions for Water and Wastewater"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Our solutions provide 24/7 optimization of wastewater treatment plants",
+          "location": "Wastewater treatment [hidden]"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Learn more about our sustainability consulting services",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "## Explore our customer stories for Water and Wastewater",
+          "location": "Explore our customer stories for Water and Wastewater"
+        }
+      ],
+      "rationale": "Solution-area overview fits Consideration for utilities; several descriptive CTAs and links to customer stories, though many vague 'Learn more' CTAs.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "requires bold steps to address issues, including leakage, water quality, customer satisfaction, service interruption, and energy savings",
+          "location": "Create a digital revolution in Water and Wastewater management with EcoStruxure"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Increased demand and the threat of climate change make water management one of the biggest challenges in the coming years.",
+          "location": "Create a digital revolution in Water and Wastewater management with EcoStruxure"
+        }
+      ],
+      "rationale": "Segment problems named (leakage, energy intensity, GHG) near the top but no quantified or sourced problem fact (c3 fail -> <= 3).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Our integrated approach to process control and energy management saves energy",
+          "location": "Water treatment [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure Augmented Operator Advisor provides operators immediate real-time access to information",
+          "location": "Real-time data through augmented reality"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Resource Advisor, our leading energy and sustainability software solution",
+          "location": "GRI-certified sustainability reporting"
+        }
+      ],
+      "rationale": "Several offers named with roles in teasers, but no prose on how components work together, no protocols, no technical parameter (c1+c4 fail -> <= 2).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "gains up to 70% greater engineering efficiency with EcoStruxure™ Automation Expert (EAE)",
+          "location": "Achieve efficient water operations that scale with demand"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "enabling 100% return on investment (ROI) in less than a year",
+          "location": "Ignite profit engine with EcoStruxure Foxboro DCS"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Our solutions save up to 30% on energy consumption",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "save up to 30% on energy consumption",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Three quantified outcomes tied to EAE and Foxboro DCS, but 'up to' figures have no baseline, conditions or method (c3 fail -> <= 3).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Kunming CGE Water Supply Water utility depends on EcoStruxure to service a growing population safely and reliably.",
+          "location": "Explore our customer stories for Water and Wastewater"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "City of Conroe enhances scalability and gains up to 70% greater engineering efficiency",
+          "location": "Achieve efficient water operations that scale with demand"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Aquapolo wastewater treatment plant uses EcoStruxure to increase operational efficiency.",
+          "location": "Explore our customer stories for Water and Wastewater"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Read about our award-winning successful partnership",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "EcoStruxure provides sustainable and reliable control for Veolia’s wastewater treatment plant.",
+          "location": "Explore our customer stories for Water and Wastewater"
+        }
+      ],
+      "rationale": "Named water utilities with one quantified result (Conroe 70%) and one-line context; no third-party validation; references are teasers only.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Membrane desalination plants are typically plants with limited capacity and energy-intensive operations.",
+          "location": "Desalination [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Upgrade your infrastructure with EcoFit Life Extension Essential for Power",
+          "location": "Future proof your infrastructure with EcoFit™"
+        }
+      ],
+      "rationale": "Applications (treatment, desalination, networks) with context and brownfield modernization via EcoFit; no scope boundaries or fit guidance.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Through our consultants, we support water clients from strategy to implementation.",
+          "location": "Toward carbon reduction"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Only states consultants support from strategy to implementation; no phases, deliverables or timeline.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "failed_tags": {
+    "U1": "T",
+    "U2": "A",
+    "U3": "T",
+    "U5": "A",
+    "U6": "A",
+    "U7": "A",
+    "U9": "T",
+    "SOL-1": "A",
+    "SOL-2": "A",
+    "SOL-4": "A",
+    "SOL-5": "A",
+    "SOL-7": "A",
+    "SOL-8": "A"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": "Not triggered."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": "Script fluff 0.46/100w."
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Vague CTAs: 'Learn more', 'Watch video', 'Read more', 'Explore more', 'Discover more', 'Read the blog'."
+    },
+    {
+      "id": "self_ranking",
+      "applied": true,
+      "evidence": "'In smart water, we are global leaders in hardware, software, and services that are difficult to match.' and '[hidden] We offer the most comprehensive portfolio' with no criteria."
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": "Not applied."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: server/rendered words ~0.57 (1258/2189); ~43% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital.",
+    "No H1 in the captured metadata (h1: []) although an H1 renders -> check heading markup (SE Digital)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Consideration overview of solution areas; thin on evidence."
+  }
+}

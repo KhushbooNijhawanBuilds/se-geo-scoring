@@ -1,0 +1,552 @@
+{
+  "page": {
+    "id": "32 Data center capital cost calculator",
+    "type": "calculator",
+    "stage": "Evaluation",
+    "topic": "Modelling data center physical-infrastructure capital cost (CapEx)",
+    "industry": "Data centers & edge IT",
+    "target_prompts": [
+      "How much does it cost to build a data center per MW?",
+      "What are the main capital cost drivers of a data center?",
+      "Liquid cooling vs air cooling data center CapEx",
+      "Cost breakdown of power vs cooling in a data center",
+      "How much does a 1 MW data center cost to build?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Analyze key cost drivers to inform smarter design decisions.",
+          "location": "drivers not named",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data Center Capital Cost Calculator",
+          "location": "H1/title",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "intro",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 (no answer)",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Title matches the tool query; intro invites use of the tool. No answer kernel. No answer-first sections.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "intro",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "physical infrastructure CapEx of data centers",
+          "location": "intro",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "including those with liquid cooling and high-density power distribution",
+          "location": "intro",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "inform smarter design decisions",
+          "location": "outcome vague",
+          "id": "c4"
+        }
+      ],
+      "rationale": "What/who/when from intro; outcome is generic ('informed decisions').",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page text; method exists only inside the iframe tool",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No formula, logic, provenance statement or scope limits in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No assumptions, default values or data vintage in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No worked example, typical range or benchmark in crawlable text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "inputs not listed",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no input definitions/units",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "outputs not defined",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "CapEx",
+          "location": "not expanded",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Inputs/outputs not defined in text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No interpretation or decision guidance.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "How 6 AI Attributes Change Data Center Design",
+          "location": "descriptive H3",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no list/table of inputs, assumptions or results",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "short paragraphs",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Schneider Electric and NVIDIA provide reference designs to guide faster, streamlined deployments.",
+          "location": "self-contained card",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "Interactive calculators that enable exploration of",
+          "location": "key knowledge only in the tool",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Clean card text, but all tool knowledge is inside the widget (c5 fail → max 2).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "quotes not expected on a tool page",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "model owner/provenance not stated",
+          "id": "c5"
+        }
+      ],
+      "rationale": "No sources, standards or provenance in text.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers",
+          "location": "intro",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no limitations",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Schneider Electric and NVIDIA provide reference designs to guide faster, streamlined deployments.",
+          "location": "related cards",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Neutral instructional voice; no limitations stated.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Related Tradeoff Tools",
+          "location": "Tradeoff vs TradeOff",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no WP numbers on cards",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Data Center Capital Cost Calculator",
+          "location": "no contradiction found",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA anchors",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Naming mostly consistent; generic CTA anchors.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no version/update date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated data",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated; tool version date exists only inside iframe.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no numbers/criteria for the stage",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "physical infrastructure CapEx",
+          "location": "audience language",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Navigating Liquid Cooling Architectures for Data Centers with AI Workloads",
+          "location": "related WP",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Good related-content links; nothing stage-appropriate on the page itself.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "CALC-1, CALC-2 and CALC-3 all level 0: method, assumptions and example results absent from crawlable text."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Start calculation and similar generic CTAs (≥3)"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Tool UI runs in an iframe whose own URL returns ~5 words of raw HTML (client-rendered); the tool's About, Assumptions, definitions, defaults and version text are invisible to non-JS crawlers and absent from the parent page → route to SE Digital; content fix = mirror that text on the parent page.",
+    "Intro paragraph is duplicated verbatim (H1 block and body)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

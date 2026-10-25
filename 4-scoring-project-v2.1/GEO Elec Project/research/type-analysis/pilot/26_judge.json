@@ -1,0 +1,570 @@
+{
+  "page": {
+    "id": "26",
+    "url": "https://www.se.com/ww/en/download/document/SPD_WP47_EN/",
+    "type": "whitepaper_gateway",
+    "stage": "Education",
+    "topic": "Necessary Considerations for Designing DC Architectures in Data Centers",
+    "industry": "Data centers",
+    "target_prompts": [
+      "What are the design considerations for DC power distribution architectures in data centers?",
+      "DC vs AC power distribution in data centers: efficiency and cost",
+      "How does UPS bypass work in a DC architecture?",
+      "How to handle isolation and earthing in DC data centers",
+      "How to model DC fault currents and select protection",
+      "Which standards apply to DC distribution in data centers?"
+    ],
+    "prompts_inferred": true,
+    "audience": "Data center designers/operators, sustainability leads (inferred)",
+    "input_mode": "file (server-HTML corpus md, captured 2026-10-19)",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "As global policies are calling for more sustainable development of data center infrastructures",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Necessary Considerations for Designing DC Architectures in Data Centers | Schneider Electric",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "there are 5 areas that require additional focus including power converter design, UPS bypass, isolation and earthing, DC fault modeling and studies, and protection selection",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        }
+      ],
+      "rationale": "Descriptive, prompt-aligned title; abstract opens with background, not the answer; no section answers or summary block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "NOTE: abstract = 144 words",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Alternative power distribution architectures remain an important avenue for data center electrical designers looking to decrease costs and increase efficiency",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "data center electrical designers",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "there are 5 areas that require additional focus",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "allows for better data center designs",
+          "location": "abstract"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no merged words or encoding errors in the abstract",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Abstract checked for length, problem, audience, approach, specific conclusion and clean copy.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "there are 5 areas that require additional focus including power converter design, UPS bypass, isolation and earthing, DC fault modeling and studies, and protection selection",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "NOTE: enumerated areas appear in the abstract above the metadata/download block",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        }
+      ],
+      "rationale": "No key-findings layer in HTML; findings live only in the PDF.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "power converter design, UPS bypass, isolation and earthing, DC fault modeling and studies, and protection selection",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: 2 of 5 fan-outs answered (considerations list; AC/DC/AC conversion simplification); bypass/earthing/protection only named",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Necessary Considerations for Designing DC Architectures in Data Centers",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Coverage judged from topics named in the abstract and the share of inferred fan-out sub-questions answered in HTML.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOTE: '5 areas' is a count, not a quantified claim",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: geo_content_check numbers with units 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Architectures using direct current (DC) distribution",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "decrease costs and increase efficiency",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Near-zero quantified facts in HTML (checker 0-0.34 numbers/100w).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP47_EN",
+          "location": "page"
+        }
+      ],
+      "rationale": "No named authors, references or method on the gateway; only document ref gives organizational accountability.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Release date 20 Mar 2023",
+          "location": "metadata block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "WP47_V1_EN.pdf",
+          "location": "metadata block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Release date 20 Mar 2023",
+          "location": "metadata block"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        }
+      ],
+      "rationale": "Release date and version visible; checked version/file consistency, change note, 24-month cadence, supersession links.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Necessary Considerations for Designing DC Architectures in Data Centers",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "WP47_V1_EN.pdf",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "a maturing data center industry...",
+          "location": "title / file row / meta"
+        }
+      ],
+      "rationale": "Descriptive title, but code-only file name, no 'white paper' label and auto-truncated meta description.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "power converter design, UPS bypass, isolation and earthing",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: abstract is one 5-sentence paragraph",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Architectures using direct current (DC) distribution provide a prospective simplification of the AC/DC/AC conversion stage",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Single abstract paragraph under one repeated title heading; no lists; key content only in PDF (U3 <= 2 rule).",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Necessary Considerations for Designing DC Architectures in Data Centers",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP47_EN",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: version 1 on page = V1 in file name",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Subject and document ref consistent; checked version/file mismatch; no descriptive links to related entities.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Alternative power distribution architectures remain an important avenue",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Appropriately addressing these considerations in DC architectures is not trivial",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "traditional double conversion UPS",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Informational abstract; checked trade-offs and hype words.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "there are 5 areas that require additional focus",
+          "location": "file row / page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "data center electrical designers",
+          "location": "file row / page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "WP47_V1_EN.pdf 1.3 MB",
+          "location": "file row / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row / page"
+        }
+      ],
+      "rationale": "Depth fits Education; download control is a code file name, no links to related papers/tools/solutions.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: not gated - download row shown without a form",
+          "location": "file row"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        }
+      ],
+      "rationale": "Ungated download: DOC-9 not applicable; weight redistributed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "Gateway carries no key findings/figures in HTML; the paper's findings and guidance exist only in the PDF (WP-2 level <= 1)."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "No H1: the download-page template renders the document title as H2 three times (server HTML) -> SE Digital (template).",
+    "Server HTML contains the abstract twice plus a truncated third copy and three copies of the metadata block (hidden responsive variants; rendered page shows one) -> SE Digital (template).",
+    "Meta description auto-truncated from the abstract with '...' -> template field (content wording issue scored under DOC-5 c4)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "White paper at Education (natural stage Education/Consideration)."
+  }
+}

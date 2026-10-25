@@ -1,0 +1,613 @@
+{
+ "page": {
+  "id": "17",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+  "topic": "Line Series busbar trunking master range",
+  "target_prompts": [
+   "Which Canalis busbar trunking system should I use for power distribution in my building?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "Master range page listing sub-ranges/family members -> rule 1 Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Definition ok, H1 'Discover'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "A flexible, safe, and reliable solution for distribution systems up to 6300A."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Discover Line Series"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "intro under hero"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Explore our offer"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "All four",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Canalis busbar trunking systems are designed for transporting and distributing electricity"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "from office buildings to heavy-duty industrial sites"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "especially in data centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "The design and installation time is optimized compared to a cable solution."
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No table",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Only per-card ratings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Canalis KBB Busbar trunking for lighting distribution (1 or 2 circuits)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Segments; no reference",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "from office buildings to heavy-duty industrial sites"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "iBusway for Data Centre Electrical distribution for data-centre by Canalis"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "6300A claim, no basis",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "distribution systems up to 6300A"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superlatives beyond 'maximum flexibility' tied to connection density"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No ecosystem content",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No standards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No FAQ",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "None",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "4/7 rated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Canalis KS Busbar trunking system for power distribution up to 1000 A"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Heavy-duty busbar trunking system, for power distribution in harsh environments"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "descriptors differ"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "all cards are Canalis members"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Generic headings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "paragraphs under 5 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "Line Series/Canalis named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "facts in text"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "No evidence",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Brand voice, no hype",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Protect personnel and property through the safety and reliability provided by Line Series busbar systems."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no hype or stacked CTAs in informational blocks"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "not judged on range pages"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Line Series vs Canalis not explained, but named",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Canalis KT"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Canalis KN"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no conflicting figures"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "no link text visible"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "Undated; no lifecycle status",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "no superseded edition or discontinued item presented as current on the page"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Each product card's text is rendered twice (teaser line then repeated under its own H3)"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

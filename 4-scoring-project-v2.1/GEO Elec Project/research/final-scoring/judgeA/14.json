@@ -1,0 +1,729 @@
+{
+  "page": {
+    "id": "14",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "Galaxy",
+    "industry": "Cross-segment",
+    "target_prompts": [
+      "Which Galaxy UPS should I choose for a 500 kW data center?",
+      "Galaxy VX vs Galaxy VXL difference",
+      "Galaxy VS power range and voltages",
+      "Galaxy UPS eConversion efficiency",
+      "Replacement for Symmetra PX"
+    ],
+    "prompts_inferred": false,
+    "fanout_inferred": true,
+    "content_source": "corpus/rendered/14_product-range-page.md",
+    "standard": "v2.0",
+    "judge": "A"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The Galaxy series of UPSs delivers highly efficient, simple-to-deploy, compact 3-phase UPS power protection.",
+          "location": "Galaxy (H2)"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Discover the Galaxy V series",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "a range of 10 kW to 1500 kW",
+          "location": "Galaxy (H2)"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no range-at-a-glance"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c4": "T",
+        "c5": "A"
+      },
+      "rationale": "Definition + scope now present (rendered only); 'Discover' H1.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "compact 3-phase UPS power protection",
+          "location": "Galaxy"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "customers operating data centers, industrial applications, or facilities",
+          "location": "Galaxy"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Galaxy VXL is built and validated for AI environments",
+          "location": "AI block"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "efficiency up to 99% in eConversion mode",
+          "location": "VXL"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four, outcome quantified.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no table"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Galaxy VX is a highly efficient, modular 3-phase UPS with high performance and flexible operating modes.",
+          "location": "VX"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "High-efficiency, modular 500-1500 kW 3-phase UPS with eConversion and lithium-ion battery options.",
+          "location": "card"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "eConversion is not available for Galaxy VXL 480V.",
+          "location": "eConversion"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A"
+      },
+      "rationale": "Self-contained member text; no table; generic H2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "eConversion* is a patented high-efficiency and generally recommended operating mode",
+          "location": "eConversion"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No method/sources/standards.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "industry-leading compact footprint",
+          "location": "VXL"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "eConversion is not available for Galaxy VXL 480V.",
+          "location": "eConversion"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "setting the standard for quality and innovation",
+          "location": "Galaxy 3-phase UPS"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "brand range page",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A"
+      },
+      "rationale": "Mixed; honest limitation.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "High-performance, right-sized, modular, scalable 10-500 kW 3-phase UPS for any size data center or facility",
+          "location": "Symmetra PX card in Galaxy range, relation unstated"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "VXL 500-1250 kW (400V or 480V) 3-phase UPS",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "High-efficiency, modular 10-150 kW 3-phase UPS",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our solutions",
+          "location": "CTA"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Symmetra PX inside Galaxy with no relationship; vague CTAs.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no date field"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Galaxy VXL is built and validated for AI environments",
+          "location": "AI block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No variant table.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "High-efficiency, modular 10-150 kW 3-phase UPS",
+          "location": "VS card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "High-efficiency, scalable, and modular 200-500 kW 3-phase UPS",
+          "location": "VL card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "High-efficiency, modular 500-1500 kW 3-phase UPS",
+          "location": "VX card; 500 kW overlaps VL/VX/VXL"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      },
+      "rationale": "kW bands; overlap at 500 kW unresolved.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "ideal for large and hyperscale data centers, and commercial and critical infrastructure",
+          "location": "VXL"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "for edge, small, and medium data centers and business-critical applications",
+          "location": "VS card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Segments per member.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "efficiency up to 99% in eConversion mode",
+          "location": "VXL"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "It delivers the best efficiency (up to 99%) with maximum load protection",
+          "location": "eConversion"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "industry-leading compact footprint",
+          "location": "VXL"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Quantified with mode.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "A compact, lightweight, long-lasting, and sophisticated lithium-ion battery solution for uninterruptible power supplies.",
+          "location": "Li-ion card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Optimize TCO with Lithium-ion battery options.",
+          "location": "VS card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "integrates into the electrical, physical and monitoring environment",
+          "location": "Galaxy"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "No protocols/software.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No standards.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Symmetra PX without status/successor.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "High-performance, right-sized, modular, scalable 10-500 kW 3-phase UPS for any size data center or facility",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "High-efficiency, scalable, and modular 200-500 kW 3-phase UPS",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Ideal for large to hyperscale data centers and industrial applications.",
+          "location": "VX card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "explore a whole new world of innovation for medium, large, and edge data centers with Galaxy VL",
+          "location": "VL text pasted twice"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure™ Asset Advisor for drives",
+          "location": "promo"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A",
+        "c5": "T"
+      },
+      "rationale": "Rated, application-led descriptors; VL copy duplicated; drives promo.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Discover our latest offer / Explore our solutions / Discover now / Read more / Check now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: the range definition and scope ('a range of 10 kW to 1500 kW', '10-1500 kW 3-phase UPS') exist only in rendered HTML -> SE Digital",
+    "eConversion block present twice (hidden + visible)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Declared stage Consideration"
+  }
+}

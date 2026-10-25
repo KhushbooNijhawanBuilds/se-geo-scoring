@@ -1,0 +1,428 @@
+{
+  "page": {
+    "id": "60",
+    "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+    "type": "esg_report_doc",
+    "stage": "Evaluation",
+    "topic": "2022 Sustainability Report (PDF document module)",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2022 scope 1 2 3 emissions",
+      "Schneider Sustainability Impact score 2022",
+      "Schneider Electric 2022 climate targets progress",
+      "Who assured Schneider Electric's 2022 sustainability data?"
+    ],
+    "prompts_inferred": true,
+    "input_mode": "file: PDF text extracted by coordinator (corpus/NN_sustainability-esg-report.pdf.md), sampled by grep; whole document not read",
+    "rubric_version": "doc_esg-v2"
+  },
+  "criteria": [
+    {
+      "id": "DOC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "outperforming 2022 target (4.70/10).",
+          "location": "p5 highlights"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "p1-5"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "p1-5"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Dashboard from the Sustainability Reports page on www.se.com",
+          "location": "indicators"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "SSI #2 delivered +93MTCO2e saved and avoided for customers",
+          "location": "1.2 Notable SSI achievements"
+        }
+      ],
+      "rationale": "Highlights (p5) with 4 KPIs, label extracted after the values; no scope totals/period/assurance up front.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617",
+          "location": "8.1 GHG table"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology",
+          "location": "8.1 note"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Estimated coverage (% total GHG emissions) % 99% 99% 99% 100%",
+          "location": "8.1 GHG table"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "TCO2e 229,347 294,051",
+          "location": "8.1 GHG table"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -22% 0% NA NA",
+          "location": "8.1 GHG table"
+        }
+      ],
+      "rationale": "Complete GHG table extracting cleanly with units; 2022 values later restated in the 2023 edition (not signalled here).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "By 2050, reach Net-Zero CO2 emissions",
+          "location": "3.3"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Baseline(1) 2022 Progress(2) 2025 Target",
+          "location": "1.2 SSI table"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "2020: 0% 10% 50%",
+          "location": "1.2 SSI table"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "companies to have its Net-Zero targets validated by the SBTi with",
+          "location": "3.3"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "The four milestones towards Schneider",
+          "location": "3.3"
+        }
+      ],
+      "rationale": "Targets, baselines, progress, SBTi validation, roadmap.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric SE has reported in accordance with the GRI",
+          "location": "1.10"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology",
+          "location": "8.1 note"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Standards for the period from 1 January 2022 to 31 December",
+          "location": "1.10"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "has been recalculated to 23% instead of 25%",
+          "location": "1.2 note 4"
+        }
+      ],
+      "rationale": "GRI basis, GHG Protocol market+location, period, recalculation disclosed.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "PricewaterhouseCoopers Audit",
+          "location": "7.5/7.6"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "from an independent third- party verifier on Scopes 1 and 2 emissions",
+          "location": "TCFD table"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Distinctions 2022",
+          "location": "p5"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "In carrying out our limited assurance engagement on the",
+          "location": "7.5"
+        }
+      ],
+      "rationale": "Reasonable (Scope 1-2) / limited (Scope 3) assurance, named auditor, statements included, ratings listed.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Disclosures (TCFD) correspondence table 194",
+          "location": "TOC"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "\"outline_entries\": 0",
+          "location": "file header"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Correspondence table 192",
+          "location": "TOC"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "To access all Schneider Electric ESG data, please download the disclosure dashboard",
+          "location": "indicators"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "A correspondence table can be found on pages 192 and 193",
+          "location": "1.10"
+        }
+      ],
+      "rationale": "TOC and correspondence tables, accurate cross-refs, data dashboard pointer; no bookmarks.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "\"pages_without_text\": 1",
+          "location": "file header"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "\"tagged_pdf\": false",
+          "location": "file header"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Susta inable Development Report 2022",
+          "location": "running header (split words)"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "TCO2e 229,347 294,051",
+          "location": "8.1 table"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NO DATA SUPPLIED",
+          "location": "4.2 biodiversity chart (French chart labels leak into text)"
+        }
+      ],
+      "rationale": "Untagged PDF: split words, chart junk in text layer; indicator table itself extracts cleanly.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "document"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Standards for the period from 1 January 2022 to 31 December",
+          "location": "1.10"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "has been recalculated to 23% instead of 25%",
+          "location": "1.2 note 4"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOTE: superseded - hub lists 2023, 2024 and 2025 editions; 2022 GHG values restated in 2023 edition",
+          "location": "-"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "document"
+        }
+      ],
+      "rationale": "Period and a recalculation explicit; no publication date; superseded and restated without notice.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "2022 Sustainable Development Report",
+          "location": "cover vs PDF title '2022 Sustainability Report'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "305-1 Direct (Scope 1) GHG emissions(1)",
+          "location": "8.1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The Zero Carbon Project (SSI #3) recorded a 10% progress",
+          "location": "1.2 prose = table 10%"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "2022 Universal Registration Document",
+          "location": "p2"
+        }
+      ],
+      "rationale": "Two report names; spot-check consistent.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric calculates its end-to-end carbon footprint",
+          "location": "3.2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "One of the most challenging 2025 objectives will be to train 1 million",
+          "location": "1.2"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.17/100w (< 1.5)",
+          "location": "whole document"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "-"
+        }
+      ],
+      "rationale": "Informational body, challenges disclosed.",
+      "proposed_level": 4,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "superseded_no_notice",
+      "applied": true,
+      "evidence": "2022 edition superseded by later editions; no successor notice possible inside the archived PDF"
+    }
+  ],
+  "out_of_scope_observations": [
+    "Document module score; the URL itself has no HTML gateway (see NN_judge.json, gateway score)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Archive edition; sampled sections: p1-6, 1.2, 1.10/1.11, 3.2-3.3, 7.x, 8.1."
+  }
+}

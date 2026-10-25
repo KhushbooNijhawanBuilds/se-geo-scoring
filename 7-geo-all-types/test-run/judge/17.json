@@ -1,0 +1,532 @@
+{
+ "page": {
+  "id": "17",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+  "topic": "Line Series busbar trunking master range",
+  "target_prompts": [
+   "Which Canalis busbar trunking system should I choose for my building power distribution?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Master range overview -> Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "A flexible, safe, and reliable solution for distribution systems up to 6300A."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Discover Line Series"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Flexible, reliable and connected busbar trunking system"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Canalis busbar trunking systems are designed for transporting and distributing electricity"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "from office buildings to heavy-duty industrial sites"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "especially in data centers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "The design and installation time is optimized compared to a cable solution. (unquantified)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Canalis KS - Busbar trunking system for power distribution up to 1000 A"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "torn -> fail; no explicit choice rules"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Heavy-duty busbar trunking system, for power distribution in harsh environments, up to 6300A"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": 3,
+   "rationale": "2/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "from office buildings to heavy-duty industrial sites"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "iBusway for Data Centre Electrical distribution for data-centre by Canalis"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": 2,
+   "rationale": "1/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "distribution systems up to 6300A"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "maximum flexibility and scalability"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'connected' but no software named"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Busbar trunking system compliant with IEC (no number)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Canalis KBA Busbar trunking for lighting distribution"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "4/7 members carry a rating"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Canalis KR Heavy-duty busbar trunking system, for power distribution in harsh environments"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "cards rendered 2-3 times"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "mySchneider app card"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no table"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The Line Series uses a decentralized distribution architecture based on a plug-and-play concept."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Canalis KT Busbar trunking system for power distribution up to 6300A"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Canalis KN Busbar trunking system for power distribution up to 160 A"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "compliant with IEC (no number)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "1/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Protect personnel and property through the safety and reliability (torn -> fail)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The Line Series uses a decentralized distribution architecture based on a plug-and-play concept."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Line Series <-> Canalis relationship not stated; 6300A vs 6300 A"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Canalis KT"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Canalis KS Busbar trunking system for power distribution up to 1000 A"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Discover now"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

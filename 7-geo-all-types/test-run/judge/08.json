@@ -1,0 +1,511 @@
+{
+ "page": {
+  "id": "08",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/industrial-automation-solutions/",
+  "topic": "Industrial automation solutions (EcoStruxure Plant)",
+  "target_prompts": [
+   "What industrial automation solutions improve plant efficiency, cybersecurity and profitability?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "Benefit tagline, no definition; H1 descriptive",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Optimize efficiency, cybersecurity, and sustainability and drive operational profitability improvements."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Industrial automation solutions"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 2,
+   "rationale": "Industries listed and scenario hints; no definition, no concrete outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "### Food and Beverage"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Modernizing water operations for better visibility, shorter downtimes, and security."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "drive operational profitability improvements"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Teaser headings and tabs; key content hidden in tabs/carousels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "## Discover EcoStruxure Plant successes"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Efficiency and profitability"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Understand your assets' profitability by accessing meaningful information and turning it into business intelligence."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] ## Reliability and performance optimization"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "No sources, standards, quotes or data",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U6",
+   "proposed_level": 0,
+   "rationale": "Target prompt not answered in substance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Promotional brand voice",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "best-in-class cybersecurity"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Get your e-guide"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 1,
+   "rationale": "Teaser hub; CTAs generic",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Get your e-guide"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- Customer stories"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": 0,
+   "rationale": "Problem only implied; hidden",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Industrial businesses must prioritize safety and cybersecurity to protect their assets."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": 0,
+   "rationale": "Products named only as card titles; no how-it-works",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "EcoStruxure™ Foxboro DCS"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 0,
+   "rationale": "No quantified outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "shorter downtimes"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 2,
+   "rationale": "Customer names in teasers without results",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "### Dogfish Head Craft Brewery"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Designing more effective beer production while having future expansions in mind."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": 1,
+   "rationale": "Industries listed with one-line context; no scope/fit",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "### Mining, Minerals and Metals"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": 1,
+   "rationale": "Partners/services only as links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "For system integrators"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "Benefits, products and references only in collapsed tabs/carousels and teaser cards with no text equivalent"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

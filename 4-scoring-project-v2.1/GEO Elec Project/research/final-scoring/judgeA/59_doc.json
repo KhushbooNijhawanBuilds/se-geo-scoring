@@ -1,0 +1,521 @@
+{
+  "page": {
+    "id": "59_doc",
+    "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+    "type": "esg_report_doc",
+    "stage": "Evaluation",
+    "topic": "2023 Sustainability Report (document module)",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2023 scope 1 2 3 emissions",
+      "Schneider Sustainability Impact score 2023",
+      "Schneider Electric 2023 climate targets progress",
+      "Who assured Schneider Electric's 2023 sustainability data?"
+    ],
+    "prompts_inferred": true,
+    "scored_file": "corpus/59_sustainability-esg-report.pdf.md",
+    "input_mode": "PDF text (coordinator extraction), sampled by grep: p1-6, TOC, 1.2 SSI tables, 1.10/1.11 frameworks, 3.2-3.3 GHG/net-zero, 7.x assurance, 8.1 indicators",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "criteria": [
+    {
+      "id": "DOC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "outperforming 2023 target (6.00/10)",
+          "location": "p5 2023 highlights"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "p1-5"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "p1-5"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "board from the Sustainability Reports page on www.se.com",
+          "location": "indicators"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "SSI #2 delivered +112MTCO2e saved and avoided for customers",
+          "location": "1.2 Notable SSI achievements"
+        }
+      ],
+      "rationale": "Highlights page (p5) gives 4 headline KPIs but no Scope 1/2/3 totals, period, framework or assurance; CSO letter precedes facts.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      }
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Direct (Scope 1) GHG emissions(2) TCO e 2 112,792",
+          "location": "8.1 GHG table"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology",
+          "location": "8.1 note 1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Estimated coverage (% total GHG emissions) % 99% 99% 99% 99%",
+          "location": "8.1 GHG table"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "TCO e 2 112,792",
+          "location": "8.1 GHG table (unit split in text layer)"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -31.2% -22.0% 0.0% NA",
+          "location": "8.1 GHG table"
+        }
+      ],
+      "rationale": "Complete GRI-coded GHG table (4 years, market/location basis, coverage) but units garble in the text layer.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {
+        "c4": "A"
+      }
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Net-Zero CO2 emissions",
+          "location": "p6 commitments"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Baseline(1) 2023 Progress(2) 2025 Target",
+          "location": "1.2 SSI table"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "3. 2020: 0% 27% 50%",
+          "location": "1.2 SSI table"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "reaching the 2025 target remains a challenge",
+          "location": "1.2 Notable SSI achievements"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "The four milestones towards Schneider",
+          "location": "3.3 Net-Zero commitment"
+        }
+      ],
+      "rationale": "Targets with baseline, progress, 2025 target, SBTi validation and disclosed challenges; table rows partly scrambled.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric has reported in accordance with the GRI",
+          "location": "1.11"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology",
+          "location": "8.1 note 1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Standards for the period from January 1 to December 31, 2023.",
+          "location": "1.11"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The historical values of this indicator have been updated",
+          "location": "8.1 note 2"
+        }
+      ],
+      "rationale": "GRI/SASB/TCFD basis, GHG Protocol market+location, period, SF6 GWP restatement disclosed.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "PricewaterhouseCoopers Audit",
+          "location": "7.5/7.6"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "from an independent third- party verifier on Scope 1 and 2 emissions",
+          "location": "TCFD table"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Continued recognition from external rating agencies including the",
+          "location": "CSO letter"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Reasonable assurance report from one of the",
+          "location": "TOC 7.6"
+        }
+      ],
+      "rationale": "Reasonable assurance on Scope 1-2, limited on Scope 3, named auditor, assurance reports included, ratings cited.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "8.1 Environmental and climate indicators 240",
+          "location": "TOC"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "\"outline_entries\": 307",
+          "location": "file header"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "7.3 Sustainability Accounting Standard (SASB)",
+          "location": "TOC"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "To access all Schneider Electric ESG data, please download the disclosure dashboard",
+          "location": "indicators"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "A correspondence table can be found in pages 294 to 295",
+          "location": "1.11 (TOC places SASB table at p228)"
+        }
+      ],
+      "rationale": "TOC, 307 bookmarks, SASB/TCFD tables, data dashboard pointer; cross-references copied from URD pagination are wrong.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {
+        "c5": "A"
+      }
+    },
+    {
+      "id": "DOC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "\"pages_without_text\": 1",
+          "location": "file header"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "\"tagged_pdf\": true",
+          "location": "file header"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "2019 Baseline 2025 Target 2023 Progress",
+          "location": "1.10 chart: header order != value order (74% 70% 80%)"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "TCO e 2 112,792",
+          "location": "8.1 table"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "78% are due to the use phase of products",
+          "location": "3.2 prose equivalent of pie chart"
+        }
+      ],
+      "rationale": "Tagged text PDF with prose for key charts, but reading order and units scramble in tables/infographics (misquote risk).",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c3": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "document"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Standards for the period from January 1 to December 31, 2023.",
+          "location": "1.11"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The historical values of this indicator have been updated",
+          "location": "8.1 note 2"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOTE: superseded - hub lists 2024 and 2025 editions",
+          "location": "-"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "document"
+        }
+      ],
+      "rationale": "Period and restatement explicit; no publication date in text; superseded edition with no successor notice.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A",
+        "c5": "A"
+      }
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "2023 Sustainable Development Report",
+          "location": "cover/running header vs PDF title '2023 Sustainability Report'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "305-1 Direct (Scope 1) GHG emissions",
+          "location": "8.1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "for a value of 112,792 tCO2eq (Scope 1) and",
+          "location": "assurance report = table value"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "2023 Universal Registration Document",
+          "location": "p3"
+        }
+      ],
+      "rationale": "Two names for the same report (Sustainable Development vs Sustainability Report); values spot-checked consistent.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A"
+      }
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The Group calculates its end-to-end carbon footprint",
+          "location": "3.2.1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "reaching the 2025 target remains a challenge",
+          "location": "1.2"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.18/100w (< 1.5)",
+          "location": "whole document"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "-"
+        }
+      ],
+      "rationale": "Informational body, challenges disclosed; letter is promotional but fluff density is low.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": true,
+      "evidence": "2023 edition superseded by later editions; no successor notice possible inside the archived PDF"
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Document module score; the URL itself has no HTML gateway (see NN_judge.json, gateway score)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Archive edition; sampled sections: p1-6, 1.2, 1.10/1.11, 3.2-3.3, 7.x, 8.1."
+  }
+}

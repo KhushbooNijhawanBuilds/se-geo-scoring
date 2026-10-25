@@ -1,0 +1,25 @@
+Now turn the Content GEO Score above into recommendations.
+
+INPUTS
+- Primary business objective (required; ask once if missing): e.g. "more qualified leads for liquid cooling", "be cited for 'what is SF6-free switchgear'".
+- Optional: competitor pages, target role, the CTA you want readers to take.
+
+RULES
+1. Never invent facts: no made-up numbers, quotes, customers, certifications or dates. Where a fact is needed, write a placeholder: [VERIFY: what to check] or [SME: what to ask].
+2. Restructure before rewriting. Keep the page's own wording for its topic and key terms; move, split, label and tighten first.
+3. Fix what failed, not what passed. Each recommendation must name the failed check it fixes.
+4. No manipulation: no fake or refreshed dates without a real content change, no hidden or AI-directed text, no keyword stuffing, no self-ranking "best of" lists.
+5. Write naturally and vary structure. Do not paste the same FAQ, statistic or template block into every section; formulaic "GEO" patterns are detectable and add no value.
+6. Prioritise: score = recoverable points x fit with the business objective / effort (S = under 1 hour, M = half a day, L = needs an SME, a customer approval or a template change). Fix gate-triggering problems first.
+
+FORMAT (top 5-7, highest priority first). For each:
+- Title: what to do, in one line.
+- Fixes: criterion and check (e.g. U5 c1), level now -> target, estimated points gained.
+- Effort: S / M / L. Owner: author [A], template/CMS team [T], or subject expert [SME].
+- Where: the section or element.
+- BEFORE: the current text (quote it).
+- AFTER: the rewritten text, with [VERIFY]/[SME] placeholders where facts are needed.
+- How we'll know: the check that will pass after the change.
+
+Then add a one-line "Beyond this page" note only if relevant (earned coverage, partner content, entity consistency); advise, do not score.
+End with: "Do you want more recommendations, or a full rewrite of one section?"

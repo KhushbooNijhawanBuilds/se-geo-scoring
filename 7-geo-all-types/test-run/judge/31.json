@@ -1,0 +1,470 @@
+{
+ "page": {
+  "id": "31",
+  "type": "calculator",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/site-electricity-emission-factor-calculator/",
+  "topic": "Site electricity emission factor",
+  "target_prompts": [
+   "How do I calculate my site's electricity emission factor from its energy source mix?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Opening states output and driver",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "estimate a site’s electricity emission factor based on its particular electricity source mix"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Site electricity emission factor calculator"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate a site’s electricity emission factor based on its particular electricity source mix"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 0,
+   "rationale": "No definition, audience, scenario or outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-1",
+   "proposed_level": 1,
+   "rationale": "Only units shown; no method",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Emission factor by source (kg/kWh)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-2",
+   "proposed_level": 2,
+   "rationale": "Defaults and location only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Natural gas (utility): 38%"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "United States"
+    }
+   ]
+  },
+  {
+   "id": "CALC-3",
+   "proposed_level": 1,
+   "rationale": "Benchmarks only; default output only in widget UI",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"0.417\" appears only as widget output"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Benchmark emission factors by source"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-4",
+   "proposed_level": 2,
+   "rationale": "Inputs listed, undefined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Renewables (onsite) ... Renewables (utility) ... Natural gas (utility) ... Diesel ... Propane (LP)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "* Renewables (utility) includes renewable contracts"
+    }
+   ]
+  },
+  {
+   "id": "CALC-5",
+   "proposed_level": 0,
+   "rationale": "No interpretation",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Learn what changes can be made\" - no levers given"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "No structure; knowledge only in widget",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate a site’s electricity emission factor based on its particular electricity source mix"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Site electricity emission factor calculator"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "All tool content inside iframe"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "No sources or provenance",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Neutral; no limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate a site’s electricity emission factor based on its particular electricity source mix"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "Names ok; no version id",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TradeOff Tool"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to estimate a site’s electricity emission factor based on its particular electricity source mix"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Learn more\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "No version/date",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 2,
+   "rationale": "Next tools linked; no CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "electricity-based carbon footprint"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Data center lifecycle CO₂e calculator"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "Method, sources and results exist only inside the iframe widget"
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

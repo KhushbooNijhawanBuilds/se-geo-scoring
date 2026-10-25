@@ -1,0 +1,554 @@
+{
+  "page": {
+    "id": "40",
+    "type": "service",
+    "stage": "Consideration",
+    "topic": "OT cybersecurity services for industry and grid",
+    "industry": "Industry / utilities",
+    "target_prompts": [
+      "What cybersecurity services are available for operational technology (OT) in industry and power grids?",
+      "What does an OT cybersecurity assessment service include?",
+      "Do OT security providers offer 24/7 managed detection and response?",
+      "How do services support IEC 62443 compliance?",
+      "What OT cybersecurity training is available?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover how industries secure OT and boost resilience through best practices.",
+          "location": "First text is an article teaser"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cybersecurity services",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Building a cybersecurity strategy",
+          "location": "H2s are article titles"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "H1 only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No definition of the services"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Industry Protect your people, processes, and technologies",
+          "location": "Tab text"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Safeguard the availability of reliable power",
+          "location": "Vague"
+        }
+      ],
+      "rationale": "Segments only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "How cybersecurity is key to risk management",
+          "location": "Descriptive H2s"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Learn to deliver a cybersecurity strategy that keeps you competitive in today’s economy.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Uncover cybersecurity strategies to protect and strengthen your digital business.",
+          "location": "Teasers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Our cybersecurity services",
+          "location": "Services carousel has no items in text"
+        }
+      ],
+      "rationale": "Article-teaser hub.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "expert-driven cybersecurity, designed to anticipate risks",
+          "location": "Promo"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Explore risk management’s role in industrial cybersecurity and sustainable operations.",
+          "location": "Low hype"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cybersecurity by design",
+          "location": "Nothing stale"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No option types"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Securing operational technology (OT)",
+          "location": "OT language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Links go to articles, not service offers"
+        }
+      ],
+      "rationale": "Hub mismatch.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No deliverables stated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No service-level facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "'plant’s lifecycle' is not an asset scope"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No eligible systems.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No process.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No offers named.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "No outcomes.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": true,
+      "evidence": "No deliverable (SVC-1 c1, c2 fail) and no service-level fact (SVC-2 0/5)."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Page functions as a navigation/article hub; better-fit type = hub/category (score also flagged under declared Service logic)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Consideration; page is a hub of article teasers, not a service description."
+  }
+}

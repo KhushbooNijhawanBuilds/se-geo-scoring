@@ -1,0 +1,829 @@
+[
+ {
+  "url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+  "title": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog",
+  "h1": [
+   "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before"
+  ],
+  "words_visible": 1032,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 1,
+  "type": "Blog article",
+  "server_words": 1037,
+  "server_to_rendered": 1.0
+ },
+ {
+  "url": "https://blog.se.com/datacenter/2026/10/08/data-center-community-opposition-how-cooling-design-affects-water-noise-and-permitting/",
+  "title": "Data center community opposition: How cooling design affects water, noise, and permitting - Schneider Electric Blog",
+  "h1": [
+   "Data center community opposition: How cooling design affects water, noise, and permitting"
+  ],
+  "words_visible": 1563,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 2,
+  "type": "Blog article",
+  "server_words": 1568,
+  "server_to_rendered": 1.0
+ },
+ {
+  "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+  "title": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+  "h1": [
+   "AI infrastructure deployment: Demand is easy. Execution is hard."
+  ],
+  "words_visible": 764,
+  "words_hidden": 0,
+  "repeated_blocks": 1,
+  "repeated_words": 9,
+  "n": 3,
+  "type": "Blog article",
+  "server_words": 777,
+  "server_to_rendered": 1.02
+ },
+ {
+  "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+  "title": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+  "h1": [
+   "AI is moving faster than infrastructure. Leaders need a new strategy."
+  ],
+  "words_visible": 1136,
+  "words_hidden": 0,
+  "repeated_blocks": 5,
+  "repeated_words": 34,
+  "n": 4,
+  "type": "Blog article",
+  "server_words": 1181,
+  "server_to_rendered": 1.04,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+  "title": "Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog",
+  "h1": [
+   "Using treated and recycled water in Indian data centre cooling"
+  ],
+  "words_visible": 1349,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 5,
+  "type": "Blog article",
+  "server_words": 1353,
+  "server_to_rendered": 1.0
+ },
+ {
+  "url": "https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/",
+  "title": "AI infrastructure in Europe: Why the next decade offers a leadership opportunity - Schneider Electric Blog",
+  "h1": [
+   "The next decade of AI infrastructure: Why Europe has an opportunity to lead"
+  ],
+  "words_visible": 1052,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 6,
+  "type": "Blog article",
+  "server_words": 1056,
+  "server_to_rendered": 1.0
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/rack-solutions-for-ai/",
+  "title": "EcoStruxure rack solutions for AI data centers | Schneider Electric",
+  "h1": [],
+  "words_visible": 381,
+  "words_hidden": 49,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 7,
+  "type": "Solution page",
+  "server_words": 361,
+  "server_to_rendered": 0.84
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/industrial-automation-solutions/",
+  "title": "Industrial automation solutions | Schneider Electric",
+  "h1": [
+   "Industrial automation solutions"
+  ],
+  "words_visible": 485,
+  "words_hidden": 896,
+  "repeated_blocks": 49,
+  "repeated_words": 152,
+  "n": 8,
+  "type": "Solution page",
+  "server_words": 568,
+  "server_to_rendered": 0.41
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/water/",
+  "title": "Water and Wastewater IoT solutions | Schneider Electric",
+  "h1": [],
+  "words_visible": 1126,
+  "words_hidden": 1026,
+  "repeated_blocks": 36,
+  "repeated_words": 129,
+  "n": 9,
+  "type": "Solution page",
+  "server_words": 1162,
+  "server_to_rendered": 0.54
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/real-estate/",
+  "title": "IoT Commercial Real Estate solutions | Schneider Electric",
+  "h1": [],
+  "words_visible": 533,
+  "words_hidden": 314,
+  "repeated_blocks": 6,
+  "repeated_words": 15,
+  "n": 10,
+  "type": "Solution page",
+  "server_words": 352,
+  "server_to_rendered": 0.42
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/healthcare/hospital-room-management/",
+  "title": "Smart hospital room management | Schneider Electric",
+  "h1": [],
+  "words_visible": 794,
+  "words_hidden": 69,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 11,
+  "type": "Solution page",
+  "server_words": 674,
+  "server_to_rendered": 0.78
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/cybersecurity/",
+  "title": "Cybersecurity solutions | Schneider Electric",
+  "h1": [
+   "Cybersecurity solutions"
+  ],
+  "words_visible": 467,
+  "words_hidden": 424,
+  "repeated_blocks": 45,
+  "repeated_words": 183,
+  "n": 12,
+  "type": "Solution page",
+  "server_words": 712,
+  "server_to_rendered": 0.8
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/smart-ups/",
+  "title": "Smart-UPS Master Range | Schneider Electric",
+  "h1": [
+   "Discover Smart-UPS"
+  ],
+  "words_visible": 373,
+  "words_hidden": 4,
+  "repeated_blocks": 5,
+  "repeated_words": 13,
+  "n": 13,
+  "type": "Product range page",
+  "server_words": 536,
+  "server_to_rendered": 1.42
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/galaxy/",
+  "title": "Galaxy | Schneider Electric",
+  "h1": [],
+  "words_visible": 827,
+  "words_hidden": 55,
+  "repeated_blocks": 18,
+  "repeated_words": 41,
+  "n": 14,
+  "type": "Product range page",
+  "server_words": 876,
+  "server_to_rendered": 0.99
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/pact-series/",
+  "title": "Pact Series Master Range | Schneider Electric",
+  "h1": [
+   "Discover PacT Series"
+  ],
+  "words_visible": 894,
+  "words_hidden": 12,
+  "repeated_blocks": 28,
+  "repeated_words": 88,
+  "n": 15,
+  "type": "Product range page",
+  "server_words": 1199,
+  "server_to_rendered": 1.32
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/9-series/",
+  "title": "9 Series Master Range | Schneider Electric",
+  "h1": [
+   "9 Series"
+  ],
+  "words_visible": 512,
+  "words_hidden": 4,
+  "repeated_blocks": 18,
+  "repeated_words": 52,
+  "n": 16,
+  "type": "Product range page",
+  "server_words": 765,
+  "server_to_rendered": 1.48
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+  "title": "Line Series Master Range | Schneider Electric",
+  "h1": [
+   "Discover Line Series"
+  ],
+  "words_visible": 330,
+  "words_hidden": 8,
+  "repeated_blocks": 12,
+  "repeated_words": 29,
+  "n": 17,
+  "type": "Product range page",
+  "server_words": 488,
+  "server_to_rendered": 1.44
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/powerlogic/",
+  "title": "PowerLogic Master Range | Schneider Electric",
+  "h1": [
+   "PowerLogic™"
+  ],
+  "words_visible": 443,
+  "words_hidden": 134,
+  "repeated_blocks": 26,
+  "repeated_words": 105,
+  "n": 18,
+  "type": "Product range page",
+  "server_words": 571,
+  "server_to_rendered": 0.99
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+  "title": "McLaren Racing: Innovation in motion | Schneider Electric",
+  "h1": [],
+  "words_visible": 430,
+  "words_hidden": 132,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 19,
+  "type": "Customer success story",
+  "server_words": 328,
+  "server_to_rendered": 0.58
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/blackstone/",
+  "title": "Blackstone Group Customer Story | Schneider Electric",
+  "h1": [
+   "A SUSTAINABLE business plan"
+  ],
+  "words_visible": 635,
+  "words_hidden": 18,
+  "repeated_blocks": 10,
+  "repeated_words": 25,
+  "n": 20,
+  "type": "Customer success story",
+  "server_words": 703,
+  "server_to_rendered": 1.08,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+  "title": "Massmart, EcoStruxure BMS Case Study | Schneider Electric",
+  "h1": [],
+  "words_visible": 334,
+  "words_hidden": 201,
+  "repeated_blocks": 12,
+  "repeated_words": 40,
+  "n": 21,
+  "type": "Customer success story",
+  "server_words": 350,
+  "server_to_rendered": 0.65,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/vancouver-airport/",
+  "title": "Vancouver YVR Airport net zero journey with Schneider Electric | Schneider Electric",
+  "h1": [],
+  "words_visible": 304,
+  "words_hidden": 303,
+  "repeated_blocks": 19,
+  "repeated_words": 80,
+  "n": 22,
+  "type": "Customer success story",
+  "server_words": 386,
+  "server_to_rendered": 0.64
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+  "title": "Rubis Photosol, EcoCare Electrical Distribution Case Study | Schneider Electric",
+  "h1": [],
+  "words_visible": 367,
+  "words_hidden": 270,
+  "repeated_blocks": 7,
+  "repeated_words": 23,
+  "n": 23,
+  "type": "Customer success story",
+  "server_words": 289,
+  "server_to_rendered": 0.45
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+  "title": "Customer story - Zicaffe | Schneider Electric",
+  "h1": [],
+  "words_visible": 464,
+  "words_hidden": 0,
+  "repeated_blocks": 9,
+  "repeated_words": 23,
+  "n": 24,
+  "type": "Customer success story",
+  "server_words": 317,
+  "server_to_rendered": 0.68
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP180_EN/",
+  "title": "Data Centers are Essential to AI-driven Decarbonization of Power Sector | Schneider Electric",
+  "h1": [],
+  "words_visible": 217,
+  "words_hidden": 34,
+  "repeated_blocks": 32,
+  "repeated_words": 76,
+  "n": 25,
+  "type": "White paper / technical document",
+  "server_words": 228,
+  "server_to_rendered": 0.91
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP47_EN/",
+  "title": "Necessary Considerations for Designing DC Architectures in Data Centers | Schneider Electric",
+  "h1": [],
+  "words_visible": 261,
+  "words_hidden": 34,
+  "repeated_blocks": 30,
+  "repeated_words": 72,
+  "n": 26,
+  "type": "White paper / technical document",
+  "server_words": 270,
+  "server_to_rendered": 0.92
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP169_EN/",
+  "title": "Data Centers are Essential to AI-driven Decarbonization of Buildings | Schneider Electric",
+  "h1": [],
+  "words_visible": 220,
+  "words_hidden": 34,
+  "repeated_blocks": 32,
+  "repeated_words": 74,
+  "n": 27,
+  "type": "White paper / technical document",
+  "server_words": 228,
+  "server_to_rendered": 0.9
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP126_EN/",
+  "title": "Retrofitting Existing Power Systems for AI Clusters | Schneider Electric",
+  "h1": [],
+  "words_visible": 181,
+  "words_hidden": 34,
+  "repeated_blocks": 32,
+  "repeated_words": 70,
+  "n": 28,
+  "type": "White paper / technical document",
+  "server_words": 183,
+  "server_to_rendered": 0.85
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP99_EN/",
+  "title": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts | Schneider Electric",
+  "h1": [],
+  "words_visible": 246,
+  "words_hidden": 34,
+  "repeated_blocks": 30,
+  "repeated_words": 76,
+  "n": 29,
+  "type": "White paper / technical document",
+  "server_words": 261,
+  "server_to_rendered": 0.93
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP210_EN/",
+  "title": "Direct Liquid Cooling System Challenges in Data Centers | Schneider Electric",
+  "h1": [],
+  "words_visible": 181,
+  "words_hidden": 34,
+  "repeated_blocks": 32,
+  "repeated_words": 72,
+  "n": 30,
+  "type": "White paper / technical document",
+  "server_words": 186,
+  "server_to_rendered": 0.87
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/site-electricity-emission-factor-calculator/",
+  "title": "Site electricity emission factor calculator | Schneider Electric",
+  "h1": [
+   "Site electricity emission factor calculator"
+  ],
+  "words_visible": 498,
+  "words_hidden": 286,
+  "repeated_blocks": 27,
+  "repeated_words": 316,
+  "n": 31,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 447,
+  "server_to_rendered": 0.57
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+  "title": "Data Center Capital Cost Calculator | Schneider Electric",
+  "h1": [
+   "Data Center Capital Cost Calculator",
+   "Data Center Capital Cost Calculator"
+  ],
+  "words_visible": 440,
+  "words_hidden": 3507,
+  "repeated_blocks": 107,
+  "repeated_words": 310,
+  "n": 32,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 458,
+  "server_to_rendered": 0.12
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-power-sizing-calculator/",
+  "title": "Data center power sizing calculator | Schneider Electric",
+  "h1": [
+   "Data center power sizing calculator"
+  ],
+  "words_visible": 423,
+  "words_hidden": 1224,
+  "repeated_blocks": 65,
+  "repeated_words": 146,
+  "n": 33,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 403,
+  "server_to_rendered": 0.24
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/single-phase-ups-efficiency-comparison-calculator/",
+  "title": "Single phase UPS efficiency comparison calculator | Schneider Electric",
+  "h1": [
+   "Single-phase UPS efficiency comparison calculator"
+  ],
+  "words_visible": 514,
+  "words_hidden": 917,
+  "repeated_blocks": 118,
+  "repeated_words": 222,
+  "n": 34,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 448,
+  "server_to_rendered": 0.31
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+  "title": "Edge UPS fleet management comparison calculator | Schneider Electric",
+  "h1": [
+   "Edge UPS fleet management comparison calculator"
+  ],
+  "words_visible": 436,
+  "words_hidden": 2346,
+  "repeated_blocks": 122,
+  "repeated_words": 321,
+  "n": 35,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 425,
+  "server_to_rendered": 0.15
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/three-phase-ups-efficiency-comparison-calculator/",
+  "title": "Three-phase UPS efficiency comparison calculator | Schneider Electric",
+  "h1": [
+   "Three-phase UPS efficiency comparison calculator"
+  ],
+  "words_visible": 411,
+  "words_hidden": 419,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 36,
+  "type": "Calculator / TradeOff Tool",
+  "server_words": 489,
+  "server_to_rendered": 0.59
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/ecocare/",
+  "title": "Condition-based maintenance and remote monitoring services | Schneider Electric",
+  "h1": [],
+  "words_visible": 721,
+  "words_hidden": 169,
+  "repeated_blocks": 7,
+  "repeated_words": 19,
+  "n": 37,
+  "type": "Service page",
+  "server_words": 439,
+  "server_to_rendered": 0.49
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/assets-and-systems-services/ecofit/",
+  "title": "EcoFit modernization and circularity services | Schneider Electric",
+  "h1": [
+   "EcoFit™: Modernization and circularity services"
+  ],
+  "words_visible": 527,
+  "words_hidden": 13,
+  "repeated_blocks": 11,
+  "repeated_words": 27,
+  "n": 38,
+  "type": "Service page",
+  "server_words": 545,
+  "server_to_rendered": 1.01
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/ecoconsult/",
+  "title": "Consulting services for electrical, cooling and automation systems | Schneider Electric",
+  "h1": [],
+  "words_visible": 625,
+  "words_hidden": 97,
+  "repeated_blocks": 7,
+  "repeated_words": 19,
+  "n": 39,
+  "type": "Service page",
+  "server_words": 396,
+  "server_to_rendered": 0.55
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/",
+  "title": "Cybersecurity services | Schneider Electric",
+  "h1": [],
+  "words_visible": 406,
+  "words_hidden": 78,
+  "repeated_blocks": 10,
+  "repeated_words": 20,
+  "n": 40,
+  "type": "Service page",
+  "server_words": 296,
+  "server_to_rendered": 0.61
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/managed-security-services/",
+  "title": "Exploring managed security services | Schneider Electric",
+  "h1": [
+   "Managed security services"
+  ],
+  "words_visible": 527,
+  "words_hidden": 126,
+  "repeated_blocks": 6,
+  "repeated_words": 17,
+  "n": 41,
+  "type": "Service page",
+  "server_words": 465,
+  "server_to_rendered": 0.71
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/services/field-services/industrial-automation/vfd-services/",
+  "title": "EcoFit™ services for drive systems | Schneider Electric",
+  "h1": [
+   "EcoFit drive services"
+  ],
+  "words_visible": 314,
+  "words_hidden": 4,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 42,
+  "type": "Service page",
+  "server_words": 402,
+  "server_to_rendered": 1.26
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/",
+  "title": "Industrial software solutions | Schneider Electric",
+  "h1": [
+   "Our agnostic software portfolio"
+  ],
+  "words_visible": 837,
+  "words_hidden": 12,
+  "repeated_blocks": 31,
+  "repeated_words": 76,
+  "n": 43,
+  "type": "Software page",
+  "server_words": 879,
+  "server_to_rendered": 1.04,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/",
+  "title": "Industrial software solutions | Schneider Electric",
+  "h1": [
+   "Our agnostic software portfolio"
+  ],
+  "words_visible": 837,
+  "words_hidden": 12,
+  "repeated_blocks": 31,
+  "repeated_words": 76,
+  "n": 44,
+  "type": "Software page",
+  "server_words": 879,
+  "server_to_rendered": 1.04,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/data-center-infrastructure-management-dcim/",
+  "title": "EcoStruxure™ IT DCIM software | Schneider Electric",
+  "h1": [],
+  "words_visible": 715,
+  "words_hidden": 0,
+  "repeated_blocks": 18,
+  "repeated_words": 169,
+  "n": 45,
+  "type": "Software page",
+  "server_words": 729,
+  "server_to_rendered": 1.02,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-it-software-trials/",
+  "title": "EcoStruxure™ IT Software Trials | Schneider Electric",
+  "h1": [
+   "EcoStruxure™ IT Software Trials"
+  ],
+  "words_visible": 221,
+  "words_hidden": 4,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 46,
+  "type": "Software page",
+  "server_words": 376,
+  "server_to_rendered": 1.67
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-operations-management/",
+  "title": "Operations Management Software for Large Buildings | Schneider Electric",
+  "h1": [],
+  "words_visible": 532,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 47,
+  "type": "Software page",
+  "server_words": 499,
+  "server_to_rendered": 0.94,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-energy-management/",
+  "title": "Energy Management Software for Large Buildings | Schneider Electric",
+  "h1": [],
+  "words_visible": 594,
+  "words_hidden": 0,
+  "repeated_blocks": 0,
+  "repeated_words": 0,
+  "n": 48,
+  "type": "Software page",
+  "server_words": 553,
+  "server_to_rendered": 0.93,
+  "rebuilt": "2026-10-20 from rendered file header + corpus/index.json (original capture metadata failed: KeyError('value'))"
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Apple-introduce-new-Smart-Thermostat-for-Apple-Home-Collection-and-Power-Mount-for-Apple-HomeView-6ace265b43c902c2d70a3335/",
+  "title": "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeViewSchneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+  "h1": [
+   "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView"
+  ],
+  "words_visible": 1440,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 49,
+  "type": "News / press release",
+  "server_words": 1687,
+  "server_to_rendered": 1.17
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-the-world%E2%80%99s-first-fully-softwaredefined-medium-voltage-switchgear-to-accelerate-the-speed-and-scalability-of-ai-factories-6aba127dcdf86ce71f08cf33/",
+  "title": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factoriesSchneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories",
+  "h1": [
+   "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories"
+  ],
+  "words_visible": 880,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 50,
+  "type": "News / press release",
+  "server_words": 909,
+  "server_to_rendered": 1.03
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Greenly-expand-Decarbonization-Champion-Program-to-help-SME-partners-unlock-business-value-from-sustainability-6ab3d50e4525fe7e0c094813/",
+  "title": "Schneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainabilitySchneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainability",
+  "h1": [
+   "Schneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainability"
+  ],
+  "words_visible": 794,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 51,
+  "type": "News / press release",
+  "server_words": 816,
+  "server_to_rendered": 1.03
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-AMD-release-first-Helios-platform-reference-design-to-accelerate-AI-Factory-deployment-6a60b540d574233932028c53/",
+  "title": "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deploymentSchneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment",
+  "h1": [
+   "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment"
+  ],
+  "words_visible": 940,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 52,
+  "type": "News / press release",
+  "server_words": 1207,
+  "server_to_rendered": 1.28
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-releases-pioneering-study-assessing-arc-flash-risk-in-800-VDC-data-centers-aligning-with-world27s-leading-hyperscalers-6a705327421430d7d4009133/",
+  "title": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalersSchneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalers",
+  "h1": [
+   "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalers"
+  ],
+  "words_visible": 1313,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 53,
+  "type": "News / press release",
+  "server_words": 1582,
+  "server_to_rendered": 1.2
+ },
+ {
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-advances-energy-technology-at-world-economic-forum-annual-meeting-in-davos-696ca4813fd1732cec02a863/",
+  "title": "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in DavosSchneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos",
+  "h1": [
+   "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos"
+  ],
+  "words_visible": 708,
+  "words_hidden": 0,
+  "repeated_blocks": 4,
+  "repeated_words": 10,
+  "n": 54,
+  "type": "News / press release",
+  "server_words": 953,
+  "server_to_rendered": 1.35
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+  "title": "Schneider Electric - Sustainability Report - H1 2026 | Schneider Electric",
+  "h1": [],
+  "words_visible": 127,
+  "words_hidden": 3,
+  "repeated_blocks": 32,
+  "repeated_words": 86,
+  "n": 55,
+  "type": "Sustainability / ESG report",
+  "server_words": 276,
+  "server_to_rendered": 2.12
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/se-impact-report/",
+  "title": "Schneider Electric - Sustainability Impact Report | Schneider Electric",
+  "h1": [],
+  "words_visible": 120,
+  "words_hidden": 3,
+  "repeated_blocks": 32,
+  "repeated_words": 76,
+  "n": 56,
+  "type": "Sustainability / ESG report",
+  "server_words": 84,
+  "server_to_rendered": 0.68
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/2025_Sustainability_Report/",
+  "title": "2025 Sustainability Report | Schneider Electric",
+  "h1": [],
+  "words_visible": 109,
+  "words_hidden": 3,
+  "repeated_blocks": 27,
+  "repeated_words": 54,
+  "n": 57,
+  "type": "Sustainability / ESG report",
+  "server_words": 121,
+  "server_to_rendered": 1.08
+ },
+ {
+  "url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+  "title": "Schneider Electric - Sustainability Report - H1 2026 | Schneider Electric",
+  "h1": [],
+  "words_visible": 121,
+  "words_hidden": 3,
+  "repeated_blocks": 31,
+  "repeated_words": 84,
+  "n": 58,
+  "type": "Sustainability / ESG report",
+  "server_words": 102,
+  "server_to_rendered": 0.82
+ }
+]

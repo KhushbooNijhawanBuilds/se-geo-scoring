@@ -1,0 +1,531 @@
+{
+ "page": {
+  "id": "23",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+  "topic": "EcoCare condition-based transformer monitoring at Rubis Photosol",
+  "industry": "Services (inferred)",
+  "target_prompts": [
+   "How does condition-based monitoring prevent transformer failures at solar parks?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Rubis Photosol, EcoCare Electrical Distribution Case Study",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Smart monitoring for sustainable renewables performance",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Together, the companies operate 50 solar parks with a combined capacity of 600 MWp that is fed into the national grid.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "summary covers who/problem/solution only; no result or timeframe",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the leading independent producer of photovoltaic energy in France",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "50 solar parks with a combined capacity of 600 MWp",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "in France",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "operate 250 medium-voltage transformers and needed more insightful monitoring",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c1: industry stated only as one line",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "saved an estimated €420,000 in replacement costs",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "saved 55 tons of CO₂ emissions",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Prior analyses had flagged four at-risk transformers, but our in-depth diagnostics confirmed only one was truly at risk",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "The installation of IoT sensors took less than four hours (install time, not result period)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Explore how EcoCare is maximizing uptime at Rubis Photosol",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c6",
+     "result": "pass",
+     "evidence": "Saved €420,000 thanks to accurate diagnosis of at-risk transformer",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "A single transformer failure can cause significant financial losses",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IoT sensors track hydrogen levels, temperature, and vibration with the data aggregated in the EcoStruxure™ IoT platform",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "This insight saved an estimated €420,000 in replacement costs",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "A predictive, AI‑driven approach (section never names the customer)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "It’s a major added value and we’re excited to go even further with other Schneider solutions.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Johnny Randoux",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Maintenance Manager at Photom Services",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Only Schneider Electric offers this level of advanced solution. (promotional)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-6",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "AI-powered condition-based maintenance, 24/7 remote monitoring, predictive analytics, and alarm management",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure Transformer Expert",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: only two cards",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "an estimated €420,000 (no method)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "our EcoCare for Electrical Distribution Equipment service plan",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "the leading independent producer of photovoltaic energy in France",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "On solar farms, transformers are critical for safe photovoltaic operation",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "This insight saved an estimated €420,000 in replacement costs",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: outcome is an estimate",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Tangible results in hours, not months (slogan)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no feature/attribute lists in text",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "paragraphs 1-3 sentences",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Supported by AI, our experts provide actionable recommendations",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "challenge, solution and results exist only in collapsed tab panels",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "delivers what traditional plans can’t",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Only Schneider Electric offers this level of advanced solution.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "what traditional plans can’t (alternatives not named)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "€420,000 and 55 t identical in highlights and prose",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Read the full story",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "undated",
+     "evidence_type": "note"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "quantified results fit Evaluation",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "fits maintenance/asset managers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Explore the effectiveness of a condition-based maintenance strategy for modern electrical distribution systems in our latest white paper.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure Transformer Expert",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "ZZ_Paragraph Title ZZ_Paragraph Content placeholder block"
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 3: 'Saved €420,000 thanks to accurate diagnosis of at-risk transformer' with EcoCare."
+ }
+}

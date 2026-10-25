@@ -1,0 +1,495 @@
+{
+  "page": {
+    "id": "53_news-press-release",
+    "type": "news",
+    "stage": "Education",
+    "topic": "Arc flash risk in 800 VDC data centers (research release)",
+    "industry": "Data centers",
+    "audience": "Electrical/safety engineers, data center designers",
+    "target_prompts": [
+      "Is arc flash risk higher in 800 VDC data center power systems?",
+      "How do you assess arc flash in DC power systems?",
+      "Rack-level vs centralized 800 VDC architecture arc flash results",
+      "Do existing standards overestimate DC arc flash incident energy?",
+      "Where can I read the 800 VDC arc flash white paper?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Study provides some of the industry’s first data on managing 800 VDC safety risks",
+          "location": "finding not stated"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Simulations and arc flash risk analyses assessed two representative 800 VDC architectures",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "arc flash risk in 800 VDC data centers",
+          "location": "v2 c4: topic noun phrase"
+        }
+      ],
+      "rationale": "Topic-precise headline and factual deck, but the main finding (risk manageable, comparable to AC) is absent from headline and deck; hype judged under NEWS-3/U7 (v2).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "a first-of-its-kind analysis that provides practical guidance on how to assess and manage arc flash risk in 800 VDC power architectures",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "provides engineers and safety professionals with one of the first practical frameworks",
+          "location": "only in later quote"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Based on deployment scenarios informed by hyperscaler design patterns",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "arc flash risk in 800 VDC systems can be managed, and in many cases, is comparable to typical AC systems",
+          "location": ""
+        }
+      ],
+      "rationale": "What, scenario and finding in the first paragraphs; audience named only inside a later quote.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "03/08/2026",
+          "location": "March 8 or August 3?"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Rueil-Malmaison, France",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "no industry-wide standard or guidance currently exists",
+          "location": "as-of release"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The findings are now available in a white paper",
+          "location": ""
+        }
+      ],
+      "rationale": "Ambiguous numeric date (03/08); otherwise anchored.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "results showed incident energy well below the referenced 1.2 cal/cm² PPE threshold",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script 2.41/100w is inflated by repeated '800 VDC'; genuine facts < 1/100w)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Schneider Electric releases pioneering study",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "1.2 cal/cm² PPE threshold",
+          "location": "PPE undefined"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "with capacitor discharge dominating the first milliseconds of an event",
+          "location": ""
+        }
+      ],
+      "rationale": "Genuine threshold numbers but many repeats of '800 VDC'; 'pioneering' claims; PPE undefined.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "In a sidecar (also called power rack) case study using conservative methods and assumptions",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "a first-of-its-kind analysis",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Current standards are shown to overestimate arc flash risk",
+          "location": "standards unnamed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "'DC Arc Flash Analysis: A Practical Study on 800 VDC in Data Centers'",
+          "location": ""
+        }
+      ],
+      "rationale": "Method and named white paper with findings in HTML; 'first' claims unscoped; no standard numbers or named validator.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Manish Kumar, EVP Secure Power & Data Centers, Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "engineers must evaluate system topology, fault behavior, protection coordination, converter response, switching logic, and active protection schemes",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "said Tanuj Khandelwal, CEO of ETAP",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "800 VDC power distribution represents a significant shift in data center design",
+          "location": ""
+        }
+      ],
+      "rationale": "Named executive plus a second named organization's CEO with concrete technical content.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The findings are now available in a white paper",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": "research release"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Transient behavior matters: In 800 VDC systems, arc flash is driven by time‑dependent fault currents",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Research release: study availability and findings list (commercial checks N/A).",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric, a global energy technology leader, today announced",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Arc Flash Considerations for Data Center IT Space",
+          "location": "related resource"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Evaluating risks with ETAP’s advanced software and digital twins",
+          "location": ""
+        }
+      ],
+      "rationale": "White paper named and related resources titled; no About block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Assessment Performed for Two Distinct 800 VDC Architectures",
+          "location": "subhead not a heading"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Design choices reduce risk: Arc flash outcomes depend on architecture and system configuration",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Arc flash analysis is already a standard practice in AC data centers",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Rack‑level 800 VDC architectures: In a sidecar (also called power rack) case study",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "results showed incident energy well below the referenced 1.2 cal/cm² PPE threshold",
+          "location": ""
+        }
+      ],
+      "rationale": "Plain-text subhead; findings as labelled bullets; self-contained.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "arc flash risk in 800 VDC systems can be managed",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Centralized 800 VDC architectures: The facility‑level case study shows potential for slightly higher incident energy",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Transient behavior matters",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Industry standards remain essential for arc flash and electrical safety",
+          "location": "no standard named"
+        }
+      ],
+      "rationale": "Answers the seed and sub-questions; the governing standards are never named for an Education reader.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Arc flash analysis is already a standard practice in AC data centers",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "shows potential for slightly higher incident energy than rack‑level designs",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "releases pioneering study",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Centralized 800 VDC architectures",
+          "location": "alternatives compared"
+        }
+      ],
+      "rationale": "Balanced findings incl. where risk is higher; 'pioneering/first' hype.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "800 VDC architectures",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "DC Arc Flash Analysis: A Practical Study on 800 VDC in Data Centers",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "arc flash energy is reduced to appropriate levels",
+          "location": "no contradiction"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "5 Principles for 800 VDC in AI Data Centers: Rack-level Architectures as the Immediate Enabler",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent naming; titled resources.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: page <title>/og:title duplicated (headline concatenated twice); meta description concatenates bullets without spaces -> SE Digital",
+    "Template: no article:published_time meta; visible date numeric DD/MM/YYYY",
+    "Template: in-body subheads are not heading elements in server HTML",
+    "Template: Wiztrust, share and site-footer link lists inside the extracted body"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for news"
+  }
+}

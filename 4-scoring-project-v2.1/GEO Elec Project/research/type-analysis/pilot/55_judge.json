@@ -1,0 +1,500 @@
+{
+  "page": {
+    "id": "55",
+    "url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+    "type": "esg_hub",
+    "stage": "Evaluation",
+    "topic": "Sustainability reports hub",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric sustainability performance 2025",
+      "Schneider Electric scope 1 2 3 emissions",
+      "Schneider Electric net-zero and SBTi targets progress",
+      "Latest Schneider Sustainability Impact score",
+      "Where is the Schneider Electric sustainability report / CSRD sustainability statement?",
+      "Schneider Electric Q3 2026 sustainability results"
+    ],
+    "prompts_inferred": true,
+    "audience": "Investors/ESG analysts, rating agencies, customer procurement sustainability assessors (inferred)",
+    "input_mode": "file (server-HTML corpus md, captured 2026-10-19); rendered page checked in browser 2026-10-19",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Sustainability results for Q3 2026 are in",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "# Sustainability Reports",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "ZZ_Paragraph Content",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## 2025 Sustainability Report",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "H1 names the hub; top block announces Q3 results without stating any result; placeholder components.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No KPI values in HTML (checker: 0 numbers with units).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No targets, baselines or progress in HTML.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "View extra-financial Quarterly Results",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No frameworks, GHG basis or boundary named; periods only as link labels.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No assurance or ratings.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## 2025 Sustainability Report",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "![Person working on the laptop ](img)",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Check the answers",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Sustainability results for Q3 2026 are in",
+          "location": "page"
+        }
+      ],
+      "rationale": "Annual report cards have only image alt text, no dates or descriptions; no data annex/index; latest quarter flagged.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "### ZZ_Paragraph Title",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Q3 Results (October 16, 2026) - Report",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "NOTE: no paragraph > 3 sentences",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Increasing long-term performance through environmental, social and governance (ESG) actions.",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Placeholder headings; strategy line misattached under the 2020 card; all KPIs only in PDFs.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Q3 Results (October 16, 2026) - Report",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Half-Year Results (July 30, 2026) - Report",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: hub has no versioning",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Q3 Results (October 16, 2026)",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "## 2024 Sustainability Report",
+          "location": "page"
+        }
+      ],
+      "rationale": "Current quarter (16 Oct 2026) surfaced with dates; editions listed by year.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Access all integrated reports and information about investor events.",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "best-in-class Schneider Sustainability Impact dashboard",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "page"
+        }
+      ],
+      "rationale": "Navigation copy neutral; meta description self-labels 'best-in-class' and 'bold ambitions'; no misses disclosed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "View extra-financial Quarterly Results",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Q3 Results (October 16, 2026) - Report",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no conflicting figures (none present)",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "All investor information",
+          "location": "page"
+        }
+      ],
+      "rationale": "Same results called 'Sustainability results' and 'extra-financial Quarterly Results'; consistency otherwise vacuous (no figures).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "extra-financial Quarterly Results",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Check the answers",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Q3 Results (October 16, 2026) - Press Release",
+          "location": "page"
+        }
+      ],
+      "rationale": "Routes to press releases and investor pages; vague CTAs; no verification data for analysts/assessors.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "All KPI content (emissions, targets, program score) is only inside linked PDFs/press releases; hub carries no figures."
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "No KPI or factual statement about performance in HTML"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": true,
+      "evidence": "ZZ_Paragraph Title / ZZ_Paragraph Content: unfinished CMS components in server HTML (hidden in rendered page)"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Placeholder components are hidden in the rendered page but present in server HTML -> SE Digital/CMS QA.",
+    "Footer/legal navigation extracted as body text by the corpus converter (aside/nav not semantically marked) -> SE Digital.",
+    "Annual report cards: link targets not exposed as text links in server HTML (only image + heading) -> verify with SE Digital."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Scored at Evaluation (supplier/vendor due-diligence proxy). Proposed 'Verification' stakeholder stage run as sensitivity."
+  }
+}

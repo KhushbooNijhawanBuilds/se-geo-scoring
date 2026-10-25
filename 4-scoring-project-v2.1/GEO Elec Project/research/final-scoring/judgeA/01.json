@@ -1,0 +1,578 @@
+{
+  "page": {
+    "id": "01",
+    "type": "article",
+    "stage": "Education",
+    "topic": "Modular/prefabricated data centers for AI factories",
+    "industry": "Data centers",
+    "audience": "Data center operators, consulting engineers",
+    "target_prompts": [
+      "Why are prefabricated modular data centers needed for AI factories?",
+      "What rack power densities do AI data centers require?",
+      "What are the benefits of prefabricated UPS and switchgear skids?",
+      "What is an AI IT pod and how is it deployed?",
+      "Why were early containerized modular data centers unpopular?",
+      "How does prefabrication address skilled-labor shortages?"
+    ],
+    "prompts_inferred": true,
+    "content_source": "corpus/rendered/01_blog-article.md",
+    "judge": "A",
+    "standard": "v2.0-2026-10-19"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "I have been strategically involved in the modular data center industry for over 30 years",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Modular, prefabricated data centers enter the AI era",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "But why the need for prefabrication in AI data centers? Let’s take a look.",
+          "location": "intro"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "AI is the latest technology wave hitting data centers.",
+          "location": "H2 A slow start"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary block"
+        }
+      ],
+      "rationale": "Opens with author biography; the thesis (prefab is a necessity) only appears in the final section. Title carries the topic phrase but no early answer, no section answers, no summary.",
+      "proposed_level": 1,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      }
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No key-takeaways block.",
+      "proposed_level": 0,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "boldly go where no data centers have gone before",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog",
+          "location": "html title"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## High Density Liquid Cooling",
+          "location": "H2s"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## A slow start",
+          "location": "H2s (0 question-style)"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "prefabrication is a necessity today",
+          "location": "conclusion"
+        }
+      ],
+      "rationale": "H1 ends in a pop-culture pun; H2s partly descriptive, none question-shaped. Titles consistent across H1/SEO title/meta.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## A slow start",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Faster delivery times and project deployment due to site prep being done in advance",
+          "location": "list"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Looking back, it’s a wonder anything got built.",
+          "location": "6-sentence paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "All this is happening while significantly more power connections are coming onto the busway",
+          "location": "H2 High Density"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "The major pieces are assembled in a factory, packed flat, then they are assembled in the IT room into the Pod.",
+          "location": "text explains image"
+        }
+      ],
+      "rationale": "Generic headings ('A slow start'), long history paragraph, context-dependent openers ('These criteria', 'All this').",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The power densities per rack are close to 250 kW vs 10-20 of cloud data centers.",
+          "location": "Challenges"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.71 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The AI Pod is innovative because",
+          "location": "High Density"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "and the CDUs. CDU programming and management is considerable.",
+          "location": "CDU never expanded"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Fewer risks",
+          "location": "benefit list"
+        }
+      ],
+      "rationale": "Some density numbers but benefits are adjectives ('Fewer risks'), 'innovative' claims, CDU undefined; 0.71 facts/100w.",
+      "proposed_level": 1,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      }
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Densities are getting seriously high with the new AMD Helios 445 racks running at 246 kW per rack",
+          "location": "unattributed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no standards"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no quotes"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no first-party data"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Steven Carlini",
+          "location": "byline"
+        }
+      ],
+      "rationale": "No attributed statistics, standards, quotes or first-party data; named author with stated experience only.",
+      "proposed_level": 1,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The stigmatism of the initial designs being housed in rusty, old, repurposed shipping containers",
+          "location": "A slow start"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "narrative only"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no first-party data"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "While prefabrication could have been seen as a luxury a couple of decades ago",
+          "location": "conclusion"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no practical next steps"
+        }
+      ],
+      "rationale": "Genuine 30-year field perspective and a clear thesis, but no framework, no SE data, no 'what to do' guidance.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c5": "A"
+      }
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "prefabrication is a necessity today",
+          "location": "conclusion"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Building these power units off-site cuts on-site labor and avoids weather delays.",
+          "location": "Power"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Power Capacity and Scale",
+          "location": "single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Lower labor costs vs doing in the field",
+          "location": "unquantified"
+        }
+      ],
+      "rationale": "Seed and most sub-questions covered; no quantified benefit of prefab (time/cost) for an Education reader.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c4": "A"
+      }
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "these data centers were primarily “stick built” or assembled from pieces procured through a bid-spec process",
+          "location": "A slow start"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no current trade-offs"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Building these power units off-site cuts on-site labor and avoids weather delays.",
+          "location": "no hype CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The data center plan, design, bid, build, and commission cycle involved architects and consulting engineers",
+          "location": "alternative described"
+        }
+      ],
+      "rationale": "Expert voice, fair stick-built vs prefab contrast, no CTAs; no current limitations of prefab.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A"
+      }
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "The new innovation is the AI factory modular IT Pod",
+          "location": "vs 'The AI Pod' / 'IT Pod'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the NVIDIA Vera Rubin running at 227 kW per rack",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The power densities per rack are close to 250 kW",
+          "location": "consistent with 246/227 kW"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "R6: no link labels in rendered capture"
+        }
+      ],
+      "rationale": "Pod named three ways; third-party models named; no descriptive next-step links.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A"
+      }
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "October 13, 2026",
+          "location": "byline"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the NVIDIA Vera Rubin running at 227 kW per rack",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": "no lifecycle content"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "October 13, 2026",
+          "location": "within cadence"
+        }
+      ],
+      "rationale": "Visible date, current facts; no visible 'Updated' label (template).",
+      "proposed_level": 4,
+      "confidence": "medium",
+      "failed_tags": {}
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The expertise needed at the rack and the AI cluster in an IT Pod includes manifolds",
+          "location": "depth"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Skilled electrician labor at the site is becoming a significant concern",
+          "location": "audience language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "A condensed version of this article appeared in Forbes.",
+          "location": "only closing line"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "R6: no link labels in rendered capture"
+        }
+      ],
+      "rationale": "Depth and language fit the stage; CTA names no specific SE asset (link check N/A per R6).",
+      "proposed_level": 3,
+      "confidence": "medium",
+      "failed_tags": {
+        "c3": "A"
+      }
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: none (server/rendered word ratio >= 1.0) -> not material",
+    "[T] 'Top picks' and 'Add a comment' render as H2s after the article; view counter/read time precede the first sentence -> SE Digital",
+    "[T] No visible 'Updated' label although article:modified_time differs -> SE Digital/editorial"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "declared stage from assignments.json"
+  }
+}

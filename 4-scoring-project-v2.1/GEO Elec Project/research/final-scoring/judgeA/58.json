@@ -1,0 +1,580 @@
+{
+  "page": {
+    "id": "58",
+    "url": "https://www.se.com/ww/en/download/document/se-impact-report/",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "Schneider Electric – Sustainability Impact Report",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "What is the Schneider Sustainability Impact program and what were its results?"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "corpus/rendered/56_sustainability-esg-report.md",
+    "input_mode": "rendered capture re-mapped: assigned rendered_file holds a different page; scored corpus/rendered/56_sustainability-esg-report.md (its header URL = this page)",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Sustainability Impact Report",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric - Sustainability Impact Report | Schneider Electric",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Title wording checked for company + report + period; summary line is a label; no headline results.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "No KPI on the page (no KPI component).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "No targets/progress on the page.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "No basis/frameworks/boundary.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "No assurance/ratings.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "30 Jul 2026",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Sustainability Impact Report",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Schneider Electric - Impact Report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "T",
+        "c5": "T"
+      },
+      "rationale": "Type/period/date and file link checked; no contents description, companions or edition links.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "30 Jul 2026",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "1.3",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "30 Jul 2026",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Latest version",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "T"
+      },
+      "rationale": "Release date, period, change note, cadence; 'Latest version' badge ([hidden]) credited per R2.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Schneider Electric - Impact Report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "se-impact-report",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no conflicting figures (none present)",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Report naming and identifiers; no related links; consistency otherwise vacuous.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Schneider Electric - Sustainability Impact Report | Schneider Electric",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric - Impact Report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Sustainability Impact Report",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND (no meta description in rendered capture)",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Title/file name/type label; no meta description on the rendered page.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Sustainability Impact Report",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no hype words",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "No promotion; nothing balanced (no misses disclosed).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Open and download",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "'Open and download' names no asset; 'Need help?' block (product selector, quote, where to buy) is off-stage for ESG.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": true,
+      "evidence": "Subject and period never defined: page never says what the Sustainability Impact report covers (U1 = 0)."
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "Gateway carries no KPIs/targets/summary; all content only in the PDF."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": true,
+      "evidence": "< 3 substantive factual statements on the page"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": true,
+      "evidence": "84 of 121 visible words repeated across siblings (69%)"
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Capture mapping error in corpus/rendered/55-58 (see 55.json) -> coordinator.",
+    "Generic 'Need help?' block (Product Selector / Get a Quote / Where to buy) on an investor-facing page (template)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Evaluation per R10."
+  }
+}

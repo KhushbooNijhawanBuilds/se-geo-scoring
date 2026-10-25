@@ -1,0 +1,470 @@
+{
+ "page": {
+  "id": "32",
+  "type": "calculator",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+  "topic": "Data center physical infrastructure CapEx",
+  "target_prompts": [
+   "How much does it cost to build a data center per watt, including liquid cooling?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "Opening states output but not drivers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"model the physical infrastructure CapEx of data centers\" - drivers not stated"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data Center Capital Cost Calculator"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 2,
+   "rationale": "Who and when only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for both traditional and AI data center deployments"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "support early planning activities"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-1",
+   "proposed_level": 4,
+   "rationale": "Logic, units, provenance, limits; not reproducible",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "By defining parameters such as IT load capacity, IT cooling approach ... the tool projects the number of racks required, estimated floor space, and the associated capital costs"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Type in a value between 100 kW and 100,000 kW (100 MW)."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Data Center Research & Strategy group"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "They should not be used as formal quotations, budget approvals, or procurement estimates."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CALC-2",
+   "proposed_level": 2,
+   "rationale": "Assumption list without values/sources",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "– Servers are traditional designs with internal power supplies (not OCP-style)."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "most assumptions lack values, e.g. \"All chillers have variable frequency drives (VFD).\""
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "For the IT capacity selected (10,000 kW)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"All cost values are displayed in the local currency\" - no price year"
+    }
+   ]
+  },
+  {
+   "id": "CALC-3",
+   "proposed_level": 1,
+   "rationale": "Default results visible; no example/benchmarks",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Cooling: $ 10.3 M (11.7%)"
+    }
+   ]
+  },
+  {
+   "id": "CALC-4",
+   "proposed_level": 4,
+   "rationale": "Inputs/outputs well defined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Select the country where the data center will be located"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Values between 1 kW/rack and 50 kW/rack are allowed."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Physical infrastructure capital cost normalized on a per-watt basis using the specified total IT capacity."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "coolant distribution unit (CDU)"
+    }
+   ]
+  },
+  {
+   "id": "CALC-5",
+   "proposed_level": 3,
+   "rationale": "Reading and limits; no decision rules or levers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Five charts provide different views of the estimated capital cost composition."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Cost estimates are intended for rough-order-of-magnitude planning and comparison purposes only."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Knowledge only in hidden panels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "– All chillers have variable frequency drives (VFD)."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data center capital cost calculator"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "All method text is [hidden] widget panel content"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Provenance only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "developed by the Schneider Electric Data Center Research & Strategy group"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Neutral with clear limitations",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This tool estimates the capital cost implications of key physical infrastructure design decisions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "They should not be used as formal quotations"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Versioned, descriptive WP links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Data Center Solutions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT4 Version 10.1"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "White paper 229, Battery Technology for Data Centers: VRLA vs. Li-ion"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 3,
+   "rationale": "Dated 2026; data year missing",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT4 Version 10.1 – 14-September-2026"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "14-September-2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Fits stage; no explicit CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "redundancy levels for each of the key power subsystems"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "rough-order-of-magnitude"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "White paper 133, Navigating Liquid Cooling Architectures"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

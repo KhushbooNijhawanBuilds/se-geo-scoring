@@ -1,0 +1,491 @@
+{
+  "page": {
+    "id": "60",
+    "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "2022 Sustainability Report (direct PDF)",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2022 sustainability report",
+      "Schneider Electric 2022 scope 1 2 3 emissions",
+      "Schneider Sustainability Impact score 2022",
+      "Schneider Electric 2022 climate targets progress"
+    ],
+    "prompts_inferred": true,
+    "audience": "Investors/ESG analysts, procurement assessors (inferred)",
+    "input_mode": "URL serves a PDF (no HTML at URL); PDF text extracted by coordinator and sampled for the document module",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "No HTML page at URL; nothing answers the prompt before the PDF is parsed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "HTML KPI layer absent at URL (certain); PDF content scored in the document module.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "HTML KPI layer absent at URL (certain); PDF content scored in the document module.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "HTML KPI layer absent at URL (certain); PDF content scored in the document module.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "HTML KPI layer absent at URL (certain); PDF content scored in the document module.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "No HTML navigation or companions at URL.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - no publication date at URL or in document text",
+          "location": "-"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOTE: superseded by later editions listed on hub (## 2025 Sustainability Report)",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "Period visible only in file name; superseded edition with no notice possible at a bare PDF URL.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "2022 Sustainable Development Report",
+          "location": "cover vs file name/metadata 'Sustainability Report'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: contradictions inside the PDF scored in the document module",
+          "location": "-"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "File/metadata say 'Sustainability Report', the cover says 'Sustainable Development Report'; no links at URL.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "\"/Title\": \"2022 Sustainability Report\"",
+          "location": "PDF metadata title (shown by engines for a bare PDF)"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "PDF title metadata and file name descriptive; no page title/meta description/type label at URL.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer at URL; tone of HTML layer not applicable",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer at URL; tone of HTML layer not applicable",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer at URL; tone of HTML layer not applicable",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "page"
+        }
+      ],
+      "rationale": "Tone not observable; criterion dropped.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer at URL; tone of HTML layer not applicable",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML layer at this address",
+          "location": "page"
+        }
+      ],
+      "rationale": "No next step or routing at URL.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "URL serves only a PDF; no HTML text equivalent at this address."
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "Bare PDF URL: no HTML statements"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": true,
+      "evidence": "2022 Sustainability Report is superseded by later editions (hub lists ## 2025 Sustainability Report); a bare archived PDF cannot point to its successor."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Hub links annual reports inconsistently: 2025 via an HTML download page, 2022/2023 directly to PDF assets -> template/linking decision for SE Digital + Sustainability owner.",
+    "Score reflects the absent HTML layer only; the PDF's own quality is scored separately in NN_doc_judge.json."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Archive report; scored at Evaluation for comparability."
+  }
+}

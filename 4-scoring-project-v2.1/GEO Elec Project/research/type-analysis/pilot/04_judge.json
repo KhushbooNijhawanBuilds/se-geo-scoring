@@ -1,0 +1,519 @@
+{
+  "page": {
+    "id": "04_blog-article",
+    "type": "article",
+    "stage": "Awareness",
+    "topic": "AI infrastructure planning strategy (enterprise)",
+    "industry": "Data centers / enterprise IT",
+    "audience": "Enterprise infrastructure leaders",
+    "target_prompts": [
+      "How should enterprises plan data center infrastructure for AI?",
+      "How much power does an AI rack use compared with a traditional rack?",
+      "Why do AI data centers need liquid cooling?",
+      "Retrofit or build new for AI workloads?",
+      "How long does it take to build a data center versus GPU refresh cycles?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "But they’re not the biggest challenge facing AI infrastructure leaders. The bigger issue is time.",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "AI is advancing faster than the infrastructure built to support it.",
+          "location": "top"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Most conversations still revolve around GPUs, models, and software.",
+          "location": "H2 opener"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Table of Contents",
+          "location": "TOC is not a summary"
+        }
+      ],
+      "rationale": "Fact-led opening and early thesis ('the bigger issue is time'); sections open with context, not answers; no summary.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Table of contents only; no takeaways.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+          "location": "html title"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Designing for a multi-generation AI future",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## Three questions every infrastructure leader should ask this week",
+          "location": "0 question H2s"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "If you’re leading AI infrastructure planning, ask these three questions now",
+          "location": "promise delivered"
+        }
+      ],
+      "rationale": "Thesis-style H1 without a searchable topic phrase; descriptive H2s; no question H2s.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "## The physics of AI are changing infrastructure strategy",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "What is your actual rack density ceiling today?",
+          "location": "list"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Most conversations still revolve around GPUs, models, and software. Those innovations matter",
+          "location": "5-sentence paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "This isn’t just an abstract timeline problem.",
+          "location": "context-dependent"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Even when liquid cooling removes 80% to 90% of a chip’s heat",
+          "location": ""
+        }
+      ],
+      "rationale": "Lists and descriptive headings; several 5-sentence paragraphs and context-dependent section openers.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Building a new data center typically takes 12 to 18 months",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.68 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The implication is profound",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "As rack density rises from 10-20 kW to more than 100 kW",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "A task expected to take hours may stretch into days",
+          "location": "vague outcome"
+        }
+      ],
+      "rationale": "Useful magnitudes but unsourced, with hype phrases and vague outcomes.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Five years ago, a typical enterprise data center rack consumed 10-20 kilowatts of power.",
+          "location": "unattributed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Aaron Dudley",
+          "location": "byline"
+        }
+      ],
+      "rationale": "No source for any statistic; named author only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Three questions every infrastructure leader should ask this week",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "infrastructure—not compute—is increasingly becoming the limiting factor for progress",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Start with a facility assessment, not a GPU forecast.",
+          "location": ""
+        }
+      ],
+      "rationale": "Useful framework (multi-generation, three questions) and thesis; no first-hand experience or data.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "They must design adaptable platforms with flexible power, scalable cooling",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "In some cases, the cost of retrofitting approaches the cost of building a new facility.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Designing for a multi-generation AI future",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Building a new data center typically takes 12 to 18 months",
+          "location": ""
+        }
+      ],
+      "rationale": "Seed and all sub-questions covered with magnitudes; focused.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Start with a facility assessment, not a GPU forecast.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While this strategy doesn’t eliminate the infrastructure timing challenge",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Understanding those tradeoffs early can help avoid costly, rushed decisions later.",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Vendor-neutral throughout; states limits of its own recommendation.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "AI infrastructure planning",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "As rack density rises from 10-20 kW to more than 100 kW",
+          "location": "consistent with intro"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Planning your next AI infrastructure investment? Start by understanding what your environment can support today",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent terms; closing CTA names no destination.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "October 2, 2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Today, AI-enabled racks can exceed 100 kilowatts.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "October 2, 2026",
+          "location": ""
+        }
+      ],
+      "rationale": "Visible date; current.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "If you’re leading AI infrastructure planning, ask these three questions now",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Three questions every infrastructure leader should ask this week",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Planning your next AI infrastructure investment? Start by understanding what your environment can support today",
+          "location": "no asset"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Fits Awareness and leader audience; no named next step.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: 'Top picks' related-post headings (often stale/unrelated, e.g. 2019 posts) and 'Add a comment' render as H2s inside <article> -> route to SE Digital",
+    "Template: no visible 'Updated' date although article:modified_time differs -> SE Digital/editorial",
+    "Template: view counter and reading time inside the article text block",
+    "Images: most article images have empty alt text"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for blog"
+  }
+}

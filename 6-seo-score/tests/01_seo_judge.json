@@ -1,0 +1,663 @@
+{
+  "page": {
+    "url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+    "title": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog",
+    "h1": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+    "keyword": "modular data center",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "proposed_level": 2,
+      "rationale": "c1 fail; c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "H1 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before' - second half is a slogan, not searcher language",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "First 150 words defer the answer: 'But why the need for prefabrication in AI data centers? Let’s take a look.'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Explainer format with sections 'Challenges of the AI era', 'Power Capacity and Scale', 'High Density Liquid Cooling'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Title promise (prefab in the AI era) delivered: 'prefabrication is a necessity today'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No product pitch section; product links are contextual ('AI factory modular IT Pod')",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 <title>; text 'Modular, prefabricated data centers enter the AI era - Schneider Electric Blog'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "78 chars, ~610px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "brand 'Schneider Electric Blog' x1, position end",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'modular data center' within first ~45 chars of 'Modular, prefabricated data centers enter the'",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3: none; years none",
+          "source": "computed"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "title main 'Modular, prefabricated data centers enter the AI era' vs H1 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before': 100% of title content words in H1; numbers title [] H1 []",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 meta description(s)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "414 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Meta summarises the page thesis: 'prefabrication is a necessity today' (but is the closing paragraph copied, 414 chars)",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'modular data center' in meta description",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3 in meta: none",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "proposed_level": 3,
+      "rationale": "c4 fail; c5 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "slug 'modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "slug 'modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before'; hyphens, lowercase",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "query='' fragment=''",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "slug 104 chars, 18 words (convention <=60 chars)",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Slug carries the slogan and repeats 'data-centers': '...-boldly-go-where-no-data-centers-have-gone-before'",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 H1: ['Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "895 body words, 5 H2/H3 -> ~179 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "4 of 5 H2s descriptive ('Power Capacity and Scale', 'High Density Liquid Cooling'); 'A slow start' is not",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'The metric is the message: Introducing a comprehensive data center sustainability standard', 'Taking a fresh look at software’s role in driving data center efficiencies and sustainability', 'Sustainable business model innovation: A brief overview', 'The IT world has moved on from proprietary operating systems. Now it’s industry’s turn.']",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "title: 'Modular, prefabricated data centers enter the AI era'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "H1: 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before'",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "first 150 words contain all of ['modular', 'data', 'center']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "subheads with topic: none",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "exact phrase x3 (~1.01% of words; stuffing trigger >3%); in 0% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target.",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Covers why AI needs prefab, which systems (UPS/switchgear skids, IT Pod), how it is deployed; costs/limits not covered",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "'CDUs' used without expansion: 'manifolds, hot and cold liquid plumbing to the servers, and the CDUs'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'AMD Helios 445 racks running at 246 kW per rack and the NVIDIA Vera Rubin running at 227 kW per rack'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Single topic: prefabrication for AI data centers",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No padding to a length target; 895 words",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Byline 'Steven Carlini'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "byline 'Steven Carlini' -> https://blog.se.com/author/steven-carlini/",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'I have been strategically involved in the modular data center industry for over 30 years'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Statistics unsourced: 'AI factory campuses can be up to 10 gigawatts'; 'close to 250 kW vs 10-20' - no source named or linked",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No checkable error or internal contradiction found",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "proposed_level": 2,
+      "rationale": "c1 fail; c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Experience is asserted ('over 30 years') but no first-hand observation with a specific detail",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND: no Schneider first-party data, test or deployment",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Specific analysis: 'the power and cooling components sit above the AI racks in an overhead metal superstructure'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Only image is stock: GettyImages-1337227407_resized-1024x538.jpg",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Original column; 'A condensed version of this article appeared in Forbes.' (syndication disclosed)",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "visible date 2026-10-13",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "visible 2026-10-13 vs markup published 2026-10-13",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "published 2026-10-13, modified 2026-10-16",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "modified 3 day(s) after publication (<7): no visible Updated label expected",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Racks cited are current (AMD Helios, NVIDIA Vera Rubin); no stale year",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "proposed_level": 3,
+      "rationale": "c3 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "5 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Links to the AI factory solution page and AI factory ebook: 'AI factory data centers' -> se.com/ww/en/work/solutions/ai-factory/",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "generic anchors none; same anchor -> different URLs ['ai factory data centers']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "internal links with tracking/ID params: ['https://www.se.com/ww/en/product-country-selector/?pageType=product-range&sourceId=371656912#overview']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "non-crawlable hrefs: none; all in-body links are <a href>",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "proposed_level": 3,
+      "rationale": "c1 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Page has statistics but the only outbound link is the author's own Forbes column, not a primary source",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "1 outbound editorial links; rel values ['noreferrer noopener']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Forbes link is relevant (condensed version of this article)",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "proposed_level": 0,
+      "rationale": "c1 fail; c3 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "0/1 content images have non-empty alt; empty: ['/uploads/2026/09/GettyImages-1337227407_resized-1024x538.jpg']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "no non-empty alt to judge",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "non-descriptive filenames: ['GettyImages-1337227407_resized-1024x538.jpg']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Single stock hero; the IT Pod architecture described in text has no diagram",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Article; missing none",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "author Person 'Steven Carlini', url=https://blog.se.com/author/steven-carlini/, sameAs=['https://www.linkedin.com/pub/steve-carlini/1/960/4ab', 'https://x.com/StevenCarliniSE']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "markup headline 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before' vs H1/title; markup author 'Steven Carlini' vs byline 'Steven Carlini'; dates 2026-10-13 vs 2026-10-13",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "missing none; og:url = canonical; og:title 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before'",
+          "source": "computed"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "SG1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_text_or_links",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_intro",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate_dominant",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "ai_listed_author",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "generic_anchor_overload",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E1",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/']; page URL https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/"
+    },
+    {
+      "id": "E4",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "result": "pass",
+      "evidence": "895 body words in server HTML"
+    }
+  ]
+}

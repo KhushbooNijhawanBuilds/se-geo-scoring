@@ -1,0 +1,586 @@
+{
+  "page": {
+    "id": "12",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "OT cybersecurity solutions for industrial systems",
+    "industry": "Industry / critical infrastructure",
+    "target_prompts": [
+      "What OT cybersecurity solutions are available for industrial control systems?",
+      "What does an OT cybersecurity assessment include?",
+      "How do managed security services for OT work?",
+      "How can industrial operators prepare for NIS2?",
+      "Which standards (IEC 62443) do OT cybersecurity solutions follow?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Enhance your security posture with validated cybersecurity solutions",
+          "location": "Benefit slogan"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cybersecurity solutions",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "From consulting to optimization, our certified experts deliver OT cybersecurity strategies, resilient architectures, and managed security services",
+          "location": "Second component"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our collection of videos, blogs, and joint publications",
+          "location": "Most H2s are teasers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Definition in 2nd block; H1 lacks 'OT'.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "our certified experts deliver OT cybersecurity strategies, resilient architectures, and managed security services",
+          "location": "Explore section"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "to secure industrial systems and cyber-physical assets at your location",
+          "location": "Explore section"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Is your OT ready for NIS2?",
+          "location": "Card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "build resilient infrastructure and manage risk across your network",
+          "location": "Outcome vague"
+        }
+      ],
+      "rationale": "What/who/when; vague outcome.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Manage and optimize",
+          "location": "Phase headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cybersecurity Consulting: Maturity Assessments, Asset Inventory Generation, Vulnerability Identification",
+          "location": "Assess list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Cybersecurity design, configuration, and lifecycle services for OT/IT projects",
+          "location": "Short blocks"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Proactively detect and mitigate cyber threats, reduce risks, and maintain...",
+          "location": "Truncated duplicated teasers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Download e-brochure",
+          "location": "Resource tabs and brochure"
+        }
+      ],
+      "rationale": "Good phase structure; card teasers truncated and duplicated.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Is your OT ready for NIS2?",
+          "location": "Card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "our certified experts",
+          "location": "'certified' without body"
+        }
+      ],
+      "rationale": "Regulation named; nothing sourced.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "deliver OT cybersecurity strategies, resilient architectures, and managed security services",
+          "location": "Explore section"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Maturity Assessments, Asset Inventory Generation, Vulnerability Identification, Vulnerability Assessments, Risk Assessments",
+          "location": "Assess"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our validated OT cybersecurity solutions are built on expertise across four key pillars",
+          "location": "Single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No IEC 62443, outcomes, proof"
+        }
+      ],
+      "rationale": "Seed and assessment/MSS fan-outs answered; standards and proof missing.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "trusted cybersecurity solutions from Schneider Electric",
+          "location": "Brand voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Managed security services: continuous monitoring, threat detection and rapid response",
+          "location": "Low hype"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Cyber Resilience Act",
+          "location": "Card (current regulation)"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Assess",
+          "location": "Option types by phase"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "OT cybersecurity strategies",
+          "location": "OT-security language"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Download our eGuide to stay resilient.",
+          "location": "NIS2 card CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Cybersecurity assessment services",
+          "location": "Next-stage offer cards"
+        }
+      ],
+      "rationale": "Fits Consideration; CTA descriptive enough. Judge proposes 4 (vague 'Download e-brochure').",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover why cybersecurity in connected OT systems is crucial.",
+          "location": "Problem only teased"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No problem statement or data.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Lifecycle pillars, not how the protection architecture works"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Consolidates key cybersecurity KPIs into an intuitive interface",
+          "location": "Platform card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No protocols/systems/standards"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "A starting point to implement a simplified and structured approach to review...",
+          "location": "Component descriptions truncated"
+        }
+      ],
+      "rationale": "Components with roles; architecture not explained.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "No outcomes quantified.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "validated cybersecurity solutions",
+          "location": "'validated' without validator"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "critical control applications",
+          "location": "Applications generic"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "A starting point to implement a simplified and structured approach to review",
+          "location": "Assessment card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "One fit hint.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Assess",
+          "location": "Pillars list"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Implement cybersecurity solutions to permit, protect, detect and respond to threats",
+          "location": "Implement"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "our certified experts deliver OT cybersecurity strategies, resilient architectures, and managed security services to secure industrial systems and cyber-physical assets at your location",
+          "location": "Explore section"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No durations"
+        }
+      ],
+      "rationale": "Clear phased engagement and delivery model; no timeline. Judge proposes 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "4 images with empty alt text; duplicated cards (carousel clones) -> SE Digital."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Consideration."
+  }
+}

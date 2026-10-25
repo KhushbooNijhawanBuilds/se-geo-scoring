@@ -1,0 +1,625 @@
+{
+  "page": {
+    "id": "15_15_product-range-page.md",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "PacT Series master range (LV/MV breakers and switches)",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "What does the PacT Series include and which breaker do I need for 4000 A?",
+      "MasterPact MTZ vs MasterPact NW",
+      "Which PacT breakers are UL 489 listed?",
+      "VigiPacT vs Vigirex (replacement)",
+      "Which breakers use MicroLogic trip units?",
+      "MV vacuum circuit breaker up to 24 kV from Schneider"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "the PacT Series comprises world-class circuit breakers, switches, residual current devices, and fuses",
+          "location": "PacT Series (H2)"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Discover PacT Series",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "from 16 to 6300 A in low voltage and up to 40.5 kV in medium voltage",
+          "location": "PacT Series (H2)"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our offer",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Composition and scope stated within 100 words; H1 brand-first; no section answers or summary.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "comprises world-class circuit breakers, switches, residual current devices, and fuses",
+          "location": "PacT Series"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "to panel builders and users in any MV applications up to 40.5 kV",
+          "location": "Explore our offer"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "for all standard and specific applications",
+          "location": "PacT Series"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Providing reliable switchgear components with peace of mind",
+          "location": "Explore our offer"
+        }
+      ],
+      "rationale": "What and who clear; when generic; outcome vague.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2 x6"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "MasterPact NT Circuit breakers to protect lines up to 1600 A, in a compact frame",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "ComPact INS/INV Switch-disconnectors to interrupt lines up to 2500 A",
+          "location": "card"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "FuPacT Fusegear to interrupt and protect distribution lines up to 1250 A",
+          "location": "card"
+        }
+      ],
+      "rationale": "Self-contained, fact-bearing cards; six identical generic H2s; no tables.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "High current air circuit breakers up to 5000 A complying with UL 489 standard",
+          "location": "MasterPact UL 489 card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "One standard cited by number.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "World-class breakers and switches",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Future-proof your installation",
+          "location": "PacT Series"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Brand range page",
+          "location": ""
+        }
+      ],
+      "rationale": "Heavy hype ('world-class' x5, 'legendary', 'future-ready').",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "MicroLogic Electronic control units for Masterpact NT/NW and for Compact NS",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "MasterPact MTZ Circuit breakers to protect lines up to 6300 A",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "MasterPact for Direct Current Circuit-breakers to protect DC energized lines, up to 4000 A",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "No link/CTA labels in text",
+          "location": ""
+        }
+      ],
+      "rationale": "Brand casing inconsistent (EvoPacT/EvoPact, FuPact/FuPacT, Masterpact/MasterPact, Compact/ComPact).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2nd Generation, Indoor Digital MV Vacuum Circuit Breaker up to 24 kV",
+          "location": "EvoPacT card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; 'new innovations' undated; no lifecycle status.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "~20 members, no comparison table.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Worldwide availability makes these breakers ideal for customers who have global designs or build and sell in UL markets.",
+          "location": "PowerPact"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "from 630 A to 6300 A up to 415 VAC",
+          "location": "MasterPact intro"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "From 16 A to 3200 A up to 690 VAC",
+          "location": "ComPact intro"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "ideal for customers who have global designs or build and sell in UL markets",
+          "location": "PowerPact intro"
+        }
+      ],
+      "rationale": "Ratings/voltages per sub-range and a UL-market choice cue; only one explicit choice statement.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "for all standard and specific applications",
+          "location": "PacT Series"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "MasterPact for Navy - Circuit breakers to protect lines up to 4000 A, certified for Navy applications",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Few end segments named; member-level applications (Navy, DC); no references.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "now comes in a smaller size and with integrated earth leakage protection",
+          "location": "ComPact NSX"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Built on legendary Schneider Electric innovation",
+          "location": "PacT Series"
+        }
+      ],
+      "rationale": "No quantified differentiator; superlatives.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "MicroLogic control units offer enhanced electronic circuit protection with comprehensive, integrated measurement",
+          "location": "MicroLogic"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "MicroLogic control units are designed for use in both ComPact NS and MasterPact NT, NW and UR circuit breakers from 630 A to 6300 A",
+          "location": "MicroLogic"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "EcoStruxure™-ready switchgear",
+          "location": "PacT Series"
+        }
+      ],
+      "rationale": "Trip-unit compatibility explicit; no protocols/software named.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "complying with UL 489 standard",
+          "location": "MasterPact UL 489"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "MasterPact - UL 489 listed High current air circuit breakers up to 5000 A",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "certified for Navy applications",
+          "location": "card"
+        }
+      ],
+      "rationale": "UL 489 mapped to members; no IEC standards/declarations.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Earth-leakage protection and monitoring relays (formerly Vigirex)",
+          "location": "VigiPacT card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "EvoPacT™ HVX 2nd Generation, Digital MV Vacuum Circuit Breaker up to 24 kV",
+          "location": "card"
+        }
+      ],
+      "rationale": "One legacy name (Vigirex) and a generation marker; no successor mapping (e.g. NW -> MTZ) or status.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "VAH High Duty Indoor MV Circuit Breaker up to 17.5 kV",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "PowerPact B Multistandard Multistandard molded case circuit breaker up to 125 A",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "MasterPact NW - Circuit breakers to protect lines up to 6300 A",
+          "location": "card text rendered twice"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "ComPact NS NA Switch-disconnectors to interrupt lines up to 3200 A",
+          "location": "card"
+        }
+      ],
+      "rationale": "Descriptors carry ratings for nearly all members; few 'best for'; duplicated card text.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Hero video ('Choose a video')",
+    "Card text duplicated (template)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Consideration"
+  }
+}

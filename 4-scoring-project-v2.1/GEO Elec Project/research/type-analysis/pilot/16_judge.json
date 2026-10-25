@@ -1,0 +1,625 @@
+{
+  "page": {
+    "id": "16_16_product-range-page.md",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "9 Series master range (final distribution protection)",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "What is the Schneider 9 Series and which Acti9 device do I need?",
+      "Acti9 iC60 rating",
+      "Acti9 RCBO vs RCCB",
+      "Resi9 vs Acti9 difference",
+      "Acti9 arc fault detection device (AFDD) options",
+      "Multi9 for OEM panel builders"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The 9 Series delivers the final level of protection in the electrical distribution in homes and buildings",
+          "location": "9 Series (H2)"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "9 Series",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Advanced protection with comprehensive final distribution breaker ranges",
+          "location": "hero"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our offer",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Role defined early; H1 is brand only; no section answers or summary.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "comprehensive final distribution breaker ranges",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "in homes and buildings",
+          "location": "9 Series"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "allowing our customers to feel safe everywhere at every moment",
+          "location": "9 Series"
+        }
+      ],
+      "rationale": "What and who; no trigger; emotional outcome.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2 x4"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Acti9 iC60 Miniature Circuit Breakers up to 63 A",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Acti9 iID DIN Rail Residual current circuit breakers (RCCB) up to 100 A",
+          "location": "card"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Acti9 iCT Modular contactors up to 100 A",
+          "location": "card"
+        }
+      ],
+      "rationale": "Self-contained cards; generic H2s; no tables.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No standards (SPD types given without standard number), no sources.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "allowing our customers to feel safe everywhere at every moment",
+          "location": "9 Series"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "offering unparalleled performance and space optimization",
+          "location": "Acti9 intro"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Brand range page",
+          "location": ""
+        }
+      ],
+      "rationale": "Emotional and superlative copy.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Acti9 Vigi iC60 Residual current add-on devices up to 63 A for Acti9 iC60 Miniature Circuit Breakers",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Acti9 iC60 RCBO (2P, 3P, 4P)",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Acti9 iDPN Vigi Residual current circuit breakers with integrated overcurrent protection (RCBO) up to 40 A",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "promo"
+        }
+      ],
+      "rationale": "Consistent names and identifiers; vague CTAs; typo 'Telecom nd IT'.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Acti9 iARC DIN rail Arc Fault Detection Device (AFDD)",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; no lifecycle.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No table across Resi9/Acti9/Multi9 or Acti9 devices.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Acti9 iC60 - Miniature Circuit Breakers up to 63 A",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Acti9 iSW & SW - Switch disconnectors up to 125 A",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Acti9 iDPN N Arc - Arc Fault Detection Circuit Breaker",
+          "location": "card"
+        }
+      ],
+      "rationale": "Ratings support selection; overlapping members (two RCBOs, two arc-fault devices) not distinguished.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "dedicated to equipment manufacturers (OEMs)",
+          "location": "Multi9 intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Multi9 multi-standard range of electrical protection devices up to 63A for OEMs and control panel builders",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Segments per sub-range; no references.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "offering unparalleled performance and space optimization",
+          "location": "Acti9 intro"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "unparalleled performance",
+          "location": "Acti9 intro"
+        }
+      ],
+      "rationale": "No quantified differentiator.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Residual current add-on devices up to 63 A for Acti9 iC60 Miniature Circuit Breakers",
+          "location": "Vigi iC60 card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "the ability to be connected remotely to your home",
+          "location": "Resi9 intro"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Acti9 Vigi iC60 - Residual current add-on devices up to 63 A for Acti9 iC60 Miniature Circuit Breakers",
+          "location": "card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Add-on compatibility explicit; connectivity unnamed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "meet your needs and the major standards for industry applications",
+          "location": "Multi9 intro"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Standards mentioned only generically.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No legacy names (e.g. predecessor ranges), no lifecycle.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Resi9 Protection Protection devices",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Acti9 iC60 - Miniature Circuit Breakers up to 63 A",
+          "location": "card text rendered twice"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure ™ Asset Advisor for drives",
+          "location": "promo"
+        }
+      ],
+      "rationale": "Resi9 descriptors are tautological; under half carry a rating; few 'best for'; duplicated; off-topic promo.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Hero video",
+    "Card text duplicated (template)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Consideration"
+  }
+}

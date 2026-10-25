@@ -1,0 +1,608 @@
+{
+  "page": {
+    "id": "21",
+    "title": "Massmart: Unifying sustainability across a retail giant’s diverse network of stores",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Massmart: Unifying sustainability across a retail giant’s diverse network of stores",
+    "industry": "",
+    "target_prompts": [
+      "How did Massmart reduce energy costs across its stores?",
+      "Examples of retailers using building management systems to save energy",
+      "How much can a BMS save in retail stores?",
+      "What is EcoStruxure Building Operation?",
+      "Multi-site retail energy management case study in South Africa"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/21_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Massmart, EcoStruxure BMS Case Study",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Unifying sustainability across a retail giant’s diverse network of stores",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart is a major retailer owned by Walmart and headquartered in South Africa. Over the last decade",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "integrate EcoStruxure Building Operation into more than 250 of their stores, achieving significant energy savings",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "achieving significant energy savings",
+          "location": "unquantified in summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "Hero + overview summarize who/solution/scope/period.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "major retailer owned by Walmart",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "more than 250 of their stores",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "headquartered in South Africa",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Over 155 BMS systems installed across the group",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Complete profile.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Annualized energy cost savings of R15 million (ZAR)",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Reduced maintenance costs and minimized equipment downtime",
+          "location": "unquantified",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "baseline",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Annualized energy cost savings",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart's deployment of EcoStruxure Building Operation has yielded significant energy savings",
+          "location": "Results tab (hidden)",
+          "id": "c5"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart: Success story highlights",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "One metric; attribution only in a collapsed tab.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Massmart required a sustainability solution that would give them comprehensive oversight",
+          "location": "hidden tab",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart partnered with Schneider Electric and Green Wave, a master-level EcoXpert partner",
+          "location": "hidden tab",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Real results in real-time",
+          "location": "hidden tab",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Visibility and energy savings across operations",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Full narrative, but in collapsed tabs.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "No quote.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Building Operation",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "integrating stores with EcoStruxure™ Building Operation, our innovative building management system (BMS)",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Software and services used by Massmart",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Main offer and role clear; other five listed only.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No method for R15 million.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "integrating stores with EcoStruxure™ Building Operation",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart is a major retailer",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "diverse network of stores",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Annualized energy cost savings of R15 million (ZAR)",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four near the top.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "## Visibility and energy savings across operations",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Over 155 BMS systems installed across the group",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart is a major retailer owned by Walmart and headquartered in South Africa.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Massmart's deployment of EcoStruxure Building Operation",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "- Challenges",
+          "location": "narrative only in collapsed tabs (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "T"
+      },
+      "rationale": "c5 fails: challenge/solution/results only in tabs → max 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Massmart partnered with Schneider Electric and Green Wave",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "unprecedented visibility",
+          "location": "hype",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Hype words.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Building Operation",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Planon Integrated Workplace Management Solution",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Over 155 BMS systems installed across the group",
+          "location": "155 BMS vs 250 stores: ambiguous, not contradictory",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "generic anchor",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "Consistent; reconcile 155 vs 250.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish/project date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated results",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no review evidence",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated ('Over the last decade').",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Annualized energy cost savings of R15 million (ZAR)",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Are you a building owner?",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Download the white paper",
+          "location": "CTA names no asset",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoStruxure for Retail",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Fits Evaluation.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Read more / Learn more / Discover more / Read the full story"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 53% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 206 vs rendered 435 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

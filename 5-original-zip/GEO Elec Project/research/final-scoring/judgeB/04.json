@@ -1,0 +1,577 @@
+{
+  "page": {
+    "id": "04",
+    "type": "article",
+    "stage": "Awareness",
+    "topic": "Leaders need a new strategy for AI infrastructure planning",
+    "industry": "Data centers",
+    "target_prompts": [
+      "How should enterprises plan data center infrastructure for AI?"
+    ],
+    "prompts_inferred": false,
+    "fan_out": [
+      "Why is traditional data center planning breaking down for AI (build time vs hardware cycles)?",
+      "How do AI rack densities change power, cooling and structural requirements?",
+      "How can enterprises design infrastructure for multiple hardware generations?",
+      "Should enterprises build new or retrofit existing data centers for AI?",
+      "What first steps or questions should infrastructure leaders address?"
+    ],
+    "fan_out_inferred": true,
+    "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+    "rendered_file": "corpus/rendered/04_blog-article.md",
+    "judge": "B"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Five years ago, a typical enterprise data center rack consumed 10-20 kilowatts of power.",
+          "location": "Intro opens with background"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "But they’re not the biggest challenge facing AI infrastructure leaders. The bigger issue is time.",
+          "location": "Intro (problem, not answer)"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No body H2s"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "TOC is not a summary"
+        }
+      ],
+      "rationale": "The planning answer (adaptable, multi-generation design; assess the facility first) appears only after ~250 words and at the end. Slogan H1, no section headings, no summary.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No key-takeaways block (the three questions are a checklist, not takeaways).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+          "location": "SEO title, same angle"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "TOC entries are not rendered as body headings"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "N/A",
+          "location": "No explicit title promise"
+        }
+      ],
+      "rationale": "Slogan-style H1 consistent with title; the TOC section titles never render as H2s in the body.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No content H2/H3 in body"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Newer, high-density infrastructure is dedicated to AI development, training, and other compute-intensive workloads.",
+          "location": "Generations list"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Most conversations still revolve around GPUs, models, and software.",
+          "location": "5-sentence paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "This creates a fundamental mismatch between digital innovation and physical infrastructure.",
+          "location": "Back-references"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Building a new data center typically takes 12 to 18 months",
+          "location": "Nothing hidden"
+        }
+      ],
+      "rationale": "Body has no headings at all (TOC only), two lists, several back-referencing paragraphs.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "As rack density rises from 10-20 kW to more than 100 kW, every system in the facility is affected",
+          "location": "Body"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "~7 quantified facts in ~1,140 words (0.69/100w script)"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Meanwhile, AI hardware continues to advance at an unprecedented pace.",
+          "location": "Body"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "plumbing, leak detection, water distribution, and monitoring systems",
+          "location": "Precise terms"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "This approach allows organizations to maximize the value of existing investments.",
+          "location": "Generic outcome"
+        }
+      ],
+      "rationale": "Key context quantified (kW, months, 80-90%) but below density threshold, hype ('unprecedented', 'profound'), generic outcomes.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Even when liquid cooling removes 80% to 90% of a chip’s heat",
+          "location": "Unsourced"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Aaron Dudley",
+          "location": "Name only, no role"
+        }
+      ],
+      "rationale": "No sources, standards, quotes or first-party evidence; author role not visible.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Start with a facility assessment, not a GPU forecast. First, map your physical constraints. Then evaluate the economics of building versus retrofitting",
+          "location": "Closing"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "infrastructure—not compute—is increasingly becoming the limiting factor for progress",
+          "location": "Body"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "What is your actual rack density ceiling today? Not the theoretical limit.",
+          "location": "Three questions"
+        }
+      ],
+      "rationale": "Useful decision sequence and three leader questions; quotable thesis; no first-hand or SE data.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "They must design adaptable platforms with flexible power, scalable cooling, and the operational agility",
+          "location": "Body"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Leading organizations are adapting by designing infrastructure strategies that support multiple generations of hardware.",
+          "location": "Body"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "If you’re leading AI infrastructure planning, ask these three questions now",
+          "location": "Single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No build-vs-retrofit criteria or sourced data"
+        }
+      ],
+      "rationale": "Seed and most fan-outs answered; build-vs-retrofit only mentioned; facts unsourced.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Start with a facility assessment, not a GPU forecast.",
+          "location": "Advisory voice, no brand promotion"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While this strategy doesn’t eliminate the infrastructure timing challenge",
+          "location": "Limitation"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The implication is profound",
+          "location": "Hype phrasing; 'That’s not future‑ready. That’s ROI‑ready.'"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "N/A",
+          "location": ""
+        }
+      ],
+      "rationale": "Neutral, brand-free advice with a stated limitation; rhetorical hype keeps it at 2 under strict reading.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "AI-enabled racks can exceed 100 kilowatts",
+          "location": "Generic but consistent"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No identifiers"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "If it takes 18 months to build or upgrade a facility",
+          "location": "Consistent with 12-18 months"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "N/A",
+          "location": ""
+        }
+      ],
+      "rationale": "No named entities or identifiers; no contradictions.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "October 2, 2026",
+          "location": "Byline"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Today, AI-enabled racks can exceed 100 kilowatts.",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "October 2, 2026",
+          "location": "Byline"
+        }
+      ],
+      "rationale": "Dated and current; no 'Updated' label.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "If you’re leading AI infrastructure planning, ask these three questions now, before you break ground.",
+          "location": "Awareness"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "enterprise leaders must rethink AI infrastructure planning",
+          "location": "Audience"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Planning your next AI infrastructure investment? Start by understanding what your environment can support today",
+          "location": "CTA names no asset"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No next-stage link in body"
+        }
+      ],
+      "rationale": "Fits Awareness; closing CTA names no SE asset or next step.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "failed_tags": {
+    "U1": "A",
+    "ART-1": "A",
+    "ART-2": "T",
+    "U3": "T",
+    "U4": "A",
+    "U5": "A",
+    "ART-3": "A",
+    "U6": "A",
+    "U7": "A",
+    "U8": "A",
+    "U10": "A"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": "Not triggered: 'October 2, 2026' visible"
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": "Not triggered"
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": "Not triggered"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": "Not applied"
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": "0.35/100w (script)"
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": "Not applied"
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": "Not applied"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": "Not applied"
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": "Not applied"
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": "TOC entries without matching rendered headings: not a placeholder/duplicate section"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": "Not applied"
+    }
+  ],
+  "out_of_scope_observations": [
+    "Table of Contents lists 5 section titles that do not render as H2s in the body -> template/editor [T] -> SE Digital",
+    "Missing spaces after sentences ('take years.Meanwhile', 'limiting factor.Matching') -> copy-edit",
+    "Crawler gap: none (server 1,292 vs rendered 1,192 words)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Awareness"
+  }
+}

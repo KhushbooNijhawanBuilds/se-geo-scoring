@@ -1,0 +1,531 @@
+{
+ "page": {
+  "id": "24",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+  "topic": "Zicaffè coffee production automation with EcoStruxure Automation Expert",
+  "industry": "Industrial Automation (inferred)",
+  "target_prompts": [
+   "How did Zicaffè digitize its coffee production with open automation?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Customer story - Zicaffe",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Innovation and artisanship in every cup",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "For nearly a century and across four generations, Sicilian coffee company Zicaffè has been driven by an entrepreneurial spirit and a focus on innovation.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "summary has who/solution/partner only; no problem or result",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Sicilian coffee company Zicaffè",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Sicilian",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "to better control, manage, and track its processes",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Improvement of the full production process lifecycle (unquantified)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Many of the complex automation challenges faced by the consumer packaged goods industry (generic)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "adopting the latest in open automation and next-gen digital solutions (vague)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Greater control and a lower risk of errors to ensure the right blend",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Using EcoStruxure Automation Expert immediately guaranteed the availability of an automation architecture",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Giuseppe Zichittella",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "IT Manager, Zicaffè",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "capable of integrating digitization and innovation at all levels",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: substance is general, no outcome",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-6",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Automation Expert",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Automation Expert, the open, software-defined automation solution",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Modicon Edge Control",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: cards are bare names",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the open, software-defined automation solution",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sicilian coffee company Zicaffè",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "to produce its signature coffee blends",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Greater control and a lower risk of errors (not concrete)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "A passion for coffee and innovation (generic)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Harmony HMI",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "paragraphs 1-3 sentences",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "sections name Zicaffè and the products",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "no hidden panels; text carries the story",
+     "evidence_type": "note"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "state-of-the-art digital solutions",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Fusing tradition with innovation",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Automation Expert",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no conflicting statements",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Read more",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "undated",
+     "evidence_type": "note"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no results; too thin for Evaluation",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "fits plant/IT managers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Get the e-guide",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure for Food and Beverage",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": true,
+   "evidence": "no quantified outcome anywhere; key results are qualitative"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Read more / Explore more / Find out more / Discover our solutions"
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 3 by default: named customer + deployed offer ('Using EcoStruxure Automation Expert immediately guaranteed...'); no results but not a sponsorship/approach showcase."
+ }
+}

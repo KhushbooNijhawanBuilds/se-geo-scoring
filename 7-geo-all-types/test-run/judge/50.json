@@ -1,0 +1,426 @@
+{
+ "page": {
+  "type": "news",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-the-world%E2%80%99s-first-fully-softwaredefined-medium-voltage-switchgear-to-accelerate-the-speed-and-scalability-of-ai-factories-6aba127dcdf86ce71f08cf33/",
+  "topic": "Software-Defined Medium Voltage switchgear",
+  "target_prompts": [
+   "What is software-defined medium voltage switchgear and what does it do for AI data centers?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "NEWS-1",
+   "proposed_level": 4,
+   "rationale": "Strong headline and factual deck",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "up to 3× faster ordering and manufacturing, up to 2× faster commissioning, zero-downtime upgrades"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Architecture piloted with Equinix in a live colocation data center environment"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Medium Voltage switchgear"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 5,
+   "rationale": "All four in first block, outcome quantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the world’s first fully Software-Defined Medium Voltage (MV) switchgear"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "to accelerate the speed and scalability of AI factories"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "piloted with Equinix in a live colocation data center environment"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "up to 3× faster ordering and manufacturing, up to 2× faster commissioning"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-2",
+   "proposed_level": 4,
+   "rationale": "Numeric date; milestones absolute",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "28/09/2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Las Vegas, NV, USA"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Pilot programs continue through 2027, with broader availability to follow in 2028."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Announced at YOTTA 2026 (September 28–30, Las Vegas)"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 3,
+   "rationale": "Quantified outcomes; low density; hype",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "up to 3× faster ordering and manufacturing"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~6 facts in ~800 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "redefining how electrical distribution systems are designed"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Software-Defined Medium Voltage (MV) switchgear ... PremSet™ and the AirSeT™ range (GM AirSeT™, RM AirSeT™, and SM AirSeT™)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "enabling up to 2× faster commissioning and onsite acceptance testing"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-3",
+   "proposed_level": 3,
+   "rationale": "Basis + Equinix pilot; 'first' unscoped; asset unnamed",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Based on Schneider Electric studies and estimations, this approach delivers up to 3× faster ordering"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "the world’s first fully Software-Defined Medium Voltage (MV) switchgear (no as-of/evidence)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "already deployed in the field through a pilot with Equinix, conducted in a live colocation data center environment"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "download the white paper (untitled)"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-4",
+   "proposed_level": 4,
+   "rationale": "Exec + Equinix quotes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "said Melton Chang, Executive Vice President, Power Systems Division, Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "bringing the logic of software to medium voltage equipment — so customers can ... add new capabilities with zero downtime"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "said Greg Metcalf, Senior Director, Global Data Center Design and Innovation at Equinix"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "With Software Defined MV switchgear"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-5",
+   "proposed_level": 3,
+   "rationale": "Timing + maturity; no markets, no ratings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "broader availability to follow in 2028 (no markets)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "register for product and availability updates"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "No ratings (kV, A) or spec units"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Pilot programs continue through 2027"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-6",
+   "proposed_level": 0,
+   "rationale": "No About block; 'visit the web'",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "visit the web or download the white paper"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Equinix not described"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "No headings, no lists in body",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "No subheads in body"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "No lists/tables in body"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Paragraphs 3-4 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "This transformation is supported by ... / this approach"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Facts in HTML"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Answer + most fan-outs; no specs/price",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "shifting functionality into software and enabling over-the-air updates"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "benefits, pilot, roadmap covered"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One launch"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "No ratings or pricing"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Brand voice",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "It marks the next step for Schneider Electric as the energy technology partner"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Pilot programs continue through 2027, with broader availability to follow in 2028."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "redefining / future-ready / simpler, smarter"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "Offer name drifts; vague link",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Software-Defined Medium Voltage switchgear / Software Defined MV Equipment / Software Defined MV architecture"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "GM AirSeT™, RM AirSeT™, and SM AirSeT™"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "visit the web"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

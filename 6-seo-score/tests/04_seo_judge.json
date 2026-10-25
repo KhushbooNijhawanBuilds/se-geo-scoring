@@ -1,0 +1,663 @@
+{
+  "page": {
+    "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+    "title": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+    "h1": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+    "keyword": "AI infrastructure planning",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Title 'Leaders need a new strategy for AI infrastructure planning' (H1 is a slogan: 'AI is moving faster than infrastructure.')",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'Today, AI-enabled racks can exceed 100 kilowatts... The bigger issue is time.'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Opinion/explainer with an action list 'Three questions every infrastructure leader should ask this week'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "'new strategy' delivered: 'Designing for a multi-generation AI future'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No product pitch; soft close only",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 <title>; text 'Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "84 chars, ~662px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "brand 'Schneider Electric Blog' x1, position end",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "keyword 'AI infrastructure planning' not within first ~45 chars of 'Leaders need a new strategy for AI infrastruc'",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3: none; years none",
+          "source": "computed"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "title main 'Leaders need a new strategy for AI infrastructure planning' vs H1 'AI is moving faster than infrastructure. Leaders need a new strategy.': 83% of title content words in H1; numbers title [] H1 []",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 meta description(s)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "142 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'Learn how power, cooling, and facility strategies can adapt to support changing enterprise AI demands.'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "keyword 'AI infrastructure planning' not in meta description",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3 in meta: none",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "proposed_level": 4,
+      "rationale": "c5 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "slug 'leaders-need-a-new-strategy-for-ai-infrastucture-planning'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "slug 'leaders-need-a-new-strategy-for-ai-infrastucture-planning'; hyphens, lowercase",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "query='' fragment=''",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "slug 57 chars, 9 words (convention <=60 chars)",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Slug misspelt: 'ai-infrastucture-planning' (missing r)",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 H1: ['AI is moving faster than infrastructure. Leaders need a new strategy.']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "1042 body words, 5 H2/H3 -> ~208 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "All 5 H2s descriptive; Table of Contents present",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'Transforming IT resilience: Why every channel partner needs a power infrastructure assessment', 'Why finance organizations need AI-tolerant UPSs for resilient AI infrastructure', 'Why Modular Data Centers are a Resilient and Flexible Choice for Digital and Virtual Learning', 'Wiring devices by Square D provide stylish, safe smart home solutions']",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "title: 'Leaders need a new strategy for AI infrastructure planning'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "H1: 'AI is moving faster than infrastructure. Leaders need a new strategy.'",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "first 150 words contain all of ['ai', 'infrastructure', 'planning']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "subheads with topic: ['The AI infrastructure planning model is breaking']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "exact phrase x3 (~0.86% of words; stuffing trigger >3%); in 20% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target.",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Covers why planning breaks, physical constraints (density, cooling, weight), multi-generation strategy, what to ask",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Terms explained in context ('liquid cooling ... plumbing, leak detection')",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'Building a new data center typically takes 12 to 18 months'; 'removes 80% to 90% of a chip’s heat'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "One topic",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No padding",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "proposed_level": 4,
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Byline 'Aaron Dudley'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "byline 'Aaron Dudley' -> https://blog.se.com/author/aaron-dudley/",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND: no role or credential on the article",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "'exceed 100 kilowatts' linked to iaeimagazine.org; '12 to 18 months' linked",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No checkable error found",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "proposed_level": 2,
+      "rationale": "c1 fail; c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND: no first-hand observation",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND: no first-party data",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Decision aid: 'What is your actual rack density ceiling today?'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Stock image AdobeStock_1725140750-copy.jpeg",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Original editorial",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "visible date 2026-10-02",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "visible 2026-10-02 vs markup published 2026-10-02",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "published 2026-10-02, modified 2026-10-16",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "dateModified 2026-10-16 is 14 days after publication; no visible 'Updated' label",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No stale facts",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "proposed_level": 4,
+      "rationale": "c1 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "2 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'AI infrastructure investment' -> se.com/ww/en/work/solutions/data-centers-and-networks/",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "generic anchors none; same anchor -> different URLs none",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "internal links with tracking/ID params: none",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "non-crawlable hrefs: none; all in-body links are <a href>",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Claims linked: iaeimagazine.org, datacenterknowledge.com, nvidianews.nvidia.com",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "6 outbound editorial links; rel values ['noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener', 'noreferrer noopener']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Sources relevant; some are vendor/trade blogs (ingenious.build) rather than primary",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "proposed_level": 1,
+      "rationale": "c2 fail; c3 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1/1 content images have non-empty alt",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "alt 'AI Infrastructure' does not describe the image",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "non-descriptive filenames: ['AdobeStock_1725140750-copy.jpeg']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Generic stock image, not explanatory",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Article; missing none",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "author Person 'Aaron Dudley', url=https://blog.se.com/author/aaron-dudley/, sameAs=['https://www.linkedin.com/in/aaron-dudley-357b847/']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "markup headline 'AI is moving faster than infrastructure. Leaders need a new strategy.' vs H1/title; markup author 'Aaron Dudley' vs byline 'Aaron Dudley'; dates 2026-10-02 vs 2026-10-02",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "missing none; og:url = canonical; og:title 'AI is moving faster than infrastructure. Leaders need a new strategy.'",
+          "source": "computed"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "SG1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_text_or_links",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_intro",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate_dominant",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "ai_listed_author",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "generic_anchor_overload",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E1",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/']; page URL https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/"
+    },
+    {
+      "id": "E4",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "result": "pass",
+      "evidence": "1042 body words in server HTML"
+    }
+  ]
+}

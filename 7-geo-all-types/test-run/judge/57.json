@@ -1,0 +1,412 @@
+{
+ "page": {
+  "id": "57",
+  "type": "esg_report",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+  "topic": "Schneider Electric H1 2026 sustainability results",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "What are Schneider Electric's H1 2026 sustainability results?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "title only; no headline result",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Sustainability Report H1 2026 Results"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no content sections"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": 0,
+   "rationale": "no KPIs on the gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": 0,
+   "rationale": "no targets",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": 0,
+   "rationale": "no reporting basis",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": 0,
+   "rationale": "no assurance/ratings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": 1,
+   "rationale": "type/date only; no description or companions",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026 ... Release date 30 Jul 2026"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Sustainability Report H1 2026 Results"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Open and download"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"Latest version\" exists only as a hidden element"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 2,
+   "rationale": "release date visible; no change note or current-edition statement",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Release date 30 Jul 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "H1 2026 vs Release date 30 Jul 2026"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Version 1.1 (no change note)"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "identifiers present; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Document ref. sustainability-report-H1-2026"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no contradictions found"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Open and download"
+    }
+   ]
+  },
+  {
+   "id": "DOC-5",
+   "proposed_level": 3,
+   "rationale": "descriptive title and file name; minimal meta description",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026.pdf"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Institutional Document"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Sustainability Report H1 2026 Results"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "neutral; no limitations; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Sustainability Report H1 2026 Results"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Sustainability Report H1 2026 Results"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 1,
+   "rationale": "no stage content; non-descriptive CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "download stub only"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Schneider Electric - Sustainability Report - H1 2026"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Open and download"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": true,
+   "evidence": "the report's results (the target prompt) are never stated on the page"
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "gateway with no KPIs; content only in Schneider Electric - Sustainability Report - H1 2026.pdf"
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "only title, date and file metadata"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Metadata block (Release date / Version / Document ref. / File format) and a truncated copy of the abstract are rendered 2-3 times in the page text"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

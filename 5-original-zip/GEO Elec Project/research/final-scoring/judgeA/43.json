@@ -1,0 +1,667 @@
+{
+  "page": {
+    "id": "43",
+    "type": "software_hub",
+    "stage": "Consideration",
+    "topic": "Industrial software solutions",
+    "industry": "Cross-segment",
+    "target_prompts": [
+      "What industrial software does Schneider Electric offer?",
+      "Which Schneider Electric software programs Modicon PLCs (Unity Pro replacement)?",
+      "Which Schneider software for electrical installation design?",
+      "What is the relationship between Schneider Electric and AVEVA?",
+      "How does Schneider Electric software licensing work?"
+    ],
+    "prompts_inferred": false,
+    "fanout_inferred": true,
+    "content_source": "corpus/rendered/43_software-page.md",
+    "standard": "v2.0",
+    "judge": "A"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Empowering all users with a seamless and collaborative dataflow across the entire lifecycle",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Our agnostic software portfolio",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "from design and build to operate and maintain with software solutions",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Experience the CONNECT Effect",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No definition; brand-voice H1.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our strong agnostic software portfolio and partnerships with world-leading independent software companies",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Empowering all users",
+          "location": "lead"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "across the entire lifecycle, from design and build to operate and maintain",
+          "location": "H2"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "driving efficiency and sustainability for all",
+          "location": "H2"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "What + when.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "A single software environment for setting up your entire machine (formerly SoMachine).",
+          "location": "Frequently searched"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Consultant, Designer, and Engineer Contractor Panel Builder Electrician",
+          "location": "persona labels without content"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Schneider Electric and AVEVA",
+          "location": "link label only"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Only tool one-liners differentiate.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Programming software for Modicon PACs (formerly Unity Pro).",
+          "location": "Control Expert"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Setup software to configure Altivar, Altistart, Lexium and TeSys motor control devices.",
+          "location": "SoMove"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Panel builder software for configuration and quotation of Prisma – LV switchboard (formerly Rapsody).",
+          "location": "Rapsody"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "AVEVA™ Plant SCADA",
+          "location": "name-only card"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A",
+        "c5": "T"
+      },
+      "rationale": "Good tool lines; flagship cards name-only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "With Microsoft, Autodesk and Accenture, we accelerate the digital transformation",
+          "location": "Partnerships"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Classic configuration software compatible with Harmony and Magelis HMI.",
+          "location": "Vijeo Designer"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Our agnostic software portfolio",
+          "location": "H1 claim unbacked"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      },
+      "rationale": "Partners + device compat; 'agnostic' unbacked.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Software Licensing",
+          "location": "label only"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "download software and firmware releases and updates",
+          "location": "Find what you are looking for"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Acquisition path only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Partnering with world-leading technology companies",
+          "location": "H2"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Programming software for Modicon PACs (formerly Unity Pro).",
+          "location": "Control Expert"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "download software and firmware releases and updates",
+          "location": "Find what you are looking for"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A"
+      },
+      "rationale": "Former names.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Experience the CONNECT Effect",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Configuration software for Zelio Logic smart relays (SR2/ SR3).",
+          "location": "Zelio"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Setup software to configure Altivar, Altistart, Lexium and TeSys motor control devices.",
+          "location": "SoMove"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Industrial Automation Software",
+          "location": "category item without content"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c5": "T"
+      },
+      "rationale": "Empty category items.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "We are your energy technology partner.",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Empowering all users with a seamless and collaborative dataflow",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "hub",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Brand voice.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Power Design – Ecodial",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Configuration software for Zelio Logic smart relays (SR2/ SR3).",
+          "location": "Zelio"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Programming software for Modicon PACs",
+          "location": "Control Expert"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "View now",
+          "location": "CTA"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "Clear names; vague CTAs.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Schneider Electric and Microsoft have established a 30-year global partnership",
+          "location": "Microsoft"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "View now / Start now / Find out more x3 / See all / Learn more"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "#44 (/work/solutions/software/by-industry/) redirects here; scored once",
+    "Crawler gap: partnership/guide/Advisors teaser blocks only in rendered HTML (minor)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Declared stage Consideration"
+  }
+}

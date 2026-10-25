@@ -1,0 +1,438 @@
+{
+ "page": {
+  "type": "esg_report_doc",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+  "topic": "Schneider Electric 2022 Sustainable Development Report",
+  "target_prompts": [
+   "What were Schneider Electric's 2022 GHG emissions and sustainability results?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "DOC-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "2022 highlights"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "440M Tonnes of saved and avoided CO2 emissions for our customers since 2018 (+93MT vs 2021)."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "This report is an extract from Schneider Electric’s 2022 Universal Registration Document."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Consult Schneider’s GRI reports on the"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "45% Sustainable packaging for our products (vs 21% in 2021)."
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Sustainability Impact score, outperforming 2022 target (4.70/10)."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Estimated coverage (% total GHG emissions) % 99% 99% 99% 100%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "NOTE: section 8.1 GHG table extracts as label / GRI code / unit / 2022-2019 values rows"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -22% 0%"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "of CO2 emissions 2020: 263M 440M 800M"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "11+1 targets for 2021-2025 Baseline(1) 2022 Progress(2) 2025 Target"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "of CO2 emissions 2020: 263M 440M 800M"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "validated by the Science Based Targets initiative (SBTi), aligned with its “Corporate Net-Zero Standard”"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Please refer to the 2022 Universal Registration Document for the"
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Electric SE has reported in accordance with the GRI Standards for the period from 1 January 2022 to 31 December 2022."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology, following GHG Protocol Scope 2 guidance."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "financially consolidated entities over which it has operational control"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Previous GWP value of 23,500 (AR5) has been updated to 25,200 (AR6) for 2021 and historical emissions"
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "obtained a “reasonable” assurance from an independent third-party verifier on Scopes 1 & 2 reported Greenhouse Gas (GHG) emissions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "a “limited” assurance on Scope 3 reported GHG emissions."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "2022 Schneider score 90/100 A 73/100 79/100 AAA Low risk"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Auditors on the Identified Sustainability Information of"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "8.1 Environmental and climate indicators 202"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "\"outline_entries\": 0"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "A correspondence table can be found on pages 192 and 193"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "To access all Schneider Electric ESG data, please download the disclosure dashboard"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  },
+  {
+   "id": "DOC-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "\"pages_without_text\": 1"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "\"tagged_pdf\": false"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "note",
+     "evidence": "NOTE: SSI targets table cells split mid-word ('Redu ce', 'Help o ur')"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "note",
+     "evidence": "NOTE: words split throughout extraction ('Sust ainability', 'Schn eider', 'Reas onable')"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND - no publication/release date stated in the text"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Annual CSR data is reported for the calendar year (CY) preceding the publication year, ie 2022 in this report"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "carbon footprint has been updated in 2021 to reflect changes in Global Warming Potential (GWP) values"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "downgrade_reason": "c1: report named both '2022 Sustainability Report' (metadata) and '2022 Sustainable Development Report' (text)",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Sustainability Impact"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "NOTE: checked highlights vs SSI table (440M) and GHG table vs footprint text: no conflicting values"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Sustainability achievements to be proud of"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "still missed the very challenging 99%"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "best-in-sector rankings from S&P Global, CDP"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

@@ -1,0 +1,575 @@
+{
+ "page": {
+  "id": "09",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/water/",
+  "topic": "EcoStruxure solutions for water and wastewater",
+  "target_prompts": [
+   "What digital and automation solutions help water and wastewater utilities improve efficiency and resilience?"
+  ],
+  "prompts_inferred": true,
+  "stage_signal": "Rule 3 (Consideration): segment approach with named offers (EAE, Water Advisor, Foxboro DCS) but no spec table or SKU parameters.",
+  "source_file": "rendered/09_solution-page.md"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Explore how the City of Conroe enhances scalability and gains up to 70% greater engineering efficiency (case teaser, not a definition)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Water and Wastewater IoT solutions | Schneider Electric"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Top components are a customer teaser and a video; the solution scope appears only in the 4th-5th section"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Kunming CGE Water Supply achieves green and sustainable water services (H2 'Smart, safe, and reliable water' opens with a story, not an answer)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: the 30% outcome has no basis; evidence not exceptional",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "we deliver energy management and automation digital solutions for the industry that supplies water to the world"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "water and wastewater treatment plants, desalination plants, and supply and sanitation networks"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Membrane desalination plants are typically plants with limited capacity and energy-intensive operations."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Our solutions save up to 30% on energy consumption and reduce CO2 emissions in water infrastructure and operations."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Smart, safe, and reliable water / Embracing sustainability with digital (slogan headings)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "- Kunming CGE Water Supply Water utility depends on EcoStruxure to service a growing population safely and reliably."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "Longest paragraph is 4 sentences."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Our solutions save up to 30% on energy consumption"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Subsegment applications (treatment, desalination, networks), water-efficiency and circularity content exist only in hidden tab panels."
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Global Reporting Initiative (GRI) G4 guidelines"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Hear from Nathalie Marcotte (video, no quotation)"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "up to 70% greater engineering efficiency (no method or conditions)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Our solutions cover the entire water cycle in water and wastewater treatment plants, desalination plants, and supply and sanitation networks."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Explore our customer stories for Water and Wastewater"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Digital transformation in factories and distribution centers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "No architecture, scope boundaries or implementation path"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "we are global leaders in hardware, software, and services that are difficult to match"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "we are global leaders in hardware, software, and services that are difficult to match"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "quote",
+     "evidence": "no comparative selection claims"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "No superseded edition or dated statistic is stated on the page."
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence_type": "quote",
+     "evidence": "not relevant"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "undated"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "Segment approach and offers fit Consideration."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "Language aimed at utility operators and plant managers."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Contact Sales (generic, no named asset)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Read their story"
+    }
+   ]
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "address issues, including leakage, water quality, customer satisfaction, service interruption, and energy savings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Increased demand and the threat of climate change make water management one of the biggest challenges in the coming years."
+    }
+   ]
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND (no prose on how components work together)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Resource Advisor, our leading energy and sustainability software solution"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "Offer descriptions are in page text (partly in tab panels)."
+    }
+   ]
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: basis is only a customer name, no baseline or method",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "gains up to 70% greater engineering efficiency with EcoStruxure™ Automation Expert (EAE)."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Our solutions save up to 30% on energy consumption"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Explore how the City of Conroe enhances scalability and gains up to 70% greater engineering efficiency"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "reduce non-revenue water"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence_type": "quote",
+     "evidence": "no footnotes"
+    }
+   ]
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 3,
+   "downgrade_reason": "c2: the 70% result is a teaser with no conditions",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "City of Conroe"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "gains up to 70% greater engineering efficiency"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Kunming CGE Water Supply"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "Read about our award-winning successful partnership (award not named)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Water utility depends on EcoStruxure to service a growing population safely and reliably."
+    }
+   ]
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Water networks [hidden] The result of the limited investment is an aging infrastructure."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Microgrids are a reliable alternative wherever a stable power supply is needed"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Through our consultants, we support water clients from strategy to implementation."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Learn more / Read more / Explore more / Discover more repeated across cards"
+  }
+ ]
+}

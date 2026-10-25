@@ -1,0 +1,570 @@
+{
+  "page": {
+    "id": "25",
+    "url": "https://www.se.com/ww/en/download/document/SPD_WP180_EN/",
+    "type": "whitepaper_gateway",
+    "stage": "Education",
+    "topic": "Data Centers are Essential to AI-driven Decarbonization of Power Sector",
+    "industry": "Data centers",
+    "target_prompts": [
+      "How can data centers and AI help decarbonize the power sector?",
+      "What role do data centers play in power-sector decarbonization?",
+      "How does AI balance electricity supply and demand?",
+      "How much electricity and emissions do data centers themselves add?",
+      "Are data centers a net benefit or burden for grid decarbonization?",
+      "What digital infrastructure do utilities need to integrate renewables?"
+    ],
+    "prompts_inferred": true,
+    "audience": "Data center designers/operators, sustainability leads (inferred)",
+    "input_mode": "file (server-HTML corpus md, captured 2026-10-19)",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Decarbonization of energy generation and distribution is an important objective",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Data Centers are Essential to AI-driven Decarbonization of Power Sector | Schneider Electric",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "By housing Artificial Intelligence, data centers will allow smart management of supply and demand to mitigate carbon footprint.",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        }
+      ],
+      "rationale": "Descriptive, prompt-aligned title; abstract opens with background, not the answer; no section answers or summary block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "NOTE: abstract = 98 words (tolerance 90-220)",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "sizable emissions of this sector are widespread across the entire economy",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Energy generation and distribution is going to be significantly more resilient and secure thanks to broader deployment of data centers.",
+          "location": "abstract"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no merged words or encoding errors in the abstract",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Abstract checked for length, problem, audience, approach, specific conclusion and clean copy.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        }
+      ],
+      "rationale": "No key-findings layer in HTML; findings live only in the PDF.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Power sector requires electrification with more renewables in energy mix. Equally important is extensive digitalization",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: 2 of 5 fan-out sub-questions answered (role of data centers; data infrastructure need)",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Data Centers are Essential to AI-driven Decarbonization of Power Sector",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Coverage judged from topics named in the abstract and the share of inferred fan-out sub-questions answered in HTML.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: geo_content_check numbers with units 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "By housing Artificial Intelligence",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "significantly more resilient and secure",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Near-zero quantified facts in HTML (checker 0-0.34 numbers/100w).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP180_EN",
+          "location": "page"
+        }
+      ],
+      "rationale": "No named authors, references or method on the gateway; only document ref gives organizational accountability.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Release date 26 Mar 2024",
+          "location": "metadata block"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Version 1.0",
+          "location": "metadata block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Release date 26 Mar 2024",
+          "location": "metadata block"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        }
+      ],
+      "rationale": "Release date and version visible; checked version/file consistency, change note, 24-month cadence, supersession links.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Data Centers are Essential to AI-driven Decarbonization of Power Sector",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "WP180_V1.1_EN.pdf",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "widespread across...",
+          "location": "title / file row / meta"
+        }
+      ],
+      "rationale": "Descriptive title, but code-only file name, no 'white paper' label and auto-truncated meta description.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: abstract is one 6-sentence paragraph",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Decarbonization of energy generation and distribution is an important objective",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Single abstract paragraph under one repeated title heading; no lists; key content only in PDF (U3 <= 2 rule).",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Data Centers are Essential to AI-driven Decarbonization of Power Sector",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP180_EN",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Version 1.0",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Subject and document ref consistent; checked version/file mismatch; no descriptive links to related entities.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Power sector requires electrification with more renewables in energy mix.",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: no option selection involved",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Informational abstract; checked trade-offs and hype words.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Equally important is extensive digitalization that will help managing transformation.",
+          "location": "file row / page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Power sector requires electrification with more renewables in energy mix.",
+          "location": "file row / page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "WP180_V1.1_EN.pdf 1.1 MB",
+          "location": "file row / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row / page"
+        }
+      ],
+      "rationale": "Depth fits Education; download control is a code file name, no links to related papers/tools/solutions.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: not gated - download row shown without a form",
+          "location": "file row"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        }
+      ],
+      "rationale": "Ungated download: DOC-9 not applicable; weight redistributed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "Gateway carries no key findings/figures in HTML; the paper's findings and guidance exist only in the PDF (WP-2 level <= 1)."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "No H1: the download-page template renders the document title as H2 three times (server HTML) -> SE Digital (template).",
+    "Server HTML contains the abstract twice plus a truncated third copy and three copies of the metadata block (hidden responsive variants; rendered page shows one) -> SE Digital (template).",
+    "Meta description auto-truncated from the abstract with '...' -> template field (content wording issue scored under DOC-5 c4)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "White paper at Education (natural stage Education/Consideration)."
+  }
+}

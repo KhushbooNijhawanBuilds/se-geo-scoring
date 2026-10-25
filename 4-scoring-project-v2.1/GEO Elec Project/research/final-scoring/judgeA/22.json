@@ -1,0 +1,604 @@
+{
+  "page": {
+    "id": "22",
+    "title": "Vancouver International Airport (YVR)",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/vancouver-airport/",
+    "type": "case_study",
+    "stage": "Consideration",
+    "topic": "Vancouver International Airport (YVR)",
+    "industry": "",
+    "target_prompts": [
+      "Examples of airports reducing emissions with energy management",
+      "How is Vancouver International Airport reaching net zero by 2030?",
+      "How much has YVR reduced its emissions?",
+      "What software do airports use to track carbon emissions?",
+      "Airport decarbonization strategies"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/22_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Vancouver International Airport (YVR)",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Vancouver YVR Airport net zero journey with Schneider Electric",
+          "location": "title",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "YVR is cutting emissions, boosting efficiency and introducing",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "as part of its net zero by 2030 plan",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "reducing 530t CO₂e/year since 2021",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Answer-shaped outcome sentence with two metrics and periods.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Vancouver International Airport",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "size",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "sustainable aviation hub in North America",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "deployment scope",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Sector/location only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "530 tonnes CO₂e",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "18% reduction",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "operational emissions between 2022 and 2023",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "of GHG emissions saved per year since 2021",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "powered by Schneider Electric EcoStruxure solutions",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "pass",
+          "evidence": "530 tonnes CO₂e",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Two metrics, baseline year, periods; family-level attribution.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "BOLD Pursuit to achieve net-zero emissions by 2030",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no deployment narrative",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "lowering emissions by 18",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Driving sustainability at YVR",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "No solution narrative.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "No quote.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "hidden offers",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "roles not explained",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure™ Power Advisor",
+          "location": "hidden offers",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Offer carousel only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "operational emissions",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A"
+      },
+      "rationale": "Boundary only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "powered by Schneider Electric EcoStruxure solutions",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Vancouver International Airport (YVR)",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "as part of its net zero by 2030 plan",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "reducing 530t CO₂e/year since 2021",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four; 'what' generic.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "## Achieving net-zero emissions by 2030",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "530 tonnes CO₂e of GHG emissions saved per year since 2021",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "YVR is cutting emissions",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "YVR is cutting emissions, boosting efficiency",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "Watch the video",
+          "location": "how-it-was-done story only in video/e-book",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "c5 fails → max 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "YVR is cutting emissions, boosting efficiency",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "BOLD Pursuit",
+          "location": "hype",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Hype label.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "530t CO₂e/year",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "18% reduction",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "New Terminal One at JFK International Airport aims for near net-zero emissions.",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Consistent.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish date",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "between 2022 and 2023",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "latest data 2023",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "A"
+      },
+      "rationale": "Dated facts, undated page.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Discover how airports can lead the way in reducing carbon emissions",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "airport decarbonization e-book",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "with our airport decarbonization e-book",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Barcelona El Prat Airport centralizes operations with the AVEVA System Platform.",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Good fit.",
+      "proposed_level": 4,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 48% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 247 vs rendered 477 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

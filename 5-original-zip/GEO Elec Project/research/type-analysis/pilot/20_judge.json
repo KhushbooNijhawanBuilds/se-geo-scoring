@@ -1,0 +1,534 @@
+{
+  "page": {
+    "id": "20 Blackstone",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Portfolio-wide energy and sustainability data management and strategic energy sourcing",
+    "industry": "Financial services / multi-site real-estate & portfolio companies",
+    "target_prompts": [
+      "How did Blackstone cut energy costs across its portfolio companies?",
+      "Examples of private equity firms using energy management software",
+      "What is EcoStruxure Resource Advisor used for?",
+      "How much did Blackstone save on energy with Schneider Electric?",
+      "How to manage sustainability data across a multi-site portfolio"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Blackstone Group Customer Story",
+          "location": "title line",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "A SUSTAINABLE business plan",
+          "location": "H1 (no outcome)",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "One of the world's largest private equity firms achieves tens of millions in energy savings from sustainability efforts and strategic energy sourcing.",
+          "location": "lede: 22 words, below 40-word summary",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no problem or timeframe in lede",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "tens of millions in energy savings",
+          "location": "unquantified, no timeframe",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Customer in title; lede is a one-line teaser with a vague result. Precise '$60 million over six years' is only in the meta description.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "One of the world's largest private equity firms",
+          "location": "lede",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "managing more than $365 billion in assets",
+          "location": "The Challenge",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "country/HQ",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Active energy management programs and collaboration at over 20 portfolio companies and counting",
+          "location": "The Results",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Sector, scale and deployment scope clear; location missing.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "key figures",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Tens of millions of energy savings",
+          "location": "key figures (imprecise)",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "baseline for 15%",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "timeframe (only in meta)",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "Tens of millions in energy savings from sustainability efforts and strategic energy sourcing",
+          "location": "The Results",
+          "id": "c5"
+        },
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "first stat block",
+          "id": "c6"
+        }
+      ],
+      "rationale": "One real metric (15% CO2) with no baseline or period; savings figure vague; no timeframe in body.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Blackstone needed actionable energy and sustainability data for the companies it owns and supports",
+          "location": "The Challenge",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "a cloud-based platform that captures and normalizes energy and utility data",
+          "location": "The Solution",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Active energy management programs and collaboration at over 20 portfolio companies",
+          "location": "The Results",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The Challenge",
+          "location": "segment headings",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Clear challenge/solution/results; bullets are flattened into run-on paragraphs and a promo block interrupts the story.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "I have to have good data no matter the location",
+          "location": "The Challenge",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Anderson said",
+          "location": "The Results",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Chief Sustainability Officer at Blackstone",
+          "location": "The Challenge",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Having data on past performance helps me make the case to the next business",
+          "location": "The Results",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Two attributed quotes, named speaker with role, substantive content.",
+      "proposed_level": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "The Solution",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Blackstone uses EcoStruxure Resource Advisor, a cloud-based platform",
+          "location": "The Solution",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "### EcoStruxure Resource Advisor",
+          "location": "related cards",
+          "id": "c3"
+        }
+      ],
+      "rationale": "Products and services named and their role explained.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "rationale": "No measurement method, boundary or verification for savings or CO2.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "developed an aggressive energy-management and sustainability strategy",
+          "location": "intro",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "private equity",
+          "location": "lede",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "a portfolio with a sizeable energy spend",
+          "location": "The Challenge",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Tens of millions in energy savings",
+          "location": "The Results",
+          "id": "c4"
+        }
+      ],
+      "rationale": "All four answered, but not all in the first block and outcome imprecise.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "## What does it take to create Buildings of the Future?",
+          "location": "promo heading inside story",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Blackstone oversees operations across multiple industries and geographies",
+          "location": "bullets flattened into paragraph",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "2 long paragraphs (checker)",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Blackstone uses EcoStruxure Resource Advisor",
+          "location": "The Solution",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The Results",
+          "location": "story in text",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Story is in text and self-contained, but promo inserts and flattened bullets hurt chunking.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "a cloud-based platform that captures and normalizes energy and utility data",
+          "location": "The Solution",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no limitations",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Unlock more value from your buildings with innovative technology that leverages the power of IoT.",
+          "location": "promo inside story",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Mostly factual, but promotional inserts mid-story.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "consistent across sections",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "named offer",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "no contradiction found",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "generic anchors",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Consistent naming; generic anchors.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "whole page",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated facts",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle not relevant to a customer story",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no update evidence",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated; '$365 billion' AUM figure carries no date. Checker 'updated' label is a false positive.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "proof for Evaluation",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "actionable energy and sustainability data",
+          "location": "language for sustainability leads",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "vague CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "next-step card",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Fits Evaluation; CTAs vague.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Read more / Explore more / Find out more"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Meta description holds the most citable fact ('$60 million in savings over six years') that the body never states.",
+    "Page offers 'Choose a video' – video story; no transcript in text."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

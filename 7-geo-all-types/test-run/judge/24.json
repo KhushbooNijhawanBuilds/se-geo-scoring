@@ -1,0 +1,445 @@
+{
+ "page": {
+  "id": "24",
+  "type": "case_study",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+  "topic": "Zicaffè coffee production automation with EcoStruxure Automation Expert",
+  "target_prompts": [
+   "How did Zicaffè digitalize its coffee production with open automation?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "proposed_level": 2,
+   "rationale": "Title names customer; H1 slogan; no result",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Customer story - Zicaffe"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Innovation and artisanship in every cup\" - slogan"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "For nearly a century and across four generations, Sicilian coffee company Zicaffè has been driven by an entrepreneurial spirit ... expertly implemented by Alliance system integrator partner BitControl"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "who and solution only"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-2",
+   "proposed_level": 3,
+   "rationale": "Industry, region, scope; no size",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Sicilian coffee company Zicaffè"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"four generations\" - not size"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Sicilian"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "to better control, manage, and track its processes"
+    }
+   ]
+  },
+  {
+   "id": "CS-3",
+   "proposed_level": 0,
+   "rationale": "No quantified outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Improvement of the full production process lifecycle\" - unquantified"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-4",
+   "proposed_level": 1,
+   "rationale": "Generic industry challenge; vague deployment",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Many of the complex automation challenges faced by the consumer packaged goods industry\" - generic"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"adopting the latest in open automation\" - no where/how"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Greater control and a lower risk of errors to ensure the right blend"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-5",
+   "proposed_level": 4,
+   "rationale": "Named IT manager with substantive reason",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "\"Using EcoStruxure Automation Expert immediately guaranteed the availability of an automation architecture"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Giuseppe Zichittella"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "IT Manager, Zicaffè"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "capable of integrating digitization and innovation at all levels, not only in the production processes"
+    }
+   ]
+  },
+  {
+   "id": "CS-6",
+   "proposed_level": 4,
+   "rationale": "Automation Expert named with role; cards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Automation Expert"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Automation Expert, the open, software-defined automation solution, can make the difference."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "- Modicon Edge Control Modicon Edge Control"
+    }
+   ]
+  },
+  {
+   "id": "CS-7",
+   "proposed_level": 0,
+   "rationale": "No methodology",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "Defined offer, who, when; outcome not owned/concrete",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Automation Expert, the open, software-defined automation solution"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sicilian coffee company"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "to produce its signature coffee blends"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Greater control and a lower risk of errors\" - vague"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Slogan headings; story in video",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"## A passion for coffee and innovation\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Harmony HMI Harmony HMI"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Fusing tradition with innovation, Zicaffè integrates open automation and state-of-the-art digital solutions"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Zicaffè integrates open automation"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"Watch the video\" carries the story; no results in text"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Promo voice and inserts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"state-of-the-art digital solutions\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"# EcoStruxure™ Plant and Machine\" promo insert as H1"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 1,
+   "rationale": "Inconsistent names/typos",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"Zicaffè\" vs title \"Zicaffe\"; \"TeSys contractors\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Fusing tradition with innovation, Zicaffè integrates open automation and state-of-the-art digital solutions"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Read more\", \"Explore more\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 2,
+   "rationale": "Shallow; vague CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "No results"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IT Manager, Zicaffè"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Discover our solutions\""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- EcoStruxure™ Automation Expert"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": true,
+   "evidence": "Key results are unquantified"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Discover our solutions / Discover our services / Read more / Explore more / Find out more"
+  }
+ ]
+}

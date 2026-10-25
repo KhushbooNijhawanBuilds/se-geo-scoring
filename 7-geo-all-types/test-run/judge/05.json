@@ -1,0 +1,446 @@
+{
+ "page": {
+  "type": "article",
+  "stage": "Education",
+  "url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+  "topic": "Recycled water for Indian data centre cooling",
+  "target_prompts": [
+   "How can Indian data centres use treated and recycled water for cooling?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 4,
+   "rationale": "Summary answers; some H2s open indirectly",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Operators should first reduce overall water demand, then determine how appropriately treated wastewater, greywater, or other non-potable sources can meet the remaining requirement."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Using treated and recycled water in Indian data centre cooling"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "A stronger approach is to reduce consumptive water demand first, then use appropriately treated and recycled water"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'“Liquid cooling” can create a misleading impression' — 5 of 7 H2s open with an answer"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Summary"
+    }
+   ]
+  },
+  {
+   "id": "ART-1",
+   "proposed_level": 4,
+   "rationale": "4 bullets, last truncated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Summary - Water availability is becoming an infrastructure constraint for India’s data centre growth."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Liquid cooling can use more liquid while consuming less water."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Operators should first reduce overall water demand"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "influence the right thermal architectu"
+    }
+   ]
+  },
+  {
+   "id": "ART-2",
+   "proposed_level": 4,
+   "rationale": "Descriptive; few question H2s",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Using treated and recycled water in Indian data centre cooling"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Go beyond WUE: measure where the water comes from"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Only 'Why water availability constrains infrastructure' mirrors a question"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "Clean structure, lists, short paragraphs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Recycled water has to be engineered for the cooling system"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Reduce consumptive water demand / Identify appropriate non-potable sources / Establish treatment requirements"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Paragraphs 1-4 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Sections name subjects"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "No facts only in image"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 2,
+   "rationale": "Good numbers but below density; 'ideal'; MEP undefined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Closed-loop liquid cooling can recirculate more than 95% of its coolant"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~9 facts in ~1,300 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Closed-loop liquid cooling is ideal for this model."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "MEP consultants (undefined)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "bulk users consuming more than 5,000 litres per day"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Named author only; policies by name not number; stats unsourced",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "India has around 18% of the world’s population but only 4% of its freshwater resources. (no source)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Bureau of Energy Efficiency’s 2023 District Cooling Guidelines (no number)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Author: Anuj Kudesia, Managing Director SEPSL & Direct BD"
+    }
+   ]
+  },
+  {
+   "id": "ART-3",
+   "proposed_level": 3,
+   "rationale": "Step sequence, thesis, practical",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Reduce consumptive water demand / Identify appropriate non-potable sources / Establish treatment requirements"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Liquid cooling can use more liquid while consuming less water."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Design for the direction of water policy, not simply today’s minimum requirement."
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Full coverage",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "reduce consumptive water demand first, then use appropriately treated and recycled water"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sections on sources, treatment, policy, WUE"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Single intent"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "additional treatment may include filtration, ultrafiltration, reverse osmosis"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Balanced",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Substituting recycled water for freshwater in an unchanged cooling system addresses only part of the problem."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Not every facility needs every technology."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One closing offer"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Named policies, guide",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Consistent naming"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Bureau of Energy Efficiency’s 2023 District Cooling Guidelines ... Liquid Cooling System Architecture Guide"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 4,
+   "rationale": "Dated, current",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "September 29, 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Rules introduced in 2025"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "September 29, 2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 4,
+   "rationale": "Named guide",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Education depth"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Addresses architects, MEP consultants, specifiers"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "download the Liquid Cooling System Architecture Guide"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

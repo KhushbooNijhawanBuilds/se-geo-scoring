@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "40",
+  "type": "service_project",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/",
+  "topic": "OT cybersecurity services (design, configuration, implementation, maintenance)",
+  "target_prompts": [
+   "What OT cybersecurity services help design and implement security controls for industrial and grid systems?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "One-line offer statement; resource-led layout; no answers per section",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Delivering design, configuration and implementation services with maintenance of cybersecurity controls for standalone or integrated projects."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Cybersecurity services"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "## Featured cybersecurity resources"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Industry"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "What and when; who partial; no outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Delivering design, configuration and implementation services with maintenance of cybersecurity controls"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "## Grid"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "for standalone or integrated projects"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "deliver resilience and continuity"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Generic headings, resource teasers, little prose",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "## Industry"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Safeguard the availability of reliable power with comprehensive solutions that protect critical ecosystems from cyberattacks."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Our cybersecurity solutions help your team"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Delivering design, configuration and implementation services"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Sales voice; Contact sales block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "we’re here to guide you every step of the way"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Contact us today to start securing your operations with confidence and expertise."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Thin; generic CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "OT/IT infrastructure"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Contact sales"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Discover cybersecurity solutions"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 1,
+   "rationale": "Activity types named, not deliverables",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "design, configuration and implementation services with maintenance of cybersecurity controls"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 0,
+   "rationale": "Nothing measurable",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 0,
+   "rationale": "Industry/Grid only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 1,
+   "rationale": "No process",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Contact us today to start securing your operations"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 0,
+   "rationale": "No plans",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 0,
+   "rationale": "No outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 0,
+   "rationale": "No proof",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "Fewer than 3 substantive factual statements"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

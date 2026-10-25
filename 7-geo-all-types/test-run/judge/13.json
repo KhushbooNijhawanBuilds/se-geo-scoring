@@ -1,0 +1,532 @@
+{
+ "page": {
+  "id": "13",
+  "type": "range",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/smart-ups/",
+  "topic": "Smart-UPS master range",
+  "target_prompts": [
+   "Which APC Smart-UPS model should I choose for my servers and network equipment?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Master range overview -> Consideration"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "The most trusted UPS in the world for business applications (slogan, not a definition)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Discover Smart-UPS"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "APC Smart-UPS™ is trusted throughout the world to protect equipment and critical data from costly interruptions."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Intelligent and efficient network power protection from entry level to scaleable runtime"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Smart-UPS is trusted by millions of IT professionals"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Ideal UPS for servers, point-of-sale, routers, switches, hubs and other network devices."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "providing significant cost savings and improved lifecycle management options"
+    }
+   ]
+  },
+  {
+   "id": "RNG-1",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-2",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Smart-UPS and Smart-UPS BR descriptors nearly identical"
+    }
+   ]
+  },
+  {
+   "id": "RNG-3",
+   "proposed_level": 3,
+   "rationale": "2/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Ideal for servers, point-of-sale, medical equipment and other network devices."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "APC Smart-UPS BR Intelligent and efficient network power protection with scaleable runtime. Ideal for servers, point-of-sale, medical equipment"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-4",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The most trusted UPS in the world"
+    }
+   ]
+  },
+  {
+   "id": "RNG-5",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "APC UPS Network Management Cards allow for secure remote monitoring and control of an individual APC UPS"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "via web browser, command line interface, or SNMP"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "cloud-based remote monitoring (unnamed)"
+    }
+   ]
+  },
+  {
+   "id": "RNG-6",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-8",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "RNG-9",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "APC Smart-UPS On-Line High density, double-conversion on-line power protection with scalable runtime"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no member carries a VA/W rating"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Ideal for servers, point-of-sale, medical equipment and other network devices."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "each card text rendered 2-3 times"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "EcoStruxure ™ Asset Advisor for drives"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Explore our offer / See product details"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no table"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Smart-UPS is trusted by millions of IT professionals throughout the world to protect equipment and critical data from costly interruptions."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "APC Smart-UPS BR Intelligent and efficient network power protection with scaleable runtime."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "APC UPS Network Management Cards allow for secure remote monitoring and control of an individual APC UPS via web browser, command line interface, or SNMP."
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "0/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "The most trusted UPS in the world"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The most trusted UPS in the world for business applications"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "APC Smart-UPS™"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no model codes/SKUs"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "APC Smart-UPS On-Line High density, double-conversion on-line power protection"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Read more / Discover now"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G10",
+   "triggered": true,
+   "evidence": "No rating/capacity with a unit for the range or any member"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

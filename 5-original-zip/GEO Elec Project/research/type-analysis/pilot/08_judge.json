@@ -1,0 +1,586 @@
+{
+  "page": {
+    "id": "08",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "Industrial automation solutions (EcoStruxure Plant)",
+    "industry": "Industry / process & hybrid",
+    "target_prompts": [
+      "Which industrial automation solutions improve plant efficiency and cybersecurity?",
+      "What is the EcoStruxure Plant architecture (connected products, edge control, apps)?",
+      "What is software-defined / universal automation (EcoStruxure Automation Expert)?",
+      "What ROI do industrial automation upgrades deliver?",
+      "How do automation solutions integrate with existing PLC/DCS systems?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Optimize efficiency, cybersecurity, and sustainability and drive operational profitability improvements.",
+          "location": "Slogan, not answer"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Industrial automation solutions",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No definition in top components"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Transform your operations with EcoStruxure Plant",
+          "location": "H2s are campaign labels"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "H1 matches topic; nothing under it defines or answers.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No explicit definition"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Food and Beverage",
+          "location": "Industries section"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No scenario/trigger"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "drive operational profitability improvements",
+          "location": "Outcome vague"
+        }
+      ],
+      "rationale": "Only industries are named.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover EcoStruxure Plant successes",
+          "location": "Campaign headings"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Efficiency and profitability",
+          "location": "Lists are tab labels only"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Respond to changes in the market and business condition in real-time.",
+          "location": "Short blocks"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai.",
+          "location": "Fragment without subject"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Reliability and performance",
+          "location": "Tabbed value areas: only first tab visible"
+        }
+      ],
+      "rationale": "Card/tab template; tabs hide three of four value areas; fragments not self-contained.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Customer stories without metrics"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No sourced evidence.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our industrial automation solutions enable the scalable design and operation of connected systems with best-in-class cybersecurity.",
+          "location": "Successes section"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Architecture, ROI, integration not answered"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Grow your revenue, expertise, and profitability through membership in the Alliance Program.",
+          "location": "Mixes partner-program recruitment"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Expected solution facts missing"
+        }
+      ],
+      "rationale": "Names the offer family only; secondary intent (partner program) dilutes focus.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "best-in-class cybersecurity",
+          "location": "Brand voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Get your e-guide",
+          "location": "Partner pitch and e-guide CTA inside informational flow"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional throughout.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure™ Automation Expert",
+          "location": "Current offer named"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No option types/selection criteria for Consideration"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Understand your assets' profitability by accessing meaningful information and turning it into business intelligence.",
+          "location": "Plant-manager language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Get your e-guide",
+          "location": "Vague CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Dogfish Head Craft Brewery",
+          "location": "Customer story link"
+        }
+      ],
+      "rationale": "Audience fits; no Consideration depth; vague CTA.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No problem statement.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Apps and analytics",
+          "location": "Architecture layers only as tab labels"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Only one component has a role line"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No protocols/systems"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure Maintenance Advisor",
+          "location": "Components appear only as image-card titles"
+        }
+      ],
+      "rationale": "EcoStruxure Plant layers named as tabs, never explained.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "No quantified outcome.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Dogfish Head Craft Brewery",
+          "location": "Successes"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No metric"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Designing more effective beer production while having future expansions in mind.",
+          "location": "Brewery reference"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai.",
+          "location": "Context"
+        }
+      ],
+      "rationale": "Named references without results; anchor: c2 fail caps at 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Mining, Minerals and Metals",
+          "location": "Industries list with one-line context"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Segments listed; no scope, fit or brownfield guidance.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Alliance Program is partner recruitment, not delivery model"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No implementation path.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Duplicated image alt/labels (each software card rendered twice) -> template/rendering, route to SE Digital."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Consideration."
+  }
+}

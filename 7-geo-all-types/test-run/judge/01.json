@@ -1,0 +1,446 @@
+{
+ "page": {
+  "type": "article",
+  "stage": "Awareness",
+  "url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+  "topic": "Prefabricated modular data centers for AI",
+  "target_prompts": [
+   "Why do AI data centers need prefabricated modular infrastructure?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 0,
+   "rationale": "Intro is anecdote + teaser; answer only at the end",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Spoiler alert: the race to build AI factory data centers is driving this momentum. But why the need for prefabrication in AI data centers? Let’s take a look."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "boldly go where no data centers have gone before"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Key message ('prefabrication is a necessity today') appears only in the closing section"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "AI is the latest technology wave hitting data centers."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ART-1",
+   "proposed_level": 0,
+   "rationale": "No takeaways block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ART-2",
+   "proposed_level": 3,
+   "rationale": "Pun headline; most H2s descriptive; no question H2s",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "boldly go where no data centers have gone before"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Power Capacity and Scale / High Density Liquid Cooling / Challenges of the AI era"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Bulleted advantages, but long paragraphs and back-references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "A slow start"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Faster delivery times and project deployment due to site prep being done in advance"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "'A slow start' first paragraph has 7 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "These criteria – power capacity and scale and high density liquid cooling"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "No key fact appears only in the image (image has no caption/data)"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 1,
+   "rationale": "Some density numbers; low density, hype word, generic outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "The power densities per rack are close to 250 kW vs 10-20 of cloud data centers."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~9 quantified facts in ~1,000 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The AI Pod is innovative"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "CDUs used without expansion"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Lower labor costs vs doing in the field"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Only author experience; no sources, standards, quotes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Steven Carlini ... I have been strategically involved in the modular data center industry for over 30 years"
+    }
+   ]
+  },
+  {
+   "id": "ART-3",
+   "proposed_level": 3,
+   "rationale": "First-hand history and deployment sequence; no data",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "initial deployments triggered door, stairs, and ramps for unforeseen access requirements"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "site preparation can be done in parallel of power module and IT Pod production. The power modules can be shipped to the site, connected"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "at this scale of deployment and with these challenging densities coupled with a major shortage of tradespeople, prefabrication is a necessity today"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "No audience-specific 'what to do, when' guidance"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Covers why prefab, power, cooling, pod",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "prefabrication will significantly improve the probability of the AI factory data centers being deployed on-schedule"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Power Capacity and Scale / High Density Liquid Cooling sections"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Single topic: prefabrication for AI data centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Building these power units off-site cuts on-site labor and avoids weather delays."
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Advisory but hype title and exclamation close",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "I have been strategically involved in the modular data center industry for over 30 years"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "rusty, old, repurposed shipping containers with high costs and long lead times was problematic"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "and start manufacturing intelligence!"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "IT Pod / AI Pod naming drifts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "The new innovation is the AI factory modular IT Pod ... The AI Pod is innovative"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "AMD Helios 445 racks running at 246 kW per rack and the NVIDIA Vera Rubin"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions found"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 4,
+   "rationale": "Dated, current",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "October 13, 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "NVIDIA Vera Rubin running at 227 kW per rack"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "October 13, 2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "No next-step CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Awareness-level narrative"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Plain practitioner language"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "A condensed version of this article appeared in Forbes."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

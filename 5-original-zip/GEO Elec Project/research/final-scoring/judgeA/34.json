@@ -1,0 +1,633 @@
+{
+  "page": {
+    "id": "34",
+    "title": "Single-phase UPS efficiency comparison calculator",
+    "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/single-phase-ups-efficiency-comparison-calculator/",
+    "type": "calculator",
+    "stage": "Evaluation",
+    "topic": "Single-phase UPS efficiency comparison calculator",
+    "industry": "",
+    "target_prompts": [
+      "How much does UPS efficiency affect electricity cost?",
+      "How to calculate UPS energy losses and their cost",
+      "Single-phase UPS efficiency comparison",
+      "Carbon footprint of UPS losses",
+      "When to replace an older UPS"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/34_calculator-tradeoff-tool.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "how these efficiencies impact electricity cost and carbon footprint",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Single-phase UPS efficiency comparison calculator",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 not an answer",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze the efficiency of one or two UPSs",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "critical single-phase UPS applications like Gen AI inferencing at the edge",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "which UPS best meets your energy-saving goals",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "make informed decisions",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no formula for losses → kWh → cost/CO2",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "0.407 kg / kWh",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Prepopulated data was obtained by curve fitting to measured efficiency data.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "These results do not include the energy cost or carbon footprint of the load itself",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c5": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no assumptions list",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "0.407 kg / kWh",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Electricity cost source",
+          "location": "label only, no source/year",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Electricity cost 0.144 $ / kWh",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "The location impacts both the cost of electricity and the CO2 emissions released",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Annual performance of 1 UPS loaded to 0 W",
+          "location": "default example empty",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "#VALUE!",
+          "location": "tool error",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Default state shows no result.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "select the quantity of UPSs in the fleet",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "If you would like to scale the analysis to represent a fleet, enter the quantity of UPSs.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "carbon footprint (in kg), UPS losses (in watts), and energy (in kWh)",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "uninterruptable power supplies (UPSs)",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "The vertical line can be set to the load percent you wish to analyze performance at.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "These results do not include the energy cost or carbon footprint of the load itself",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Guidance on What to Do with an Older UPS",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no table of results",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 1 describes 4 types of UPSs",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "[hidden] About This Tool",
+          "location": "method only in hidden panels (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Prepopulated data was obtained by curve fitting to measured efficiency data.",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "TT14 Version 8 9-April-2025",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to analyze",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "These results do not include the energy cost or carbon footprint of the load itself",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 1 describes 4 types of UPSs",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Related TradeOff Tools",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 214",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Single-phase UPS efficiency comparison calculator",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "TT14 Version 8 9-April-2025",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "default data year not stated",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "> 12 months",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no results for Evaluation",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "critical single-phase UPS applications",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Start calculation",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "The Different Types of UPS Systems",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Start calculation / Calculate now / Explore now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Spreadsheet error '#VALUE!' rendered in the tool's default state"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 77% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 298 vs rendered 1272 words).",
+    "Tool default state renders '#VALUE!' and 'loaded to 0 W' – broken default scenario → tool team."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

@@ -1,0 +1,570 @@
+{
+  "page": {
+    "id": "28",
+    "url": "https://www.se.com/ww/en/download/document/SPD_WP126_EN/",
+    "type": "whitepaper_gateway",
+    "stage": "Education",
+    "topic": "Retrofitting Existing Power Systems for AI Clusters",
+    "industry": "Data centers",
+    "target_prompts": [
+      "How to retrofit data center power for AI clusters",
+      "What rack power density do AI training clusters need?",
+      "Can existing UPS, PDUs and busway support AI racks?",
+      "How to upgrade breakers and distribution for high-density AI racks",
+      "How to plan power capacity for AI training vs inference loads",
+      "Retrofit vs new build for AI data centers: risks and trade-offs"
+    ],
+    "prompts_inferred": true,
+    "audience": "Data center designers/operators, sustainability leads (inferred)",
+    "input_mode": "file (server-HTML corpus md, captured 2026-10-19)",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "The IT industry is developing large generative AI models at a fast pace.",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Retrofitting Existing Power Systems for AI Clusters | Schneider Electric",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "These models can require megawatts of power at hundreds of kW/rack in data centers",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + abstract"
+        }
+      ],
+      "rationale": "Descriptive, prompt-aligned title; abstract opens with background, not the answer; no section answers or summary block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOTE: abstract = 65 words (< 90)",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "These models can require megawatts of power at hundreds of kW/rack in data centers",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "data center operators",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "This paper explains the unique power requirements of these workloads and the challenges data center operators have in supporting them.",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Guidance is provided on how to provision existing data centers to support these loads.",
+          "location": "abstract"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no merged words or encoding errors in the abstract",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Abstract checked for length, problem, audience, approach, specific conclusion and clean copy.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: only one quantified statement (megawatts / hundreds of kW/rack)",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract / page"
+        }
+      ],
+      "rationale": "No key-findings layer in HTML; findings live only in the PDF.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOTE: topics named (power requirements, challenges, provisioning) restate the title",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: 1 of 5 fan-outs answered (rack density)",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Retrofitting Existing Power Systems for AI Clusters",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Coverage judged from topics named in the abstract and the share of inferred fan-out sub-questions answered in HTML.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "megawatts of power at hundreds of kW/rack",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: geo_content_check numbers with units 0.0/100w (unit kW/rack not in regex)",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "known as AI factories",
+          "location": "abstract"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Near-zero quantified facts in HTML (checker 0-0.34 numbers/100w).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP126_EN",
+          "location": "page"
+        }
+      ],
+      "rationale": "No named authors, references or method on the gateway; only document ref gives organizational accountability.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Release date 21 May 2026",
+          "location": "metadata block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "SPD_WP126_V1_1_EN.pdf",
+          "location": "metadata block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Release date 21 May 2026",
+          "location": "metadata block"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        }
+      ],
+      "rationale": "Release date and version visible; checked version/file consistency, change note, 24-month cadence, supersession links.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Retrofitting Existing Power Systems for AI Clusters",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "SPD_WP126_V1_1_EN.pdf",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "at a fast pace...",
+          "location": "title / file row / meta"
+        }
+      ],
+      "rationale": "Descriptive title, but code-only file name, no 'white paper' label and auto-truncated meta description.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "NOTE: abstract is one 4-sentence paragraph",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "These models can require megawatts of power at hundreds of kW/rack in data centers, known as AI factories.",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Single abstract paragraph under one repeated title heading; no lists; key content only in PDF (U3 <= 2 rule).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Retrofitting Existing Power Systems for AI Clusters",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Document ref. SPD_WP126_EN",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: Version 1.1 on page = V1_1 in file name",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Subject and document ref consistent; checked version/file mismatch; no descriptive links to related entities.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "This paper explains the unique power requirements of these workloads",
+          "location": "abstract"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the challenges data center operators have in supporting them",
+          "location": "abstract"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "abstract"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: no option selection involved",
+          "location": "abstract"
+        }
+      ],
+      "rationale": "Informational abstract; checked trade-offs and hype words.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Guidance is provided on how to provision existing data centers to support these loads.",
+          "location": "file row / page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "data center operators",
+          "location": "file row / page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "SPD_WP126_V1_1_EN.pdf 1.4 MB",
+          "location": "file row / page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row / page"
+        }
+      ],
+      "rationale": "Depth fits Education; download control is a code file name, no links to related papers/tools/solutions.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: not gated - download row shown without a form",
+          "location": "file row"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        }
+      ],
+      "rationale": "Ungated download: DOC-9 not applicable; weight redistributed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "Gateway carries no key findings/figures in HTML; the paper's findings and guidance exist only in the PDF (WP-2 level <= 1)."
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "HTML states 1 substantive fact (megawatts / hundreds of kW/rack)"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "No H1: the download-page template renders the document title as H2 three times (server HTML) -> SE Digital (template).",
+    "Server HTML contains the abstract twice plus a truncated third copy and three copies of the metadata block (hidden responsive variants; rendered page shows one) -> SE Digital (template).",
+    "Meta description auto-truncated from the abstract with '...' -> template field (content wording issue scored under DOC-5 c4)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "White paper at Education (natural stage Education/Consideration)."
+  }
+}

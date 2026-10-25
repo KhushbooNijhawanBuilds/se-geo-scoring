@@ -1,0 +1,143 @@
+{
+  "page": {
+    "id": "T01",
+    "url": "https://medium.com/@khushboo.nijhawan/building-agents-in-copilot-studio-heres-the-guide-i-wish-existed-when-i-started-f31c33bc640a",
+    "type": "article",
+    "stage": "Education",
+    "topic": "Building AI agents in Microsoft Copilot Studio",
+    "industry": "Enterprise IT / AI platforms (inferred)",
+    "target_prompts": [
+      "How do I build an AI agent in Microsoft Copilot Studio?",
+      "What is Microsoft Copilot Studio?",
+      "What are the building blocks of a Copilot Studio agent?",
+      "What is generative orchestration in Copilot Studio?",
+      "Which channels can a Copilot Studio agent be published to?",
+      "How do you test and evaluate a Copilot Studio agent?",
+      "What licence do I need to build agents in Copilot Studio?"
+    ],
+    "prompts_inferred": true,
+    "stage_inferred": true
+  },
+  "criteria": [
+    {"id": "U1", "checks": [
+      {"id": "c1", "result": "fail", "evidence": "And when I started, I had one problem.", "location": "intro (definition only arrives ~120 words in, under the first H2)"},
+      {"id": "c2", "result": "pass", "evidence": "Building Agents in Copilot Studio.", "location": "H1"},
+      {"id": "c3", "result": "fail", "evidence": "What Copilot Studio actually is, what it offers, how to build your first agent, and everything Microsoft shipped in 2026 that changed the game.", "location": "deck: a scope promise, not the key message"},
+      {"id": "c4", "result": "fail", "evidence": "An agent nobody can reach is a side project.", "location": "only 3 of 11 H2s open with a direct answer"},
+      {"id": "c5", "result": "pass", "evidence": "Three things, from someone who learned them the slow way:", "location": "closing takeaways block"}
+    ], "rationale": "H1 matches the build-an-agent intent and a takeaways block closes the piece, but the opening is a personal story and most sections open with a hook rather than the answer.", "proposed_level": 2, "confidence": "high",
+     "failed_tags": {"c1": "A", "c3": "A", "c4": "A"}},
+    {"id": "ART-1", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Descriptions are your real code.", "location": "3 bold-lead items at the bottom (paragraphs, not list markup)"},
+      {"id": "c2", "result": "pass", "evidence": "Build the evaluation loop before you scale.", "location": "each item is a standalone sentence"},
+      {"id": "c3", "result": "pass", "evidence": "Start with one agent, one job.", "location": "concrete recommendation"},
+      {"id": "c4", "result": "pass", "evidence": "the quality of your tool and knowledge descriptions determines routing quality", "location": "matches the orchestration section"}
+    ], "rationale": "A real takeaways block, but it summarises advice rather than the article's facts (what Copilot Studio is, its parts, the steps) and is not list markup, so it is not exemplary.", "proposed_level": 3, "confidence": "medium"},
+    {"id": "ART-2", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Building Agents in Copilot Studio. Here’s the Guide I Wish Existed When I Started.", "location": "H1: topic first; the second sentence is a mild personal hook"},
+      {"id": "c2", "result": "pass", "evidence": "What Copilot Studio actually is, what it offers, how to build your first agent", "location": "H1 = SEO title = meta topic"},
+      {"id": "c3", "result": "pass", "evidence": "## The Anatomy of an Agent", "location": "11 of 11 content H2s describe their section"},
+      {"id": "c4", "result": "fail", "evidence": "## Workflows — The New Layer", "location": "3 of 11 H2s mirror a buyer question (27%, below 1/3)"},
+      {"id": "c5", "result": "pass", "evidence": "## How To Create a Basic Agent, Step by Step", "location": "meta promises (what it is / offers / how to build) are delivered as sections"}
+    ], "rationale": "Descriptive, consistent title and headings; most H2s are labels with a quip ('The Unsexy Part…') rather than the questions people ask.", "proposed_level": 4, "confidence": "high",
+     "failed_tags": {"c4": "A"}},
+    {"id": "U3", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "## Channels — Where Your Agent Lives", "location": "H2s"},
+      {"id": "c2", "result": "fail", "evidence": "Step 1 — Create Go to copilotstudio.microsoft.com → Create → New agent.", "location": "steps, tool types and channels are bold-lead paragraphs, not numbered/bulleted lists; no table for any comparison"},
+      {"id": "c3", "result": "pass", "evidence": "Workflows give you structured, multi-step automated processes", "location": "no paragraph over 4 sentences (checker: 0 long paragraphs)"},
+      {"id": "c4", "result": "fail", "evidence": "One query. Multiple intents. The planner handles the sequencing — you didn’t author a single branch.", "location": "refers to an image; also 'which of the above to use' in the anatomy section"},
+      {"id": "c5", "result": "pass", "evidence": "The modern platform uses generative orchestration: an LLM-based planner reads the user’s intent", "location": "key facts are in text; images are supporting"}
+    ], "rationale": "Good headings and short paragraphs, but procedures and lists are written as paragraphs (extracted as 'Create Go to…') and two passages depend on an image or on 'the above'.", "proposed_level": 2, "confidence": "high",
+     "failed_tags": {"c2": "A", "c4": "A"}},
+    {"id": "U4", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Pre-built integrations to 1,500+ services", "location": "the quantifiable product claims carry numbers or dates (1,500+, GA May 2026); strategic claims do not"},
+      {"id": "c2", "result": "fail", "evidence": "NOT FOUND", "location": "about 0.3 genuine quantified facts per 100 words (threshold 1.0)"},
+      {"id": "c3", "result": "fail", "evidence": "one of the most complete agent-building environments in the industry", "location": "also 'changed the game', 'The wildest one', 'the part that changed everything'"},
+      {"id": "c4", "result": "fail", "evidence": "This is where connectors, Power Automate flows, prompts, and MCP servers live.", "location": "MCP used before it is expanded; CSAT and GA never defined"},
+      {"id": "c5", "result": "fail", "evidence": "Your agent’s quality compounds the same way code quality does with a good test suite.", "location": "outcomes are generic"}
+    ], "rationale": "Precise product vocabulary (Entra External ID, Direct Line API, Dataverse) but very few numbers: no costs, limits, message pricing, timings or measured outcomes.", "proposed_level": 1, "confidence": "high",
+     "failed_tags": {"c2": "A", "c3": "A", "c4": "A", "c5": "A"}},
+    {"id": "U5", "checks": [
+      {"id": "c1", "result": "fail", "evidence": "NOT FOUND", "location": "no statistic attributed to a named source with a year (the connector link is unlabelled and undated)"},
+      {"id": "c2", "result": "fail", "evidence": "NOT FOUND", "location": "governance section names no compliance standard (e.g. ISO/IEC 27001, SOC 2, GDPR)"},
+      {"id": "c3", "result": "fail", "evidence": "NOT FOUND", "location": "no quote from another named expert"},
+      {"id": "c4", "result": "fail", "evidence": "I build multi-agent systems in Microsoft Copilot Studio at work.", "location": "first-hand experience, but no data, results or method"},
+      {"id": "c5", "result": "pass", "evidence": "I build multi-agent systems in Microsoft Copilot Studio at work.", "location": "named author with visible hands-on role"}
+    ], "rationale": "Credible practitioner voice, but nothing is sourced: no Microsoft release notes or docs cited by name and date for the 2026 changes, no outside expert, no own results.", "proposed_level": 1, "confidence": "high",
+     "failed_tags": {"c1": "A", "c2": "A", "c3": "A", "c4": "A"}},
+    {"id": "ART-3", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "The practical implication — and this took me a while to internalise — is that your descriptions now matter more than your branch logic.", "location": "Generative orchestration"},
+      {"id": "c2", "result": "pass", "evidence": "Flows are your precision layer; the agent is your reasoning layer.", "location": "decision rule; also the ship → analytics → test → fix loop"},
+      {"id": "c3", "result": "fail", "evidence": "NOT FOUND", "location": "no first-party data (e.g. routing accuracy before/after rewriting descriptions)"},
+      {"id": "c4", "result": "pass", "evidence": "The conversational bot era of Copilot Studio is over. What’s there now is an agent operations platform.", "location": "closing thesis"},
+      {"id": "c5", "result": "pass", "evidence": "Start with one agent, one job.", "location": "practical implications for builders"}
+    ], "rationale": "Strong non-commodity angle: descriptions-as-code, precision vs reasoning layers, the evaluation loop. Missing only the author's own numbers to back it.", "proposed_level": 4, "confidence": "high",
+     "failed_tags": {"c3": "A"}},
+    {"id": "U6", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Go to copilotstudio.microsoft.com → Create → New agent.", "location": "seed prompt answered in the step-by-step section"},
+      {"id": "c2", "result": "pass", "evidence": "## Evaluation — The Part Most Builders Skip", "location": "what-is, components, orchestration, channels and evaluation each have a section"},
+      {"id": "c3", "result": "pass", "evidence": "So this is that guide.", "location": "one primary intent (building agents); 1,672 words"},
+      {"id": "c4", "result": "fail", "evidence": "Copilot Studio is available at copilotstudio.microsoft.com with a free trial.", "location": "licensing, prerequisites (environment, permissions) and cost model are missing"}
+    ], "rationale": "Covers the seed and five of six fan-outs well; misses the licence and prerequisites question every first-time builder asks.", "proposed_level": 3, "confidence": "high",
+     "failed_tags": {"c4": "A"}},
+    {"id": "U7", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Flows are your precision layer; the agent is your reasoning layer.", "location": "advisor voice"},
+      {"id": "c2", "result": "pass", "evidence": "Generative orchestration costs more per message because the planner reasons on every turn.", "location": "trade-offs stated"},
+      {"id": "c3", "result": "fail", "evidence": "And most people haven’t noticed yet.", "location": "hype lines: 'changed the game', 'The wildest one', 'one of the most complete … in the industry'"},
+      {"id": "c4", "result": "fail", "evidence": "Plenty of platforms build agents.", "location": "comparative claims made without naming any alternative"}
+    ], "rationale": "Independent, practical and honest about costs, but the hype lines and an unsupported 'most complete in the industry' claim pull it away from reference tone.", "proposed_level": 2, "confidence": "high",
+     "failed_tags": {"c3": "A", "c4": "A"}},
+    {"id": "U8", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Entra External ID for authenticated experiences", "location": "products named precisely and consistently"},
+      {"id": "c2", "result": "pass", "evidence": "Configured via Tools → Add a tool → Create new computer use.", "location": "menu paths, product URL and GA dates act as identifiers"},
+      {"id": "c3", "result": "pass", "evidence": "Computer use, A2A communication, and the new workflows experience are generally available as of May 2026.", "location": "consistent with the body; no contradictions"},
+      {"id": "c4", "result": "fail", "evidence": "The full searchable list lives here: https://learn.microsoft.com/en-us/connectors/connector-reference/connector-reference-microsoft-copilot-studio-connectors", "location": "bare, unlinked URLs; no descriptive link text"}
+    ], "rationale": "Entity naming is clean and consistent; references are pasted as plain-text URLs rather than descriptive links.", "proposed_level": 4, "confidence": "high",
+     "failed_tags": {"c4": "A"}},
+    {"id": "U9", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "Jun 14, 2026", "location": "byline"},
+      {"id": "c2", "result": "pass", "evidence": "Computer Use (GA as of May 2026)", "location": "facts current as of publication"},
+      {"id": "c3", "result": "pass", "evidence": "classic topic routing still exists", "location": "lifecycle/availability status stated"},
+      {"id": "c4", "result": "pass", "evidence": "Jun 14, 2026", "location": "4 months old; within the yearly cadence for blogs"}
+    ], "rationale": "Dated and current; level 5 would need a visible 'Updated' date because the platform changes monthly.", "proposed_level": 4, "confidence": "medium"},
+    {"id": "U10", "checks": [
+      {"id": "c1", "result": "pass", "evidence": "## How To Create a Basic Agent, Step by Step", "location": "how-it-works plus how-to depth fits Education"},
+      {"id": "c2", "result": "pass", "evidence": "write the description like you’re explaining to a new teammate when to use it", "location": "language fits builders and IT makers"},
+      {"id": "c3", "result": "pass", "evidence": "Copilot Studio is available at copilotstudio.microsoft.com with a free trial.", "location": "a specific next step, placed after the content"},
+      {"id": "c4", "result": "fail", "evidence": "Full connector reference: learn.microsoft.com/en-us/connectors/connector-reference/connector-reference-microsoft-copilot-studio-connectors.", "location": "no hyperlinks to next-stage content (docs, licensing, the author's related posts)"}
+    ], "rationale": "Right depth and audience, with a concrete next step; nothing is actually linked.", "proposed_level": 4, "confidence": "high",
+     "failed_tags": {"c4": "A"}}
+  ],
+  "gates": [
+    {"id": "G1", "triggered": false, "evidence": ""},
+    {"id": "G2", "triggered": false, "evidence": ""},
+    {"id": "G3", "triggered": false, "evidence": ""},
+    {"id": "G4", "triggered": false, "evidence": ""},
+    {"id": "G5", "triggered": false, "evidence": ""},
+    {"id": "G6", "triggered": false, "evidence": ""},
+    {"id": "G7", "triggered": false, "evidence": "Jun 14, 2026"},
+    {"id": "G8", "triggered": false, "evidence": ""},
+    {"id": "G9", "triggered": false, "evidence": ""},
+    {"id": "G10", "triggered": false, "evidence": ""},
+    {"id": "G11", "triggered": false, "evidence": ""},
+    {"id": "G12", "triggered": false, "evidence": ""},
+    {"id": "G13", "triggered": false, "evidence": ""}
+  ],
+  "penalties": [
+    {"id": "keyword_stuffing", "applied": false, "evidence": ""},
+    {"id": "fluff_density", "applied": false, "evidence": "checker 0.06 per 100 words"},
+    {"id": "boilerplate", "applied": false, "evidence": ""},
+    {"id": "cta_overload", "applied": false, "evidence": ""},
+    {"id": "self_ranking", "applied": false, "evidence": ""},
+    {"id": "hidden_instructions", "applied": false, "evidence": ""},
+    {"id": "template_artifact", "applied": false, "evidence": ""},
+    {"id": "superseded_no_notice", "applied": false, "evidence": ""}
+  ],
+  "out_of_scope_observations": [
+    "Medium returned HTTP 403 to a scripted fetch of the page; whether AI crawlers (GPTBot, ClaudeBot, PerplexityBot) can read it depends on Medium's bot policy, not on the content.",
+    "8 informative images have empty alt text (author can add alt text in Medium).",
+    "Medium inserts a 'Get … stories in your inbox' H2 between Step 1 and Step 2, splitting the procedure (platform template).",
+    "Structured data is SocialMediaPosting with dateModified = datePublished."
+  ],
+  "stage_fit": {"fits": true, "note": "Education how-to; matches the article type's natural stage."}
+}

@@ -1,0 +1,182 @@
+{
+  "page": {
+    "id": "55",
+    "url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+    "type": "esg_hub",
+    "stage": "Evaluation",
+    "topic": "Sustainability reports hub",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric sustainability performance 2025"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "research/final-scoring/judgeA/55_rendered_capture.md",
+    "input_mode": "rendered page re-captured by Judge A in the Browser pane 2026-10-19 (assigned rendered_file contained the H1-2026 download page)",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "page_type_key": "esg_hub",
+  "stage": "Evaluation",
+  "raw_score": 21.8,
+  "penalties": [
+    "template_artifact"
+  ],
+  "penalty_points": 2,
+  "gates_triggered": [
+    "G13",
+    "G6"
+  ],
+  "cap": 59,
+  "final_score": 20,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 20,
+      "family": "specs",
+      "m": 1.5,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No KPI value on the page.",
+      "confidence": "high",
+      "eff_w": 26.09,
+      "points": 0.0,
+      "impact_points": 26.09
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 12,
+      "family": "proof",
+      "m": 1.4,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No targets/baselines/progress on the page ('Sustainability Impact 2030' named only).",
+      "confidence": "high",
+      "eff_w": 14.61,
+      "points": 0.0,
+      "impact_points": 14.61
+    },
+    {
+      "id": "U1",
+      "default_w": 12,
+      "family": "answer_def",
+      "m": 0.9,
+      "level": 1,
+      "checks_passed": "1/5",
+      "rationale": "Hub title fine; top block announces Q3 results without stating any result.",
+      "confidence": "high",
+      "eff_w": 9.39,
+      "points": 1.88,
+      "impact_points": 7.51
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 14,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/5",
+      "rationale": "Data dashboard surfaced (SASB/TCFD/GRI/WEF); annual report cards have no date/description; vague 'Check the answers'.",
+      "confidence": "high",
+      "eff_w": 12.17,
+      "points": 4.87,
+      "impact_points": 7.3
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 6,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "No assurance or ratings.",
+      "confidence": "high",
+      "eff_w": 5.22,
+      "points": 0.0,
+      "impact_points": 5.22
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 6,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 1,
+      "checks_passed": "1/4",
+      "rationale": "Frameworks named in the Disclosure Dashboard card; no GHG basis, boundary or restatements.",
+      "confidence": "high",
+      "eff_w": 5.22,
+      "points": 1.04,
+      "impact_points": 4.18
+    },
+    {
+      "id": "U3",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/5",
+      "rationale": "Placeholder components; announcement without results; all KPIs in PDFs.",
+      "confidence": "high",
+      "eff_w": 6.96,
+      "points": 2.78,
+      "impact_points": 4.18
+    },
+    {
+      "id": "U10",
+      "default_w": 6,
+      "family": "commercial",
+      "m": 1.1,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "Routes to reports/press releases; vague FAQ CTA; no verification data.",
+      "confidence": "high",
+      "eff_w": 5.74,
+      "points": 2.3,
+      "impact_points": 3.44
+    },
+    {
+      "id": "U7",
+      "default_w": 4,
+      "family": "tone",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/3",
+      "rationale": "Neutral navigation copy; no misses disclosed.",
+      "confidence": "high",
+      "eff_w": 3.48,
+      "points": 1.39,
+      "impact_points": 2.09
+    },
+    {
+      "id": "U8",
+      "default_w": 4,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "3/4",
+      "rationale": "'Sustainability results' / 'extra-financial performance' / 'Sustainability Impact 2030' for the same results stream.",
+      "confidence": "high",
+      "eff_w": 3.48,
+      "points": 1.39,
+      "impact_points": 2.09
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 8,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 4,
+      "checks_passed": "4/4",
+      "rationale": "Current quarter dated; editions by year (older years in collapsed tabs).",
+      "confidence": "high",
+      "eff_w": 7.65,
+      "points": 6.12,
+      "impact_points": 1.53
+    }
+  ],
+  "warnings": [],
+  "weights_version": "2.0-2026-10-19",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

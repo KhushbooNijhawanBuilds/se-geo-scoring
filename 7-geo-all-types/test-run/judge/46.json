@@ -1,0 +1,380 @@
+{
+ "page": {
+  "id": "46",
+  "type": "software_trial",
+  "stage": "Decision",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-it-software-trials/",
+  "topic": "EcoStruxure IT software free trials",
+  "target_prompts": [
+   "How do I start a free trial of EcoStruxure IT DCIM software?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Trial landing page -> Decision (default)"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Start your journey with EcoStruxure IT software free trials – designed to meet your DCIM needs, whether it's monitoring, management, or ensuring business continuity."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure™ IT Software Trials"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Start your journey with EcoStruxure IT software free trials"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Please select your country below: (no answer)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure IT software free trials"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "designed to meet your DCIM needs (vague; torn -> fail)"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "free trials"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "only 'free' stated; no duration/scope/expiry"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Please select your country below:"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "monitoring, management (labels)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "whether it's monitoring, management, or ensuring business continuity"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "no capability descriptions"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no trial terms for a Decision page"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no audience signal"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "country links only, no asset named"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "United States"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Please select your country below:"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "North America"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Start your journey with EcoStruxure IT software free trials"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure™ IT Software Trials"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "trial terms only behind country pages/forms"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ IT Software Trials"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure IT software free trials"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G11",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "Fewer than 3 substantive factual statements (one sentence + country list)"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

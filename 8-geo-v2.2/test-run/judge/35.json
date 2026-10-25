@@ -1,0 +1,561 @@
+{
+ "page": {
+  "id": "35",
+  "type": "calculator",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+  "topic": "Self-managed vs partner-managed edge UPS fleet cost and downtime",
+  "industry": "Data Centers (inferred)",
+  "target_prompts": [
+   "Is it cheaper to manage an edge UPS fleet in-house or outsource it?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally, or outsourcing it to a partner",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Edge UPS fleet management comparison calculator",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "purpose in intro",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "no H2 sections about the tool",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "An edge UPS fleet is a group of UPSs that provide power & availability of IT solutions in locations that are not located in a centralized or regional data center.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "retails stores, healthcare facilities, school campuses",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "An example would be a network rack in the back-office of a retail store chain",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "manage the fleet yourself or have someone (a vendor or partner) do it for you",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: segments, no role",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "results are calculated based upon a dynamic model that considers device count, rating (VA), downtime related costs, and the time spent by resources managing & maintaining the fleet",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Average duration per downtime event (MTTR)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Science Center.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "UPSs have internal VRLA batteries (no external batteries or Li-ion batteries were considered)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "vendor service price not given",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Key assumptions are as follows:",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "UPSs are remotely monitorable (no value)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "according to Salary.com (no year)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "The analysis defaults to 50% of failures for a self-managed fleet",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Select a country so that the analysis can be localized based on costs and currency.",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "$ 70.1k",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IT operations technicians have a typical base salary raning from $43k-$70k",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "results only in widget",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Site quantity – Enter the number of distributed sites where the UPSs reside.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "UPSs per site – For each UPS size you defined, enter how many you have per site.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "A summary of the total cost for one year (based on current age distribution of assets) is provided",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "VA, VRLA not expanded",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "A final summary of savings or premium is presented for both costs and downtime reduction.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "may be highly variable from year-to-year",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "UPSs are covered under warranty for 3 years",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "UPS age distribution paragraph runs to 6 sentences",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "panel items name their subject",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "method and assumptions only in hidden tool panels",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "According to independent data protection and security research firm, Ponemon (no year)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow quotes",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "based upon findings from discussions with our customers (no method)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "developed by the Schneider Electric Science Center",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Some downtime events, however, cannot be avoided.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "setting it to ‘zero’ may result in missed expectations of service delivery",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no hype in tool text",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "“Self-managed” – This is the variable annual cost associated with administrative and remediation responsibilities by the organization.",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: self-managed option framed less favourably",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Edge UPS fleet management comparison calculator",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT27 Version 6",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "page text consistent; widget message handled as template_artifact",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "WP283, A Quantitative Comparison of UPS Monitoring and Servicing Approaches Across Edge Environments",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: some links generic",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT27 Version 6 – 20-August-2024",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "data year not stated",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "not relevant",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "version Aug 2024, over a year old",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "two-approach comparison fits Consideration",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "fits IT operations managers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "WP283, A Quantitative Comparison of UPS Monitoring and Servicing Approaches Across Edge Environments",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoCare for Single-Phase UPS",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: CTA only in hidden panel",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Lorum ipsum UI-kit placeholders; 'The total failure rate of your assets is 80.0%. Consider reducing this to 100% or below.'"
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 1: H1 'Edge UPS fleet management comparison calculator'."
+ }
+}

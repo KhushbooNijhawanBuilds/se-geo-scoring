@@ -1,0 +1,567 @@
+{
+  "page": {
+    "id": "47_47_software-page.md",
+    "type": "software_hub",
+    "stage": "Consideration",
+    "topic": "Operations management software for large buildings",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "Which Schneider Electric software manages operations in large buildings?",
+      "EcoStruxure Building Operation vs Building Advisor",
+      "Power Monitoring Expert vs Power Operation",
+      "Does EcoStruxure Building Operation support BACnet?",
+      "Building management software for predictive HVAC maintenance",
+      "Is EcoStruxure Building Operation cloud or on-premise?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Simplify the management and maintenance of HVAC and lighting systems to provide occupant comfort and building performance.",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Operations Management",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Simplify the management and maintenance of HVAC and lighting systems",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Building management software",
+          "location": "H2 with no opening text"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Monitor and manage building systems from one convenient, mobile-enabled control center.",
+          "location": "hero bullets"
+        }
+      ],
+      "rationale": "Imperative benefit, not a definition; H1 drops 'software' and 'large buildings' (title has them).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Automate HVAC, lighting, and blinds based on occupancy through a building management system and sensors.",
+          "location": "hero bullets"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Savings in operations and labor expenses²",
+          "location": "stat label with no value"
+        }
+      ],
+      "rationale": "Only the scenario is explicit.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Streamline maintenance management by automatically prioritizing HVAC tasks",
+          "location": "Building Advisor"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Proactive analytics-based service",
+          "location": "Power Advisor"
+        }
+      ],
+      "rationale": "Each module has a one-liner; no guidance on which module for which need or how Operation/Advisor/Expert relate.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Utilize advanced power forensics to understand the causes and effects of events in your electrical system.",
+          "location": "Power Monitoring Expert"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Streamline maintenance management by automatically prioritizing HVAC tasks based on a holistic score",
+          "location": "Building Advisor"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Get predictive maintenance and prioritize activities based on key metrics, including cost, energy savings, and asset life.",
+          "location": "hero bullets"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "ZZ_Paragraph Title",
+          "location": "placeholder block"
+        }
+      ],
+      "rationale": "Functions mapped to named modules; no measurable parameters; placeholder and empty stats.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "by uniting networks and integrating monitoring",
+          "location": "Power Operation"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "No interoperability claim made",
+          "location": ""
+        }
+      ],
+      "rationale": "No protocols or third-party systems (key BMS fan-out).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "with an edge control solution for distributed energy",
+          "location": "Microgrid Operation"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "implemented by EcoXpert partner C&C group",
+          "location": "case"
+        }
+      ],
+      "rationale": "Edge deployment for one module and partner implementation; nothing for the core BMS.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No cybersecurity information for building OT software.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No licensing, pricing logic or acquisition path.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "this 200+ acre mixed-use campus has lowered its energy costs",
+          "location": "case (unnamed, unquantified)"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Power uptime¹",
+          "location": "stat label with no value"
+        }
+      ],
+      "rationale": "Stats are footnoted to named sites but values are missing in HTML; case is unnamed and unquantified.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No versions, former names or lifecycle.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Power management software",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Automate HVAC, lighting, and blinds based on occupancy through a building management system and sensors.",
+          "location": "list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Gain real-time monitoring of your electrical power distribution to optimize system performance, reliability, and power quality.",
+          "location": "intro"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Its plan included:",
+          "location": "case"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Power uptime¹",
+          "location": "KPI value missing from text"
+        }
+      ],
+      "rationale": "Good headings and lists; KPI values missing; context-dependent case.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Maximize uptime with our SCADA system by uniting networks and integrating monitoring.",
+          "location": "Power Operation"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Proactive analytics-based service delivering optimized power performance",
+          "location": "Power Advisor"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Hub",
+          "location": ""
+        }
+      ],
+      "rationale": "Imperative marketing voice, low hype.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Power Monitoring Expert",
+          "location": "H3"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure Building Operation",
+          "location": "H3"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "EcoStruxure Microgrid Operation",
+          "location": "H3"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "No link/CTA labels in text",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent product names.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Optimize energy management with advanced orchestration of on-site renewables and loads.",
+          "location": "power bullets"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Placeholder 'ZZ_Paragraph Title' / 'ZZ_Paragraph Content' published."
+    }
+  ],
+  "out_of_scope_observations": [
+    "KPI counters ('Power uptime¹', 'Savings in operations and labor expenses²', 'Reduction in 3rd party labor³') have no numeric value in server HTML - likely client-side animation -> SE Digital (also content-scope U3 c5)",
+    "Placeholder block 'ZZ_Paragraph Title' live -> content owner"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Consideration"
+  }
+}

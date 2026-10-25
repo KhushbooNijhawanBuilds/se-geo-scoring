@@ -1,0 +1,637 @@
+{
+  "page": {
+    "id": "37",
+    "type": "service",
+    "stage": "Evaluation",
+    "topic": "EcoCare service plans",
+    "industry": "Buildings / data centers / industry",
+    "target_prompts": [
+      "Which condition-based maintenance and remote monitoring service plans exist for electrical distribution and UPS equipment?",
+      "What does an EcoCare plan include?",
+      "What response time does a remote-monitoring plan guarantee?",
+      "Which equipment is eligible?",
+      "How does condition-based maintenance compare with calendar-based maintenance?"
+    ],
+    "prompts_inferred": true,
+    "prompt_source": "seed from assignments.json; fan-outs inferred",
+    "content_basis": "rendered page capture (corpus/rendered), standard v2.0",
+    "rendered_file": "corpus/rendered/37_service-page.md"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "It’s a digital-first service plan that combines 24/7 remote monitoring with AI-powered condition-based maintenance",
+          "location": "What is EcoCare?"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Condition-based maintenance and remote monitoring services",
+          "location": "Title"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Asset performance management with AI-powered condition-based maintenance, 24/7 remote monitoring, and expert support.",
+          "location": "Under H1"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Downtime costs are rising, skilled engineers are scarce",
+          "location": "Not all H2s open with answers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Definition early.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "It’s a digital-first service plan",
+          "location": "What is EcoCare?"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoCare for Data Centers",
+          "location": "Equipment plans"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "enabling the shift from time-based to proactive, condition-based maintenance",
+          "location": "What is EcoCare?"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Up to 75%",
+          "location": "Stats"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "What is EcoCare?",
+          "location": "Question headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Break-fix emergency intervention",
+          "location": "Lists"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our Connected Services Hub team monitor the health of your assets and systems 24/7",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans",
+          "location": "Stat fragments"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "If our experts detect abnormal behavior which might generate a failure",
+          "location": "How-it-works explanations only in hidden panels"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Good, tabbed detail.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Turn asset complexity into operational confidence and peace of mind.",
+          "location": "Promo"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our Connected Services Hub team monitor the health of your assets and systems 24/7",
+          "location": "Fluff 0.9/100w"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not comparison",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "IEC 62443‑4‑1 certified development",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "T"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No SLA/plan comparison for Evaluation"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "less electrical failure risk",
+          "location": "Language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Contact Sales",
+          "location": "Generic CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Compass Datacenters",
+          "location": "Stories"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "T"
+      },
+      "rationale": "Anchor 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Break-fix emergency intervention",
+          "location": "What is EcoCare?"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Get a trusted advisor and an actionable tailored success plan based on data-driven insights",
+          "location": "Success plan"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "resolve it remotely or via rapid on‑site dispatch of technicians",
+          "location": "Emergency support"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No exclusions/options"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Condition-based maintenance",
+          "location": "Features (visible)"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Concrete scope.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "monitor the health of your assets and systems 24/7",
+          "location": "Remote monitoring"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "'rapid' without number"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "they’ll notify you and perform remote troubleshooting. If needed, they will dispatch our on-site services team",
+          "location": "[hidden] Detect early"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c5": "A"
+      },
+      "rationale": "No numeric commitment -> <=2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "Plans"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No models"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Multi-vendor not stated"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "uploaded via the Schneider Electric gateway to our EcoStruxure™ IoT platform",
+          "location": "Prerequisite"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Categories + connectivity.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Connect and collect",
+          "location": "Steps"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Maintenance scheduling will be adjusted based on the condition of your assets and systems",
+          "location": "[hidden] step text"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Our remote experts at our Connected Services Hub continuously monitor",
+          "location": "[hidden] roles"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Data from sensors and communicating devices are collected and uploaded via the Schneider Electric gateway",
+          "location": "Start"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Explore our EcoCare digital-first service plans by equipment type",
+          "location": "Plans"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No tier differences"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No contract model"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No availability"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Plans named.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Up to 20%",
+          "location": "Stats"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans",
+          "location": "Stats"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "compared to traditional calendar-based service plans",
+          "location": "Baseline"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "fewer intrusive on-site interventions",
+          "location": "KPI"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "OpEx savings compared to traditional calendar-based service plans³",
+          "location": "Footnotes 1-3 never rendered"
+        }
+      ],
+      "failed_tags": {
+        "c5": "T"
+      },
+      "rationale": "Level 4 needs c5 -> 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Rubis Photosol maximizes uptime and sustainability across its solar parks.",
+          "location": "Customers"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No result metric"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Connected Services Hub",
+          "location": "Delivery org"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "IEC 62443‑4‑1 certified development",
+          "location": "Standard"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "CREST‑accredited testing",
+          "location": "Third-party validation"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "c2 fail -> <=2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 51% of the rendered content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital (server/rendered word ratio 0.49). Definition, deliverables, customers and security/standards text are client-rendered.",
+    "Global 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) excluded from evidence; it is template content.",
+    "Typo 'Singe-Phase UPS'."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Evaluation."
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "version": "seo-1.0-2026-10-23",
+  "note": "SE Blog SEO Score v1 weights. Standalone; never blended with the Content GEO Score. One page type (blog article). No stage multipliers (see SEO_Scoring_Standard_v1.md section 3.3). Weights sum to 100.",
+  "criteria": {
+    "S1": {
+      "name": "Search intent match",
+      "weight": 14,
+      "checks": 5
+    },
+    "S2": {
+      "name": "SEO title tag",
+      "weight": 10,
+      "checks": 6
+    },
+    "S3": {
+      "name": "Meta description",
+      "weight": 4,
+      "checks": 5
+    },
+    "S4": {
+      "name": "URL / slug",
+      "weight": 3,
+      "checks": 5
+    },
+    "S5": {
+      "name": "H1 and heading structure",
+      "weight": 6,
+      "checks": 4
+    },
+    "S6": {
+      "name": "Primary topic placement (no stuffing)",
+      "weight": 5,
+      "checks": 5
+    },
+    "S7": {
+      "name": "Topical coverage and depth",
+      "weight": 14,
+      "checks": 5
+    },
+    "S8": {
+      "name": "E-E-A-T: author, expertise, sourcing",
+      "weight": 12,
+      "checks": 5
+    },
+    "S9": {
+      "name": "Originality and first-hand value",
+      "weight": 11,
+      "checks": 5
+    },
+    "S10": {
+      "name": "Freshness and date integrity",
+      "weight": 5,
+      "checks": 5
+    },
+    "S11": {
+      "name": "Internal links",
+      "weight": 6,
+      "checks": 5
+    },
+    "S12": {
+      "name": "Outbound links",
+      "weight": 3,
+      "checks": 3
+    },
+    "S13": {
+      "name": "Images and alt text",
+      "weight": 3,
+      "checks": 4
+    },
+    "S14": {
+      "name": "Structured data and Open Graph",
+      "weight": 4,
+      "checks": 5
+    }
+  },
+  "level_rounding": "half_up",
+  "level_anchors": {
+    "_doc": "When the listed checks pass (na counts as met; at least one must pass), the level is at least L, unless a cap or gate lowers it.",
+    "S1": {
+      "3": [
+        "c1",
+        "c2",
+        "c4"
+      ]
+    },
+    "S7": {
+      "3": [
+        "c1",
+        "c3"
+      ]
+    }
+  },
+  "level_caps": {
+    "_doc": "unless_pass: if any listed check FAILS, level capped at max.",
+    "S2": [
+      {
+        "max": 0,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no usable <title> -> S2 = 0"
+      },
+      {
+        "max": 3,
+        "unless_pass": [
+          "c2"
+        ],
+        "why": "title outside the length band is very likely rewritten/truncated (Zyppy: >60 chars 76%, >70 chars 99.9% rewritten) -> S2 max 3 (calibration v1)"
+      }
+    ],
+    "S3": [
+      {
+        "max": 0,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no meta description -> S3 = 0"
+      }
+    ],
+    "S8": [
+      {
+        "max": 2,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no named human author -> S8 max 2"
+      },
+      {
+        "max": 3,
+        "unless_pass": [
+          "c2"
+        ],
+        "why": "byline not linked to the named author's own bio -> S8 max 3 (calibration v1)"
+      }
+    ],
+    "S10": [
+      {
+        "max": 1,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no visible date -> S10 max 1"
+      }
+    ],
+    "S14": [
+      {
+        "max": 1,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no Article/BlogPosting markup -> S14 max 1"
+      }
+    ],
+    "S9": [
+      {
+        "max": 3,
+        "if_all_fail": [
+          "c1",
+          "c2"
+        ],
+        "why": "no first-hand experience and no first-party data -> S9 max 3 (calibration v1)"
+      }
+    ]
+  },
+  "gates": {
+    "SG1": {
+      "cap": 39,
+      "desc": "Spam-policy pattern on the page: hidden text/links, keyword or location blocks, gibberish with keywords, scraped/uncited copy, doorway templating, leftover AI artefacts"
+    },
+    "SG2": {
+      "cap": 39,
+      "desc": "Primary query never answered, or thin page with no substantive content beyond boilerplate"
+    },
+    "SG3": {
+      "cap": 39,
+      "desc": "Unsafe or false technical/safety statement (YMYL electrical safety) - escalate to an SME"
+    },
+    "SG4": {
+      "cap": 49,
+      "desc": "Title, H1 or meta promise not delivered, or a misleading/exaggerated title"
+    },
+    "SG5": {
+      "cap": 59,
+      "zero": [
+        "S5"
+      ],
+      "desc": "No H1/main visible title (missing <title> is handled by the S2 cap)"
+    },
+    "SG6": {
+      "cap": 59,
+      "desc": "Core content only in an image, PDF, video or JS widget with no HTML-text equivalent"
+    },
+    "SG7": {
+      "cap": 59,
+      "zero": [
+        "S10"
+      ],
+      "desc": "Fake freshness: future date, or visible/markup date bumped with evidence of no substantive change"
+    },
+    "SG8": {
+      "cap": 59,
+      "desc": "Internal factual contradiction (prose vs table vs summary vs metadata)"
+    }
+  },
+  "penalties": {
+    "hidden_instructions": 10,
+    "hidden_text_or_links": 10,
+    "keyword_stuffing": 3,
+    "self_ranking": 3,
+    "superseded_no_notice": 3,
+    "fluff_intro": 2,
+    "boilerplate_dominant": 2,
+    "template_artifact": 2,
+    "ai_listed_author": 2,
+    "generic_anchor_overload": 1
+  },
+  "penalty_cap": 10,
+  "penalty_uncapped": [
+    "hidden_instructions",
+    "hidden_text_or_links"
+  ],
+  "bands": [
+    [
+      90,
+      "Excellent"
+    ],
+    [
+      70,
+      "Good"
+    ],
+    [
+      40,
+      "Average"
+    ],
+    [
+      0,
+      "Poor"
+    ]
+  ],
+  "ok_threshold": 70,
+  "eligibility": {
+    "E1": {
+      "name": "HTTP 200 (at most one 301/308 hop)",
+      "blocking": true
+    },
+    "E2": {
+      "name": "Indexable (no noindex in meta/X-Robots-Tag; not disallowed in robots.txt)",
+      "blocking": true
+    },
+    "E3": {
+      "name": "One absolute HTTPS self-referencing (or valid) canonical",
+      "blocking": true
+    },
+    "E4": {
+      "name": "hreflang valid and reciprocal, with x-default (na if none)",
+      "blocking": false
+    },
+    "E5": {
+      "name": "Served over HTTPS",
+      "blocking": true
+    },
+    "E6": {
+      "name": "Mobile: viewport width=device-width and same primary content",
+      "blocking": false
+    },
+    "E7": {
+      "name": "No unintended nosnippet / max-snippet:0 / noarchive",
+      "blocking": false
+    },
+    "E8": {
+      "name": "Body text and links in server HTML as <a href>",
+      "blocking": false
+    }
+  },
+  "needs_data": [
+    {
+      "id": "N1",
+      "item": "Core Web Vitals field data (p75 LCP <=2.5s, INP <=200ms, CLS <=0.1)",
+      "source": "CrUX API / PageSpeed Insights"
+    },
+    {
+      "id": "N2",
+      "item": "Backlinks and referring domains",
+      "source": "Ahrefs / Semrush / Majestic"
+    },
+    {
+      "id": "N3",
+      "item": "Clicks, impressions, CTR, queries",
+      "source": "Google Search Console Performance; Bing Webmaster Tools"
+    },
+    {
+      "id": "N4",
+      "item": "Cannibalisation (2+ URLs swapping impressions for the same query/intent)",
+      "source": "Search Console query + page dimensions"
+    },
+    {
+      "id": "N5",
+      "item": "Index status and Google-selected canonical",
+      "source": "Search Console URL Inspection API"
+    },
+    {
+      "id": "N6",
+      "item": "Title and meta description uniqueness across the site",
+      "source": "Site crawl (Screaming Frog / Sitebulb)"
+    },
+    {
+      "id": "N7",
+      "item": "Inbound internal links / orphan status, link to pillar from hub",
+      "source": "Site crawl"
+    },
+    {
+      "id": "N8",
+      "item": "hreflang cluster reciprocity; robots.txt and sitemap consistency",
+      "source": "Crawl of alternates; robots.txt; sitemap lastmod vs dateModified"
+    }
+  ]
+}

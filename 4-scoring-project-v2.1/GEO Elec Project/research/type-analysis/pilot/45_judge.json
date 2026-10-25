@@ -1,0 +1,567 @@
+{
+  "page": {
+    "id": "45_45_software-page.md",
+    "type": "software_product",
+    "stage": "Evaluation",
+    "topic": "EcoStruxure IT DCIM software",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "Is EcoStruxure IT DCIM cloud-based or on-premise, and what does it integrate with?",
+      "What is EcoStruxure IT (DCIM)?",
+      "EcoStruxure IT supported protocols (SNMP, Modbus, BACnet)",
+      "EcoStruxure IT security certifications (IEC 62443, ISO 27001)",
+      "EcoStruxure IT pricing / licensing model",
+      "EcoStruxure IT Expert vs IT Advisor vs Data Center Expert"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform.",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Intelligent DCIM software in the AI era",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Data center infrastructure management (DCIM) software is used to monitor, measure, and manage data centers",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "EcoStruxure IT DCIM software for todays data center challenges",
+          "location": "H2 (title repeated as body)"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Category defined, product positioned within it; H2s restate titles; no summary.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform.",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "whether on-premise, at the edge, or in hybrid environments",
+          "location": "Planning and modeling"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "providing visibility and control of complex IT infrastructures",
+          "location": "lead"
+        }
+      ],
+      "rationale": "What, where and outcome; target roles absent.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Oversee and control assets, environmental conditions, and security, while integrating with the IT layer",
+          "location": "Monitoring and management"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "including EcoStruxure IT Expert, IT Advisor, Data Center Expert, and NetBotz",
+          "location": "only in forum blurb"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Design, simulate, and optimize data center or colocation infrastructure",
+          "location": "Planning and modeling"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Security and access management",
+          "location": "label-only tile"
+        }
+      ],
+      "rationale": "Concrete functions listed but not mapped to modules; several label-only benefit tiles; no measurable parameters.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "integrating with the IT layer",
+          "location": "Monitoring and management"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Supports multi-vendor ecosystems.",
+          "location": "benefits tile"
+        }
+      ],
+      "rationale": "Multi-vendor claim unsupported: no protocols, vendors or integration methods.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "whether on-premise, at the edge, or in hybrid environments",
+          "location": "describes the infrastructure modelled, not the software deployment"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Ready to go or custom-tailored solutions ensures that organizations effectively implement",
+          "location": "Deployment solutions"
+        }
+      ],
+      "rationale": "Software deployment model (cloud/on-prem) not stated - risk AI misreads the on-prem/edge/hybrid phrase; no requirements.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "mandatory two-factor authentication and high encryption standards",
+          "location": "Tools and resources"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Secure, GDPR-compliant monitoring of critical infrastructure",
+          "location": "Tools and resources"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "EcoStruxure IT security The EcoStruxure IT platform is security hardened",
+          "location": "Tools and resources"
+        }
+      ],
+      "rationale": "Controls, privacy and a security resource named; no certification by number (IEC 62443 / ISO 27001).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No licensing, pricing logic, trial mention (trial page exists separately) or purchase path.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Wellcome Sanger Institute The DNA of data center efficiency -setting expectations of 5-10% savings in power and energy.",
+          "location": "case teaser"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "setting expectations of 5-10% savings",
+          "location": "projection, no baseline/method"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Trusted by",
+          "location": "logos as images only"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Wellcome Sanger Institute",
+          "location": "case teaser"
+        }
+      ],
+      "rationale": "One named customer with a projected 5-10% figure; no method; logo wall image-only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "including EcoStruxure IT Expert, IT Advisor, Data Center Expert, and NetBotz",
+          "location": "forum blurb"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Module line-up named in passing only; no edition/module differentiation.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "see what’s new in the offers",
+          "location": "help center blurb"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "access release notes and more",
+          "location": "help center blurb"
+        }
+      ],
+      "rationale": "Release-notes pointer only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover the benefits of EcoStruxure IT",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Forecast future IT needs and ensure resources are available.",
+          "location": "tile"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Supports multi-vendor ecosystems.",
+          "location": "subjectless tile"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Monitor temperature and airflow for optimal operating conditions.",
+          "location": "tile"
+        }
+      ],
+      "rationale": "Whole H2 block duplicated; subjectless tiles; no lists/tables.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Data center infrastructure management (DCIM) software is used to monitor, measure, and manage data centers",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Forecast future IT needs and ensure resources are available.",
+          "location": "tile"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Product page",
+          "location": ""
+        }
+      ],
+      "rationale": "Mostly neutral, low fluff; no limitations.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform.",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure IT Expert, IT Advisor, Data Center Expert, and NetBotz",
+          "location": "forum blurb"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "EcoStruxure IT help center",
+          "location": "Tools and resources"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Learn what EcoStruxure IT can do for you.",
+          "location": "lead CTA"
+        }
+      ],
+      "rationale": "Consistent naming; vague CTAs; typos ('softwares', 'todays').",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Generative AI inferencing ramp-up: A CIO's guide to physical infrastructure considerations",
+          "location": "Tools and resources"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; no version.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Entire H2 block 'EcoStruxure IT DCIM software for todays data center challenges' with four tiles rendered twice verbatim."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Duplicated section and customer-logo wall (images only) -> SE Digital",
+    "Typos: 'todays', 'softwares', 'perfomance' -> content owner"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Evaluation"
+  }
+}

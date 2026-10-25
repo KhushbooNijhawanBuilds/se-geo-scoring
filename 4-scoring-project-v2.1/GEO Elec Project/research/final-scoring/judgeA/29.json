@@ -1,0 +1,650 @@
+{
+  "page": {
+    "id": "29",
+    "url": "https://www.se.com/ww/en/download/document/SPD_WP99_EN/",
+    "type": "whitepaper_gateway",
+    "stage": "Education",
+    "topic": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts",
+    "industry": "Data centers",
+    "target_prompts": [
+      "How to calculate data center Scope 3 emissions"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "corpus/rendered/29_white-paper-technical-docume.md",
+    "input_mode": "rendered capture (visitor view incl. [hidden])",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "More data centers are transitioning to renewable energy sources.",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts | Schneider Electric",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Scope 3 becomes a data center",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Prompt-aligned title; abstract opens with background, not the answer; no section answers or summary block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "NOTE: visible abstract = 127 words",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "This category of emissions is also the least reported and understood.",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "we use a single hypothetical data center to demonstrate how to quantify Scope 3 emissions and identify the largest emission sources",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Scope 3 becomes a data center",
+          "location": "page"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no merged words or encoding errors",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Abstract: length, problem, audience, approach, specific conclusion, clean copy.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "mark the first comprehensive attempt",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c3": "T",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No key-findings layer on the page; findings only in the PDF (G6).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "WP-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "how to quantify Scope 3 emissions and identify the largest emission sources",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: 1 of 5 fan-outs answered",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c3": "A"
+      },
+      "rationale": "Topics named in the abstract and share of inferred fan-outs answered on the page.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: < 2.0 quantified facts/100w",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "the first comprehensive attempt",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "greenhouse gas (GHG) emissions",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c5": "A"
+      },
+      "rationale": "Near-zero quantified facts (R5 threshold 2.0/100w for white papers).",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "we use a single hypothetical data center",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "We provide a calculator that estimates a data center",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "SPD_WP99_EN",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A"
+      },
+      "rationale": "No authors, references or method on the page; document ref gives accountability.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "25 May 2023",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOTE: 'Version' label rendered with no value",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: file WP99_V1 = version 1, no change note needed",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "25 May 2023",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Latest version",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Release date visible; 'Latest version' badge (hidden) credited per R2; version/file, change note, 24-month window checked.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "WP99_V1_EN.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "White Paper",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND (no meta description in rendered capture; server meta truncated '...')",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "T"
+      },
+      "rationale": "Descriptive title and visible 'White Paper' label; code file name; no meta description on the rendered page.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOTE: no H1; title rendered as H2",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOTE: one 8-sentence paragraph",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Quantifying Scope 3 emissions is one of the most important issues the industry is facing.",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "A",
+        "c5": "T"
+      },
+      "rationale": "One abstract under the title (H2, no H1); no lists; findings only in PDF (U3 <= 2).",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Data Center Lifecycle CO2e Calculator",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "SPD_WP99_EN",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no contradictory statements",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOTE: calculator named but not linked",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "Subject and doc ref consistent; version/file checked; no descriptive related links.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "In this paper, we use a single hypothetical data center",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no hype words",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: no option selection",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Informational abstract; trade-offs and hype checked.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Finally, we describe best practices for reducing emissions.",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Quantifying Scope 3 emissions is one of the most important issues the industry is facing.",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Open and download",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Data Center Lifecycle CO2e Calculator",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "Depth fits Education; 'Open and download' names no asset; 'Need help?' block is generic, no related papers/tools.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: not gated - 'Open and download' without a form",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: not gated",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Ungated: N/A, weight redistributed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "No key findings/figures on the page; findings and guidance only in the PDF (WP-2 <= 1 or no HTML equivalent)."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "No H1: title rendered as H2 (template) -> SE Digital.",
+    "Server HTML repeats the abstract + metadata 3x (hidden responsive variants); rendered shows one visible copy + a [hidden] truncated copy.",
+    "Crawler gap (R3): small; server/rendered word ratio > 0.7 and abstract present server-side. 'White Paper' label exists only in the rendered page. 'Version' value missing in rendered metadata (server shows 'Version 1') -> template bug."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "White paper at Education (natural stage)."
+  }
+}

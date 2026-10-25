@@ -1,0 +1,737 @@
+{
+  "page": {
+    "id": "16",
+    "type": "range",
+    "stage": "Consideration",
+    "topic": "9 Series",
+    "industry": "Cross-segment",
+    "target_prompts": [
+      "What is the Schneider 9 Series and which Acti9 device do I need?",
+      "Acti9 iC60 rating",
+      "Acti9 RCBO vs RCCB",
+      "Resi9 vs Acti9 difference",
+      "Acti9 arc fault detection device (AFDD) options"
+    ],
+    "prompts_inferred": false,
+    "fanout_inferred": true,
+    "content_source": "corpus/rendered/16_product-range-page.md",
+    "standard": "v2.0",
+    "judge": "A"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The 9 Series delivers the final level of protection in the electrical distribution in homes and buildings",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "9 Series",
+          "location": "H1 brand only"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Advanced protection with comprehensive final distribution breaker ranges",
+          "location": "hero"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore our offer",
+          "location": "H2"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c4": "T",
+        "c5": "A"
+      },
+      "rationale": "Role defined; brand-only H1.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "comprehensive final distribution breaker ranges",
+          "location": "hero"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "in homes and buildings",
+          "location": "intro"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "allowing our customers to feel safe everywhere at every moment",
+          "location": "intro"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "What/who.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See product details",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Miniature Circuit Breakers up to 63 A",
+          "location": "iC60"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "DIN Rail Residual current circuit breakers (RCCB) up to 100 A",
+          "location": "iID"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Modular contactors up to 100 A",
+          "location": "iCT"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A"
+      },
+      "rationale": "Generic H2s; no tables.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No standards/sources.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "allowing our customers to feel safe everywhere at every moment",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "offering unparalleled performance and space optimization",
+          "location": "Acti 9"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "brand range page",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Emotional/superlative.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Acti 9",
+          "location": "H2 vs 'Acti9' elsewhere"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Acti9 iC60 RCBO (2P, 3P, 4P)",
+          "location": "card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Residual current circuit breakers with integrated overcurrent protection (RCBO) up to 40 A",
+          "location": "iDPN Vigi"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "promo"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Acti 9/Acti9 inconsistency; truncated 'for Acti iC60'; vague CTA.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "DIN rail Arc Fault Detection Device (AFDD)",
+          "location": "iARC"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No table.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Miniature Circuit Breakers up to 63 A",
+          "location": "iC60"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Switch disconnectors up to 125 A",
+          "location": "iSW"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Arc Fault Detection Circuit Breaker",
+          "location": "iDPN N Arc vs iARC undifferentiated"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      },
+      "rationale": "Ratings; overlaps unresolved.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "dedicated to equipment manufacturers (OEMs)",
+          "location": "Multi9"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Multi-standard protection for OEMs",
+          "location": "Multi9"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Segments per sub-range.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "offering unparalleled performance and space optimization",
+          "location": "Acti 9"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "unparalleled performance",
+          "location": "Acti 9"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Residual current add-on devices up to 63 A",
+          "location": "Vigi iC60"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "the ability to be connected remotely to your home",
+          "location": "Resi9"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "for Acti iC60 Miniature Circuit Breakers",
+          "location": "Vigi iC60"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Add-on compatibility.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "the major standards for industry applications",
+          "location": "Multi9"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Generic only.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No FAQ.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "RNG-9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Resi9 Protection Resi9 Protection Protection devices",
+          "location": "tautological card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Multi9 Multi9 Multi9",
+          "location": "cloned name"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "EcoStruxure ™ Asset Advisor for drives",
+          "location": "promo"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "Tautological/unrated descriptors; clones; drives promo.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Server HTML clones card text (template)"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Declared stage Consideration"
+  }
+}

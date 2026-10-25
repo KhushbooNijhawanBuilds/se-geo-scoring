@@ -1,0 +1,554 @@
+{
+  "page": {
+    "id": "39",
+    "type": "service_project",
+    "stage": "Consideration",
+    "topic": "Consulting services for electrical, cooling and automation systems (audits, digital twin, system studies)",
+    "industry": "Buildings / industry / data centers",
+    "target_prompts": [
+      "What do electrical and automation system consulting services include?",
+      "What is included in an electrical system audit?",
+      "What is an electrical digital twin and what does it deliver?",
+      "Which power system studies (arc flash, short circuit, coordination) are offered and to which standards?",
+      "How long does an electrical assessment take and what does it cost?"
+    ],
+    "prompts_inferred": true,
+    "subtype_note": "Project / one-off service (modernization, retrofit, consulting): SVC-2 read as lead time / duration / downtime commitments."
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Start your assessment journey to discover untapped efficiencies.",
+          "location": "Card teaser"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Consulting services for electrical, cooling and automation systems",
+          "location": "Title"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "With EcoCare, our next-generation service plan",
+          "location": "Cross-sell openers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Slogan H1; descriptive title only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Body never defines EcoConsult"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoConsult for Data Centers",
+          "location": "Offer cards"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No trigger"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Up to 30%* energy efficiency improvement",
+          "location": "Stat block"
+        }
+      ],
+      "rationale": "Who and (qualified) outcome only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Up to 90%*",
+          "location": "Stat headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "1. Assess",
+          "location": "Numbered steps"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Build your electrical digital twin for real-time system insight.",
+          "location": "Short blocks"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "safety risk mitigation",
+          "location": "Fragment"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "OverviewAreas of expertiseWhat to expectBenefitsHow it works",
+          "location": "Tabs without text"
+        }
+      ],
+      "rationale": "Tab/stat template.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Turn complexity into confident decisions with EcoConsult services",
+          "location": "Slogan voice"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "next-generation service plan",
+          "location": "Fluff"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoConsult Electrical Digital Twin",
+          "location": "Current offer"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoConsult Systems Studies",
+          "location": "Option types"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Ensure compliance and enhance safety with expert system studies.",
+          "location": "Engineer language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Template CTAs only"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Modernization and circularity",
+          "location": "Cross-links"
+        }
+      ],
+      "rationale": "Anchor 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Build your electrical digital twin for real-time system insight.",
+          "location": "Offer cards"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Ensure compliance and enhance safety with expert system studies.",
+          "location": "Studies/audit deliverables unspecified"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "What to expect",
+          "location": "'What to expect' tab has no text"
+        }
+      ],
+      "rationale": "Service lines named; deliverables not specified.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No service-level facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Get an up-front assessment of your entire data center.",
+          "location": "Offer card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "'vendor-agnostic' only in meta"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "One scope statement.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1. Assess",
+          "location": "Steps"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Steps unexplained"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Start your assessment journey",
+          "location": "Start"
+        }
+      ],
+      "rationale": "Steps named only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoConsult Audit",
+          "location": "Offer cards"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Get an up-front assessment of your entire data center.",
+          "location": "Per-offer line"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Options named; no model.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Up to 50%*",
+          "location": "Stat block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Up to 30%*",
+          "location": "Stat block (EcoConsult page)"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No baseline"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "CO₂ emissions reduction",
+          "location": "KPI"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Up to 90%*",
+          "location": "Asterisks never explained"
+        }
+      ],
+      "rationale": "Quantified but unqualified; asterisks unresolved. Judge proposes 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "proven methodologies and digital oversight",
+          "location": "'proven methodologies' without detail"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Consideration."
+  }
+}

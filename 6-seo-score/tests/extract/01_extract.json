@@ -1,0 +1,375 @@
+{
+  "source": "html",
+  "facts": {
+    "url": {
+      "url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+      "scheme": "https",
+      "host": "blog.se.com",
+      "path": "/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+      "slug": "modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before",
+      "slug_chars": 104,
+      "slug_words": 18,
+      "query": "",
+      "fragment": "",
+      "date_in_path": true,
+      "repeated_slug_words": [
+        "centers",
+        "data"
+      ]
+    },
+    "title": {
+      "count": 1,
+      "text": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog",
+      "chars": 78,
+      "est_px_18px_arial": 610,
+      "main_text": "Modular, prefabricated data centers enter the AI era",
+      "main_chars": 52,
+      "brand": "Schneider Electric Blog",
+      "brand_position": "end",
+      "brand_occurrences": 1,
+      "h1": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+      "title_h1_token_overlap": 1.0,
+      "title_equals_h1": false
+    },
+    "meta_description": {
+      "count": 1,
+      "text": "Modular data centers may not be new, but challenges driven by the latest accelerated compute AI clusters are forcing accelerated change in the way data centers are designed and deployed. While prefabrication could have been seen as a luxury a couple of decades ago, at this scale of deployment and with these challenging densities coupled with a major shortage of tradespeople, prefabrication is a necessity today.",
+      "chars": 414,
+      "est_px": 2517.84
+    },
+    "headings": {
+      "h1_count": 1,
+      "h1_texts": [
+        "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before"
+      ],
+      "list": [
+        {
+          "level": 2,
+          "text": "A slow start"
+        },
+        {
+          "level": 2,
+          "text": "Challenges of the AI era"
+        },
+        {
+          "level": 2,
+          "text": "Power Capacity and Scale"
+        },
+        {
+          "level": 2,
+          "text": "High Density Liquid Cooling"
+        },
+        {
+          "level": 2,
+          "text": "Modular, prefabrication is a necessity today and will be in the future"
+        }
+      ],
+      "body_words": 895,
+      "words_per_subhead": 179,
+      "template_h2_in_article": [
+        "Add a comment Cancel reply",
+        "Top picks",
+        "The metric is the message: Introducing a comprehensive data center sustainability standard",
+        "Taking a fresh look at software’s role in driving data center efficiencies and sustainability",
+        "Sustainable business model innovation: A brief overview",
+        "The IT world has moved on from proprietary operating systems. Now it’s industry’s turn."
+      ]
+    },
+    "intro_first_150_words": "I have been strategically involved in the modular data center industry for over 30 years yes the industry has been doing this for a long time However the exponential demand for prefabrication is gaining significant momentum now Spoiler alert the race to build AI factory data centers is driving this momentum But why the need for prefabrication in AI data centers Let’s take a look AI is the latest technology wave hitting data centers A major data center buildout took place during the dot-com boom 1997 2000 followed by a wave for cloud computing in the mid-2000s to 2010s While there were some all-in-ones packaged chillers and power skids these data centers were primarily stick built or assembled from pieces procured through a bid-spec process The data center plan design bid build and commission cycle involved architects and consulting engineers to create custom designs Then they had to send out",
+    "dates": {
+      "visible": "2026-10-13",
+      "published_markup": "2026-10-13",
+      "modified_markup": "2026-10-16",
+      "source": "JSON-LD",
+      "modified_minus_published_days": 3
+    },
+    "links": {
+      "in_body_total": 6,
+      "internal": [
+        {
+          "href": "https://www.se.com/ww/en/work/solutions/ai-factory/",
+          "anchor": "AI factory data centers",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://blog.se.com/datacenter/2026/07/09/schneider-electric-releases-free-ai-factory-ebook-as-a-guide-to-answer-questions-and-boost-understanding/",
+          "anchor": "Today’s data center AI factories",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://blog.se.com/datacenter/2025/08/12/why-liquid-cooling-for-ai-data-centers-is-harder-than-it-looks/",
+          "anchor": "high density liquid cooling",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/ww/en/download/document/Ai-factory-architecture_ebook/",
+          "anchor": "AI factory data centers",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/ww/en/product-country-selector/?pageType=product-range&sourceId=371656912#overview",
+          "anchor": "AI factory modular IT Pod",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.forbes.com/councils/forbestechcouncil/2026/09/11/the-evolution-of-modular-prefab-data-centers-what-you-should-know/",
+          "anchor": "Forbes",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "internal_with_tracking_params": [
+        "https://www.se.com/ww/en/product-country-selector/?pageType=product-range&sourceId=371656912#overview"
+      ],
+      "generic_anchors": [],
+      "same_anchor_different_targets": [
+        "ai factory data centers"
+      ]
+    },
+    "images": [
+      {
+        "src": "https://blog.se.com/wp-content/uploads/2026/09/GettyImages-1337227407_resized-1024x538.jpg",
+        "alt": "",
+        "role": "none"
+      }
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+      "og:description": "Modular data centers may not be new, but challenges driven by the latest accelerated compute AI clusters are forcing accelerated change in the way data centers are designed and deployed. While prefabrication could have been seen as a luxury a couple of decades ago, at this scale of deployment and with these challenging densities coupled with a major shortage of tradespeople, prefabrication is a necessity today.",
+      "og:url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+      "og:site_name": "Schneider Electric Blog",
+      "article:published_time": "2026-10-13T12:00:00+00:00",
+      "article:modified_time": "2026-10-16T04:29:27+00:00",
+      "og:image": "https://blog.se.com/wp-content/uploads/2026/09/GettyImages-1337227407_resized.jpg",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "og:image:type": "image/jpeg"
+    },
+    "jsonld_types": [
+      "Article",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "WebPage",
+      "WebSite"
+    ],
+    "article_ld": {
+      "type": "Article",
+      "headline": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+      "datePublished": "2026-10-13T12:00:00+00:00",
+      "dateModified": "2026-10-16T04:29:27+00:00",
+      "image": true,
+      "author_name": "Steven Carlini",
+      "author_type": "Person",
+      "author_url": "https://blog.se.com/author/steven-carlini/",
+      "author_sameAs": [
+        "https://www.linkedin.com/pub/steve-carlini/1/960/4ab",
+        "https://x.com/StevenCarliniSE"
+      ]
+    },
+    "canonicals": [
+      "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/"
+    ],
+    "meta_robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    ],
+    "hreflang": [],
+    "byline_links": [
+      {
+        "text": "Steven Carlini",
+        "href": "https://blog.se.com/author/steven-carlini/"
+      }
+    ]
+  },
+  "computed_checks": {
+    "S4.c1": {
+      "result": "pass",
+      "evidence": "slug 'modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before'"
+    },
+    "S4.c2": {
+      "result": "pass",
+      "evidence": "slug 'modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before'; hyphens, lowercase"
+    },
+    "S4.c3": {
+      "result": "pass",
+      "evidence": "query='' fragment=''"
+    },
+    "S4.c4": {
+      "result": "fail",
+      "evidence": "slug 104 chars, 18 words (convention <=60 chars)"
+    },
+    "S2.c1": {
+      "result": "pass",
+      "evidence": "1 <title>; text 'Modular, prefabricated data centers enter the AI era - Schneider Electric Blog'"
+    },
+    "S2.c2": {
+      "result": "fail",
+      "evidence": "78 chars, ~610px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)"
+    },
+    "S2.c3": {
+      "result": "pass",
+      "evidence": "brand 'Schneider Electric Blog' x1, position end"
+    },
+    "S2.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3: none; years none"
+    },
+    "S2.c6": {
+      "result": "pass",
+      "evidence": "title main 'Modular, prefabricated data centers enter the AI era' vs H1 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before': 100% of title content words in H1; numbers title [] H1 []"
+    },
+    "S2.c4": {
+      "result": "pass",
+      "evidence": "keyword 'modular data center' within first ~45 chars of 'Modular, prefabricated data centers enter the'"
+    },
+    "S3.c1": {
+      "result": "pass",
+      "evidence": "1 meta description(s)"
+    },
+    "S3.c2": {
+      "result": "fail",
+      "evidence": "414 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)"
+    },
+    "S3.c3_partial": {
+      "result": "na",
+      "evidence": "not identical to title; judge decides if it summarises this page"
+    },
+    "S3.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3 in meta: none"
+    },
+    "S3.c4": {
+      "result": "pass",
+      "evidence": "keyword 'modular data center' in meta description"
+    },
+    "S5.c1": {
+      "result": "pass",
+      "evidence": "1 H1: ['Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before']"
+    },
+    "S5.c2": {
+      "result": "pass",
+      "evidence": "895 body words, 5 H2/H3 -> ~179 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')"
+    },
+    "S5.c4": {
+      "result": "fail",
+      "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'The metric is the message: Introducing a comprehensive data center sustainability standard', 'Taking a fresh look at software’s role in driving data center efficiencies and sustainability', 'Sustainable business model innovation: A brief overview', 'The IT world has moved on from proprietary operating systems. Now it’s industry’s turn.']"
+    },
+    "S6.c1": {
+      "result": "pass",
+      "evidence": "title: 'Modular, prefabricated data centers enter the AI era'"
+    },
+    "S6.c2": {
+      "result": "pass",
+      "evidence": "H1: 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before'"
+    },
+    "S6.c3": {
+      "result": "pass",
+      "evidence": "first 150 words contain all of ['modular', 'data', 'center']"
+    },
+    "S6.c4": {
+      "result": "fail",
+      "evidence": "subheads with topic: none"
+    },
+    "S6.c5": {
+      "result": "pass",
+      "evidence": "exact phrase x3 (~1.01% of words; stuffing trigger >3%); in 0% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target."
+    },
+    "S10.c1": {
+      "result": "pass",
+      "evidence": "visible date 2026-10-13"
+    },
+    "S10.c2": {
+      "result": "pass",
+      "evidence": "visible 2026-10-13 vs markup published 2026-10-13"
+    },
+    "S10.c3": {
+      "result": "pass",
+      "evidence": "published 2026-10-13, modified 2026-10-16"
+    },
+    "S10.c4": {
+      "result": "na",
+      "evidence": "modified 3 day(s) after publication (<7): no visible Updated label expected"
+    },
+    "S11.c1": {
+      "result": "pass",
+      "evidence": "5 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)"
+    },
+    "S11.c3": {
+      "result": "fail",
+      "evidence": "generic anchors none; same anchor -> different URLs ['ai factory data centers']"
+    },
+    "S11.c4": {
+      "result": "fail",
+      "evidence": "internal links with tracking/ID params: ['https://www.se.com/ww/en/product-country-selector/?pageType=product-range&sourceId=371656912#overview']"
+    },
+    "S11.c5": {
+      "result": "pass",
+      "evidence": "non-crawlable hrefs: none; all in-body links are <a href>"
+    },
+    "S12.c2": {
+      "result": "pass",
+      "evidence": "1 outbound editorial links; rel values ['noreferrer noopener']"
+    },
+    "S13.c1": {
+      "result": "fail",
+      "evidence": "0/1 content images have non-empty alt; empty: ['/uploads/2026/09/GettyImages-1337227407_resized-1024x538.jpg']"
+    },
+    "S13.c3": {
+      "result": "fail",
+      "evidence": "non-descriptive filenames: ['GettyImages-1337227407_resized-1024x538.jpg']"
+    },
+    "S14.c1": {
+      "result": "pass",
+      "evidence": "Article; missing none"
+    },
+    "S14.c2": {
+      "result": "pass",
+      "evidence": "author Person 'Steven Carlini', url=https://blog.se.com/author/steven-carlini/, sameAs=['https://www.linkedin.com/pub/steve-carlini/1/960/4ab', 'https://x.com/StevenCarliniSE']"
+    },
+    "S14.c3": {
+      "result": "pass",
+      "evidence": "markup headline 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before' vs H1/title; markup author 'Steven Carlini' vs byline 'Steven Carlini'; dates 2026-10-13 vs 2026-10-13"
+    },
+    "S14.c4": {
+      "result": "pass",
+      "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']"
+    },
+    "S14.c5": {
+      "result": "pass",
+      "evidence": "missing none; og:url = canonical; og:title 'Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before'"
+    }
+  },
+  "computed_eligibility": {
+    "E2": {
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' (X-Robots-Tag and robots.txt need the HTTP response)"
+    },
+    "E3": {
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/']; page URL https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/"
+    },
+    "E4": {
+      "result": "na",
+      "evidence": "no hreflang tags"
+    },
+    "E5": {
+      "result": "pass",
+      "evidence": "scheme https"
+    },
+    "E6": {
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1' (content parity needs a mobile render)"
+    },
+    "E7": {
+      "result": "pass",
+      "evidence": "snippet directives in 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'"
+    },
+    "E8": {
+      "result": "pass",
+      "evidence": "895 body words in server HTML"
+    }
+  }
+}

@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "41",
+  "type": "service",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/managed-security-services/",
+  "topic": "Managed security services (MSS) for OT",
+  "target_prompts": [
+   "What do OT managed security services include and how does the SOC respond to threats?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Tagline H1 area; definition in second block; question H2 answered by steps",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Manage streamlined resilient networks and maintain optimal cybersecurity performance"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Managed security services"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Step 1: Alert generation 1 Customer Operations Floor: Security control detects a potential threat and generates an alert."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "What, who, when; no concrete outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "MSS empowers industrial entities"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "maintaining the continuity of critical infrastructure and industrial operations"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reduce false positives, enhance visibility, and maximize ROI"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "Question H2, numbered steps, capability lists; repeated step labels",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## How does a managed security service work?"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- 1 Step 1: Alert generation"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Effective managed network and security services are crucial for maintaining the continuity"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "- 1 Step 1: Alert generation 1 Customer Operations Floor"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Schneider Electric Security Operations Center L1 Analysts"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Some promotional (\"industry leading\"); no limits",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "industry leading solutions"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Detection use cases and response playbooks developed for industrial environments, not adapted from IT."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Evaluation depth partial; no service-named CTA in visible text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "L2 analyst initiates advanced threat triage"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- Cybersecurity services"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 3,
+   "rationale": "Three capability areas with specific activities",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Asset visibility and vulnerability management"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Detection use cases and response playbooks developed for industrial environments"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Security control management Completely manage the end-to-end lifecycle of your security controls."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 2,
+   "rationale": "24x7 coverage and escalation; no response times",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "24x7 Managed Detection and Response"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Clear escalation paths and reporting, so cyber risk stays visible and managed."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 1,
+   "rationale": "OT assets only generically",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Gain comprehensive visibility of your OT assets."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 4,
+   "rationale": "Five ordered steps with roles",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "- 1 Step 1: Alert generation"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "L1 analyst receives the alert, investigates, and determines if it's a true positive."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Schneider Electric Security Operations Center L2/L3 Analysts"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 0,
+   "rationale": "No plans or model",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 1,
+   "rationale": "No quantified outcomes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Reduce false positives"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 1,
+   "rationale": "SOC named; no references or standards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Schneider Electric Security Operations Center"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

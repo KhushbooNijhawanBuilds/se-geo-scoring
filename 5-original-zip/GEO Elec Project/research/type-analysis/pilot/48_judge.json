@@ -1,0 +1,566 @@
+{
+  "page": {
+    "id": "48_48_software-page.md",
+    "type": "software_hub",
+    "stage": "Consideration",
+    "topic": "Energy management software for large buildings",
+    "industry": "Data centers / Buildings / Industry (cross-segment)",
+    "target_prompts": [
+      "Which energy management software suits large commercial buildings?",
+      "EcoStruxure Resource Advisor vs Power Monitoring Expert",
+      "Building energy management software with demand response",
+      "EV charging load management software for buildings",
+      "Microgrid software for buildings (Microgrid Operation vs Advisor)",
+      "Energy management software for ISO 50001 / portfolio benchmarking"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Monitor, analyze, control, forecast, and optimize energy usage by load type to identify where you can save on energy costs.",
+          "location": "lead"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Energy Management",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Monitor, analyze, control, forecast, and optimize energy usage by load type",
+          "location": "lead"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Energy analysis",
+          "location": "H2 with no opening text"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Aggregate and benchmark energy usage across a portfolio of buildings.",
+          "location": "hero bullets"
+        }
+      ],
+      "rationale": "Function list without subject; H1 generic.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Optimize energy procurement and analyze energy bills to find saving opportunities.",
+          "location": "hero bullets"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "identify where you can save on energy costs",
+          "location": "lead"
+        }
+      ],
+      "rationale": "Only scenario explicit.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor Optimize energy usage by monitoring and analyzing load types",
+          "location": "card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Dynamically control on-site energy resources and loads to optimize your facility’s performance.",
+          "location": "Microgrid Advisor"
+        }
+      ],
+      "rationale": "Module one-liners; overlapping modules (Resource Advisor vs PME; Microgrid Operation vs Advisor, each listed twice) not differentiated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Allocate energy costs to increase accountability for energy usage.",
+          "location": "Power Monitoring Expert"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Perform load control and peak management and participate in demand response programs.",
+          "location": "grid bullets"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Get granular energy data from floors, areas, or zones.",
+          "location": "granularity without numbers"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Enable grid connection management and grid code compliance.",
+          "location": "grid bullets"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Reduction in energy consumption¹",
+          "location": "stat label with no value"
+        }
+      ],
+      "rationale": "Concrete functions mapped to modules; no measurable parameters; empty KPI labels.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "No interoperability claim made",
+          "location": ""
+        }
+      ],
+      "rationale": "No protocols, meters, BMS or utility-data integrations named.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Efficiently manage on-site renewable energy resources and loads with this edge control solution for distributed energy.",
+          "location": "Microgrid Operation"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Aggregate and benchmark energy usage across a portfolio of buildings.",
+          "location": "scale without numbers"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Edge deployment for one module only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No security information.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No licensing/pricing/acquisition.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "achieving reductions in both CO2 emissions and operating costs",
+          "location": "Citycon case"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Reduction in energy consumption¹",
+          "location": "stat label with no value"
+        }
+      ],
+      "rationale": "Named customer (Citycon) but no numbers; KPI values missing.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SW-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No versions/lifecycle.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Energy source, load and grid management software",
+          "location": "H2"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Aggregate and benchmark energy usage across a portfolio of buildings.",
+          "location": "list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Allocate energy costs to increase accountability for energy usage.",
+          "location": "Power Monitoring Expert"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Its plan included:",
+          "location": "case"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Reduction in energy consumption¹",
+          "location": "KPI value missing"
+        }
+      ],
+      "rationale": "Descriptive headings and lists; KPI values missing.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "has implemented the smartest and most energy-efficient real estate on the market",
+          "location": "Citycon case"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "the smartest and most energy-efficient real estate on the market",
+          "location": "Citycon case"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Hub",
+          "location": ""
+        }
+      ],
+      "rationale": "Unattributed superlative in the proof block.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "H3"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoStruxure EV Charging Expert",
+          "location": "H3"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "EcoStruxure Microgrid Advisor",
+          "location": "H3"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "No link/CTA labels in text",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent names; Microgrid modules described twice with different copy.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Perform load control and peak management and participate in demand response programs.",
+          "location": "grid bullets"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "KPI counters ('Reduction in energy consumption¹', 'Renewable energy²', 'Avoided annual consumption³') lack numeric values in server HTML -> SE Digital"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage for this page type: Consideration"
+  }
+}

@@ -1,0 +1,519 @@
+{
+  "page": {
+    "id": "06_blog-article",
+    "type": "article",
+    "stage": "Awareness",
+    "topic": "AI data center infrastructure opportunity in Europe",
+    "industry": "Data centers (Europe)",
+    "audience": "Data center developers/operators, industry stakeholders",
+    "target_prompts": [
+      "What are the opportunities and challenges for AI data center infrastructure in Europe?",
+      "Where is power available for data centers in Europe?",
+      "How is AI changing data center supply chains and delivery speed?",
+      "What skills shortages affect European data centers?",
+      "How can data centers benefit local communities?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "After 30 years at Schneider Electric, across five countries and several different parts of our business",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "The next decade of AI infrastructure: Why Europe has an opportunity to lead",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "As I take on the leadership of our Secure Power and Data Center business in Europe, three areas stand out to me.",
+          "location": "themes not named"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "There is one issue I believe our industry needs to discuss much more and this is people.",
+          "location": "H2 opener"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Personal opening; the three themes are not stated up front; one section heading is merged into body text.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No takeaways block.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The next decade of AI infrastructure: Why Europe has an opportunity to lead",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "AI infrastructure in Europe: Why the next decade offers a leadership opportunity - Schneider Electric Blog",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## AI infrastructure needs people as much as power",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## Looking ahead",
+          "location": "0 question H2s"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Markets with available and competitive power, including France and the Nordics",
+          "location": "promise delivered"
+        }
+      ],
+      "rationale": "Descriptive H1 consistent with SEO title; a major section lacks a heading; generic 'Looking ahead'; no question H2s.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "In the AI era, speed wins I spent 20 years of my career in supply chain.",
+          "location": "heading merged into text"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no content lists"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "I believe this requires a different relationship between customers and technology partners.",
+          "location": "long paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "As I take on the leadership of our Secure Power and Data Center business in Europe",
+          "location": "first-person/our"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Damien Dhellemmes, Senior Vice President, Secure Power and Data Centers, Europe",
+          "location": ""
+        }
+      ],
+      "rationale": "Heading lost inside a paragraph, no lists, long first-person paragraphs.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Markets with available and competitive power, including France and the Nordics, are attracting significant attention",
+          "location": "unquantified"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.47 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "My ambition is for us to become the undisputed leader",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "data centers we once considered large at 20 or 30MW being dwarfed by 500MW developments",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "meaningful cost optimization",
+          "location": ""
+        }
+      ],
+      "rationale": "Few numbers; ambition statements and vague outcomes.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Damien Dhellemmes, Senior Vice President, Secure Power and Data Centers, Europe",
+          "location": "image alt + byline"
+        }
+      ],
+      "rationale": "Named executive author only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "I spent 20 years of my career in supply chain.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "three areas stand out to me",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "But increasingly, one question comes first ‘Where is the power’?",
+          "location": "consensus view"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "I believe workforce planning should start with the project itself.",
+          "location": ""
+        }
+      ],
+      "rationale": "First-hand supply-chain perspective, three-theme structure and actions; thesis largely consensus; no data.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Markets with available and competitive power, including France and the Nordics",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "In the Nordics, strong traditions of social partnership show how infrastructure investment can connect with local employment",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Power is changing the map of European data centers",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no quantified impact"
+        }
+      ],
+      "rationale": "Seed and sub-questions touched; no quantified European facts.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Operators, technology companies, contractors, design firms and local authorities will need to work together",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no trade-offs"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "My ambition is for us to become the undisputed leader in energy and cooling management",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Mixed: advisory passages but explicit self-promotion ('undisputed leader').",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Secure Power and Data Center business in Europe",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "AI is driving extraordinary demand for digital infrastructure",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "access our guide AI Workload Deployment in Data Centers: Retrofit, Outsource or Build New?",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent; descriptive named guide as next step.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "September 28, 2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "500MW developments and even gigawatt-scale campuses",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "September 28, 2026",
+          "location": ""
+        }
+      ],
+      "rationale": "Visible date.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "AI is changing how infrastructure is designed, where it can be built",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Operators, technology companies, contractors, design firms and local authorities",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "access our guide AI Workload Deployment in Data Centers: Retrofit, Outsource or Build New?",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "AI Workload Deployment in Data Centers: Retrofit, Outsource or Build New?",
+          "location": ""
+        }
+      ],
+      "rationale": "Awareness fit, named next-step guide.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: 'Top picks' related-post headings (often stale/unrelated, e.g. 2019 posts) and 'Add a comment' render as H2s inside <article> -> route to SE Digital",
+    "Template: no visible 'Updated' date although article:modified_time differs -> SE Digital/editorial",
+    "Template: view counter and reading time inside the article text block",
+    "Images: most article images have empty alt text"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for blog"
+  }
+}

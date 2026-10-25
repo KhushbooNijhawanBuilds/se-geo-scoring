@@ -1,0 +1,329 @@
+{
+  "page": {
+    "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+    "title": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+    "h1": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+    "keyword": "AI infrastructure deployment",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "raw_score": 69.0,
+  "penalties": [],
+  "penalty_points": 0,
+  "gates_triggered": [
+    "SG4"
+  ],
+  "cap": 49,
+  "final_score": 49,
+  "band": "Average",
+  "meets_threshold": false,
+  "borderline": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "S7",
+      "name": "Topical coverage and depth",
+      "default_w": 14,
+      "level": 2,
+      "checks_passed": "2/5",
+      "failed_checks": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "rationale": "c1 fail; c2 fail; c3 fail",
+      "confidence": "high",
+      "eff_w": 14.0,
+      "points": 5.6,
+      "recoverable": 8.4
+    },
+    {
+      "id": "S1",
+      "name": "Search intent match",
+      "default_w": 14,
+      "level": 3,
+      "checks_passed": "4/5",
+      "failed_checks": [
+        "c4"
+      ],
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "eff_w": 14.0,
+      "points": 8.4,
+      "recoverable": 5.6
+    },
+    {
+      "id": "S9",
+      "name": "Originality and first-hand value",
+      "default_w": 11,
+      "level": 3,
+      "checks_passed": "3/5",
+      "failed_checks": [
+        "c2",
+        "c4"
+      ],
+      "rationale": "c2 fail; c4 fail",
+      "confidence": "high",
+      "eff_w": 11.0,
+      "points": 6.6,
+      "recoverable": 4.4
+    },
+    {
+      "id": "S2",
+      "name": "SEO title tag",
+      "default_w": 10,
+      "level": 3,
+      "checks_passed": "3/6",
+      "failed_checks": [
+        "c2",
+        "c4",
+        "c6"
+      ],
+      "rationale": "c2 fail; c4 fail; c6 fail",
+      "confidence": "high",
+      "eff_w": 10.0,
+      "points": 6.0,
+      "recoverable": 4.0
+    },
+    {
+      "id": "S8",
+      "name": "E-E-A-T: author, expertise, sourcing",
+      "default_w": 12,
+      "level": 4,
+      "checks_passed": "4/5",
+      "failed_checks": [
+        "c3"
+      ],
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "eff_w": 12.0,
+      "points": 9.6,
+      "recoverable": 2.4
+    },
+    {
+      "id": "S3",
+      "name": "Meta description",
+      "default_w": 4,
+      "level": 3,
+      "checks_passed": "3/5",
+      "failed_checks": [
+        "c2",
+        "c3"
+      ],
+      "rationale": "c2 fail; c3 fail",
+      "confidence": "high",
+      "eff_w": 4.0,
+      "points": 2.4,
+      "recoverable": 1.6
+    },
+    {
+      "id": "S5",
+      "name": "H1 and heading structure",
+      "default_w": 6,
+      "level": 4,
+      "checks_passed": "3/4",
+      "failed_checks": [
+        "c4"
+      ],
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "eff_w": 6.0,
+      "points": 4.8,
+      "recoverable": 1.2
+    },
+    {
+      "id": "S11",
+      "name": "Internal links",
+      "default_w": 6,
+      "level": 4,
+      "checks_passed": "5/5",
+      "failed_checks": [],
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "eff_w": 6.0,
+      "points": 4.8,
+      "recoverable": 1.2
+    },
+    {
+      "id": "S10",
+      "name": "Freshness and date integrity",
+      "default_w": 5,
+      "level": 4,
+      "checks_passed": "4/5",
+      "failed_checks": [
+        "c4"
+      ],
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "eff_w": 5.0,
+      "points": 4.0,
+      "recoverable": 1.0
+    },
+    {
+      "id": "S4",
+      "name": "URL / slug",
+      "default_w": 3,
+      "level": 4,
+      "checks_passed": "4/5",
+      "failed_checks": [
+        "c4"
+      ],
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "eff_w": 3.0,
+      "points": 2.4,
+      "recoverable": 0.6
+    },
+    {
+      "id": "S13",
+      "name": "Images and alt text",
+      "default_w": 3,
+      "level": 4,
+      "checks_passed": "3/4",
+      "failed_checks": [
+        "c3"
+      ],
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "eff_w": 3.0,
+      "points": 2.4,
+      "recoverable": 0.6
+    },
+    {
+      "id": "S6",
+      "name": "Primary topic placement (no stuffing)",
+      "default_w": 5,
+      "level": 5,
+      "checks_passed": "5/5",
+      "failed_checks": [],
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "eff_w": 5.0,
+      "points": 5.0,
+      "recoverable": 0.0
+    },
+    {
+      "id": "S12",
+      "name": "Outbound links",
+      "default_w": 3,
+      "level": 5,
+      "checks_passed": "3/3",
+      "failed_checks": [],
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "eff_w": 3.0,
+      "points": 3.0,
+      "recoverable": 0.0
+    },
+    {
+      "id": "S14",
+      "name": "Structured data and Open Graph",
+      "default_w": 4,
+      "level": 5,
+      "checks_passed": "5/5",
+      "failed_checks": [],
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "eff_w": 4.0,
+      "points": 4.0,
+      "recoverable": 0.0
+    }
+  ],
+  "eligibility_status": "Eligible",
+  "eligibility": [
+    {
+      "id": "E1",
+      "name": "HTTP 200 (at most one 301/308 hop)",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "name": "Indexable (no noindex in meta/X-Robots-Tag; not disallowed in robots.txt)",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "name": "One absolute HTTPS self-referencing (or valid) canonical",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/']; page URL https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/"
+    },
+    {
+      "id": "E4",
+      "name": "hreflang valid and reciprocal, with x-default (na if none)",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "name": "Served over HTTPS",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "name": "Mobile: viewport width=device-width and same primary content",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "name": "No unintended nosnippet / max-snippet:0 / noarchive",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "name": "Body text and links in server HTML as <a href>",
+      "result": "pass",
+      "evidence": "649 body words in server HTML"
+    }
+  ],
+  "needs_data": [
+    {
+      "id": "N1",
+      "item": "Core Web Vitals field data (p75 LCP <=2.5s, INP <=200ms, CLS <=0.1)",
+      "source": "CrUX API / PageSpeed Insights"
+    },
+    {
+      "id": "N2",
+      "item": "Backlinks and referring domains",
+      "source": "Ahrefs / Semrush / Majestic"
+    },
+    {
+      "id": "N3",
+      "item": "Clicks, impressions, CTR, queries",
+      "source": "Google Search Console Performance; Bing Webmaster Tools"
+    },
+    {
+      "id": "N4",
+      "item": "Cannibalisation (2+ URLs swapping impressions for the same query/intent)",
+      "source": "Search Console query + page dimensions"
+    },
+    {
+      "id": "N5",
+      "item": "Index status and Google-selected canonical",
+      "source": "Search Console URL Inspection API"
+    },
+    {
+      "id": "N6",
+      "item": "Title and meta description uniqueness across the site",
+      "source": "Site crawl (Screaming Frog / Sitebulb)"
+    },
+    {
+      "id": "N7",
+      "item": "Inbound internal links / orphan status, link to pillar from hub",
+      "source": "Site crawl"
+    },
+    {
+      "id": "N8",
+      "item": "hreflang cluster reciprocity; robots.txt and sitemap consistency",
+      "source": "Crawl of alternates; robots.txt; sitemap lastmod vs dateModified"
+    }
+  ],
+  "warnings": [],
+  "weights_version": "seo-1.0-2026-10-23",
+  "disclaimer": "On-page SEO quality and hygiene only. It does not predict rankings: links, click behaviour, site authority and Core Web Vitals are outside the score (see Needs data)."
+}

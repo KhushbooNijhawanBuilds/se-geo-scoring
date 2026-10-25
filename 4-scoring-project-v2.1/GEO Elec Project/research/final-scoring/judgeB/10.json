@@ -1,0 +1,641 @@
+{
+  "page": {
+    "id": "10",
+    "type": "solution",
+    "stage": "Awareness",
+    "topic": "Decarbonization and asset value for commercial real estate",
+    "industry": "Commercial real estate",
+    "target_prompts": [
+      "How can commercial real estate owners cut building emissions while protecting asset value?"
+    ],
+    "prompts_inferred": false,
+    "fan_out": [
+      "How much of global emissions come from buildings and why does it matter for asset value?",
+      "Which measures (energy management, BMS, renewables, retrofits) cut building emissions most?",
+      "How does decarbonization affect stranded-asset risk, GRESB scores and valuations?",
+      "What savings and paybacks have real portfolios achieved?",
+      "Where should a portfolio owner start (assessment, roadmap)?"
+    ],
+    "fan_out_inferred": true,
+    "rendered_file": "corpus/rendered/10_solution-page.md",
+    "scorer": "judgeB"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "We can help you boost ROI, reduce stranded asset risk, and meet ESG goals with integrated digital solutions",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "IoT Commercial Real Estate solutions | Schneider Electric",
+          "location": "(top)"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "boost ROI, reduce stranded asset risk, and meet ESG goals",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## Cut carbon. Capture savings. Accelerate impact.",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Opening addresses the portfolio owner's goals but only vaguely ('integrated digital solutions'); slogan H1, descriptive title; no section answers or summary.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "integrated digital solutions that drive sustainability, resilience, and performance",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "When you're managing a real estate portfolio, every asset counts.",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "We can help you boost ROI",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        }
+      ],
+      "rationale": "Audience (portfolio managers) named; no definition, no specific trigger; outcome is a 'we can help you' promise.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## Boost performance. Cut complaints. Shrink your footprint.",
+          "location": "Boost performance. Cut complaints. Shrink your footprint. [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "- Sustainability acceleration",
+          "location": "Digital real estate solutions: unlocking long-term portfolio value"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15% by partnering with Schneider Electric",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Ours is to help you do it with greater efficiency, resilience, and sustainability.",
+          "location": "Trusted portfolio management technology partner"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "[hidden] Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%",
+          "location": "Lower energy costs. Meet regulations. Power your portfolio. [hidden]"
+        }
+      ],
+      "rationale": "Slogan headings, label-only tab list, 'our/you' copy; key customer results only in hidden tabs; testimonial blocks have names but no quote text.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Bedeir Rizk, Co-founder and CEO, Paragon Developments",
+          "location": "Paragon Developments"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Discover how one building cut carbon and energy use by 22% with a two-year payback.",
+          "location": "New research: Reduce carbon in the real world"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Statistics unsourced (37%), no standards by number, testimonial names without quotes, case metrics without method, no owner.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15% by partnering with Schneider Electric and leveraging digital tools and renewables.",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Digital real estate solutions: unlocking long-term portfolio value",
+          "location": "Digital real estate solutions: unlocking long-term portfolio value"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Seed answered loosely via customer examples and retrofit mention; fan-outs (which measures, valuation link, where to start) not given dedicated answers; buyer facts thin.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Your mission is to grow a high-performing, future-ready portfolio.",
+          "location": "Trusted portfolio management technology partner"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "solutions that work as hard as you do",
+          "location": "Case studies that maximize returns and minimize risk"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Brand voice ('Your mission... Ours is...'), hype and slogans; no limitations.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; no dated facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "## Explore our latest insights for Real Estate",
+          "location": "Explore our latest insights for Real Estate"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "When you're managing a real estate portfolio, every asset counts.",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Download the executive summary",
+          "location": "New research: Reduce carbon in the real world"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "## The path to net-zero buildings",
+          "location": "The path to net-zero buildings"
+        }
+      ],
+      "rationale": "Awareness-level overview with insight links for portfolio owners; descriptive asset CTAs (executive summary, e-guide).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "reduce stranded asset risk",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "We can help you boost ROI, reduce stranded asset risk, and meet ESG goals",
+          "location": "Responsible and responsive real estate: maximize returns, minimize risk"
+        }
+      ],
+      "rationale": "Stranded-asset risk stated up top and buildings' 37% emissions share quantified, but unsourced (c3 fail -> <= 3).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "See how our building management solutions and IoT-enabled devices with thermal, lighting, blind control, and more",
+          "location": "Design for comfort. Deliver with data. [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "real-time control of 6,000+ data points",
+          "location": "Design for comfort. Deliver with data. [hidden]"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No architecture or component roles; only '6,000+ data points' parameter, hidden.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15%",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%",
+          "location": "Lower energy costs. Meet regulations. Power your portfolio. [hidden]"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "one building cut carbon and energy use by 22% with a two-year payback",
+          "location": "New research: Reduce carbon in the real world"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "boost GRESB scores by up to 24 points",
+          "location": "Raise GRESB scores. Modernize portfolios. Multiply results. [hidden]"
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Several quantified outcomes (Blackstone, Citycon, Aspiria), one tied to EcoStruxure, persona KPIs; no baseline or method (c3 fail -> <= 3).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "reduced emissions by 15% by partnering with Schneider Electric",
+          "location": "Cut carbon. Capture savings. Accelerate impact."
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "At 150 Holborn in London",
+          "location": "Design for comfort. Deliver with data. [hidden]"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "enabled a 90-point WELL Comfort Score",
+          "location": "Design for comfort. Deliver with data. [hidden]"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "At 150 Holborn in London, Schneider Electric enabled a 90-point WELL Comfort Score and real-time control of 6,000+ data points",
+          "location": "Design for comfort. Deliver with data. [hidden]"
+        }
+      ],
+      "rationale": "Named CRE references with results and context, but mostly hidden tabs; testimonial blocks lack quote text; no independent validation of claims.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Learn how flexible fit-outs at 180 George Street cut costs, speed up leasing, and future-proof assets.",
+          "location": "Adaptable buildings with Lendlease and Arup"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Achieving net-zero is possible with strategic retrofits, modernization",
+          "location": "The path to net-zero buildings"
+        }
+      ],
+      "rationale": "Applications with context (mall, office, flexible fit-out) and retrofits mentioned; no scope boundaries or fit guidance.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "our 6-initiative decarbonization plan",
+          "location": "Raise GRESB scores. Modernize portfolios. Multiply results. [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No phases, deliverables, delivery model or timeline.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "failed_tags": {
+    "U1": "T",
+    "U2": "A",
+    "U3": "T",
+    "U5": "A",
+    "U6": "A",
+    "U7": "A",
+    "U9": "T",
+    "SOL-1": "A",
+    "SOL-2": "A",
+    "SOL-4": "A",
+    "SOL-5": "A",
+    "SOL-7": "A",
+    "SOL-8": "A"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": "Not triggered."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "fluff_density",
+      "applied": true,
+      "evidence": "Script fluff 1.92/100w (> 1.5): smarter x5, innovation x3, unlock, future-ready, future-proof."
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": "Not applied."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: server/rendered words ~0.51 (453/884); ~49% of the content (incl. Citycon, Aspiria, 150 Holborn results) is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital.",
+    "Testimonial component renders names and titles but no quote text (likely video-only) -> template owner."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Awareness hub with insight links; promotional tone hurts at this stage."
+  }
+}

@@ -1,0 +1,391 @@
+{
+ "page": {
+  "id": "60_doc",
+  "type": "esg_report_doc",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+  "topic": "Schneider Electric 2022 Sustainable Development Report (PDF text)",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "What were Schneider Electric's 2022 greenhouse gas emissions and sustainability results?"
+  ],
+  "prompts_inferred": true,
+  "sections_read": "cover, TOC, CSO letter, highlights (pp.1-5), SSI targets table, 1.11 frameworks/ratings, 3.2 GHG footprint, 7 methodology/assurance, 8.1 environmental indicators"
+ },
+ "criteria": [
+  {
+   "id": "DOC-1",
+   "proposed_level": 3,
+   "rationale": "highlights page in text on p.5; basis not given; no link to HTML home",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "440M Tonnes of saved and avoided CO2 emissions for our customers since 2018 (+93MT vs 2021)."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "440M Tonnes of saved and avoided CO2 emissions for our customers since 2018 (+93MT vs 2021). (no boundary/scope basis)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "This report is an extract from Schneider Electric’s 2022 Universal Registration Document."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "440M Tonnes of saved and avoided CO2 emissions for our customers since 2018 (+93MT vs 2021)."
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": 4,
+   "rationale": "full GHG table by scope in tCO2e with multi-year comparison",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "440M Tonnes of saved and avoided CO2 emissions for our customers since 2018 (+93MT vs 2021)."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617 140,936 142,658 180,751"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "coverage stated (\"Estimated coverage (% total GHG emissions) % 99%\") but not period+boundary per KPI"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617 140,936 142,658 180,751"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -22% 0% NA NA"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": 5,
+   "rationale": "SSI table: baseline, progress, 2025 target; SBTi validation; methodology pages",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Climate 1. Grow Schneider Impact revenues(3) 2019: 70% 72% 80%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Climate 1. Grow Schneider Impact revenues(3) 2019: 70% 72% 80%"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Climate 1. Grow Schneider Impact revenues(3) 2019: 70% 72% 80%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "validating our decarbonization roadmap according to new Corporate Net-Zero Standards from the Science Based Targets initiative"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "7.1 Methodology elements on the published indicators 170"
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": 5,
+   "rationale": "GRI/SASB/TCFD, GHG Protocol market/location, period, restatements",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Sustainability Accounting Standard (SASB) Correspondence table 192"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "carbon footprint according to GHG Protocol guidelines (Scope 1, Scope 2 market-based, Scope 2 location-based, all categories of Scope 3)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Standards for the period from 1 January 2022 to 31 December"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "the 2020 baseline for front line managers has been recalculated to 23% instead of 25%"
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": 5,
+   "rationale": "limited (ISAE 3000) + reasonable assurance, PwC, scope, CDP A List, reports included",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric obtains a “limited” level of assurance on methodology and progress from an independent third party verifier"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for all the SSI and SSE indicators (except SSI #+1 and SSE #12"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "CDP Climate A List"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "7.6 Reasonable assurance report from one of the"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": 3,
+   "rationale": "TOC + correspondence tables; cross-references not verifiable",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Greenhouse Gas footprint 82"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "outline_entries: 0"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Task-Force on Climate Related Financial Disclosures (TCFD) correspondence table 194"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "This report is an extract from Schneider Electric’s 2022 Universal Registration Document."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "printed page references (e.g. \"see Independent verifier’s report on page 236\") cannot be verified against the extracted text"
+    }
+   ]
+  },
+  {
+   "id": "DOC-4",
+   "proposed_level": 1,
+   "rationale": "text layer present; extraction artefacts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "pages_without_text: 1 (of 222)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "tagged_pdf: false"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617 140,936 142,658 180,751"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "1  Sust\nainability for all 3"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "outline_entries: 0"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 1,
+   "rationale": "period stated; no visible release date; superseded edition, no notice",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no release/publication date in the document text (only PDF metadata CreationDate)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Standards for the period from 1 January 2022 to 31 December"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "the 2020 baseline for front line managers has been recalculated to 23% instead of 25%"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "2022 edition; later editions exist, not flagged"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "consistent naming and identifiers; no KPI contradiction found",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Sustainability Impact (SSI)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(1) TCO2e 119,617 140,936 142,658 180,751"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no contradiction found between highlights, SSI table and indicator tables"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "links not visible in extracted text"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "reporting voice but self-congratulatory letter",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Standards for the period from 1 January 2022 to 31 December"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "best-in-sector rankings from S&P Global, CDP, Moody’s ESG Solutions, and Corporate Knights’ Global 100"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative selection claims"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": true,
+   "evidence": "2022 edition with no notice or link to the current edition"
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

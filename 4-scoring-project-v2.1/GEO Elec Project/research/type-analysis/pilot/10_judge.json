@@ -1,0 +1,586 @@
+{
+  "page": {
+    "id": "10",
+    "type": "solution",
+    "stage": "Awareness",
+    "topic": "Commercial real estate decarbonization and performance",
+    "industry": "Buildings / commercial real estate",
+    "target_prompts": [
+      "How can commercial real estate owners cut building emissions while protecting asset value?",
+      "What share of global emissions comes from buildings?",
+      "What are grid-interactive, digital-first buildings?",
+      "What ROI do smart-building retrofits deliver?",
+      "What is the path to net-zero buildings?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Discover how JLL and Schneider Electric are reshaping real estate with digital and sustainable innovation.",
+          "location": "Partnership teaser"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "IoT Commercial Real Estate solutions",
+          "location": "Title"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Slogan H1; no answer at top.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No 'what it is'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Discover how JLL and Schneider Electric are reshaping real estate",
+          "location": "Top"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Achieving net-zero is possible with strategic retrofits, modernization, and proven sustainable change drivers.",
+          "location": "Net-zero card"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15% by partnering with Schneider Electric",
+          "location": "Top block"
+        }
+      ],
+      "rationale": "Who/when/outcome present; the solution itself is never defined.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "ZZ_Paragraph Title",
+          "location": "Placeholder heading"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Portfolio strategy",
+          "location": "Tabs only"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Electrify smarter with grid-interactive, digital-first buildings that cut carbon and respond in real time to shifting energy demand.",
+          "location": "Short blocks"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "See how occupancy data drives ROI and healthier spaces at 150 Holborn",
+          "location": "Teasers point elsewhere"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Energy management",
+          "location": "Tabbed areas and video carry the content"
+        }
+      ],
+      "rationale": "Placeholder residue, tabs and teasers; little self-contained text.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Unsourced"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Bedeir Rizk, Co-founder and CEO, Paragon Developments",
+          "location": "Attribution with no quote text"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No method"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Statistic unsourced; quote missing.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Electrify smarter with grid-interactive, digital-first buildings that cut carbon",
+          "location": "Decarbonize section"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Most sub-questions only teased"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Responsible and responsive real estate: maximize returns, minimize risk",
+          "location": "Single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Partial seed answer; fan-out teased not answered.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Partnership promo"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Powering smarter spaces, together",
+          "location": "Fluff density 1.8/100w"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Stat (current but unsourced)"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Awareness needs problem explanation, gets promo teasers"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "maximize returns, minimize risk",
+          "location": "Owner/investor language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Start your sales inquiry online and an expert will connect with you.",
+          "location": "Decision-stage template CTA on Awareness page"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The path to net-zero buildings",
+          "location": "Education link"
+        }
+      ],
+      "rationale": "Stage mismatch on depth and CTA.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions, they’re also a key to global decarbonization success.",
+          "location": "Top block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Top block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No source"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Within first 100 words"
+        }
+      ],
+      "rationale": "Quantified, early, unsourced; anchor: c3 fail caps at 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No component or offer named"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Content in video/tabs"
+        }
+      ],
+      "rationale": "No architecture or components at all.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15%",
+          "location": "Top block"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "leveraging digital tools and renewables",
+          "location": "Tied to 'partnering', not a named offer"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No baseline/timeframe"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "reduced emissions by 15%",
+          "location": "CRE-relevant KPI"
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "One quantified result without basis or named offer.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone",
+          "location": "Top block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15%",
+          "location": "Top block"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Learn how flexible fit-outs at 180 George Street cut costs, speed up leasing, and future-proof assets.",
+          "location": "Lendlease/Arup card"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No third-party validation"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "at 150 Holborn, one of London’s smartest buildings",
+          "location": "Context"
+        }
+      ],
+      "rationale": "Strong named references, one quantified; quote missing. Judge proposes 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "flexible fit-outs",
+          "location": "Adaptable buildings card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "strategic retrofits",
+          "location": "Retrofit mention too vague"
+        }
+      ],
+      "rationale": "Use cases teased only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No implementation path.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": true,
+      "evidence": "Checker: 1.79 fluff terms per 100 words (>1.5)."
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Unpublished CMS placeholders: 'ZZ_Paragraph Title', 'ZZ_Paragraph Content'."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal.",
+    "Hero relies on a JLL partnership video; no transcript in HTML -> VID-7 / SE Digital."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Awareness (trend/problem framing, thought-leadership links); Decision CTAs mismatch."
+  }
+}

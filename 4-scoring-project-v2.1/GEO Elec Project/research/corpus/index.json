@@ -1,0 +1,1725 @@
+[
+ {
+  "n": 1,
+  "type": "Blog article",
+  "title": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+  "url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+  "subtype": "Thought leadership / data centers",
+  "covers": "Explains how prefabrication and modular design address the scale, power, and cooling demands of AI data centers.",
+  "file": "01_blog-article.md",
+  "final_url": "https://blog.se.com/datacenter/2026/10/13/modular-prefabricated-data-centers-enter-the-ai-era-and-boldly-go-where-no-data-centers-have-gone-before/",
+  "status": 200,
+  "html_title": "Modular, prefabricated data centers enter the AI era - Schneider Electric Blog",
+  "meta": {
+   "description": "Modular data centers may not be new, but challenges driven by the latest accelerated compute AI clusters are forcing accelerated change in the way data centers are designed and deployed. While prefabrication could have been seen as a luxury a couple of decades ago, at this scale of deployment and with these challenging densities coupled with a major shortage of tradespeople, prefabrication is a necessity today.",
+   "og:title": "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before",
+   "og:description": "Modular data centers may not be new, but challenges driven by the latest accelerated compute AI clusters are forcing accelerated change in the way data centers are designed and deployed. While prefabrication could have been seen as a luxury a couple of decades ago, at this scale of deployment and with these challenging densities coupled with a major shortage of tradespeople, prefabrication is a necessity today.",
+   "article:published_time": "2026-10-13T12:00:00+00:00",
+   "article:modified_time": "2026-10-16T04:29:27+00:00",
+   "author": "Steven Carlini",
+   "time_elements": [
+    "2026-10-13T08:00:00-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 1037,
+  "h1": [
+   "Modular, prefabricated data centers enter the AI era and boldly go where no data centers have gone before"
+  ]
+ },
+ {
+  "n": 2,
+  "type": "Blog article",
+  "title": "Data center community opposition: How cooling design affects water, noise, and permitting",
+  "url": "https://blog.se.com/datacenter/2026/10/08/data-center-community-opposition-how-cooling-design-affects-water-noise-and-permitting/",
+  "subtype": "Technical insight / cooling",
+  "covers": "Discusses how cooling architecture affects resource use, acoustic impact, and data-center permitting.",
+  "file": "02_blog-article.md",
+  "final_url": "https://blog.se.com/datacenter/2026/10/08/data-center-community-opposition-how-cooling-design-affects-water-noise-and-permitting/",
+  "status": 200,
+  "html_title": "Data center community opposition: How cooling design affects water, noise, and permitting - Schneider Electric Blog",
+  "meta": {
+   "description": "Data center community opposition is putting water use, noise, and permitting under greater scrutiny across the US. See how cooling design shapes local approvals.",
+   "og:title": "Data center community opposition: How cooling design affects water, noise, and permitting",
+   "og:description": "Data center community opposition is putting water use, noise, and permitting under greater scrutiny across the US. See how cooling design shapes local approvals.",
+   "article:published_time": "2026-10-08T12:00:00+00:00",
+   "article:modified_time": "2026-10-16T05:46:42+00:00",
+   "author": "Guest Blogger",
+   "time_elements": [
+    "2026-10-08T08:00:00-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 1568,
+  "h1": [
+   "Data center community opposition: How cooling design affects water, noise, and permitting"
+  ]
+ },
+ {
+  "n": 3,
+  "type": "Blog article",
+  "title": "3 operational priorities for successful AI infrastructure deployment",
+  "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+  "subtype": "Executive insight / AI",
+  "covers": "Covers operational planning needed to turn demand for AI compute into deployable capacity.",
+  "file": "03_blog-article.md",
+  "final_url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+  "status": 200,
+  "html_title": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+  "meta": {
+   "description": "Scaling AI infrastructure requires more than demand. Learn the three operational priorities—power, infrastructure capacity, and workforce—that determine successful AI data center deployment.",
+   "og:title": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+   "og:description": "Scaling AI infrastructure requires more than demand. Learn the three operational priorities—power, infrastructure capacity, and workforce—that determine successful AI data center deployment.",
+   "article:published_time": "2026-10-06T13:00:00+00:00",
+   "article:modified_time": "2026-10-16T05:59:20+00:00",
+   "author": "Gary Lamora",
+   "time_elements": [
+    "2026-10-06T09:00:00-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 777,
+  "h1": [
+   "AI infrastructure deployment: Demand is easy. Execution is hard."
+  ]
+ },
+ {
+  "n": 4,
+  "type": "Blog article",
+  "title": "Leaders need a new strategy for AI infrastructure planning",
+  "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+  "subtype": "Energy management / AI",
+  "covers": "Explores strategic energy and infrastructure planning as AI demand grows.",
+  "file": "04_blog-article.md",
+  "final_url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+  "status": 200,
+  "html_title": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog",
+  "meta": {
+   "description": "AI infrastructure strategy is evolving. Learn how power, cooling, and facility strategies can adapt to support changing enterprise AI demands.",
+   "og:title": "AI is moving faster than infrastructure. Leaders need a new strategy.",
+   "og:description": "AI infrastructure strategy is evolving. Learn how power, cooling, and facility strategies can adapt to support changing enterprise AI demands.",
+   "article:published_time": "2026-10-02T18:52:34+00:00",
+   "article:modified_time": "2026-10-16T06:15:29+00:00",
+   "author": "Aaron Dudley",
+   "time_elements": [
+    "2026-10-02T14:52:34-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 1181,
+  "h1": [
+   "AI is moving faster than infrastructure. Leaders need a new strategy."
+  ]
+ },
+ {
+  "n": 5,
+  "type": "Blog article",
+  "title": "Using treated and recycled water in Indian data centre cooling",
+  "url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+  "subtype": "Sustainability / cooling",
+  "covers": "Looks at treated and recycled water as options for data-center cooling.",
+  "file": "05_blog-article.md",
+  "final_url": "https://blog.se.com/datacenter/2026/09/29/using-treated-and-recycled-water-in-indian-data-centre-cooling/",
+  "status": 200,
+  "html_title": "Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog",
+  "meta": {
+   "description": "Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use and support overall water resilience.",
+   "og:title": "Using treated and recycled water in Indian data centre cooling",
+   "og:description": "Discover how data centre water recycling and closed-loop liquid cooling can help Indian data centres reduce freshwater use and support overall water resilience.",
+   "article:published_time": "2026-09-29T04:30:00+00:00",
+   "article:modified_time": "2026-10-02T07:34:54+00:00",
+   "author": "Guest Blogger",
+   "time_elements": [
+    "2026-09-29T00:30:00-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 1353,
+  "h1": [
+   "Using treated and recycled water in Indian data centre cooling"
+  ]
+ },
+ {
+  "n": 6,
+  "type": "Blog article",
+  "title": "AI infrastructure in Europe: Why the next decade offers a leadership opportunity",
+  "url": "https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/",
+  "subtype": "Industry outlook / AI",
+  "covers": "Discusses Europe's opportunity to build AI infrastructure over the coming decade.",
+  "file": "06_blog-article.md",
+  "final_url": "https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/",
+  "status": 200,
+  "html_title": "AI infrastructure in Europe: Why the next decade offers a leadership opportunity - Schneider Electric Blog",
+  "meta": {
+   "description": "Discover why AI infrastructure is reshaping Europe's data center landscape and how speed, power availability, talent, and innovation can position Europe as a leader in the AI economy.",
+   "og:title": "The next decade of AI infrastructure: Why Europe has an opportunity to lead",
+   "og:description": "Discover why AI infrastructure is reshaping Europe's data center landscape and how speed, power availability, talent, and innovation can position Europe as a leader in the AI economy.",
+   "article:published_time": "2026-09-28T07:00:00+00:00",
+   "article:modified_time": "2026-10-02T07:50:37+00:00",
+   "author": "Damien Dhellemmes",
+   "time_elements": [
+    "2026-09-28T03:00:00-0400"
+   ]
+  },
+  "jsonld_types": [
+   "Article",
+   "BreadcrumbList",
+   "CommentAction",
+   "EntryPoint",
+   "ImageObject",
+   "ListItem",
+   "Person",
+   "PropertyValueSpecification",
+   "ReadAction",
+   "SearchAction",
+   "WebPage",
+   "WebSite"
+  ],
+  "words": 1056,
+  "h1": [
+   "The next decade of AI infrastructure: Why Europe has an opportunity to lead"
+  ]
+ },
+ {
+  "n": 7,
+  "type": "Solution page",
+  "title": "EcoStruxure rack solutions for AI data centers",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/rack-solutions-for-ai/",
+  "subtype": "Data center / AI infrastructure",
+  "covers": "Presents rack, power-distribution, and power-shelf solutions for high-density AI deployments.",
+  "file": "07_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/rack-solutions-for-ai/",
+  "status": 200,
+  "html_title": "EcoStruxure rack solutions for AI data centers | Schneider Electric",
+  "meta": {
+   "description": "EcoStruxure™ rack solutions for AI with NVIDIA MGX and OCP ORV3 racks with DC busbar power and rack power shelves to build scalable, efficient compute infrastructure. | Schneider Electric ",
+   "og:title": "EcoStruxure rack solutions for AI data centers | Schneider Electric",
+   "og:description": "EcoStruxure™ rack solutions for AI with NVIDIA MGX and OCP ORV3 racks with DC busbar power and rack power shelves to build scalable, efficient compute infrastructure."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 361,
+  "h1": [
+   "EcoStruxure™ rack solutions"
+  ]
+ },
+ {
+  "n": 8,
+  "type": "Solution page",
+  "title": "Industrial automation solutions",
+  "url": "https://www.se.com/ww/en/work/solutions/industrial-automation-solutions/",
+  "subtype": "Industry / automation",
+  "covers": "Overview of industrial automation technologies, EcoStruxure Plant, and related applications.",
+  "file": "08_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/industrial-automation-solutions/",
+  "status": 200,
+  "html_title": "Industrial automation solutions | Schneider Electric",
+  "meta": {
+   "description": "EcoStruxure Plant Industrial Automation Solutions safely improve operational profitability, efficiency, cybersecurity, and sustainability. | Schneider Electric ",
+   "og:title": "Industrial automation solutions | Schneider Electric",
+   "og:description": "EcoStruxure Plant Industrial Automation Solutions safely improve operational profitability, efficiency, cybersecurity, and sustainability."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 568,
+  "h1": [
+   "Industrial automation solutions"
+  ]
+ },
+ {
+  "n": 9,
+  "type": "Solution page",
+  "title": "Water and Wastewater IoT solutions",
+  "url": "https://www.se.com/ww/en/work/solutions/water/",
+  "subtype": "Industry / water and wastewater",
+  "covers": "Explains connected technologies for water-cycle operations, energy efficiency, and resilience.",
+  "file": "09_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/water/",
+  "status": 200,
+  "html_title": "Water and Wastewater IoT solutions | Schneider Electric",
+  "meta": {
+   "description": "Our smart Water and Wastewater solutions enhance key processes and applications across water resources, networks, and treatment plants at the global and local levels. | Schneider Electric ",
+   "og:title": "Water and Wastewater IoT solutions | Schneider Electric",
+   "og:description": "Our smart Water and Wastewater solutions enhance key processes and applications across water resources, networks, and treatment plants at the global and local levels."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 1162,
+  "h1": [
+   "Achieve efficient water operations that scale with demand"
+  ]
+ },
+ {
+  "n": 10,
+  "type": "Solution page",
+  "title": "IoT Commercial Real Estate solutions",
+  "url": "https://www.se.com/ww/en/work/solutions/real-estate/",
+  "subtype": "Industry / commercial real estate",
+  "covers": "Shows how digital building and energy solutions support real-estate performance and decarbonization.",
+  "file": "10_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/real-estate/",
+  "status": 200,
+  "html_title": "IoT Commercial Real Estate solutions | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric Global. Explore our commercial real estate solutions created for developers to build and operate sustainable buildings that deliver high asset valuation and enhanced human experience. | Schneider Electric ",
+   "og:title": "IoT Commercial Real Estate solutions | Schneider Electric",
+   "og:description": "Schneider Electric Global. Explore our commercial real estate solutions created for developers to build and operate sustainable buildings that deliver high asset valuation and enhanced human experience."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 352,
+  "h1": [
+   "Responsible and responsive real estate: maximize returns, minimize risk"
+  ]
+ },
+ {
+  "n": 11,
+  "type": "Solution page",
+  "title": "Smart hospital room management",
+  "url": "https://www.se.com/ww/en/work/solutions/healthcare/hospital-room-management/",
+  "subtype": "Healthcare / room management",
+  "covers": "Details connected-room solutions for patient experience, staff workflows, and facility operations.",
+  "file": "11_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/healthcare/hospital-room-management/",
+  "status": 200,
+  "html_title": "Smart hospital room management | Schneider Electric",
+  "meta": {
+   "description": "Discover our solutions to put room control in the hands of patients, reduce nurse calls, and integrate clinical and facilities systems to increase efficiency. | Schneider Electric ",
+   "og:title": "Smart hospital room management | Schneider Electric",
+   "og:description": "Discover our solutions to put room control in the hands of patients, reduce nurse calls, and integrate clinical and facilities systems to increase efficiency."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 674,
+  "h1": [
+   "Smart hospital room management"
+  ]
+ },
+ {
+  "n": 12,
+  "type": "Solution page",
+  "title": "Cybersecurity solutions",
+  "url": "https://www.se.com/ww/en/work/solutions/cybersecurity/",
+  "subtype": "Cross-industry / cybersecurity",
+  "covers": "Describes cybersecurity consulting, design, implementation, and managed services for operational technology.",
+  "file": "12_solution-page.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/cybersecurity/",
+  "status": 200,
+  "html_title": "Cybersecurity solutions | Schneider Electric",
+  "meta": {
+   "description": "We are committed to providing solutions and services that support your needs for cybersecurity protection across all business types, industries, and domains. | Schneider Electric ",
+   "og:title": "Cybersecurity solutions | Schneider Electric",
+   "og:description": "We are committed to providing solutions and services that support your needs for cybersecurity protection across all business types, industries, and domains."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 712,
+  "h1": [
+   "Cybersecurity solutions"
+  ]
+ },
+ {
+  "n": 13,
+  "type": "Product range page",
+  "title": "Smart-UPS",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/smart-ups/",
+  "subtype": "UPS product family",
+  "covers": "Product-family page for business-grade uninterruptible power supplies and related accessories.",
+  "file": "13_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/smart-ups/",
+  "status": 200,
+  "html_title": "Smart-UPS Master Range | Schneider Electric",
+  "meta": {
+   "description": "The most trusted UPS in the world for business applications | Schneider Electric ",
+   "og:title": "Smart-UPS Master Range",
+   "og:description": "The most trusted UPS in the world for business applications"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 536,
+  "h1": [
+   "Discover Smart-UPS"
+  ]
+ },
+ {
+  "n": 14,
+  "type": "Product range page",
+  "title": "Galaxy",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/galaxy/",
+  "subtype": "Three-phase UPS product family",
+  "covers": "Product-family page for Galaxy three-phase UPS systems used in data centers and critical infrastructure.",
+  "file": "14_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/galaxy/",
+  "status": 200,
+  "html_title": "Galaxy | Schneider Electric",
+  "meta": {
+   "description": "Uninterruptable 3-phase power for IT and industrial applications | Schneider Electric ",
+   "og:title": "Galaxy",
+   "og:description": "Uninterruptable 3-phase power for IT and industrial applications"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 876,
+  "h1": [
+   "Discover the Galaxy V series"
+  ]
+ },
+ {
+  "n": 15,
+  "type": "Product range page",
+  "title": "PacT Series",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/pact-series/",
+  "subtype": "Circuit breakers and switches",
+  "covers": "Range overview for low- and medium-voltage breakers, switches, and related protection devices.",
+  "file": "15_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/pact-series/",
+  "status": 200,
+  "html_title": "Pact Series Master Range | Schneider Electric",
+  "meta": {
+   "description": "Be future-ready with the Pact Series: world-class circuit breakers, switches, residual current devices & fuses, from 16 to 6300 A in LV and up to 40.5 kV in MV. | Schneider Electric ",
+   "og:title": "Pact Series Master Range",
+   "og:description": "Be future-ready with the Pact Series: world-class circuit breakers, switches, residual current devices & fuses, from 16 to 6300 A in LV and up to 40.5 kV in MV."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 1199,
+  "h1": [
+   "Discover PacT Series"
+  ]
+ },
+ {
+  "n": 16,
+  "type": "Product range page",
+  "title": "9 Series",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/9-series/",
+  "subtype": "Residential and building protection",
+  "covers": "Product-family overview for final-distribution protection devices.",
+  "file": "16_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/9-series/",
+  "status": 200,
+  "html_title": "9 Series Master Range | Schneider Electric",
+  "meta": {
+   "description": "The final level of protection in electrical distribution | Schneider Electric ",
+   "og:title": "9 Series Master Range",
+   "og:description": "The final level of protection in electrical distribution"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 765,
+  "h1": [
+   "9 Series"
+  ]
+ },
+ {
+  "n": 17,
+  "type": "Product range page",
+  "title": "Line Series",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+  "subtype": "Busbar trunking",
+  "covers": "Range overview for connected busbar trunking and power-distribution systems.",
+  "file": "17_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/line-series/",
+  "status": 200,
+  "html_title": "Line Series Master Range | Schneider Electric",
+  "meta": {
+   "description": "Flexible and reliable solution for all your needs, from 25A to 6300A, to connect every level of a power distribution system in any type of building. | Schneider Electric ",
+   "og:title": "Line Series Master Range",
+   "og:description": "Flexible and reliable solution for all your needs, from 25A to 6300A, to connect every level of a power distribution system in any type of building."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 488,
+  "h1": [
+   "Discover Line Series"
+  ]
+ },
+ {
+  "n": 18,
+  "type": "Product range page",
+  "title": "PowerLogic",
+  "url": "https://www.se.com/ww/en/work/products/master-ranges/powerlogic/",
+  "subtype": "Power monitoring and control",
+  "covers": "Product family for protection, control, power-quality devices, and energy metering.",
+  "file": "18_product-range-page.md",
+  "final_url": "https://www.se.com/ww/en/work/products/master-ranges/powerlogic/",
+  "status": 200,
+  "html_title": "PowerLogic Master Range | Schneider Electric",
+  "meta": {
+   "description": "PowerLogic brings intelligence and connectivity to power systems & turns data into actionable information for safe, reliable & cost-effective power management. | Schneider Electric ",
+   "og:title": "PowerLogic Master Range | Schneider Electric",
+   "og:description": "PowerLogic brings intelligence and connectivity to power systems & turns data into actionable information for safe, reliable & cost-effective power management."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 571,
+  "h1": [
+   "PowerLogic™"
+  ]
+ },
+ {
+  "n": 19,
+  "type": "Customer success story",
+  "title": "McLaren Racing: Innovation in motion",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+  "subtype": "Motorsport / energy technology",
+  "covers": "Customer story about Schneider Electric technologies supporting McLaren Racing's performance and operations.",
+  "file": "19_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+  "status": 200,
+  "html_title": "McLaren Racing: Innovation in motion | Schneider Electric",
+  "meta": {
+   "description": "Discover how Schneider Electric powers McLaren Racing with data-driven energy technology to boost performance, efficiency, and innovation on and off track. | Schneider Electric ",
+   "og:title": "McLaren Racing: Innovation in motion | Schneider Electric",
+   "og:description": "Discover how Schneider Electric powers McLaren Racing with data-driven energy technology to boost performance, efficiency, and innovation on and off track."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 328,
+  "h1": [
+   "Innovation in motion"
+  ]
+ },
+ {
+  "n": 20,
+  "type": "Customer success story",
+  "title": "Blackstone: A sustainable business plan",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/blackstone/",
+  "subtype": "Commercial real estate / sustainability",
+  "covers": "Case study on energy savings, sustainability data, and strategic energy sourcing across a portfolio.",
+  "file": "20_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/blackstone/",
+  "status": 200,
+  "html_title": "Blackstone Group Customer Story | Schneider Electric",
+  "meta": {
+   "description": "Learn how optimizing resource efficiency gave The Blackstone Group a bottom-line approach to sustainability – and $60 million in savings over six years. | Schneider Electric ",
+   "og:title": "Blackstone Group Customer Story | Schneider Electric",
+   "og:description": "Learn how optimizing resource efficiency gave The Blackstone Group a bottom-line approach to sustainability – and $60 million in savings over six years."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 703,
+  "h1": [
+   "A SUSTAINABLE business plan"
+  ]
+ },
+ {
+  "n": 21,
+  "type": "Customer success story",
+  "title": "Massmart: Unifying sustainability across a retail giant’s diverse network of stores",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+  "subtype": "Retail / building management",
+  "covers": "Describes multi-site building management and energy-cost improvements across Massmart stores.",
+  "file": "21_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+  "status": 200,
+  "html_title": "Massmart, EcoStruxure BMS Case Study  | Schneider Electric",
+  "meta": {
+   "description": "Discover how Massmart enhances energy efficiency and cost savings across its vast retail empire by creating a unified system for building and power management. | Schneider Electric ",
+   "og:title": "Massmart, EcoStruxure BMS Case Study  | Schneider Electric",
+   "og:description": "Discover how Massmart enhances energy efficiency and cost savings across its vast retail empire by creating a unified system for building and power management."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 350,
+  "h1": [
+   "Unifying sustainability across a retail giant’s diverse network of stores"
+  ]
+ },
+ {
+  "n": 22,
+  "type": "Customer success story",
+  "title": "Vancouver International Airport (YVR)",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/vancouver-airport/",
+  "subtype": "Transportation / decarbonization",
+  "covers": "Customer story covering airport emissions reduction and its net-zero journey.",
+  "file": "22_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/vancouver-airport/",
+  "status": 200,
+  "html_title": "Vancouver YVR Airport net zero journey with Schneider Electric | Schneider Electric",
+  "meta": {
+   "description": "Discover how we help Vancouver International Airport cut emissions and reach net-zero by 2030 using EcoStruxure. | Schneider Electric ",
+   "og:title": "Vancouver YVR Airport net zero journey with Schneider Electric | Schneider Electric",
+   "og:description": "Discover how we help Vancouver International Airport cut emissions and reach net-zero by 2030 using EcoStruxure."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 386,
+  "h1": [
+   "Vancouver International Airport (YVR)"
+  ]
+ },
+ {
+  "n": 23,
+  "type": "Customer success story",
+  "title": "Rubis Photosol: Smart monitoring for sustainable renewables performance",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+  "subtype": "Renewable energy / asset monitoring",
+  "covers": "Explains how EcoCare monitoring supports transformer health and solar-park uptime.",
+  "file": "23_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+  "status": 200,
+  "html_title": "Rubis Photosol, EcoCare Electrical Distribution Case Study | Schneider Electric",
+  "meta": {
+   "description": "Discover how Rubis Photosol maximizes uptime and sustainability across its solar parks with EcoCare service plan | Schneider Electric ",
+   "og:title": "Rubis Photosol, EcoCare Electrical Distribution Case Study | Schneider Electric",
+   "og:description": "Discover how Rubis Photosol maximizes uptime and sustainability across its solar parks with EcoCare service plan"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 289,
+  "h1": [
+   "Smart monitoring for sustainable renewables performance"
+  ]
+ },
+ {
+  "n": 24,
+  "type": "Customer success story",
+  "title": "Zicaffè: Innovation and artisanship in every cup",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+  "subtype": "Food and beverage / industrial automation",
+  "covers": "Case study on digitizing coffee production with connected automation technologies.",
+  "file": "24_customer-success-story.md",
+  "final_url": "https://www.se.com/ww/en/work/campaign/customer-stories/zicaffe/",
+  "status": 200,
+  "html_title": "Customer story - Zicaffe | Schneider Electric",
+  "meta": {
+   "description": "Sicilian coffee company Zicaffè innovates its operations with open automation and digitalization. | Schneider Electric ",
+   "og:title": "Customer story - Zicaffe | Schneider Electric",
+   "og:description": "Sicilian coffee company Zicaffè innovates its operations with open automation and digitalization."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 317,
+  "h1": [
+   "Innovation and artisanship in every cup",
+   "EcoStruxure™ Plant and Machine"
+  ]
+ },
+ {
+  "n": 25,
+  "type": "White paper / technical document",
+  "title": "Data Centers are Essential to AI-driven Decarbonization of Power Sector",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP180_EN/",
+  "subtype": "White paper",
+  "covers": "Explores how data centers and AI can support decarbonization of energy generation and distribution.",
+  "file": "25_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP180_EN/",
+  "status": 200,
+  "html_title": "Data Centers are Essential to AI-driven Decarbonization of Power Sector |  Schneider Electric",
+  "meta": {
+   "description": "Decarbonization of energy generation and distribution is an important objective, because of sizable emissions of this sector are widespread across...",
+   "og:title": "Data Centers are Essential to AI-driven Decarbonization of Power Sector | Schneider Electric",
+   "og:description": "Decarbonization of energy generation and distribution is an important objective, because of sizable emissions of this sector are widespread across..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 228,
+  "h1": []
+ },
+ {
+  "n": 26,
+  "type": "White paper / technical document",
+  "title": "Necessary Considerations for Designing DC Architectures in Data Centers",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP47_EN/",
+  "subtype": "White paper",
+  "covers": "Covers design considerations for direct-current power architectures in data centers.",
+  "file": "26_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP47_EN/",
+  "status": 200,
+  "html_title": "Necessary Considerations for Designing DC Architectures in Data Centers |  Schneider Electric",
+  "meta": {
+   "description": "As global policies are calling for more sustainable development of data center infrastructures and energy efficiency, a maturing data center industry...",
+   "og:title": "Necessary Considerations for Designing DC Architectures in Data Centers | Schneider Electric",
+   "og:description": "As global policies are calling for more sustainable development of data center infrastructures and energy efficiency, a maturing data center industry..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 270,
+  "h1": []
+ },
+ {
+  "n": 27,
+  "type": "White paper / technical document",
+  "title": "Data Centers are Essential to AI-driven Decarbonization of Buildings",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP169_EN/",
+  "subtype": "White paper",
+  "covers": "Describes how data-center infrastructure enables digitization and decarbonization of buildings.",
+  "file": "27_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP169_EN/",
+  "status": 200,
+  "html_title": "Data Centers are Essential to AI-driven Decarbonization of Buildings |  Schneider Electric",
+  "meta": {
+   "description": "Reducing pollution from commercial and residential buildings is based on electrification and consecutive digitalization...",
+   "og:title": "Data Centers are Essential to AI-driven Decarbonization of Buildings | Schneider Electric",
+   "og:description": "Reducing pollution from commercial and residential buildings is based on electrification and consecutive digitalization..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 228,
+  "h1": []
+ },
+ {
+  "n": 28,
+  "type": "White paper / technical document",
+  "title": "Retrofitting Existing Power Systems for AI Clusters",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP126_EN/",
+  "subtype": "White paper",
+  "covers": "Provides guidance for adapting existing data-center power systems to high-density AI workloads.",
+  "file": "28_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP126_EN/",
+  "status": 200,
+  "html_title": "Retrofitting Existing Power Systems for AI Clusters |  Schneider Electric",
+  "meta": {
+   "description": "The IT industry is developing large generative AI models at a fast pace...",
+   "og:title": "Retrofitting Existing Power Systems for AI Clusters | Schneider Electric",
+   "og:description": "The IT industry is developing large generative AI models at a fast pace..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 183,
+  "h1": []
+ },
+ {
+  "n": 29,
+  "type": "White paper / technical document",
+  "title": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP99_EN/",
+  "subtype": "White paper",
+  "covers": "Explains how to quantify data-center Scope 3 emissions and prioritize reduction opportunities.",
+  "file": "29_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP99_EN/",
+  "status": 200,
+  "html_title": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts |  Schneider Electric",
+  "meta": {
+   "description": "More data centers are transitioning to renewable energy sources...",
+   "og:title": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts | Schneider Electric",
+   "og:description": "More data centers are transitioning to renewable energy sources..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 261,
+  "h1": []
+ },
+ {
+  "n": 30,
+  "type": "White paper / technical document",
+  "title": "Direct Liquid Cooling System Challenges in Data Centers",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP210_EN/",
+  "subtype": "White paper",
+  "covers": "Reviews common direct-liquid-cooling challenges and provides deployment guidance.",
+  "file": "30_white-paper-technical-docume.md",
+  "final_url": "https://www.se.com/ww/en/download/document/SPD_WP210_EN/",
+  "status": 200,
+  "html_title": "Direct Liquid Cooling System Challenges in Data Centers |  Schneider Electric",
+  "meta": {
+   "description": "Direct liquid cooling (DLC) has become the IT industry’s preferred cooling method for extreme chip power densities...",
+   "og:title": "Direct Liquid Cooling System Challenges in Data Centers | Schneider Electric",
+   "og:description": "Direct liquid cooling (DLC) has become the IT industry’s preferred cooling method for extreme chip power densities..."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 186,
+  "h1": []
+ },
+ {
+  "n": 31,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Site electricity emission factor calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/site-electricity-emission-factor-calculator/",
+  "subtype": "TradeOff Tool / carbon",
+  "covers": "Estimates a site's electricity emission factor based on its electricity-source mix.",
+  "file": "31_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/site-electricity-emission-factor-calculator/",
+  "status": 200,
+  "html_title": "Site electricity emission factor calculator | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric Tradeoff Tools answer data center planning questions. Learn how a site’s energy source mix impacts its electricity-based carbon footprint. | Schneider Electric ",
+   "og:title": "Site electricity emission factor calculator | Schneider Electric",
+   "og:description": "Schneider Electric Tradeoff Tools answer data center planning questions. Learn how a site’s energy source mix impacts its electricity-based carbon footprint."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 447,
+  "h1": []
+ },
+ {
+  "n": 32,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Data Center Capital Cost Calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+  "subtype": "TradeOff Tool / CapEx",
+  "covers": "Models data-center physical-infrastructure capital costs, including AI and liquid-cooling scenarios.",
+  "file": "32_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+  "status": 200,
+  "html_title": "Data Center Capital Cost Calculator | Schneider Electric",
+  "meta": {
+   "description": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers, including those with liquid cooling and high-density power distribution. Analyze key cost drivers to inform smarter design decisions. | Schneider Electric ",
+   "og:title": "Data Center Capital Cost Calculator | Schneider Electric",
+   "og:description": "Use this TradeOff Tool to model the physical infrastructure CapEx of data centers, including those with liquid cooling and high-density power distribution. Analyze key cost drivers to inform smarter design decisions."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 458,
+  "h1": [
+   "Data Center Capital Cost Calculator"
+  ]
+ },
+ {
+  "n": 33,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Data center power sizing calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-power-sizing-calculator/",
+  "subtype": "TradeOff Tool / power sizing",
+  "covers": "Estimates data-center power requirements using server and infrastructure configuration choices.",
+  "file": "33_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-power-sizing-calculator/",
+  "status": 200,
+  "html_title": "Data center power sizing calculator | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric’s data center power sizing calculator answers data center planning and design questions on power requirements for the IT load and the utility input power needed to support it. | Schneider Electric ",
+   "og:title": "Data center power sizing calculator | Schneider Electric",
+   "og:description": "Schneider Electric’s data center power sizing calculator answers data center planning and design questions on power requirements for the IT load and the utility input power needed to support it."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 403,
+  "h1": []
+ },
+ {
+  "n": 34,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Single-phase UPS efficiency comparison calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/single-phase-ups-efficiency-comparison-calculator/",
+  "subtype": "TradeOff Tool / UPS efficiency",
+  "covers": "Compares UPS efficiency and resulting electricity costs and carbon footprint.",
+  "file": "34_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/single-phase-ups-efficiency-comparison-calculator/",
+  "status": 200,
+  "html_title": "Single phase UPS efficiency comparison calculator | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric’s Tradeoff Tool calculators answer data center and edge planning and design questions including analyzing UPS efficiency and the implications on energy cost and carbon footprint. | Schneider Electric ",
+   "og:title": "Single phase UPS efficiency comparison calculator | Schneider Electric",
+   "og:description": "Schneider Electric’s Tradeoff Tool calculators answer data center and edge planning and design questions including analyzing UPS efficiency and the implications on energy cost and carbon footprint."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 448,
+  "h1": []
+ },
+ {
+  "n": 35,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Edge UPS fleet management comparison calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+  "subtype": "TradeOff Tool / operating model",
+  "covers": "Compares costs and downtime implications of managing a fleet of single-phase UPSs internally or through a service partner.",
+  "file": "35_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+  "status": 200,
+  "html_title": "Edge UPS fleet management comparison calculator | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric’s edge UPS fleet management comparison calculator answers data center planning and design questions about remote UPS asset management, fleet management, downtime, staffing, and cost. | Schneider Electric ",
+   "og:title": "Edge UPS fleet management comparison calculator | Schneider Electric",
+   "og:description": "Schneider Electric’s edge UPS fleet management comparison calculator answers data center planning and design questions about remote UPS asset management, fleet management, downtime, staffing, and cost."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 425,
+  "h1": []
+ },
+ {
+  "n": 36,
+  "type": "Calculator / TradeOff Tool",
+  "title": "Three-phase UPS efficiency comparison calculator",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/three-phase-ups-efficiency-comparison-calculator/",
+  "subtype": "TradeOff Tool / UPS efficiency",
+  "covers": "Compares UPS efficiencies and their impact on electricity costs and carbon footprint for three-phase applications.",
+  "file": "36_calculator-tradeoff-tool.md",
+  "final_url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/three-phase-ups-efficiency-comparison-calculator/",
+  "status": 200,
+  "html_title": "Three-phase UPS efficiency comparison calculator | Schneider Electric",
+  "meta": {
+   "description": "Schneider Electric’s Tradeoff Tool calculators answer data center planning questions including how UPS selection and operating modes impact efficiency, energy cost, and carbon. | Schneider Electric ",
+   "og:title": "Three-phase UPS efficiency comparison calculator | Schneider Electric",
+   "og:description": "Schneider Electric’s Tradeoff Tool calculators answer data center planning questions including how UPS selection and operating modes impact efficiency, energy cost, and carbon."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 489,
+  "h1": []
+ },
+ {
+  "n": 37,
+  "type": "Service page",
+  "title": "EcoCare condition-based maintenance and remote monitoring services",
+  "url": "https://www.se.com/ww/en/work/services/ecocare/",
+  "subtype": "Asset services / monitoring",
+  "covers": "Describes remote monitoring, condition-based maintenance, and service plans for electrical assets.",
+  "file": "37_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/ecocare/",
+  "status": 200,
+  "html_title": "Condition-based maintenance and remote monitoring services | Schneider Electric",
+  "meta": {
+   "description": "Discover EcoCare, our digital-first service plan that combines 24/7 remote monitoring with AI-powered condition-based maintenance — backed by dedicated experts. | Schneider Electric ",
+   "og:title": "Condition-based maintenance and remote monitoring services | Schneider Electric",
+   "og:description": "Discover EcoCare, our digital-first service plan that combines 24/7 remote monitoring with AI-powered condition-based maintenance — backed by dedicated experts."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 439,
+  "h1": [
+   "Improve uptime with EcoCare digital-first services"
+  ]
+ },
+ {
+  "n": 38,
+  "type": "Service page",
+  "title": "EcoFit modernization and circularity services",
+  "url": "https://www.se.com/ww/en/work/services/assets-and-systems-services/ecofit/",
+  "subtype": "Modernization / circularity",
+  "covers": "Explains retrofit and take-back options to extend asset life and reduce environmental impact.",
+  "file": "38_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/assets-and-systems-services/ecofit/",
+  "status": 200,
+  "html_title": "EcoFit modernization and circularity services | Schneider Electric",
+  "meta": {
+   "description": "Modernize your electrical, critical power, cooling, and automation systems. EcoFit equips your business with high-performance, digital electrical technologies, and meaningful participation in the circular economy. | Schneider Electric ",
+   "og:title": "EcoFit modernization and circularity services | Schneider Electric",
+   "og:description": "Modernize your electrical, critical power, cooling, and automation systems. EcoFit equips your business with high-performance, digital electrical technologies, and meaningful participation in the circular economy."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 545,
+  "h1": [
+   "EcoFit™: Modernization and circularity services"
+  ]
+ },
+ {
+  "n": 39,
+  "type": "Service page",
+  "title": "EcoConsult consulting services for electrical and automation systems",
+  "url": "https://www.se.com/ww/en/work/services/ecoconsult/",
+  "subtype": "Consulting / electrical systems",
+  "covers": "Describes assessments and digital-twin-based consulting for electrical and automation systems.",
+  "file": "39_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/ecoconsult/",
+  "status": 200,
+  "html_title": "Consulting services for electrical, cooling and automation systems | Schneider Electric",
+  "meta": {
+   "description": "Discover our end-to-end, vendor-agnostic consulting services that help you assess, analyze, and optimize your electrical, cooling, and automation systems. | Schneider Electric ",
+   "og:title": "Consulting services for electrical, cooling and automation systems | Schneider Electric",
+   "og:description": "Discover our end-to-end, vendor-agnostic consulting services that help you assess, analyze, and optimize your electrical, cooling, and automation systems."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 396,
+  "h1": [
+   "Turn complexity into confident decisions with EcoConsult services"
+  ]
+ },
+ {
+  "n": 40,
+  "type": "Service page",
+  "title": "Cybersecurity services",
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/",
+  "subtype": "Cybersecurity / lifecycle services",
+  "covers": "Outlines cybersecurity support for operational technology, industrial systems, and grid environments.",
+  "file": "40_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/cybersecurity-services/",
+  "status": 200,
+  "html_title": "Cybersecurity services | Schneider Electric",
+  "meta": {
+   "description": "We are committed to providing services that support your needs for cybersecurity protection across all industries. We integrate cybersecurity services with IT policies and requirements. | Schneider Electric ",
+   "og:title": "Cybersecurity services | Schneider Electric",
+   "og:description": "We are committed to providing services that support your needs for cybersecurity protection across all industries. We integrate cybersecurity services with IT policies and requirements."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 296,
+  "h1": [
+   "Cybersecurity services"
+  ]
+ },
+ {
+  "n": 41,
+  "type": "Service page",
+  "title": "Managed security services",
+  "url": "https://www.se.com/ww/en/work/services/cybersecurity-services/managed-security-services/",
+  "subtype": "Managed services / cyber risk",
+  "covers": "Details managed network and security services for industrial and critical operations.",
+  "file": "41_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/cybersecurity-services/managed-security-services/",
+  "status": 200,
+  "html_title": "Exploring managed security services | Schneider Electric",
+  "meta": {
+   "description": "Ensure critical infrastructure continuity, apply threat monitoring, and take care of your industrial operations with our managed security services. | Schneider Electric ",
+   "og:title": "Exploring managed security services | Schneider Electric",
+   "og:description": "Ensure critical infrastructure continuity, apply threat monitoring, and take care of your industrial operations with our managed security services."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 465,
+  "h1": [
+   "Managed security services"
+  ]
+ },
+ {
+  "n": 42,
+  "type": "Service page",
+  "title": "EcoFit drive services",
+  "url": "https://www.se.com/ww/en/work/services/field-services/industrial-automation/vfd-services/",
+  "subtype": "Industrial automation / drive lifecycle",
+  "covers": "Covers modernization and replacement options for aging variable-speed drive systems.",
+  "file": "42_service-page.md",
+  "final_url": "https://www.se.com/ww/en/work/services/field-services/industrial-automation/vfd-services/",
+  "status": 200,
+  "html_title": "EcoFit™ services for drive systems | Schneider Electric",
+  "meta": {
+   "description": "Optimize the life span of your equipment with EcoFit for drives, services designed to extend the life of your drive systems for years to come. | Schneider Electric ",
+   "og:title": "EcoFit™ services for drive systems | Schneider Electric",
+   "og:description": "Optimize the life span of your equipment with EcoFit for drives, services designed to extend the life of your drive systems for years to come."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 402,
+  "h1": [
+   "EcoFit drive services"
+  ]
+ },
+ {
+  "n": 43,
+  "type": "Software page",
+  "title": "Industrial software solutions",
+  "url": "https://www.se.com/ww/en/work/software/",
+  "subtype": "Software portfolio hub",
+  "covers": "Portfolio overview linking to industrial, power, building, UPS, and data-center software.",
+  "file": "43_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/",
+  "status": 200,
+  "html_title": "Industrial software solutions | Schneider Electric",
+  "meta": {
+   "description": "The broadest portfolio of industrial software solutions and tools to design, build, operate, and maintain your energy management and industrial automation systems and applications. | Schneider Electric ",
+   "og:title": "Industrial software solutions | Schneider Electric",
+   "og:description": "The broadest portfolio of industrial software solutions and tools to design, build, operate, and maintain your energy management and industrial automation systems and applications."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 879,
+  "h1": [
+   "Our agnostic software portfolio"
+  ]
+ },
+ {
+  "n": 44,
+  "type": "Software page",
+  "title": "Industrial software solutions by industry",
+  "url": "https://www.se.com/ww/en/work/solutions/software/by-industry/",
+  "subtype": "Software solutions hub",
+  "covers": "Presents the software portfolio and organizes solutions for business and industry needs.",
+  "file": "44_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/",
+  "status": 200,
+  "html_title": "Industrial software solutions | Schneider Electric",
+  "meta": {
+   "description": "The broadest portfolio of industrial software solutions and tools to design, build, operate, and maintain your energy management and industrial automation systems and applications. | Schneider Electric ",
+   "og:title": "Industrial software solutions | Schneider Electric",
+   "og:description": "The broadest portfolio of industrial software solutions and tools to design, build, operate, and maintain your energy management and industrial automation systems and applications."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 879,
+  "h1": [
+   "Our agnostic software portfolio"
+  ]
+ },
+ {
+  "n": 45,
+  "type": "Software page",
+  "title": "EcoStruxure IT DCIM software",
+  "url": "https://www.se.com/ww/en/work/software/data-center-infrastructure-management-dcim/",
+  "subtype": "Data center infrastructure management",
+  "covers": "Explains DCIM monitoring, modeling, deployment, security, and sustainability capabilities.",
+  "file": "45_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/data-center-infrastructure-management-dcim/",
+  "status": 200,
+  "html_title": "EcoStruxure™ IT DCIM software | Schneider Electric",
+  "meta": {
+   "description": "Boost visibility, reliability, and planning with EcoStruxure IT, a complete, vendor‑agnostic DCIM software platform modernizing monitoring, management, and modeling of hybrid IT infrastructure. | Schneider Electric ",
+   "og:title": "EcoStruxure™ IT DCIM software | Schneider Electric",
+   "og:description": "Boost visibility, reliability, and planning with EcoStruxure IT, a complete, vendor‑agnostic DCIM software platform modernizing monitoring, management, and modeling of hybrid IT infrastructure."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 729,
+  "h1": [
+   "Intelligent DCIM software in the AI era"
+  ]
+ },
+ {
+  "n": 46,
+  "type": "Software page",
+  "title": "EcoStruxure IT Software Trials",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-it-software-trials/",
+  "subtype": "Trial / conversion page",
+  "covers": "Routes visitors to available EcoStruxure IT software trials by region.",
+  "file": "46_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/ecostruxure-it-software-trials/",
+  "status": 200,
+  "html_title": "EcoStruxure™ IT Software Trials | Schneider Electric",
+  "meta": {
+   "description": "Start your journey with EcoStruxure™ IT software free trials—designed to meet your DCIM needs, whether it's monitoring, management, or ensuring business continuity. | Schneider Electric ",
+   "og:title": "EcoStruxure™ IT Software Trials | Schneider Electric",
+   "og:description": "Start your journey with EcoStruxure™ IT software free trials—designed to meet your DCIM needs, whether it's monitoring, management, or ensuring business continuity."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 376,
+  "h1": [
+   "EcoStruxure™ IT Software Trials"
+  ]
+ },
+ {
+  "n": 47,
+  "type": "Software page",
+  "title": "Operations Management Software for Large Buildings",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-operations-management/",
+  "subtype": "Building operations software",
+  "covers": "Describes software for monitoring and managing building systems and maintenance.",
+  "file": "47_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-operations-management/",
+  "status": 200,
+  "html_title": "Operations Management Software for Large Buildings | Schneider Electric",
+  "meta": {
+   "description": "Monitor and optimize power system performance to improve power reliability and quality with our operations management software for large buildings.  | Schneider Electric ",
+   "og:title": "Operations Management Software for Large Buildings | Schneider Electric",
+   "og:description": "Monitor and optimize power system performance to improve power reliability and quality with our operations management software for large buildings. "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 499,
+  "h1": [
+   "Operations Management"
+  ]
+ },
+ {
+  "n": 48,
+  "type": "Software page",
+  "title": "Energy Management Software for Large Buildings",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-energy-management/",
+  "subtype": "Building energy software",
+  "covers": "Describes software for monitoring, analyzing, forecasting, and optimizing building energy use.",
+  "file": "48_software-page.md",
+  "final_url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-energy-management/",
+  "status": 200,
+  "html_title": "Energy Management Software for Large Buildings | Schneider Electric",
+  "meta": {
+   "description": "Monitor, analyze, control, forecast, and optimize energy usage by load type and identify energy cost savings with our energy management software for large buildings. | Schneider Electric ",
+   "og:title": "Energy Management Software for Large Buildings | Schneider Electric",
+   "og:description": "Monitor, analyze, control, forecast, and optimize energy usage by load type and identify energy cost savings with our energy management software for large buildings."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 553,
+  "h1": [
+   "Energy Management"
+  ]
+ },
+ {
+  "n": 49,
+  "type": "News / press release",
+  "title": "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Apple-introduce-new-Smart-Thermostat-for-Apple-Home-Collection-and-Power-Mount-for-Apple-HomeView-6ace265b43c902c2d70a3335/",
+  "subtype": "Product launch / partnership",
+  "covers": "Announcement of a co-developed smart thermostat and a new Power Mount for Apple HomeView.",
+  "file": "49_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Apple-introduce-new-Smart-Thermostat-for-Apple-Home-Collection-and-Power-Mount-for-Apple-HomeView-6ace265b43c902c2d70a3335/",
+  "status": 200,
+  "html_title": "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeViewSchneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+  "meta": {
+   "description": "Schneider Electric’s residential energy portfolio continues to expand, built to deliver home energy intelligence.Schneider Home introduces its first Smart Thermostat designed in collaboration with Apple for Apple Home Collection.Schneider Home’s new Power Mount is purpose-built for Apple HomeView (Wall Mounted).  | Schneider Electric ",
+   "og:title": "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeViewSchneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+   "og:description": "Schneider Electric’s residential energy portfolio continues to expand, built to deliver home energy intelligence.Schneider Home introduces its first Smart Thermostat designed in collaboration with Apple for Apple Home Collection.Schneider Home’s new Power Mount is purpose-built for Apple HomeView (Wall Mounted). "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 1687,
+  "h1": [
+   "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView"
+  ]
+ },
+ {
+  "n": 50,
+  "type": "News / press release",
+  "title": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-the-world%E2%80%99s-first-fully-softwaredefined-medium-voltage-switchgear-to-accelerate-the-speed-and-scalability-of-ai-factories-6aba127dcdf86ce71f08cf33/",
+  "subtype": "Product launch / AI infrastructure",
+  "covers": "Announcement about software-defined medium-voltage switchgear for AI-factory infrastructure.",
+  "file": "50_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-unveils-the-world%E2%80%99s-first-fully-softwaredefined-medium-voltage-switchgear-to-accelerate-the-speed-and-scalability-of-ai-factories-6aba127dcdf86ce71f08cf33/",
+  "status": 200,
+  "html_title": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factoriesSchneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories",
+  "meta": {
+   "description": "New Software Defined MV architecture delivers up to 3× faster ordering and manufacturing, up to 2× faster commissioning, zero-downtime upgrades, and a simplified footprint with less wiring and fewer componentsArchitecture piloted with Equinix in a live colocation data center environment  | Schneider Electric ",
+   "og:title": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factoriesSchneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories",
+   "og:description": "New Software Defined MV architecture delivers up to 3× faster ordering and manufacturing, up to 2× faster commissioning, zero-downtime upgrades, and a simplified footprint with less wiring and fewer componentsArchitecture piloted with Equinix in a live colocation data center environment "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 909,
+  "h1": [
+   "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories"
+  ]
+ },
+ {
+  "n": 51,
+  "type": "News / press release",
+  "title": "Schneider Electric and Greenly expand Decarbonization Champion Program",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Greenly-expand-Decarbonization-Champion-Program-to-help-SME-partners-unlock-business-value-from-sustainability-6ab3d50e4525fe7e0c094813/",
+  "subtype": "Partnership / sustainability",
+  "covers": "Announcement of expanded decarbonization support for SME partners in Schneider Electric's ecosystem.",
+  "file": "51_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-Greenly-expand-Decarbonization-Champion-Program-to-help-SME-partners-unlock-business-value-from-sustainability-6ab3d50e4525fe7e0c094813/",
+  "status": 200,
+  "html_title": "Schneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainabilitySchneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainability",
+  "meta": {
+   "description": "Expanded global program provides SME partners with enhanced measurement tools, sustainability expertise and over 34,000 USD of annual value to reduce emissions, improve efficiency and strengthen competitiveness.  | Schneider Electric ",
+   "og:title": "Schneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainabilitySchneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainability",
+   "og:description": "Expanded global program provides SME partners with enhanced measurement tools, sustainability expertise and over 34,000 USD of annual value to reduce emissions, improve efficiency and strengthen competitiveness. "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 816,
+  "h1": [
+   "Schneider Electric and Greenly expand Decarbonization Champion Program to help SME partners unlock business value from sustainability"
+  ]
+ },
+ {
+  "n": 52,
+  "type": "News / press release",
+  "title": "Schneider Electric and AMD release first Helios platform reference design",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-AMD-release-first-Helios-platform-reference-design-to-accelerate-AI-Factory-deployment-6a60b540d574233932028c53/",
+  "subtype": "Partnership / reference design",
+  "covers": "Announcement of a validated reference design for high-density AMD AI infrastructure.",
+  "file": "52_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-and-AMD-release-first-Helios-platform-reference-design-to-accelerate-AI-Factory-deployment-6a60b540d574233932028c53/",
+  "status": 200,
+  "html_title": "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deploymentSchneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment",
+  "meta": {
+   "description": "Co-engineered reference design provides a proven blueprint for deploying high-density AI clusters faster and with less risk.Design supports 246 kW AI racks and large-scale deployments with modular AI clusters of up to 10.4 MW IT load for easy scalabilityCollaboration combines AMD AI platform innovation and Schneider Electric’s expertise in power, cooling, and digital infrastructure   | Schneider Electric ",
+   "og:title": "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deploymentSchneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment",
+   "og:description": "Co-engineered reference design provides a proven blueprint for deploying high-density AI clusters faster and with less risk.Design supports 246 kW AI racks and large-scale deployments with modular AI clusters of up to 10.4 MW IT load for easy scalabilityCollaboration combines AMD AI platform innovation and Schneider Electric’s expertise in power, cooling, and digital infrastructure  "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 1207,
+  "h1": [
+   "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment"
+  ]
+ },
+ {
+  "n": 53,
+  "type": "News / press release",
+  "title": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-releases-pioneering-study-assessing-arc-flash-risk-in-800-VDC-data-centers-aligning-with-world27s-leading-hyperscalers-6a705327421430d7d4009133/",
+  "subtype": "Research / safety",
+  "covers": "Press release introducing an analysis of arc-flash risk in emerging 800 VDC architectures.",
+  "file": "53_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-releases-pioneering-study-assessing-arc-flash-risk-in-800-VDC-data-centers-aligning-with-world27s-leading-hyperscalers-6a705327421430d7d4009133/",
+  "status": 200,
+  "html_title": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalersSchneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalers",
+  "meta": {
+   "description": "Study provides some of the industry’s first data on managing 800 VDC safety risks and safely adopting new power architectures for AI data centersSimulations and arc flash risk analyses assessed two representative 800 VDC architectures reflecting common designs informed by industry leadersEvaluating risks with ETAP’s advanced software and digital twins accurately model fault scenarios, supporting effective protection strategies at rack and facility levels  | Schneider Electric ",
+   "og:title": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalersSchneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalers",
+   "og:description": "Study provides some of the industry’s first data on managing 800 VDC safety risks and safely adopting new power architectures for AI data centersSimulations and arc flash risk analyses assessed two representative 800 VDC architectures reflecting common designs informed by industry leadersEvaluating risks with ETAP’s advanced software and digital twins accurately model fault scenarios, supporting effective protection strategies at rack and facility levels "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 1582,
+  "h1": [
+   "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers aligning with world's leading hyperscalers"
+  ]
+ },
+ {
+  "n": 54,
+  "type": "News / press release",
+  "title": "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-advances-energy-technology-at-world-economic-forum-annual-meeting-in-davos-696ca4813fd1732cec02a863/",
+  "subtype": "Corporate news / event",
+  "covers": "Corporate announcement on Schneider Electric's participation in the 2026 World Economic Forum Annual Meeting.",
+  "file": "54_news-press-release.md",
+  "final_url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/schneider-electric-advances-energy-technology-at-world-economic-forum-annual-meeting-in-davos-696ca4813fd1732cec02a863/",
+  "status": 200,
+  "html_title": "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in DavosSchneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos",
+  "meta": {
+   "description": "Schneider Electric, a global energy technology leader, announces its participation in the World Economic Forum Annual Meeting in Davos, Switzerland. Its delegat  | Schneider Electric ",
+   "og:title": "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in DavosSchneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos",
+   "og:description": "Schneider Electric, a global energy technology leader, announces its participation in the World Economic Forum Annual Meeting in Davos, Switzerland. Its delegat "
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "NewsArticle",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 953,
+  "h1": [
+   "Schneider Electric advances energy technology at World Economic Forum Annual Meeting in Davos"
+  ]
+ },
+ {
+  "n": 55,
+  "type": "Sustainability / ESG report",
+  "title": "Sustainability reports hub",
+  "url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+  "subtype": "Report library / landing page",
+  "covers": "Central index for sustainability reporting and related quarterly results.",
+  "file": "55_sustainability-esg-report.md",
+  "final_url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+  "status": 200,
+  "html_title": "Sustainability reports | Schneider Electric",
+  "meta": {
+   "description": "Access Schneider Sustainability Impact results and reports, including the quarterly publication of our best-in-class Schneider Sustainability Impact dashboard measuring and tracking positive corporate impacts and progress towards our bold ambitions supporting the United Nations Sustainable Development Goals. | Schneider Electric ",
+   "og:title": "Sustainability reports | Schneider Electric",
+   "og:description": "Access Schneider Sustainability Impact results and reports, including the quarterly publication of our best-in-class Schneider Sustainability Impact dashboard measuring and tracking positive corporate impacts and progress towards our bold ambitions supporting the United Nations Sustainable Development Goals."
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ImageObject",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 276,
+  "h1": [
+   "Sustainability Reports"
+  ]
+ },
+ {
+  "n": 56,
+  "type": "Sustainability / ESG report",
+  "title": "2025 Sustainability Report",
+  "url": "https://www.se.com/ww/en/download/document/2025_Sustainability_Report/",
+  "subtype": "Annual sustainability report",
+  "covers": "Download page for Schneider Electric's 2025 sustainability report.",
+  "file": "56_sustainability-esg-report.md",
+  "final_url": "https://www.se.com/ww/en/download/document/2025_Sustainability_Report/",
+  "status": 200,
+  "html_title": "2025 Sustainability Report |  Schneider Electric",
+  "meta": {
+   "description": "Sustainable Development Report",
+   "og:title": "2025 Sustainability Report | Schneider Electric",
+   "og:description": "Sustainable Development Report"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 84,
+  "h1": []
+ },
+ {
+  "n": 57,
+  "type": "Sustainability / ESG report",
+  "title": "Schneider Electric – Sustainability Report – H1 2026",
+  "url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+  "subtype": "Half-year sustainability report",
+  "covers": "Download page for the first-half 2026 sustainability results report.",
+  "file": "57_sustainability-esg-report.md",
+  "final_url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+  "status": 200,
+  "html_title": "Schneider Electric - Sustainability Report - H1 2026 |  Schneider Electric",
+  "meta": {
+   "description": "Sustainability Report H1 2026 Results",
+   "og:title": "Schneider Electric - Sustainability Report - H1 2026 | Schneider Electric",
+   "og:description": "Sustainability Report H1 2026 Results"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 121,
+  "h1": []
+ },
+ {
+  "n": 58,
+  "type": "Sustainability / ESG report",
+  "title": "Schneider Electric – Sustainability Impact Report",
+  "url": "https://www.se.com/ww/en/download/document/se-impact-report/",
+  "subtype": "Sustainability impact report",
+  "covers": "Download page for the Sustainability Impact Report, released in July 2026.",
+  "file": "58_sustainability-esg-report.md",
+  "final_url": "https://www.se.com/ww/en/download/document/se-impact-report/",
+  "status": 200,
+  "html_title": "Schneider Electric - Sustainability Impact Report |  Schneider Electric",
+  "meta": {
+   "description": "Sustainability Impact Report",
+   "og:title": "Schneider Electric - Sustainability Impact Report | Schneider Electric",
+   "og:description": "Sustainability Impact Report"
+  },
+  "jsonld_types": [
+   "BreadcrumbList",
+   "DigitalDocument",
+   "ListItem",
+   "Organization",
+   "WebPage"
+  ],
+  "words": 102,
+  "h1": []
+ },
+ {
+  "n": 59,
+  "type": "Sustainability / ESG report",
+  "title": "2023 Sustainability Report",
+  "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+  "subtype": "Annual sustainability report / PDF",
+  "covers": "Official 2023 sustainability report PDF linked from Schneider Electric's report library.",
+  "file": "59_sustainability-esg-report.md",
+  "note": "Direct PDF link: not fetched (file download needs user approval)"
+ },
+ {
+  "n": 60,
+  "type": "Sustainability / ESG report",
+  "title": "2022 Sustainability Report",
+  "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+  "subtype": "Annual sustainability report / PDF",
+  "covers": "Official 2022 sustainability report PDF linked from Schneider Electric's report library.",
+  "file": "60_sustainability-esg-report.md",
+  "note": "Direct PDF link: not fetched (file download needs user approval)"
+ }
+]

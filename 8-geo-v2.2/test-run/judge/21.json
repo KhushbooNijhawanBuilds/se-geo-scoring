@@ -1,0 +1,531 @@
+{
+ "page": {
+  "id": "21",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/massmart/",
+  "topic": "Massmart multi-store BMS with EcoStruxure Building Operation",
+  "industry": "Buildings (inferred)",
+  "target_prompts": [
+   "How did Massmart save energy across its stores with a building management system?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Massmart, EcoStruxure BMS Case Study",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Unifying sustainability across a retail giant’s diverse network of stores",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer owned by Walmart and headquartered in South Africa. Over the last decade, we have worked with them to integrate EcoStruxure Building Operation into more than 250 of their stores",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "achieving significant energy savings and unprecedented visibility across their operations",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "significant energy savings (not quantified)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Massmart is a major retailer",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "more than 250 of their stores",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "headquartered in South Africa",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "comprehensive oversight and control over all building management, power usage, and other operational factors",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: scale figure conflicts with the 155 BMS stat",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "annualized energy cost reductions of R15 million (ZAR)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Reduced maintenance costs and minimized equipment downtime (unquantified)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Annualized energy cost savings",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Massmart's deployment of EcoStruxure Building Operation has yielded significant energy savings",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "Over 155 BMS systems installed across the group (deployment count leads)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Massmart required a sustainability solution that would give them comprehensive oversight",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Massmart partnered with Schneider Electric and Green Wave, a master-level EcoXpert partner, to implement EcoStruxure Building Operation",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "enabling them to identify inefficiencies, uncover billing discrepancies",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Visibility and energy savings across operations",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: sections are tab panels",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-6",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Operation",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "creating a unified system for building and power management",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Planon Integrated Workplace Management Solution",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: cards hidden, no descriptions",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Building Operation, our innovative building management system (BMS)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "a major retailer owned by Walmart",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "With a diverse range of stores spanning across Sub-Saharan Africa",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "achieving annualized energy cost reductions of R15 million (ZAR)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c1: category given with promotional adjective",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "A one-size-fits-all solution / Real results in real-time (slogans)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Over 155 BMS systems installed across the group",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "all paragraphs 1-3 sentences",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "sections name Massmart and EcoStruxure Building Operation",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "challenge, solution and results exist only in collapsed tab panels",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "our innovative building management system",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "unparalleled visibility and real-time actionable insights",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Operation",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Over 155 BMS systems installed across the group vs into more than 250 of their stores",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Read more",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Over the last decade (no date)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "results undated",
+     "evidence_type": "note"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "challenge/solution/result with one quantified result fits Evaluation",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "language fits retail facility/energy managers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Discover our next generation building management system.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure for Retail",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": true,
+   "evidence": "'Over 155 BMS systems installed across the group' vs 'integrate EcoStruxure Building Operation into more than 250 of their stores' (deployment count conflicts; the standard's own G1 example)"
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Read more / Learn more / Discover more"
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 3: 'achieving annualized energy cost reductions of R15 million (ZAR)' for EcoStruxure Building Operation."
+ }
+}

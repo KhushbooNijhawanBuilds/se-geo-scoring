@@ -1,0 +1,533 @@
+{
+  "page": {
+    "id": "23 Rubis Photosol",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Service plan and condition monitoring for solar-park electrical distribution",
+    "industry": "Renewable energy (solar IPP)",
+    "target_prompts": [
+      "How does Rubis Photosol keep its solar parks running at high uptime?",
+      "Examples of predictive maintenance for solar farm transformers",
+      "What is EcoCare for Electrical Distribution Equipment?",
+      "How to achieve 99% uptime in PV plants",
+      "Condition-based maintenance for electrical distribution case study"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol, EcoCare Electrical Distribution Case Study",
+          "location": "title line",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Smart monitoring for sustainable renewables performance",
+          "location": "H1 (no outcome)",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France.",
+          "location": "summary paragraphs (~70 words)",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no result or timeframe",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Good profile summary, but it ends at the goal; no result.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "the leading independent producer of photovoltaic energy in France",
+          "location": "summary",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "50 solar parks with a combined capacity of 600 MWp",
+          "location": "summary",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "in France",
+          "location": "summary",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "responsible for the engineering, management, and maintenance of their solar power infrastructure",
+          "location": "summary",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Complete, quantified profile.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Aiming to maintain a 99% uptime rate",
+          "location": "target, not a result",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "rationale": "Only a target; no achieved outcome in server text.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Aiming to maintain a 99% uptime rate",
+          "location": "goal",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "ZZ_Paragraph Content",
+          "location": "placeholder where solution text should be",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "### ZZ_Paragraph Title",
+          "location": "placeholder heading",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Goal only; solution/results missing or placeholder.",
+      "proposed_level": 1,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Quote exists only client-side.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "summary + card",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol has partnered with Schneider Electric through our EcoCare for Electrical Distribution Equipment service plan",
+          "location": "role",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoStruxure Transformer Expert",
+          "location": "card",
+          "id": "c3"
+        }
+      ],
+      "rationale": "Main offer named with its purpose; second offer only as a card.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "rationale": "No results, no method.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment service plan",
+          "location": "summary",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "independent producer of photovoltaic energy",
+          "location": "summary",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Aiming to maintain a 99% uptime rate",
+          "location": "scenario",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no outcome",
+          "id": "c4"
+        }
+      ],
+      "rationale": "What/who/when clear; outcome missing.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "### ZZ_Paragraph Title",
+          "location": "placeholder heading",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Its subsidiary, Photom Services, is responsible for the engineering",
+          "location": "short paragraphs",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol has partnered with Schneider Electric",
+          "location": "self-contained",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "- Read the full story",
+          "location": "story elsewhere / tabs",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Two clean paragraphs; rest is placeholder or hidden.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France.",
+          "location": "summary",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Together, the companies operate 50 solar parks",
+          "location": "neutral",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Neutral, factual.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "consistent",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Transformer Expert",
+          "location": "named",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "600 MWp",
+          "location": "no contradiction",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "ZZ_Paragraph Title",
+          "location": "placeholder anchor/heading",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Consistent; placeholder text.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "whole page",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated facts",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle not relevant to a customer story",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no update evidence",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no proof for Evaluation",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "engineering, management, and maintenance",
+          "location": "audience",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read the full story",
+          "location": "vague CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoCare for Electrical Distribution Equipment",
+          "location": "next-step card",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Next-step links but no proof.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": true,
+      "evidence": "No achieved, quantified outcome in text (99% is a target)."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": true,
+      "evidence": "ZZ_Paragraph Title / ZZ_Paragraph Content published"
+    }
+  ],
+  "out_of_scope_observations": [
+    "Story narrative, hero summary and customer quote are rendered client-side inside QDS web components (shadow DOM); they are absent from the server HTML that non-JS AI crawlers (GPTBot, ClaudeBot, PerplexityBot) receive. Verified in a browser 2026-10-19 → route to SE Digital (server-render or declarative shadow DOM)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

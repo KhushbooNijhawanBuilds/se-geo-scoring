@@ -1,0 +1,446 @@
+{
+ "page": {
+  "type": "article",
+  "stage": "Education",
+  "url": "https://blog.se.com/datacenter/2026/10/08/data-center-community-opposition-how-cooling-design-affects-water-noise-and-permitting/",
+  "topic": "Cooling design vs water, noise, permitting",
+  "target_prompts": [
+   "How does data center cooling design affect water use, noise and permitting?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 4,
+   "rationale": "Summary under byline answers; not every H2 opens with the answer",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "cooling is one of the technical decisions that directly affects water and acoustic impacts"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data center community opposition: How cooling design affects water, noise, and permitting"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The full heat-rejection path determines much of the site impact."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'Water use depends...' opens 'In a direct-to-chip system, coolant circulates through cold plates'"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Summary"
+    }
+   ]
+  },
+  {
+   "id": "ART-1",
+   "proposed_level": 4,
+   "rationale": "4 standalone summary bullets",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Summary - Data center approvals reflect a broad set of infrastructure and community concerns."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "The full heat-rejection path determines much of the site impact."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Water-demand estimates, acoustic models, equipment orientation, controls, setbacks, and other approval conditions should be translated into specifications, procurement requirements, and commissioning criteria."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Bullets match body sections"
+    }
+   ]
+  },
+  {
+   "id": "ART-2",
+   "proposed_level": 4,
+   "rationale": "Descriptive; only one question H2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Data center community opposition: How cooling design affects water, noise, and permitting"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "See how cooling design shapes local approvals."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Water use depends on the full heat-rejection path"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Only 'Why are communities so opposed to data centers?' of 6 H2s is a question"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Sections on water, noise (mitigating), permitting"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Good headings/list; trade-offs in prose, 5-sentence paragraphs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Carry permitting assumptions into specifications and commissioning"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Cooling towers vs dry coolers vs adiabatic compared on water, energy, noise in prose, no table"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "'Those options involve trade-offs beyond water use...' paragraph has 5 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Sections name their subjects"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "No facts only in image"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 4,
+   "rationale": "Quantified sourced claims; density below 1/100",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "reduce cooling energy use by up to 60% and water use by up to 60% in appropriate applications"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~8 quantified facts in ~1,500 words"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Informational sections free of hype"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Coolant Distribution Unit (CDU) ... Heat Dissipation Units (HDUs) ... Rear-door heat exchangers (RDHx)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "water use by up to 60%"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 3,
+   "rationale": "Gallup 2026 + WP211 + named author; no standard, no quote",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "In a March 2026 Gallup survey"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "C-weighted limits named but no standard number"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Schneider Electric White Paper 211 reports ... though actual results depend on operating temperature, facility design, climate"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Author: Andrew Whitmore, VP of Sales of Motivair"
+    }
+   ]
+  },
+  {
+   "id": "ART-3",
+   "proposed_level": 4,
+   "rationale": "Heat-path framework, thesis, checklist",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "County examples are reported, not first-hand"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "follow the complete heat path from the CPU or GPU and cold plate, through the Coolant Distribution Unit (CDU) and facility loop, to the equipment that rejects heat outdoors"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Schneider Electric White Paper 211 reports that direct-to-chip liquid cooling can reduce ... water use by up to 60%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Permitability should be built into cooling decisions early, before site plans, equipment schedules, and public commitments become immutable."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Before equipment is finalized, teams should establish:"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Full coverage",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Water and noise are among the impacts that cooling architecture can directly influence."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sections on opposition causes, water, noise, permitting handoff"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Single intent"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Officials may request information on annual and peak-day water demand"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 4,
+   "rationale": "Balanced, trade-offs explicit",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "There is no single U.S. permitting pathway for a data center."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "dry coolers minimize water use but rely more heavily on fans, which can increase energy use and noise"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One closing offer only"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Cooling towers can deliver strong thermal efficiency but consume more water"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "Consistent names, WP 211",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Motivair by Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "White Paper 211"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 4,
+   "rationale": "Dated, current",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "October 8, 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "March 2026 Gallup survey"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "October 8, 2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 4,
+   "rationale": "Named next-step assets",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Education-depth explanation"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Addresses developers, consulting engineers, specifiers"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Explore Schneider Electric’s Liquid Cooling solutions and guide to Liquid Cooling Architectures"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

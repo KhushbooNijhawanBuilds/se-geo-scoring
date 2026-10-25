@@ -1,0 +1,579 @@
+{
+  "page": {
+    "id": "60",
+    "url": "https://www.se.com/ww/en/assets/564/document/396659/2022-sustainability-report.pdf",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "2022 Sustainability Report",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2022 sustainability report"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "corpus/60_sustainability-esg-report.pdf.md + corpus/index.json",
+    "input_mode": "bare PDF URL: HTML layer absent (certain); PDF metadata/text from coordinator extraction",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "No HTML page; nothing answers the prompt before the PDF is parsed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "HTML KPI layer absent (PDF content scored in the document module).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "HTML layer absent.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "HTML layer absent.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "HTML layer absent.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "T",
+        "c3": "T",
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "No navigation/companions at URL.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOTE: superseded by later editions listed on the hub",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "T",
+        "c4": "A",
+        "c5": "T"
+      },
+      "rationale": "Period only in file name; superseded, no notice possible.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "2022 Sustainable Development Report",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: in-document consistency scored in the document module",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "File/metadata 'Sustainability Report' vs cover 'Sustainable Development Report'.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "\"/Title\": \"2022 Sustainability Report\"",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "2022-sustainability-report.pdf",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "PDF title metadata and file name descriptive; no page text/meta.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Not applicable (dropped).",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "NOTE: no HTML layer",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND - bare PDF URL, no HTML page",
+          "location": "page"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c3": "T",
+        "c4": "T"
+      },
+      "rationale": "No next step at URL.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "URL serves only a PDF; no HTML text equivalent."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": true,
+      "evidence": "No HTML statements"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": true,
+      "evidence": "2022 edition superseded (hub lists 2025 Sustainability Report); archived PDF cannot point to its successor; 2022 GHG values restated in later edition"
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Hub links 2022/2023 annual reports as bare PDFs while 2025 has an HTML download page -> template/linking decision.",
+    "Document score reported separately (60_doc), never averaged (R11)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Evaluation per R10."
+  }
+}

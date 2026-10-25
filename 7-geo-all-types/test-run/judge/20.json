@@ -1,0 +1,445 @@
+{
+ "page": {
+  "id": "20",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/blackstone/",
+  "topic": "Blackstone portfolio energy management with EcoStruxure Resource Advisor",
+  "target_prompts": [
+   "How did Blackstone cut energy costs and CO2 across its portfolio companies?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "proposed_level": 1,
+   "rationale": "Title names customer; H1 slogan; summary too short",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Blackstone Group Customer Story | Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"A SUSTAINABLE business plan\" - slogan"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "intro is 20 words"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-2",
+   "proposed_level": 3,
+   "rationale": "Industry, size, scope; no country",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "one of the world’s largest private equity firms"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "managing more than $365 billion in assets"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"multiple industries and geographies\" - no region"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "paying dividends at over 20 portfolio companies and counting"
+    }
+   ]
+  },
+  {
+   "id": "CS-3",
+   "proposed_level": 2,
+   "rationale": "One quantified outcome, no baseline or timeframe",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "15% reduction of CO2"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Tens of millions of energy savings\" - not specific"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "$60M over six years appears only in meta"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"15% reduction of CO2\" not tied to a named offer"
+    },
+    {
+     "id": "c6",
+     "result": "pass",
+     "evidence": "- 15% reduction of CO2"
+    }
+   ]
+  },
+  {
+   "id": "CS-4",
+   "proposed_level": 4,
+   "rationale": "Clear challenge/solution/results sections naming Blackstone",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Blackstone needed actionable energy and sustainability data for the companies it owns and supports"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Blackstone uses EcoStruxure Resource Advisor, a cloud-based platform ... paired with an Energy & Sustainability Services consultant from Schneider Electric, dedicated for each site"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Tens of millions in energy savings from sustainability efforts and strategic energy sourcing."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "The Challenge"
+    }
+   ]
+  },
+  {
+   "id": "CS-5",
+   "proposed_level": 4,
+   "rationale": "Named CSO quote with reason",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "“I have to have good data no matter the location,”"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "said Don Anderson"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Chief Sustainability Officer at Blackstone"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "It’s critical to handle each region with some level of consistency. We’re a data-driven organization."
+    }
+   ]
+  },
+  {
+   "id": "CS-6",
+   "proposed_level": 4,
+   "rationale": "Resource Advisor named, role explained, cards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Resource Advisor"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "a cloud-based platform that captures and normalizes energy and utility data at all levels of the company’s portfolio"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "- EcoStruxure Resource Advisor"
+    }
+   ]
+  },
+  {
+   "id": "CS-7",
+   "proposed_level": 0,
+   "rationale": "No methodology",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "What/who/when/outcome all present but not in first block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Resource Advisor, a cloud-based platform"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "One of the world's largest private equity firms"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "To manage resources and expenses, Blackstone needed actionable energy and sustainability data"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data from Resource Advisor allows Blackstone to negotiate contracts with utilities and other suppliers"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Promo headings; bullet runs glued into wall paragraphs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"## What does it take to create Buildings of the Future?\" - off-topic promo"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "bullets rendered inline \"•\" in single paragraphs"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The Solution section is one block of 5 run-on bullets"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Blackstone uses EcoStruxure Resource Advisor"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Tens of millions in energy savings from sustainability efforts and strategic energy sourcing."
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Promo inserts and adjectives",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"developed an aggressive and sustainable energy-management strategy\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Build new or modernize with innovative solutions\" insert"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "Names consistent, no identifiers, vague links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Resource Advisor"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One of the world's largest private equity firms achieves tens of millions in energy savings from sustainability efforts and strategic energy sourcing."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Read more\", \"Explore more\", \"Find out more\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 2,
+   "rationale": "Not evaluation depth; vague CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "No quantified savings figure"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Chief Sustainability Officer at Blackstone"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Read more\""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- EcoStruxure Resource Advisor"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Read more / Explore more / Find out more"
+  }
+ ]
+}

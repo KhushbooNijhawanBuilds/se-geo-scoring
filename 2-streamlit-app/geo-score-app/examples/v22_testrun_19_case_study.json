@@ -1,0 +1,531 @@
+{
+ "page": {
+  "id": "19",
+  "type": "case_study",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+  "topic": "Schneider Electric technology at McLaren Racing",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "How does Schneider Electric support McLaren Racing's power infrastructure?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "McLaren Racing: Innovation in motion",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Innovation in motion",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND (opening is a 20-word line; next paragraph is promotional, not a summary)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "on the track at Formula 1, F1 Academy, WEC, IndyCar",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "56,304 sqm",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "from its headquarters in Woking, UK",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Help provide reliable and resilient power across McLaren Racing’s footprint",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: scale is only a facility floor area",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "80,000 parts of the car can change (vanity)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c6",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Help provide reliable and resilient power across McLaren Racing’s footprint",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Our medium- and low-voltage switchgear enhance power reliability and efficiency (no where/how/by whom)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "McLaren Racing can channel more resources into on-track performance",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "The challenge",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "if you're standing still, you're actually going backwards",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Dan Keyworth",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Executive Director of Performance Technology and Systems, McLaren Racing",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "We want to be the best in our game (no reason, fact or outcome)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-6",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Open, interoperable EcoStruxure™ software helps McLaren Racing optimize energy usage while reducing costs.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "PowerLogic™ Power Meters",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: role is given only for generic 'EcoStruxure software', not the named cards",
+   "confidence": "high"
+  },
+  {
+   "id": "CS-7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "McLaren Racing relies on our solutions",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "demanding trackside environments around the world",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "helps McLaren Racing optimize energy usage",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "The challenge / The solution / Where data meets drive (generic/slogan)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "These solutions scale across McLaren Racing’s entire operations, on and off the track.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "all paragraphs are 1-2 sentences",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Our medium- and low-voltage switchgear",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "offer cards exist only in a hidden carousel; story pushed to 'Watch the video' / 'Read the full story'",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "See how our advanced energy tech helps the team accelerate performance.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Where data meets drive",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Masterpact™ MTZ/NW/M",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "stat cards, prose and meta checked: no conflicting figures",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Watch now",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no date anywhere",
+     "evidence_type": "note"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "partnership showcase depth fits Consideration",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "business/operations language fits facility and energy managers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Explore our sponsorships (not a specific asset)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": true,
+   "evidence": "only vanity numbers: 80,000 parts, 20+ years, 56,304 sqm"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "ZZ_Label ZZ_Heading ZZ_Description placeholder cards"
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 2: no quantified result for a named offer; partnership showcase ('See how McLaren Racing fits into our broader sponsorship strategy')."
+ }
+}

@@ -1,0 +1,4 @@
+Deck (Slides): https://claude.ai/artifact/7qm4EUk8KKxtQMC92wgZmn
+User guide: https://claude.ai/artifact/HGiHsbDhZK4LVmZuPcYfYy
+Scoring logic / QA doc: https://claude.ai/code/artifact/cf77ff2f-5b12-4751-8f81-645c9072c7f0
+Run the app: open 2-streamlit-app/geo-score-app, double-click start_mac.command (see README.md)

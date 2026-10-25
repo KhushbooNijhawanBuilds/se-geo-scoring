@@ -1,0 +1,495 @@
+{
+  "page": {
+    "id": "49_news-press-release",
+    "type": "news",
+    "stage": "Consideration",
+    "topic": "Smart Thermostat and Power Mount for Apple Home (product launch)",
+    "industry": "Residential",
+    "audience": "Homeowners (US/CA), installers",
+    "target_prompts": [
+      "What is the Schneider Home Smart Thermostat for Apple Home?",
+      "How much does the Schneider Home Smart Thermostat cost and when is it available?",
+      "Does it support Matter, Thread and Siri?",
+      "What is the Power Mount for Apple HomeView?",
+      "Which countries can buy the Power Mount?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric and Apple introduce new Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Schneider Home introduces its first Smart Thermostat designed in collaboration with Apple for Apple Home Collection.",
+          "location": "deck"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Schneider Electric’s residential energy portfolio continues to expand, built to deliver home energy intelligence.",
+          "location": "non-factual bullet"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Smart Thermostat for Apple Home Collection and Power Mount for Apple HomeView",
+          "location": "v2 c4: category nouns searchers use"
+        }
+      ],
+      "rationale": "Headline names both companies and both products; deck mostly factual but bullet 1 is positioning.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "a new Smart Thermostat, co-developed with Apple for Apple Home Collection",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Homeowners can privately control their energy",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no scenario/trigger"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "for even more comfort in Apple Home",
+          "location": "vague outcome"
+        }
+      ],
+      "rationale": "What and who are clear; no application scenario or concrete outcome in the top block.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "13/10/2026",
+          "location": "numeric date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "New York",
+          "location": "dateline"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "available in the U.S. starting this fall",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "in the Apple Store beginning early next year",
+          "location": ""
+        }
+      ],
+      "rationale": "Numeric DD/MM date; relative timing ('early next year', 'this fall') never resolved.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Smart Thermostat retails for a suggested MSRP of $199.99",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.11 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Set up, connectivity, and security have never been better",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Power over Ethernet (PoE) Wired",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "make energy feel effortless",
+          "location": ""
+        }
+      ],
+      "rationale": "Prices are concrete; feature copy relies on 'seamless'/'effortless'.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "with its technologies found in 4 out of 10 U.S. homes today",
+          "location": "no basis"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Schneider Home introduces its first Smart Thermostat",
+          "location": "scoped to brand"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "With Matter compliance and Thread",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "no evidence asset for a consumer launch"
+        }
+      ],
+      "rationale": "Scoped 'first', named protocol compliance; installed-base claim has no basis.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Olivier Blum, CEO of Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "They’re easy to set up, intuitive to use",
+          "location": "generic"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "said Matthew Costello, Apple's vice president of Hardware Engineering",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Collaborating with Apple brings together smart energy management, exceptional user experience, and seamless home operation with Apple HomeView",
+          "location": "names offer"
+        }
+      ],
+      "rationale": "Named CEO and Apple VP quotes; neither contains a checkable fact.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Customers in the U.S. and Canada can purchase Smart Thermostat and the accompanying Room Sensors in the Apple Store",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Room Sensor retails for a suggested MSRP of $39.99",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "three configurations: USB-C Wall Connector; AC Wired; and Power over Ethernet (PoE) Wired",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "can order the USB-C Wall Connector and AC Wired Power Mounts for Apple HomeView on Apple.com",
+          "location": "available"
+        }
+      ],
+      "rationale": "Markets, dates, MSRPs and configurations given; thermostat HVAC compatibility missing.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric is a global energy technology leader, driving efficiency and sustainability",
+          "location": "About"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "With 160,000 employees and 1 million partners in over 100 countries",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Learn more about Schneider Home at schneiderhome.com",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "ADT also leverages the nationwide installer network from Qmerit",
+          "location": "partners undescribed"
+        }
+      ],
+      "rationale": "Only release in the set with the About boilerplate (with entity facts) and a named canonical site; ADT/Qmerit undescribed.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Home energy, seamlessly integrated with Apple Home",
+          "location": "subhead not a heading"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "The small metal bezel features a smooth silver finish",
+          "location": "features in prose"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Users can adjust the temperature hands-free using Siri on Apple products.",
+          "location": "long paragraph"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Schneider Home’s Power Mount, designed exclusively for Apple’s new Apple HomeView (Wall Mounted).",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Smart Thermostat retails for a suggested MSRP of $199.99",
+          "location": "facts in HTML"
+        }
+      ],
+      "rationale": "In-body subheads are plain text, features packed in a 10-sentence paragraph; sections name the product.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "a new Smart Thermostat, co-developed with Apple",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "With Matter compliance and Thread, the system remains connected to the home network even during an internet outage.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Availability",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no HVAC compatibility"
+        }
+      ],
+      "rationale": "Most buyer sub-questions answered; HVAC/system compatibility (key consideration question) absent.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "blending perfectly in any environment",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EnergyKit is only available in the contiguous United States.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Set up, connectivity, and security have never been better",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Promotional register ('seamless' x7) but a genuine limitation disclaimer.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Room Sensors",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no model/SKU references"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Smart Thermostat retails for a suggested MSRP of $199.99",
+          "location": "no contradictions"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Schneiderhome.com",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent product names; no model references; destination named.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: page <title>/og:title duplicated (headline concatenated twice); meta description concatenates bullets without spaces -> SE Digital",
+    "Template: no article:published_time meta; visible date numeric DD/MM/YYYY",
+    "Template: in-body subheads are not heading elements in server HTML",
+    "Template: Wiztrust, share and site-footer link lists inside the extracted body"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for news"
+  }
+}

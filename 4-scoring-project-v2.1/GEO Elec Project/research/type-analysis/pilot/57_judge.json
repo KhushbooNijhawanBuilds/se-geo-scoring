@@ -1,0 +1,492 @@
+{
+  "page": {
+    "id": "57",
+    "url": "https://www.se.com/ww/en/download/document/sustainability-report-H1-2026/",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "H1 2026 sustainability report download page",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric H1 2026 sustainability results",
+      "Schneider Electric sustainability program score H1 2026",
+      "Schneider Electric CO2 reduction progress H1 2026",
+      "Progress vs 2030 targets",
+      "What changed vs full-year 2025?"
+    ],
+    "prompts_inferred": true,
+    "audience": "Investors/ESG analysts, rating agencies, procurement sustainability assessors (inferred)",
+    "input_mode": "file (server-HTML corpus md, captured 2026-10-19)",
+    "rubric_version": "doc_esg-v2 (G8 thin-gateway rule added after calibration round 1)"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Sustainability Report H1 2026 Results",
+          "location": "title + summary line"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026 | Schneider Electric",
+          "location": "title + summary line"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + summary line"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + summary line"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "title + summary line"
+        }
+      ],
+      "rationale": "Title wording checked for company + report type + period; summary line restates the title; no headline results or highlights.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No KPI values in HTML.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No targets/baselines/progress in HTML.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No frameworks, GHG basis, boundary or restatement note.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "No assurance or ratings.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ESG-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Release date 30 Jul 2026",
+          "location": "metadata block / file row"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Sustainability Report H1 2026 Results",
+          "location": "metadata block / file row"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block / file row"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026.pdf",
+          "location": "metadata block / file row"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block / file row"
+        }
+      ],
+      "rationale": "Type/period/date and file link checked; no contents description, no data annex/index, no edition links.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Release date 30 Jul 2026",
+          "location": "metadata block"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "## Schneider Electric - Sustainability Report - H1 2026",
+          "location": "metadata block"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Version 1.1",
+          "location": "metadata block"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Release date 30 Jul 2026",
+          "location": "metadata block"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "metadata block"
+        }
+      ],
+      "rationale": "Release date, period, version note, cadence and edition links checked.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Document ref. sustainability-report-H1-2026",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: no conflicting figures (none present)",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        }
+      ],
+      "rationale": "Report naming consistency and identifiers; no related links; consistency otherwise vacuous (no figures).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "DOC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026 | Schneider Electric",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026.pdf",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Sustainability Report H1 2026 Results",
+          "location": "title / file row / meta"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "\"description\": \"Sustainability Report H1 2026 Results\"",
+          "location": "title / file row / meta"
+        }
+      ],
+      "rationale": "Title/file name/type label checked; meta description is a label, not a summary.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Sustainability Report H1 2026 Results",
+          "location": "page"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "page"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "ABSENCE-CHECK: geo_content_check fluff 0.0/100w",
+          "location": "page"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "NOTE: n/a",
+          "location": "page"
+        }
+      ],
+      "rationale": "No promotion, but nothing balanced either (no misses disclosed).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Schneider Electric - Sustainability Report - H1 2026.pdf 9.5 MB",
+          "location": "file row"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "file row"
+        }
+      ],
+      "rationale": "Descriptive file link only; no routing to hub, data, press release or investor pages.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": true,
+      "evidence": "Half-year report gateway has no results in HTML; all content only in the 9.5 MB PDF."
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "No factual statement beyond title/date in HTML"
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "No H1: the download-page template renders the document title as H2 three times (server HTML) -> SE Digital (template).",
+    "Server HTML contains the abstract twice plus a truncated third copy and three copies of the metadata block (hidden responsive variants; rendered page shows one) -> SE Digital (template)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Scored at Evaluation (due-diligence proxy); see proposed Verification stage."
+  }
+}

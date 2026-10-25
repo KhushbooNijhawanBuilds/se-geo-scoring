@@ -1,0 +1,92 @@
+<section id="prompt2" data-transition="fade" style="background:#FCFCFA;color:#1B2430;font-family:'IBM Plex Sans', Arial, sans-serif;padding:56px 72px 96px;display:flex;flex-direction:column;gap:20px">
+<h2 style="font-size:36px;font-weight:600;line-height:1.15">The full blog scoring prompt (2 of 4): paste into Copilot, then give the blog URL</h2>
+<div style="display:flex;gap:48px;border-top:2px solid #0F766E;padding-top:16px"><pre style="flex:1;margin:0;font-family:'IBM Plex Mono',Menlo,monospace;font-size:14px;line-height:19px;color:#1B2430;white-space:pre-wrap">ART-1 Key-takeaways block (quality)
+ c1 A block of 3-5 takeaway items near the top or bottom.
+ c2 Each item is a standalone sentence that names its subject.
+ c3 At least one item carries a specific fact, number or concrete recommendation.
+ c4 Items match the body&#x27;s claims: nothing truncated, no new claims.
+ART-2 Title and subheads
+ c1 H1 names the topic in searcher language (no pun, slogan or clickbait).
+ c2 H1, SEO title (HTML &lt;title&gt;) and meta description describe the same topic and angle (pass if
+   only the H1 is available and nothing contradicts it).
+ c3 At least 60% of content H2s describe their section.
+ c4 At least one third of H2s are phrased as, or mirror, a question a buyer asks.
+ c5 Any explicit promise in the HTML &lt;title&gt; or meta (e.g. &quot;3 priorities&quot;) is delivered as visible
+   structure (an undelivered &lt;title&gt;/meta-only promise fails here; G5 is only for an undelivered
+   visible H1 promise).
+U3 Extractable structure and self-containment
+ c1 Descriptive H2/H3s, one idea per heading (generic labels like &quot;Overview&quot; fail).
+ c2 Lists for features/attributes, numbered steps for procedures, tables for comparisons with more
+   than 2 dimensions.
+ c3 Paragraphs of at most 3-4 sentences; no walls of text.
+ c4 Sections stand alone: subjects named; no &quot;as mentioned above&quot;, &quot;the above&quot;, or unnamed &quot;this
+   product / our solution&quot;.
+ c5 No key fact exists only in an image, video, PDF, carousel, collapsed tab or gated form.
+U4 Factual density and specificity
+ c1 Key claims are quantified (numbers with units, ranges, timeframes, conditions).
+ c2 At least 1.0 genuine quantified facts per 100 words (count each distinct fact once).
+ c3 No unanchored superlatives or marketing abstractions in the informational sections
+   (&quot;innovative&quot;, &quot;industry-leading&quot;, &quot;seamless&quot;, &quot;game-changing&quot;).
+ c4 Precise terminology plus the plain-language synonym; acronyms defined at first use.
+ c5 Outcomes are specific (&quot;cuts commissioning from 6 to 4 weeks&quot;), not generic (&quot;significant
+   savings&quot;).
+U5 Evidence, attribution and expertise
+ c1 Statistics attributed to a named source with a year.
+ c2 Standards or regulations cited by number where relevant (e.g. IEC 60947-2, NFPA 70E, ISO/IEC
+   27001).
+ c3 At least one quote from a named person OTHER than the author.
+ c4 First-party or original evidence (test results, field data, deployments) with method or
+   conditions.
+ c5 A named human author whose role or experience is visible (&quot;Guest Blogger&quot; or &quot;Admin&quot; fails).
+ART-3 Non-commodity insight
+ c1 A first-hand observation with a specific detail (number, scale or situation).
+ c2 An original framework, typology, decision rule or step sequence.
+ c3 First-party data or analysis with conditions or method.
+ c4 A clear, defensible thesis in one quotable sentence that goes beyond consensus.
+ c5 Practical, audience-specific implications (what to do, when).</pre><pre style="flex:1;margin:0;font-family:'IBM Plex Mono',Menlo,monospace;font-size:14px;line-height:19px;color:#1B2430;white-space:pre-wrap">U6 Fan-out coverage and focus
+ c1 The target prompt is answered.
+ c2 Most of the 3-5 fan-out questions have a dedicated section or a direct answer.
+ c3 One primary intent; adjacent topics are linked out, not crammed in.
+ c4 Covers the facts a reader at this stage needs (e.g. prerequisites, costs, limits, how it
+   works).
+U7 Neutral, non-promotional tone
+ c1 Informational, expert voice (an advisor, not a brand talking about itself).
+ c2 Trade-offs, limitations or &quot;when not to use&quot; are present.
+ c3 No hype, clickbait or stacked CTAs in informational sections (one descriptive closing offer is
+   allowed).
+ c4 Alternatives or competitors are named fairly where the page makes comparative claims (na
+   otherwise).
+U8 Entity clarity and consistency
+ c1 Products, brands and standards are named explicitly and consistently (one canonical name
+   each).
+ c2 Identifiers present where relevant (model codes, standard numbers, versions, product URLs).
+ c3 No internal contradictions (prose vs table vs summary).
+ c4 Descriptive link text that names the destination (na if links are not visible in the input).
+U9 Freshness
+ c1 A visible publication or update date.
+ c2 Facts, statistics and standard editions are current (nothing superseded presented as current).
+ c3 Lifecycle or availability status stated where relevant (na otherwise).
+ c4 Updated within the cadence for blogs (at least yearly).
+ Rule: Level 5 only with a visible &quot;Updated&quot; date plus refreshed statistics (judge-applied).
+U10 Stage fit and next step
+ c1 Depth and content match the declared stage.
+ c2 Language matches the declared audience.
+ c3 A descriptive next-step CTA that names a specific asset, placed after the informational
+   content.
+ c4 Links to the logical next-stage content (na if links are not visible in the input).
+
+STEP 2 - LEVELS (0-5): SET BY THE CALCULATOR FROM YOUR CHECKS
+You do not pick levels. For each criterion: n = number of pass+fail checks (ignore na), p = number
+  of passes.
+ a) If n = 0 or more than half the checks are na, the criterion is dropped (its weight is
+   redistributed proportionally).
+ b) Level = ceiling = 5 if p = n, otherwise min(4, round-half-up(5 x p / n)).
+ b3) Downgrade (the only way to go below the ceiling): set &quot;proposed_level&quot; lower AND give
+   &quot;downgrade_reason&quot; naming the passed check that is weak, e.g. &quot;c3: the only figure has no unit
+   or basis&quot;. Without a downgrade_reason that names a check you passed, proposed_level is ignored.
+   Use it for level 5 too: when every check passes but the evidence is not exceptional (no
+   original data, named experts or complete specifics), downgrade to 4 naming the weakest passed
+   check. A downgrade never goes below the anchor floor (c).</pre></div>
+<p style="position:absolute;left:72px;bottom:40px;width:1776px;font-size:20px;color:#6B7480">Content GEO Score · 26 · File: copilot_prompt_article_v2.2.txt</p>
+<aside>This is the whole v2.2 blog prompt, word for word. Every other page type has its own prompt in the same format.</aside>
+</section>

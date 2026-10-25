@@ -1,0 +1,628 @@
+{
+  "page": {
+    "id": "35",
+    "title": "Edge UPS fleet management comparison calculator",
+    "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/edge-ups-fleet-management-comparison-calculator/",
+    "type": "calculator",
+    "stage": "Evaluation",
+    "topic": "Edge UPS fleet management comparison calculator",
+    "industry": "",
+    "target_prompts": [
+      "Should I manage an edge UPS fleet in-house or outsource it?",
+      "Cost of managing a distributed UPS fleet",
+      "Benefits of UPS remote monitoring services",
+      "Downtime cost of edge UPS failures",
+      "Managed services vs DIY UPS maintenance cost comparison"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/35_calculator-tradeoff-tool.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "evaluate the costs and downtime implications of managing a fleet of single-phase UPSs internally, or outsourcing it",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Edge UPS fleet management comparison calculator",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to evaluate the costs and downtime implications",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore our related white papers, blogs, and solutions",
+          "location": "H2 not an answer",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T",
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to evaluate the costs",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "a fleet of single-phase UPSs",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "managing a fleet of single-phase UPSs internally, or outsourcing it",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "to help make an informed decision",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "results are calculated based upon a dynamic model that considers device count, rating (VA), downtime related costs",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Average duration per downtime event (MTTR)",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Science Center.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "This is a model for typical distributed UPSs found in different environments",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "failure → cost formula not given",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Key assumptions are as follows:",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "UPSs are covered under warranty for 3 years",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "according to Salary.com",
+          "location": "source without year",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "1,000 VA",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "Select a country so that the analysis can be localized based on costs and currency.",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "$ 26.2k (37%)",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "typical base salary raning from $43k-$70k",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no sensitivity",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Annual downtime",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Default 100-site fleet: $70.1k vs $43.9k, 7h50 vs 1h34.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Site quantity – Enter the number of distributed sites where the UPSs reside.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Average duration per downtime event (MTTR) – When a downtime event occurs",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "A summary of the total cost for one year",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Mean Time to Recover or MTTR",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "",
+      "proposed_level": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "CALC-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "A final summary of savings or premium is presented for both costs and downtime reduction.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Choosing this approach minimizes the amount of time spent on administrative & remediation activities",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no levers",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "may be highly variable from year-to-year",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Vendor-leaning guidance.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "A quantitative comparison of UPS monitoring and servicing approaches across edge environments",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Vendor / partner-managed",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to evaluate",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "White paper 283 presents key considerations",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "Key assumptions are as follows:",
+          "location": "method only in hidden panels (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c5": "T"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "according to Salary.com",
+          "location": "no year",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "The assumptions made in this tool are based upon findings from discussions with our customers",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "TT27 Version 6 – 20-August-2024",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Use this TradeOff Tool to evaluate",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Some downtime events, however, cannot be avoided.",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "such as Schneider Electric Field Services",
+          "location": "vendor promotion inside method text",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "internally, or outsourcing it to a partner like Schneider Electric",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Single-phase UPS efficiency calculator",
+          "location": "differs from canonical tool name",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "WP283",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "$ 26.2k (37%)",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Naming drift ('Science Center' variants).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "TT27 Version 6 – 20-August-2024",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "salary data year not stated",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "> 12 months",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "$ 26.2k (37%)",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "remote monitoring and onsite service requirements",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "generic CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "A quantitative comparison of UPS monitoring and servicing approaches across edge environments",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T"
+      },
+      "rationale": "",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Learn more / Discover more / Download now / Calculate now / Explore now"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "Design-system residue in the tool: 'Lorum ipsum'"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 89% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 279 vs rendered 2506 words).",
+    "Tool validation message 'The total failure rate of your assets is 80.0%. Consider reducing this to 100% or below.' is nonsensical → tool team."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

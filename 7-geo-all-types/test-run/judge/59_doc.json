@@ -1,0 +1,391 @@
+{
+ "page": {
+  "id": "59_doc",
+  "type": "esg_report_doc",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+  "topic": "Schneider Electric 2023 Sustainable Development Report (PDF text)",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "What were Schneider Electric's 2023 greenhouse gas emissions and sustainability results?"
+  ],
+  "prompts_inferred": true,
+  "sections_read": "cover, TOC, CSO letter, highlights (pp.1-5), SSI targets table, 1.11 frameworks/ratings, 3.2 GHG footprint, 7 methodology/assurance, 8.1 environmental indicators"
+ },
+ "criteria": [
+  {
+   "id": "DOC-1",
+   "proposed_level": 3,
+   "rationale": "highlights page in text on p.5; basis not given; no link to HTML home",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "6 .13/ 1 0 Schneider Sustainability Impact score, outperforming 2023 target (6.00/10)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "6 .13/ 1 0 Schneider Sustainability Impact score, outperforming 2023 target (6.00/10) (no boundary/scope basis)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "This report is an extract from Schneider Electric’s 2023 Universal Registration Document."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "6 .13/ 1 0 Schneider Sustainability Impact score, outperforming 2023 target (6.00/10)"
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": 3,
+   "rationale": "full GHG table by scope in tCO2e with multi-year comparison",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "6 .13/ 1 0 Schneider Sustainability Impact score, outperforming 2023 target (6.00/10)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(2) TCO e 2 112,792 119,447 140,718 142,388"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "coverage stated (\"Estimated coverage (% total GHG emissions) % 99%\") but not period+boundary per KPI"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "TCO e 2 112,792 (unit subscript split from label)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -31.2% -22.0% 0.0% NA"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": 5,
+   "rationale": "SSI table: baseline, progress, 2025 target; SBTi validation; methodology pages",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Climate Grow Schneider Impact revenues(3)1. 2019: 70% 74% 80%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Climate Grow Schneider Impact revenues(3)1. 2019: 70% 74% 80%"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Climate Grow Schneider Impact revenues(3)1. 2019: 70% 74% 80%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Net-Zero CO2 emissions across our entire value chain (SBTi)"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Read more about the SSI indicators methodology on pages 201 to 206."
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": 5,
+   "rationale": "GRI/SASB/TCFD, GHG Protocol market/location, period, restatements",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric has reported in accordance with the GRI Standards for the period from January 1 to December 31, 2023."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "carbon footprint according to GHG Protocol guidelines (Scope 1, Scope 2 market-based, Scope 2 location-based, all categories of Scope 3)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "for the period from January 1 to December 31, 2023"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data from past years have been restated accordingly."
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": 5,
+   "rationale": "limited (ISAE 3000) + reasonable assurance, PwC, scope, CDP A List, reports included",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "a complete “limited” external assurance from an independent third-party verifier for all of the SSI and SSE indicators"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for all the SSI and SSE indicators (except SSI #+1 and SSE #12"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "CDP Climate A List"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "7.6 Reasonable assurance report from one of the Statutory Auditors"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": 4,
+   "rationale": "TOC + correspondence tables; cross-references not verifiable",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "1.11 Key external frameworks and ESG ratings 37"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "outline_entries: 307"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Sustainability Accounting Standard (SASB) Correspondence table 228"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "This report is an extract from Schneider Electric’s 2023 Universal Registration Document."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "printed page references (e.g. \"see Independent verifier’s report on page 236\") cannot be verified against the extracted text"
+    }
+   ]
+  },
+  {
+   "id": "DOC-4",
+   "proposed_level": 3,
+   "rationale": "text layer present; extraction artefacts",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "pages_without_text: 1 (of 260)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "tagged_pdf: true"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(2) TCO e 2 112,792 119,447 140,718 142,388"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "2 .1.1 C o n t ex t"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "outline_entries: 307"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 1,
+   "rationale": "period stated; no visible release date; superseded edition, no notice",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no release/publication date in the document text (only PDF metadata CreationDate)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for the period from January 1 to December 31, 2023"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "In 2023, there has been no update to methodology, nor any retroactive impact"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "2023 edition; later editions exist, not flagged"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "consistent naming and identifiers; no KPI contradiction found",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Sustainability Impact (SSI)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(2) TCO e 2 112,792 119,447 140,718 142,388"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no contradiction found between highlights, SSI table and indicator tables"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "links not visible in extracted text"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "reporting voice but self-congratulatory letter",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "for the period from January 1 to December 31, 2023"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "3.2.3 Evolving calculation methodology and data constraints"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "In 2023, the SSI achieved a great score of 6.13/10"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative selection claims"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": true,
+   "evidence": "2023 edition with no notice or link to the current edition"
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

@@ -1,0 +1,412 @@
+{
+ "page": {
+  "id": "59",
+  "type": "esg_report",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+  "topic": "Schneider Electric 2023 Sustainability Report (bare PDF)",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "What were Schneider Electric's 2023 sustainability results?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no HTML sections"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no HTML links"
+    }
+   ]
+  },
+  {
+   "id": "DOC-5",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 0,
+   "rationale": "bare PDF URL: no HTML gateway",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND - bare PDF"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no HTML links"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": true,
+   "evidence": "no HTML text answers the prompt"
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "bare PDF URL"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

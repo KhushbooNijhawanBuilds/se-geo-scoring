@@ -1,0 +1,678 @@
+{
+  "page": {
+    "id": "10",
+    "type": "solution",
+    "stage": "Awareness",
+    "topic": "Commercial real estate decarbonization",
+    "industry": "Buildings / CRE",
+    "target_prompts": [
+      "How can commercial real estate owners cut building emissions while protecting asset value?",
+      "What share of global emissions comes from buildings?",
+      "What ROI do smart-building retrofits deliver?",
+      "What are grid-interactive, digital-first buildings?",
+      "How do GRESB scores improve with digital tools?"
+    ],
+    "prompts_inferred": true,
+    "prompt_source": "seed from assignments.json; fan-outs inferred",
+    "content_basis": "rendered page capture (corpus/rendered), standard v2.0",
+    "rendered_file": "corpus/rendered/10_solution-page.md"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "We can help you boost ROI, reduce stranded asset risk, and meet ESG goals with integrated digital solutions that drive sustainability, resilience, and performance.",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "IoT Commercial Real Estate solutions",
+          "location": "Title"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "When you're managing a real estate portfolio, every asset counts.",
+          "location": "Top"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Cut carbon. Capture savings. Accelerate impact.",
+          "location": "H2s are slogans"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Answer in intro; slogan H2s.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "integrated digital solutions that drive sustainability, resilience, and performance",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "When you're managing a real estate portfolio",
+          "location": "Intro"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "With rising energy demands and tighter regulations",
+          "location": "[hidden] tab"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M and reduced emissions by 15%",
+          "location": "Body"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Trusted portfolio management technology partner",
+          "location": "Slogan headings"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Portfolio strategy",
+          "location": "Tab labels only"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Electrify smarter with grid-interactive, digital-first buildings that cut carbon and respond in real time to shifting energy demand.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "See how occupancy data drives ROI and healthier spaces at 150 Holborn",
+          "location": "Teasers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%",
+          "location": "Most case metrics in hidden tabs"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "T",
+        "c4": "A",
+        "c5": "T"
+      },
+      "rationale": "Key facts in tabs.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Unsourced"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Bedeir Rizk, Co-founder and CEO, Paragon Developments",
+          "location": "Testimonial names without quote text"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "T",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "reduce stranded asset risk, and meet ESG goals",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Discover how one building cut carbon and energy use by 22% with a two-year payback.",
+          "location": "Research card"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Responsible and responsive real estate: maximize returns, minimize risk",
+          "location": "Single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No how-it-works"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Good fan-out coverage.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Powering smarter spaces, together",
+          "location": "Fluff 1.92/100w"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not comparison",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Promotional.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "T"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Promo-heavy for Awareness"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "maximize returns, minimize risk",
+          "location": "Owner language"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Download the executive summary",
+          "location": "Research CTA"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The path to net-zero buildings",
+          "location": "Education"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A"
+      },
+      "rationale": "Anchor 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions, they’re also a key to global decarbonization success.",
+          "location": "Body"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "While buildings drive 37% of emissions",
+          "location": "Body"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No source"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "reduce stranded asset risk",
+          "location": "Top block"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "c3 fail -> <=3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No components named with roles"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "real-time control of 6,000+ data points",
+          "location": "[hidden] 150 Holborn"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Only in hidden tab"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c5": "T"
+      },
+      "rationale": "One parameter.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Citycon Lippulaiva used Schneider Electric’s EcoStruxure to cut power costs by 14%—and achieved ROI in just five years.",
+          "location": "[hidden] tab"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "used Schneider Electric’s EcoStruxure to cut power costs by 14%",
+          "location": "[hidden] tab"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "New research: Reduce carbon in the real world",
+          "location": "Source of the 22% figure"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "cut labor costs and complaints by 60%—and lowered their carbon footprint by 36%",
+          "location": "[hidden] tab"
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Several outcomes, one with a named research source. Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Blackstone saved $10M",
+          "location": "Body"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Aspiria cut labor costs and complaints by 60%",
+          "location": "[hidden]"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Citycon Lippulaiva",
+          "location": "[hidden]"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "enabled a 90-point WELL Comfort Score",
+          "location": "[hidden] 150 Holborn"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "At 150 Holborn in London",
+          "location": "[hidden] context"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Strong references; testimonials lack quote text. Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Learn how flexible fit-outs at 180 George Street cut costs, speed up leasing, and future-proof assets.",
+          "location": "Card"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "helps real estate portfolios modernize with digital tools and robust data",
+          "location": "[hidden] GRESB"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Partial.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "our 6-initiative decarbonization plan",
+          "location": "6-initiative plan named but not listed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": true,
+      "evidence": "Checker 1.92 fluff terms /100 words."
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 58% of the rendered content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital (server/rendered word ratio 0.42). Case metrics (Citycon, Aspiria, 150 Holborn, GRESB) exist only in client-side tabs.",
+    "Global 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) excluded from evidence; it is template content.",
+    "ZZ_ placeholders seen in server HTML are not visible in the rendered page (no template_artifact on rendered basis)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Awareness."
+  }
+}

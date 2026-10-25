@@ -1,0 +1,511 @@
+{
+ "page": {
+  "id": "09",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/water/",
+  "topic": "Digital solutions for water and wastewater (EcoStruxure)",
+  "target_prompts": [
+   "What digital and automation solutions help water and wastewater utilities cut energy use and water loss?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "Opens with a case teaser, not a definition; H1 is a goal statement",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Explore how the City of Conroe enhances scalability and gains up to 70% greater engineering efficiency"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Achieve efficient water operations that scale with demand"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "Scope and segment clear; outcome partly quantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Our solutions cover the entire water cycle in water and wastewater treatment plants, desalination plants, and supply and sanitation networks."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "water and wastewater treatment plants, desalination plants, and supply and sanitation networks"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "issues, including leakage, water quality, customer satisfaction, service interruption, and energy savings"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Our solutions save up to 30% on energy consumption"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 1,
+   "rationale": "Some descriptive headings, but most detail sits in hidden tabs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "## Opportunity for water sector"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Sustainability consulting Our sustainability consulting business"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Our solutions can help our customers increase energy efficiency"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] ### Water loss reduction"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "proposed_level": 1,
+   "rationale": "Standards/sources absent except GRI G4 mention; no quotes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Global Reporting Initiative (GRI) G4 guidelines"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U6",
+   "proposed_level": 1,
+   "rationale": "Broad, crammed hub covering factories, cybersecurity, ESG reporting",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Our solutions cover the entire water cycle"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Digital transformation in factories and distribution centers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Brand self-talk and superlatives",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "we are global leaders in hardware, software, and services that are difficult to match"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "We offer the most comprehensive portfolio"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated; GRI G4 superseded by GRI Standards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Global Reporting Initiative (GRI) G4 guidelines"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 4,
+   "rationale": "Consideration-level breadth; CTAs generic Learn more",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Building next-generation Water and Wastewater systems requires bold steps to address issues"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "treat and distribute water and it generates direct greenhouse gases (GHGs) emissions"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Learn more"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "- Kunming CGE Water Supply"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": 1,
+   "rationale": "Problem named, unquantified, unsourced",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Increased demand and the threat of climate change make water management one of the biggest challenges in the coming years."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": 1,
+   "rationale": "Components listed as cards; little how-it-works prose in visible text",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Microgrids are a reliable alternative wherever a stable power supply is needed"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 4,
+   "rationale": "Quantified outcomes stated without basis",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "gains up to 70% greater engineering efficiency with EcoStruxure™ Automation Expert (EAE)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Our solutions save up to 30% on energy consumption"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "energy consumption and reduce CO2 emissions"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 3,
+   "rationale": "Named customers; quantified result only on Conroe teaser",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "- Kunming CGE Water Supply Water utility depends on EcoStruxure"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "City of Conroe enhances scalability and gains up to 70% greater engineering efficiency"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Aquapolo wastewater treatment plant uses EcoStruxure to increase operational efficiency"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": 1,
+   "rationale": "Subsegments exist but in hidden tab",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Membrane desalination plants are typically plants with limited capacity and energy-intensive operations."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": 1,
+   "rationale": "Consulting from strategy to implementation only",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Through our consultants, we support water clients from strategy to implementation."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": true,
+   "evidence": "\"global leaders ... difficult to match\", \"most comprehensive portfolio\", \"best-in-class\", \"leading\", \"award-winning\""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

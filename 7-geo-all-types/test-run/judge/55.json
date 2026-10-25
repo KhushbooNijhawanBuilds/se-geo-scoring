@@ -1,0 +1,417 @@
+{
+ "page": {
+  "id": "55",
+  "type": "esg_hub",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/about-us/sustainability/sustainability-reports/",
+  "topic": "Schneider Electric sustainability reports library",
+  "industry": "Energy Management & Sustainability (inferred)",
+  "target_prompts": [
+   "Where can I find Schneider Electric's latest sustainability report and ESG results?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 2,
+   "rationale": "H1 descriptive; hero announces results but gives none; no takeaways",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Sustainability results for Q3 2026 are in"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sustainability Reports"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Sustainability results for Q3 2026 are in"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## 2025 Sustainability Report followed only by an image"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": 0,
+   "rationale": "no KPIs on the hub",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": 0,
+   "rationale": "no targets",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": 0,
+   "rationale": "no reporting basis",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": 0,
+   "rationale": "no assurance/ratings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": 1,
+   "rationale": "quarterly entries dated; annual entries undated, no descriptions/companions",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "2025 Sustainability Report (no release date; quarterly entries do: \"Q3 Results (October 16, 2026) - Report\")"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "annual entries show only an image"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Check the answers"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 1,
+   "rationale": "ZZ_ placeholders; facts only in PDFs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "ZZ_Paragraph Title"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Access all integrated reports and information about investor events."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "ZZ_Paragraph Title ZZ_Paragraph Content"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "all results only in linked PDF reports"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 3,
+   "rationale": "dates and current quarter visible; no change notes",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Q3 Results (October 16, 2026) - Report"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Q3 Results (October 16, 2026)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Sustainability results for Q3 2026 are in"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "2025 Sustainability Report ... 2024 Sustainability Report ... 2023 Sustainability Report"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "neutral but no limitations; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Access all integrated reports and information about investor events."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "View extra-financial Quarterly Results"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "consistent names; vague link text; G13 cap",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "2025 Sustainability Report"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no contradictions found"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Check the answers"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "routes to quarterly results and investor information",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no Evaluation-depth content"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "View extra-financial Quarterly Results"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "View extra-financial Quarterly Results"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "All investor information"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "hub gives no KPIs; all results only in linked PDFs"
+  },
+  {
+   "id": "G13",
+   "triggered": true,
+   "evidence": "only report titles and dates; fewer than 3 substantive factual statements"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "ZZ_Paragraph Title / ZZ_Paragraph Content placeholders rendered live (3 components)"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

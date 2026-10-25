@@ -1,0 +1,445 @@
+{
+ "page": {
+  "id": "23",
+  "type": "case_study",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+  "topic": "Rubis Photosol transformer condition monitoring with EcoCare",
+  "target_prompts": [
+   "How did Rubis Photosol use condition-based monitoring to avoid transformer replacement costs?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "CS-1",
+   "proposed_level": 2,
+   "rationale": "Title names customer; H1 vague; summary lacks result",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Rubis Photosol, EcoCare Electrical Distribution Case Study"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "\"Smart monitoring for sustainable renewables performance\" - no concrete outcome"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France. ... Together, the companies operate 50 solar parks with a combined capacity of 600 MWp"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "covers who/problem/solution only; \"Aiming to maintain a 99% uptime rate\" is a target"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "CS-2",
+   "proposed_level": 4,
+   "rationale": "Full profile",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the leading independent producer of photovoltaic energy"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "50 solar parks with a combined capacity of 600 MWp"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "in France"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "operate 250 medium-voltage transformers"
+    }
+   ]
+  },
+  {
+   "id": "CS-3",
+   "proposed_level": 4,
+   "rationale": "Two quantified outcomes with baseline; no period",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Saved €420,000 thanks to accurate diagnosis of at-risk transformer"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Avoided 55 tons of CO₂ emissions"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Prior analyses had flagged four at-risk transformers, but our in-depth diagnostics confirmed only one was truly at risk"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "no date/period for the savings"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "This insight saved an estimated €420,000 in replacement costs"
+    },
+    {
+     "id": "c6",
+     "result": "pass",
+     "evidence": "Saved €420,000 thanks to accurate diagnosis"
+    }
+   ]
+  },
+  {
+   "id": "CS-4",
+   "proposed_level": 3,
+   "rationale": "Good narrative in tabs; solution section omits customer name",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Rubis Photosol and Photom Services operate 250 medium-voltage transformers and needed more insightful monitoring"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "IoT sensors track hydrogen levels, temperature, and vibration with the data aggregated in the EcoStruxure™ IoT platform"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The installation of IoT sensors took less than four hours"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"## A predictive, AI‑driven approach\" section does not name the customer"
+    }
+   ]
+  },
+  {
+   "id": "CS-5",
+   "proposed_level": 3,
+   "rationale": "Customer-side quote, promotional",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "“Only Schneider Electric offers this level of advanced solution."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Johnny Randoux"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Maintenance Manager at Photom Services"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"It’s a major added value\" - no fact or outcome"
+    }
+   ]
+  },
+  {
+   "id": "CS-6",
+   "proposed_level": 4,
+   "rationale": "EcoCare named, role explained, cards",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "AI-powered condition-based maintenance, 24/7 remote monitoring, predictive analytics, and alarm management"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Discover our IoT sensor and software analytics for transformers."
+    }
+   ]
+  },
+  {
+   "id": "CS-7",
+   "proposed_level": 0,
+   "rationale": "Saving is 'estimated' with no method",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"saved an estimated €420,000\" - estimation method not given"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "All four present",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "our EcoCare for Electrical Distribution Equipment service plan"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "On solar farms, transformers are critical for safe photovoltaic operation"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "This insight saved an estimated €420,000 in replacement costs"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Narrative only in collapsed tabs; slogan headings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"## Tangible results in hours, not months\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Saved €420,000 ... Avoided 55 tons"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment delivers"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Challenge/solution/results text is [hidden] tab content"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "Promo claims",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "\"delivers what traditional plans can’t\""
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Only Schneider Electric offers this level of advanced solution.\""
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "format does not allow"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 2,
+   "rationale": "Names ok; no identifiers; vague links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoCare for Electrical Distribution Equipment"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Saved €420,000 thanks to accurate diagnosis of at-risk transformer"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "\"Access the white paper\""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Evaluation-grade results; generic CTA",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Saved €420,000 ... avoided a 8–12-month lead time"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Maintenance Manager"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "\"Access the white paper\" - asset not named"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## EcoCare for Electrical Distribution Equipment"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G8",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

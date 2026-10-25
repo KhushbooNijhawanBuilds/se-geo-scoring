@@ -1,0 +1,353 @@
+{
+  "source": "html",
+  "facts": {
+    "url": {
+      "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+      "scheme": "https",
+      "host": "blog.se.com",
+      "path": "/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+      "slug": "3-operational-priorities-for-successful-ai-infrastructure-deployment",
+      "slug_chars": 68,
+      "slug_words": 8,
+      "query": "",
+      "fragment": "",
+      "date_in_path": true,
+      "repeated_slug_words": []
+    },
+    "title": {
+      "count": 1,
+      "text": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+      "chars": 94,
+      "est_px_18px_arial": 728,
+      "main_text": "3 operational priorities for successful AI infrastructure deployment",
+      "main_chars": 68,
+      "brand": "Schneider Electric Blog",
+      "brand_position": "end",
+      "brand_occurrences": 1,
+      "h1": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+      "title_h1_token_overlap": 0.5,
+      "title_equals_h1": false
+    },
+    "meta_description": {
+      "count": 1,
+      "text": "Scaling AI infrastructure requires more than demand. Learn the three operational priorities—power, infrastructure capacity, and workforce—that determine successful AI data center deployment.",
+      "chars": 190,
+      "est_px": 1179.3600000000001
+    },
+    "headings": {
+      "h1_count": 1,
+      "h1_texts": [
+        "AI infrastructure deployment: Demand is easy. Execution is hard."
+      ],
+      "list": [
+        {
+          "level": 2,
+          "text": "What does AI infrastructure deployment at scale mean?"
+        },
+        {
+          "level": 2,
+          "text": "How do fungible designs keep AI projects moving?"
+        },
+        {
+          "level": 2,
+          "text": "How does prefab help operators build at scale?"
+        },
+        {
+          "level": 2,
+          "text": "Which AI infrastructure operating model describes you?"
+        },
+        {
+          "level": 2,
+          "text": "How does Schneider Electric support repeatable AI infrastructure deployment?"
+        }
+      ],
+      "body_words": 649,
+      "words_per_subhead": 130,
+      "template_h2_in_article": [
+        "Add a comment Cancel reply",
+        "Top picks",
+        "What is Pipeline Integrity?",
+        "Energy in homes",
+        "Innovation is both the key and the challenge to efficiency improvement",
+        "Smart ports: How modernizing ports can reduce downtime risks"
+      ]
+    },
+    "intro_first_150_words": "The growing demand for AI is obvious The real question is What’s the build plan For data center operators meeting AI demand comes down to turning opportunity into operational capacity Is there a credible path to power Is electrical and mechanical capacity committed Can the project schedule survive a site change or a labor shortage If those answers are vague the forecast doesn’t matter even if demand is expected to triple by 2030 Leading operators make those decisions before they win the deal They build an execution plan early so when demand materializes they’re ready to turn it into revenue-producing capacity AI infrastructure deployment Demand is easy Execution is hard Scale is relative I see customers building 50 MW a year and others building ten or twenty times that Both can operate at scale The number changes but the discipline doesn’t At scale the second third and fifth projects don’t",
+    "dates": {
+      "visible": "2026-10-06",
+      "published_markup": "2026-10-06",
+      "modified_markup": "2026-10-16",
+      "source": "JSON-LD",
+      "modified_minus_published_days": 10
+    },
+    "links": {
+      "in_body_total": 4,
+      "internal": [
+        {
+          "href": "https://www.se.com/ww/en/work/solutions/ai-factory/prefab/",
+          "anchor": "prefabricated modular data center",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://blog.se.com/datacenter/2026/08/27/partnering-for-ai-ready-growth-delivering-data-center-infrastructure-at-scale/",
+          "anchor": "scale AI infrastructure delivery",
+          "rel": "noreferrer noopener"
+        },
+        {
+          "href": "https://www.se.com/us/en/work/solutions/ai-factory/",
+          "anchor": "AI data center plans",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "external": [
+        {
+          "href": "https://www.mckinsey.com/mgi/our-research/colocation-data-centers-the-infrastructure-race-behind-ai",
+          "anchor": "expected to triple by 2030",
+          "rel": "noreferrer noopener"
+        }
+      ],
+      "internal_with_tracking_params": [],
+      "generic_anchors": [],
+      "same_anchor_different_targets": []
+    },
+    "images": [
+      {
+        "src": "https://blog.se.com/wp-content/uploads/2026/10/Background-1024x443.png",
+        "alt": "Technician working on electrical equipment in a data center infrastructure room",
+        "role": null
+      }
+    ],
+    "og": {
+      "og:locale": "en_US",
+      "og:type": "article",
+      "og:title": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+      "og:description": "Scaling AI infrastructure requires more than demand. Learn the three operational priorities—power, infrastructure capacity, and workforce—that determine successful AI data center deployment.",
+      "og:url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+      "og:site_name": "Schneider Electric Blog",
+      "article:published_time": "2026-10-06T13:00:00+00:00",
+      "article:modified_time": "2026-10-16T05:59:20+00:00",
+      "og:image": "https://blog.se.com/wp-content/uploads/2026/10/Background-1024x443.png",
+      "og:image:width": "1024",
+      "og:image:height": "443",
+      "og:image:type": "image/png"
+    },
+    "jsonld_types": [
+      "Article",
+      "BreadcrumbList",
+      "ImageObject",
+      "Person",
+      "WebPage",
+      "WebSite"
+    ],
+    "article_ld": {
+      "type": "Article",
+      "headline": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+      "datePublished": "2026-10-06T13:00:00+00:00",
+      "dateModified": "2026-10-16T05:59:20+00:00",
+      "image": true,
+      "author_name": "Gary Lamora",
+      "author_type": "Person",
+      "author_url": "https://blog.se.com/author/gary-lamora/",
+      "author_sameAs": [
+        "https://www.linkedin.com/in/glamora/"
+      ]
+    },
+    "canonicals": [
+      "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/"
+    ],
+    "meta_robots": [
+      "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    ],
+    "hreflang": [],
+    "byline_links": [
+      {
+        "text": "Gary Lamora",
+        "href": "https://blog.se.com/author/gary-lamora/"
+      }
+    ]
+  },
+  "computed_checks": {
+    "S4.c1": {
+      "result": "pass",
+      "evidence": "slug '3-operational-priorities-for-successful-ai-infrastructure-deployment'"
+    },
+    "S4.c2": {
+      "result": "pass",
+      "evidence": "slug '3-operational-priorities-for-successful-ai-infrastructure-deployment'; hyphens, lowercase"
+    },
+    "S4.c3": {
+      "result": "pass",
+      "evidence": "query='' fragment=''"
+    },
+    "S4.c4": {
+      "result": "fail",
+      "evidence": "slug 68 chars, 8 words (convention <=60 chars)"
+    },
+    "S2.c1": {
+      "result": "pass",
+      "evidence": "1 <title>; text '3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog'"
+    },
+    "S2.c2": {
+      "result": "fail",
+      "evidence": "94 chars, ~728px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)"
+    },
+    "S2.c3": {
+      "result": "pass",
+      "evidence": "brand 'Schneider Electric Blog' x1, position end"
+    },
+    "S2.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3: none; years none"
+    },
+    "S2.c6": {
+      "result": "fail",
+      "evidence": "title main '3 operational priorities for successful AI infrastructure deployment' vs H1 'AI infrastructure deployment: Demand is easy. Execution is hard.': 50% of title content words in H1; numbers title ['3'] H1 []"
+    },
+    "S2.c4": {
+      "result": "fail",
+      "evidence": "keyword 'AI infrastructure deployment' not within first ~45 chars of '3 operational priorities for successful AI in'"
+    },
+    "S3.c1": {
+      "result": "pass",
+      "evidence": "1 meta description(s)"
+    },
+    "S3.c2": {
+      "result": "fail",
+      "evidence": "190 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)"
+    },
+    "S3.c3_partial": {
+      "result": "na",
+      "evidence": "not identical to title; judge decides if it summarises this page"
+    },
+    "S3.c5": {
+      "result": "pass",
+      "evidence": "tokens repeated >=3 in meta: none"
+    },
+    "S3.c4": {
+      "result": "pass",
+      "evidence": "keyword 'AI infrastructure deployment' in meta description"
+    },
+    "S5.c1": {
+      "result": "pass",
+      "evidence": "1 H1: ['AI infrastructure deployment: Demand is easy. Execution is hard.']"
+    },
+    "S5.c2": {
+      "result": "pass",
+      "evidence": "649 body words, 5 H2/H3 -> ~130 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')"
+    },
+    "S5.c4": {
+      "result": "fail",
+      "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'What is Pipeline Integrity?', 'Energy in homes', 'Innovation is both the key and the challenge to efficiency improvement', 'Smart ports: How modernizing ports can reduce downtime risks']"
+    },
+    "S6.c1": {
+      "result": "pass",
+      "evidence": "title: '3 operational priorities for successful AI infrastructure deployment'"
+    },
+    "S6.c2": {
+      "result": "pass",
+      "evidence": "H1: 'AI infrastructure deployment: Demand is easy. Execution is hard.'"
+    },
+    "S6.c3": {
+      "result": "pass",
+      "evidence": "first 150 words contain all of ['ai', 'infrastructure', 'deployment']"
+    },
+    "S6.c4": {
+      "result": "pass",
+      "evidence": "subheads with topic: ['What does AI infrastructure deployment at scale mean?', 'How does Schneider Electric support repeatable AI infrastructure deployment?']"
+    },
+    "S6.c5": {
+      "result": "pass",
+      "evidence": "exact phrase x1 (~0.46% of words; stuffing trigger >3%); in 40% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target."
+    },
+    "S10.c1": {
+      "result": "pass",
+      "evidence": "visible date 2026-10-06"
+    },
+    "S10.c2": {
+      "result": "pass",
+      "evidence": "visible 2026-10-06 vs markup published 2026-10-06"
+    },
+    "S10.c3": {
+      "result": "pass",
+      "evidence": "published 2026-10-06, modified 2026-10-16"
+    },
+    "S11.c1": {
+      "result": "pass",
+      "evidence": "3 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)"
+    },
+    "S11.c3": {
+      "result": "pass",
+      "evidence": "generic anchors none; same anchor -> different URLs none"
+    },
+    "S11.c4": {
+      "result": "pass",
+      "evidence": "internal links with tracking/ID params: none"
+    },
+    "S11.c5": {
+      "result": "pass",
+      "evidence": "non-crawlable hrefs: none; all in-body links are <a href>"
+    },
+    "S12.c2": {
+      "result": "pass",
+      "evidence": "1 outbound editorial links; rel values ['noreferrer noopener']"
+    },
+    "S13.c1": {
+      "result": "pass",
+      "evidence": "1/1 content images have non-empty alt"
+    },
+    "S13.c3": {
+      "result": "fail",
+      "evidence": "non-descriptive filenames: ['Background-1024x443.png']"
+    },
+    "S14.c1": {
+      "result": "pass",
+      "evidence": "Article; missing none"
+    },
+    "S14.c2": {
+      "result": "pass",
+      "evidence": "author Person 'Gary Lamora', url=https://blog.se.com/author/gary-lamora/, sameAs=['https://www.linkedin.com/in/glamora/']"
+    },
+    "S14.c3": {
+      "result": "pass",
+      "evidence": "markup headline 'AI infrastructure deployment: Demand is easy. Execution is hard.' vs H1/title; markup author 'Gary Lamora' vs byline 'Gary Lamora'; dates 2026-10-06 vs 2026-10-06"
+    },
+    "S14.c4": {
+      "result": "pass",
+      "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']"
+    },
+    "S14.c5": {
+      "result": "pass",
+      "evidence": "missing none; og:url = canonical; og:title 'AI infrastructure deployment: Demand is easy. Execution is hard.'"
+    }
+  },
+  "computed_eligibility": {
+    "E2": {
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' (X-Robots-Tag and robots.txt need the HTTP response)"
+    },
+    "E3": {
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/']; page URL https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/"
+    },
+    "E4": {
+      "result": "na",
+      "evidence": "no hreflang tags"
+    },
+    "E5": {
+      "result": "pass",
+      "evidence": "scheme https"
+    },
+    "E6": {
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1' (content parity needs a mobile render)"
+    },
+    "E7": {
+      "result": "pass",
+      "evidence": "snippet directives in 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'"
+    },
+    "E8": {
+      "result": "pass",
+      "evidence": "649 body words in server HTML"
+    }
+  }
+}

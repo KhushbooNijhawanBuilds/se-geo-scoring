@@ -1,0 +1,534 @@
+{
+  "page": {
+    "id": "24 Zicaffè",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Open, software-defined automation and digitalization in coffee production",
+    "industry": "Food & beverage",
+    "target_prompts": [
+      "How did Zicaffè digitalize its coffee production?",
+      "Examples of food and beverage plants using software-defined automation",
+      "What is EcoStruxure Automation Expert?",
+      "Benefits of open automation in food and beverage",
+      "Coffee roasting plant automation case study"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Customer story - Zicaffe",
+          "location": "title line",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation and artisanship in every cup",
+          "location": "H1 slogan",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Customer in title only; slogan H1; no summary.",
+      "proposed_level": 1,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "industry not explicit in body (only meta)",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Sicily only in meta",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Improvement of the full production process lifecycle",
+          "location": "scope",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Profile absent from body.",
+      "proposed_level": 1,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Greater control and a lower risk of errors to ensure the right blend",
+          "location": "unquantified",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "rationale": "No quantified result.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Data digitization digitalizes operations for increased efficiency",
+          "location": "tautology, not a solution description",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No narrative in server text.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Quote with name and role exists only client-side.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure™ Automation Expert",
+          "location": "solutions list",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Solutions used by Zicaffè",
+          "location": "list",
+          "id": "c3"
+        }
+      ],
+      "rationale": "Listed only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "rationale": "No results, no method.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Greater control and a lower risk of errors to ensure the right blend",
+          "location": "highlights",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Outcome vaguely stated; nothing else.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "## Industries of the Future",
+          "location": "promo heading",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Solutions used by Zicaffè",
+          "location": "list",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no prose",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "story only in client-rendered components",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Lists and promo cards only.",
+      "proposed_level": 1,
+      "confidence": "medium"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation and artisanship in every cup",
+          "location": "slogan",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No informational voice.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Customer story - Zicaffe",
+          "location": "Zicaffe vs Zicaffè",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Modicon Edge Control",
+          "location": "named offer",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Harmony HMI",
+          "location": "no contradiction",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Lavazza",
+          "location": "related stories named",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Customer name inconsistent; 'TeSys contractors' looks like a misnomer for contactors (SME check).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "whole page",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated facts",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle not relevant to a customer story",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no update evidence",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Data digitization digitalizes operations for increased efficiency",
+          "location": "unclear language",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Don’t stop here.",
+          "location": "vague CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoStruxure for Food and Beverage",
+          "location": "next-step card",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Mismatch for Evaluation.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": true,
+      "evidence": "No quantified outcome in text."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": true,
+      "evidence": "Body-only fluff 3.2/100 words (2.2 excluding the 'Innovation Summits' proper noun) > 1.5"
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Story narrative, hero summary and customer quote are rendered client-side inside QDS web components (shadow DOM); they are absent from the server HTML that non-JS AI crawlers (GPTBot, ClaudeBot, PerplexityBot) receive. Verified in a browser 2026-10-19 → route to SE Digital (server-render or declarative shadow DOM).",
+    "Two H1 elements (second: 'EcoStruxure™ Plant and Machine')."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

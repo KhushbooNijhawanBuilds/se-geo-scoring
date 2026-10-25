@@ -1,0 +1,993 @@
+{
+  "version": "2.2-2026-10-25",
+  "note": "SE Content GEO Scoring Standard v2.2 weights. Default weights per page type sum to 100. Evidence-informed and pilot-calibrated on the 60-URL SE inventory (Oct 2026); recalibrate on the expanded gold set. Mirrors references/page-types-v2.md (v2 types) and references/page-types.md (v1 types). Score the RENDERED page content; report the crawler gap separately. v2.1 (20 Oct 2026): level anchors and per-criterion caps from the rubric are applied in code (level_anchors, level_caps); checks-to-level ceiling rounds halves up; G1 no longer zeroes DOC-6 (customer language). v2.2 (25 Oct 2026): default level = ceiling (after anchors, before caps); the judge may lower it only with a downgrade_reason that names a passed check; note evidence allowed for absence/layout checks (note_allowed_checks); na on block-dependent checks becomes fail (block_dependent_checks, na_is_fail); per-type anchor override for case_study U9. No weight changed.",
+  "families": {
+    "answer_def": [
+      "U1",
+      "U2",
+      "GLO-1",
+      "ART-1",
+      "NEWS-1",
+      "CS-1",
+      "CALC-4",
+      "WP-1"
+    ],
+    "evidence": [
+      "U5",
+      "ART-3",
+      "DOC-8",
+      "NEWS-3",
+      "NEWS-4",
+      "CALC-1",
+      "SOL-1",
+      "WP-2",
+      "ESG-3",
+      "ESG-4"
+    ],
+    "fanout": [
+      "U6",
+      "WP-3"
+    ],
+    "tone": [
+      "U7",
+      "BLK-6"
+    ],
+    "comparison": [
+      "CMP-1",
+      "CMP-2",
+      "CMP-3",
+      "CAT-1",
+      "CAT-2",
+      "CAT-3",
+      "RNG-1",
+      "RNG-2",
+      "PDP-6",
+      "CALC-5",
+      "SOL-7",
+      "SW-7"
+    ],
+    "specs": [
+      "PDP-1",
+      "PDP-3",
+      "PDP-4",
+      "RNG-5",
+      "RNG-6",
+      "RNG-9",
+      "CAT-4",
+      "DOC-3",
+      "U4",
+      "GLO-2",
+      "SW-1",
+      "SW-2",
+      "SW-3",
+      "SW-4",
+      "CALC-2",
+      "CALC-3",
+      "SOL-2",
+      "SVC-1",
+      "SVC-2",
+      "SVC-3",
+      "ESG-1"
+    ],
+    "proof": [
+      "PDP-7",
+      "CS-3",
+      "CS-5",
+      "CS-7",
+      "SOL-5",
+      "RNG-3",
+      "SW-6",
+      "SVC-7",
+      "ESG-2"
+    ],
+    "commercial": [
+      "PDP-8",
+      "U10",
+      "BLK-8",
+      "FAQ-7",
+      "NEWS-5",
+      "RNG-8",
+      "SW-5",
+      "SOL-8",
+      "SVC-5"
+    ],
+    "freshness": [
+      "U9",
+      "DOC-7",
+      "NEWS-2",
+      "SW-8"
+    ]
+  },
+  "stage_multipliers": {
+    "Awareness": {
+      "answer_def": 1.4,
+      "evidence": 1.2,
+      "fanout": 1.2,
+      "tone": 1.4,
+      "comparison": 0.6,
+      "specs": 0.7,
+      "proof": 0.7,
+      "commercial": 0.5,
+      "freshness": 1.0
+    },
+    "Education": {
+      "answer_def": 1.3,
+      "evidence": 1.4,
+      "fanout": 1.3,
+      "tone": 1.3,
+      "comparison": 0.9,
+      "specs": 0.9,
+      "proof": 0.9,
+      "commercial": 0.6,
+      "freshness": 1.0
+    },
+    "Consideration": {
+      "answer_def": 1.0,
+      "evidence": 1.1,
+      "fanout": 1.1,
+      "tone": 1.2,
+      "comparison": 1.5,
+      "specs": 1.1,
+      "proof": 1.2,
+      "commercial": 0.9,
+      "freshness": 1.1
+    },
+    "Evaluation": {
+      "answer_def": 0.9,
+      "evidence": 1.0,
+      "fanout": 1.0,
+      "tone": 1.0,
+      "comparison": 1.4,
+      "specs": 1.5,
+      "proof": 1.4,
+      "commercial": 1.1,
+      "freshness": 1.1
+    },
+    "Decision": {
+      "answer_def": 0.9,
+      "evidence": 0.8,
+      "fanout": 0.8,
+      "tone": 0.7,
+      "comparison": 1.0,
+      "specs": 1.3,
+      "proof": 1.2,
+      "commercial": 1.5,
+      "freshness": 1.2
+    }
+  },
+  "page_types": {
+    "pdp": {
+      "U1": 10,
+      "U2": 6,
+      "PDP-1": 16,
+      "PDP-2": 8,
+      "PDP-3": 7,
+      "PDP-4": 6,
+      "PDP-5": 7,
+      "PDP-6": 5,
+      "PDP-7": 4,
+      "PDP-8": 5,
+      "PDP-9": 5,
+      "U4": 6,
+      "U7": 5,
+      "U8": 6,
+      "U9": 4
+    },
+    "range": {
+      "U1": 10,
+      "U2": 5,
+      "RNG-1": 10,
+      "RNG-2": 12,
+      "RNG-3": 6,
+      "RNG-4": 5,
+      "RNG-5": 6,
+      "RNG-6": 5,
+      "RNG-7": 4,
+      "RNG-8": 6,
+      "RNG-9": 11,
+      "U3": 5,
+      "U5": 3,
+      "U7": 4,
+      "U8": 5,
+      "U9": 3
+    },
+    "category": {
+      "U1": 10,
+      "U2": 5,
+      "CAT-1": 16,
+      "CAT-2": 14,
+      "CAT-3": 8,
+      "CAT-4": 5,
+      "CAT-5": 7,
+      "CAT-6": 4,
+      "U4": 6,
+      "U6": 7,
+      "U7": 7,
+      "U9": 5,
+      "U10": 6
+    },
+    "caas": {
+      "BLK-1": 22,
+      "BLK-2": 10,
+      "BLK-3": 18,
+      "BLK-4": 15,
+      "BLK-5": 10,
+      "BLK-6": 10,
+      "BLK-7": 5,
+      "BLK-8": 5,
+      "BLK-9": 5
+    },
+    "editorial": {
+      "U1": 16,
+      "U2": 8,
+      "U3": 10,
+      "U4": 10,
+      "U5": 12,
+      "U6": 12,
+      "U7": 8,
+      "U8": 6,
+      "U9": 8,
+      "U10": 10
+    },
+    "article": {
+      "U1": 14,
+      "ART-1": 5,
+      "ART-2": 7,
+      "U3": 8,
+      "U4": 10,
+      "U5": 12,
+      "ART-3": 10,
+      "U6": 10,
+      "U7": 7,
+      "U8": 4,
+      "U9": 5,
+      "U10": 8
+    },
+    "document": {
+      "DOC-1": 18,
+      "DOC-2": 12,
+      "DOC-3": 12,
+      "DOC-4": 8,
+      "DOC-5": 6,
+      "DOC-6": 8,
+      "DOC-7": 10,
+      "DOC-8": 8,
+      "DOC-9": 6,
+      "U8": 7,
+      "U7": 5
+    },
+    "datasheet": {
+      "DOC-1": 18,
+      "DOC-2": 12,
+      "DOC-3": 16,
+      "DOC-4": 8,
+      "DOC-5": 6,
+      "DOC-6": 8,
+      "DOC-7": 10,
+      "DOC-8": 4,
+      "DOC-9": 6,
+      "U8": 7,
+      "U7": 5
+    },
+    "case_study": {
+      "CS-1": 14,
+      "CS-2": 8,
+      "CS-3": 20,
+      "CS-4": 8,
+      "CS-5": 7,
+      "CS-6": 7,
+      "CS-7": 6,
+      "U2": 4,
+      "U3": 8,
+      "U7": 5,
+      "U8": 5,
+      "U9": 4,
+      "U10": 4
+    },
+    "comparison": {
+      "CMP-1": 20,
+      "CMP-2": 16,
+      "CMP-3": 10,
+      "U1": 10,
+      "U5": 10,
+      "U4": 8,
+      "U6": 8,
+      "U7": 6,
+      "U9": 6,
+      "U10": 6
+    },
+    "faq": {
+      "FAQ-1": 12,
+      "FAQ-2": 22,
+      "FAQ-3": 12,
+      "FAQ-4": 10,
+      "FAQ-5": 10,
+      "FAQ-6": 6,
+      "U4": 10,
+      "U9": 10,
+      "FAQ-7": 8
+    },
+    "glossary": {
+      "GLO-1": 28,
+      "GLO-2": 16,
+      "GLO-3": 14,
+      "GLO-4": 14,
+      "U5": 8,
+      "GLO-5": 8,
+      "U7": 6,
+      "U9": 6
+    },
+    "solution": {
+      "U1": 10,
+      "U2": 6,
+      "U3": 6,
+      "U5": 4,
+      "U6": 6,
+      "U7": 6,
+      "U9": 3,
+      "U10": 3,
+      "SOL-1": 7,
+      "SOL-2": 13,
+      "SOL-4": 11,
+      "SOL-5": 10,
+      "SOL-7": 10,
+      "SOL-8": 5
+    },
+    "video": {
+      "VID-1": 12,
+      "VID-2": 12,
+      "VID-3": 16,
+      "VID-4": 12,
+      "VID-5": 14,
+      "VID-6": 10,
+      "VID-7": 12,
+      "VID-8": 12
+    },
+    "news": {
+      "NEWS-1": 12,
+      "U2": 12,
+      "NEWS-2": 8,
+      "U4": 10,
+      "NEWS-3": 12,
+      "NEWS-4": 7,
+      "NEWS-5": 9,
+      "NEWS-6": 7,
+      "U3": 7,
+      "U6": 6,
+      "U7": 6,
+      "U8": 4
+    },
+    "calculator": {
+      "U1": 10,
+      "U2": 4,
+      "CALC-1": 16,
+      "CALC-2": 13,
+      "CALC-3": 15,
+      "CALC-4": 7,
+      "CALC-5": 6,
+      "U3": 6,
+      "U5": 5,
+      "U7": 4,
+      "U8": 4,
+      "U9": 5,
+      "U10": 5
+    },
+    "service": {
+      "U1": 10,
+      "U2": 4,
+      "U3": 6,
+      "U7": 5,
+      "U9": 3,
+      "U10": 3,
+      "SVC-1": 13,
+      "SVC-2": 12,
+      "SVC-3": 9,
+      "SVC-4": 8,
+      "SVC-5": 8,
+      "SVC-6": 10,
+      "SVC-7": 9
+    },
+    "service_project": {
+      "U1": 10,
+      "U2": 4,
+      "U3": 6,
+      "U7": 5,
+      "U9": 3,
+      "U10": 3,
+      "SVC-1": 15,
+      "SVC-2": 8,
+      "SVC-3": 9,
+      "SVC-4": 10,
+      "SVC-5": 8,
+      "SVC-6": 10,
+      "SVC-7": 9
+    },
+    "software_product": {
+      "U1": 10,
+      "U2": 5,
+      "SW-1": 12,
+      "SW-2": 11,
+      "SW-3": 9,
+      "SW-4": 9,
+      "SW-5": 11,
+      "SW-6": 8,
+      "SW-7": 5,
+      "SW-8": 4,
+      "U3": 4,
+      "U7": 4,
+      "U8": 4,
+      "U9": 4
+    },
+    "software_hub": {
+      "U1": 12,
+      "U2": 6,
+      "SW-7": 16,
+      "SW-1": 12,
+      "SW-2": 6,
+      "SW-3": 4,
+      "SW-4": 4,
+      "SW-5": 4,
+      "SW-6": 8,
+      "SW-8": 6,
+      "U3": 8,
+      "U7": 5,
+      "U8": 5,
+      "U9": 4
+    },
+    "software_trial": {
+      "U1": 12,
+      "U2": 6,
+      "SW-5": 26,
+      "SW-3": 14,
+      "SW-1": 12,
+      "SW-4": 6,
+      "U10": 6,
+      "U3": 6,
+      "U8": 6,
+      "U9": 6
+    },
+    "whitepaper_gateway": {
+      "U1": 12,
+      "WP-1": 10,
+      "WP-2": 14,
+      "WP-3": 8,
+      "U4": 8,
+      "DOC-8": 10,
+      "DOC-7": 8,
+      "DOC-5": 4,
+      "U3": 6,
+      "U8": 6,
+      "U7": 4,
+      "U10": 6,
+      "DOC-9": 4
+    },
+    "whitepaper_doc": {
+      "DOC-1": 14,
+      "DOC-2": 12,
+      "DOC-3": 8,
+      "DOC-4": 10,
+      "DOC-5": 6,
+      "DOC-6": 8,
+      "DOC-7": 10,
+      "DOC-8": 14,
+      "U4": 8,
+      "U8": 5,
+      "U7": 5
+    },
+    "esg_hub": {
+      "U1": 12,
+      "ESG-1": 20,
+      "ESG-2": 12,
+      "ESG-3": 6,
+      "ESG-4": 6,
+      "ESG-5": 14,
+      "U3": 8,
+      "DOC-7": 8,
+      "U7": 4,
+      "U8": 4,
+      "U10": 6
+    },
+    "esg_report": {
+      "U1": 10,
+      "ESG-1": 22,
+      "ESG-2": 14,
+      "ESG-3": 10,
+      "ESG-4": 8,
+      "ESG-5": 8,
+      "DOC-7": 10,
+      "U8": 6,
+      "DOC-5": 4,
+      "U7": 4,
+      "U10": 4
+    },
+    "esg_report_doc": {
+      "DOC-1": 12,
+      "ESG-1": 18,
+      "ESG-2": 10,
+      "ESG-3": 12,
+      "ESG-4": 10,
+      "ESG-5": 6,
+      "DOC-4": 12,
+      "DOC-7": 8,
+      "U8": 6,
+      "U7": 6
+    }
+  },
+  "gates": {
+    "G1": {
+      "cap": 59,
+      "zero": [
+        "U8",
+        "BLK-4"
+      ],
+      "desc": "Factual contradiction"
+    },
+    "G2": {
+      "cap": 39,
+      "desc": "Primary question/subject never answered or defined"
+    },
+    "G3": {
+      "cap": 40,
+      "desc": "PDP/datasheet with no quantified specs in text"
+    },
+    "G4": {
+      "cap": 39,
+      "desc": "Misleading or unsafe technical/safety statement (escalate to SME)"
+    },
+    "G5": {
+      "cap": 49,
+      "desc": "Title/H1 promise not delivered (clickbait / intent mismatch)"
+    },
+    "G6": {
+      "cap": 59,
+      "max_level": {
+        "U3": 2
+      },
+      "desc": "Core content only in gated asset / image / video / PDF / interactive widget without an HTML-text equivalent on the page"
+    },
+    "G7": {
+      "cap": 59,
+      "desc": "Dated content type (article, news) with no visible publication date"
+    },
+    "G8": {
+      "cap": 59,
+      "desc": "Case study with no quantified customer outcome in body text (targets, vanity and meta-only numbers do not count)"
+    },
+    "G9": {
+      "cap": 39,
+      "max_level": {
+        "U3": 2
+      },
+      "desc": "Calculator: method, assumptions and example results all absent from page text (CALC-1, CALC-2, CALC-3 all level 0)"
+    },
+    "G10": {
+      "cap": 49,
+      "desc": "Range page with no rating, capacity or size with a unit for the range or any member"
+    },
+    "G11": {
+      "cap": 49,
+      "desc": "Software product/trial page stating none of: deployment model, integrations/protocols, security facts, licensing/pricing/trial terms"
+    },
+    "G12": {
+      "cap": 40,
+      "desc": "Service page with no concrete deliverable and no service-level fact (SVC-1 c1 and c2 fail and SVC-2 has no passing check)"
+    },
+    "G13": {
+      "cap": 100,
+      "max_level": {
+        "U7": 2,
+        "U8": 2
+      },
+      "desc": "Thin page (universal): fewer than 3 substantive factual statements; tone/consistency passes are vacuous (U7, U8 max level 2)"
+    }
+  },
+  "penalties": {
+    "keyword_stuffing": 3,
+    "fluff_density": 2,
+    "boilerplate": 2,
+    "cta_overload": 1,
+    "self_ranking": 3,
+    "hidden_instructions": 10,
+    "template_artifact": 2,
+    "superseded_no_notice": 3
+  },
+  "penalty_cap": 10,
+  "bands": [
+    [
+      90,
+      "Excellent"
+    ],
+    [
+      70,
+      "Good"
+    ],
+    [
+      40,
+      "Average"
+    ],
+    [
+      0,
+      "Poor"
+    ]
+  ],
+  "ok_threshold": 70,
+  "fact_density_threshold_per_100w": {
+    "default": 2.0,
+    "article": 1.0,
+    "news": 1.0,
+    "editorial": 1.0,
+    "solution": 1.0,
+    "service": 1.0,
+    "service_project": 1.0,
+    "case_study": 1.0,
+    "software_hub": 1.0,
+    "esg_hub": 1.0,
+    "glossary": 1.0
+  },
+  "crawler_gap": {
+    "flag_if_server_to_rendered_below": 0.7,
+    "also_flag_if_missing_server_side": [
+      "H1",
+      "primary outcome",
+      "method/assumptions",
+      "key facts"
+    ],
+    "route": "Out-of-scope observation -> SE Digital (rendering). Not scored."
+  },
+  "level_rounding": "half_up",
+  "level_anchors": {
+    "_doc": "Rubric anchors for levels 3 and 4 (scoring-framework.md §2). When the listed checks pass (N/A counts as met), the criterion is at least that level, unless a level_cap or gate lowers it. Level 5 still needs every applicable check to pass AND the judge to propose 5 (exceptional evidence).",
+    "U1": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    "U3": {
+      "3": [
+        "c1",
+        "c2",
+        "c3"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    "U4": {
+      "3": [
+        "c1",
+        "c3"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    "U5": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": {
+        "any": 4
+      }
+    },
+    "U6": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    "U7": {
+      "3": [
+        "c1",
+        "c3"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "U8": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "U9": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    },
+    "U10": {
+      "3": [
+        "c1",
+        "c2"
+      ],
+      "4": [
+        "c1",
+        "c2",
+        "c3"
+      ]
+    }
+  },
+  "level_caps": {
+    "_doc": "Per-criterion caps stated in the rubric text. unless_pass: if any listed check FAILS (N/A does not), the level is capped at max. if_all_fail: if every listed check fails, the level is capped at max.",
+    "U3": [
+      {
+        "max": 2,
+        "unless_pass": [
+          "c5"
+        ],
+        "why": "key facts only in image/video/PDF/tab/widget (framework U3 rule, R2)"
+      }
+    ],
+    "U9": [
+      {
+        "max": 1,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "undated (framework anchor 1; v2 'undated -> <= 1')"
+      }
+    ],
+    "ART-1": [
+      {
+        "max": 0,
+        "unless_pass": [
+          "c1"
+        ],
+        "why": "no takeaways block -> level 0"
+      }
+    ],
+    "ART-3": [
+      {
+        "max": 4,
+        "unless_pass": [
+          "c1",
+          "c3"
+        ],
+        "why": "level 5 needs SE first-party data plus first-hand detail"
+      }
+    ],
+    "SOL-1": [
+      {
+        "max": 3,
+        "unless_pass": [
+          "c3"
+        ],
+        "why": "problem fact not attributed to a named source"
+      }
+    ],
+    "SOL-2": [
+      {
+        "max": 2,
+        "if_all_fail": [
+          "c1",
+          "c4"
+        ],
+        "why": "no how-it-works prose and no quantified parameter"
+      }
+    ],
+    "SOL-4": [
+      {
+        "max": 3,
+        "unless_pass": [
+          "c3",
+          "c5"
+        ],
+        "why": "level >= 4 needs a stated basis and resolved footnotes"
+      }
+    ],
+    "SOL-5": [
+      {
+        "max": 2,
+        "unless_pass": [
+          "c2"
+        ],
+        "why": "no reference with a quantified result"
+      }
+    ],
+    "SVC-2": [
+      {
+        "max": 2,
+        "if_all_fail": [
+          "c2",
+          "c3"
+        ],
+        "why": "no numeric service commitment"
+      }
+    ],
+    "SVC-6": [
+      {
+        "max": 3,
+        "unless_pass": [
+          "c3",
+          "c5"
+        ],
+        "why": "same rule as SOL-4"
+      }
+    ],
+    "SVC-7": [
+      {
+        "max": 2,
+        "unless_pass": [
+          "c2"
+        ],
+        "why": "no reference with a quantified result"
+      }
+    ]
+  },
+  "level_rule": {
+    "_doc": "v2.2. Level = ceiling from checks, raised to the anchor floor, then capped. The judge's proposed_level is used only when it is lower AND downgrade_reason names a check id of that criterion whose result is pass (the weak check); it never goes below the anchor floor. Otherwise proposed_level is ignored.",
+    "default": "ceiling",
+    "downgrade_requires": "downgrade_reason naming a passed check id (e.g. 'c3: figure has no unit')"
+  },
+  "note_allowed_checks": {
+    "_doc": "Checks proven by absence or layout: a pass may carry evidence_type 'note' (a judge observation) instead of a verbatim quote. A pass with evidence_type 'note' on any other check is treated as fail (presence checks still need a quote).",
+    "U1": [
+      "c3"
+    ],
+    "U3": [
+      "c3",
+      "c4",
+      "c5"
+    ],
+    "U4": [
+      "c3"
+    ],
+    "U6": [
+      "c3"
+    ],
+    "U7": [
+      "c3"
+    ],
+    "U8": [
+      "c3"
+    ],
+    "U9": [
+      "c2"
+    ],
+    "U10": [
+      "c1",
+      "c2"
+    ],
+    "ART-1": [
+      "c4"
+    ],
+    "ART-2": [
+      "c2"
+    ],
+    "RNG-4": [
+      "c3"
+    ],
+    "RNG-9": [
+      "c4",
+      "c5"
+    ],
+    "SW-1": [
+      "c5"
+    ],
+    "PDP-1": [
+      "c4"
+    ],
+    "CAT-3": [
+      "c2"
+    ],
+    "BLK-5": [
+      "c1"
+    ],
+    "BLK-6": [
+      "c3"
+    ],
+    "FAQ-2": [
+      "c3",
+      "c4"
+    ],
+    "FAQ-3": [
+      "c2"
+    ],
+    "FAQ-6": [
+      "c1"
+    ],
+    "WP-1": [
+      "c1",
+      "c6"
+    ],
+    "SOL-2": [
+      "c5"
+    ],
+    "SVC-1": [
+      "c5"
+    ],
+    "NEWS-2": [
+      "c4"
+    ],
+    "DOC-3": [
+      "c3"
+    ],
+    "DOC-4": [
+      "c3",
+      "c4"
+    ],
+    "ESG-1": [
+      "c4"
+    ],
+    "VID-8": [
+      "c2"
+    ]
+  },
+  "block_dependent_checks": {
+    "_doc": "When the block check fails, the listed checks cannot be na: an na there is scored as fail (a missing block scores 0, it is not dropped).",
+    "ART-1": {
+      "block": "c1",
+      "then_fail": [
+        "c2",
+        "c3",
+        "c4"
+      ]
+    },
+    "CS-1": {
+      "block": "c3",
+      "then_fail": [
+        "c4",
+        "c5"
+      ]
+    },
+    "RNG-1": {
+      "block": "c1",
+      "then_fail": [
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ]
+    }
+  },
+  "na_is_fail": {
+    "_doc": "Checks that may never be na: na is scored as fail (e.g. U1 c4 on a page with no sections).",
+    "U1": [
+      "c4"
+    ]
+  },
+  "level_anchor_overrides": {
+    "_doc": "Per-type anchor replacements where a type has fewer checks than the generic anchor names.",
+    "case_study": {
+      "U9": {
+        "3": [
+          "c1",
+          "c2"
+        ]
+      }
+    }
+  }
+}

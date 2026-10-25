@@ -1,0 +1,478 @@
+{
+ "page": {
+  "id": "43",
+  "type": "software_hub",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/software/",
+  "topic": "Schneider Electric industrial software portfolio",
+  "target_prompts": [
+   "What industrial software does Schneider Electric offer for automation and energy management?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Portfolio hub -> Consideration (default)"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Empowering all users with a seamless and collaborative dataflow (no definition)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Our agnostic software portfolio (no category/subject)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Our strong agnostic software portfolio and partnerships with world-leading independent software companies bring together electrification, automation and digital intelligence"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Find what you are looking for"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "We offer a vast portfolio of empowering, agnostic software solutions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Consultant, Designer, and Engineer"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "from design and build to operate and maintain"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "improve efficiency of your operations (no concrete result)"
+    }
+   ]
+  },
+  {
+   "id": "SW-7",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Programming software for Modicon PACs (formerly Unity Pro)."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "role list without product mapping"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Schneider Electric and AVEVA (label only)"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Setup software to configure Altivar, Altistart, Lexium and TeSys motor control devices."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Configuration software for Zelio Logic smart relays (SR2/ SR3)."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Panel builder software for configuration and quotation of Prisma – LV switchboard"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "10 portfolio cards are labels only (EcoStruxure™ Automation Expert, AVEVA™ Edge ...)"
+    }
+   ]
+  },
+  {
+   "id": "SW-2",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "BIM Library - Autodesk Revit models"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "agnostic software portfolio (unbacked)"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Software Licensing (link label only)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Select the right software for your automation project. For EcoStruxure™ Automation Expert and Control Expert."
+    }
+   ]
+  },
+  {
+   "id": "SW-6",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-8",
+   "proposed_level": 2,
+   "rationale": "1/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "(formerly SoMachine)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "software and firmware releases and updates (no release notes named)"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Find what you are looking for; empty category headings"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Configuration software for Zelio Logic smart relays (SR2/ SR3)."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "We began by reimagining the building design process"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "portfolio descriptions only behind image cards"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "We are your energy technology partner."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "View now x8 / Find out more x3"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "world-leading ... with no alternatives"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "EcoStruxure™ vs EcoStruxure"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Zelio Logic smart relays (SR2/ SR3)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Programming software for Modicon PACs"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "View now / Find out more"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": true,
+   "evidence": "Text identical to sibling page #43/#44"
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "View now x8, Find out more x3, Learn more"
+  }
+ ]
+}

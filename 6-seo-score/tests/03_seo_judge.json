@@ -1,0 +1,663 @@
+{
+  "page": {
+    "url": "https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/",
+    "title": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+    "h1": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+    "keyword": "AI infrastructure deployment",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "proposed_level": 3,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Title '3 operational priorities for successful AI infrastructure deployment' names the topic",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'meeting AI demand comes down to turning opportunity into operational capacity. Is there a credible path to power?'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Question H2s, e.g. 'How does prefab help operators build at scale?'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Title promises '3 operational priorities' and meta 'power, infrastructure capacity, and workforce'; body has no 3-priority structure and no workforce section",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "One closing SE section: 'How does Schneider Electric support repeatable AI infrastructure deployment?'",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c4 fail; c6 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 <title>; text '3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "94 chars, ~728px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "brand 'Schneider Electric Blog' x1, position end",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "keyword 'AI infrastructure deployment' not within first ~45 chars of '3 operational priorities for successful AI in'",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3: none; years none",
+          "source": "computed"
+        },
+        {
+          "id": "c6",
+          "result": "fail",
+          "evidence": "title main '3 operational priorities for successful AI infrastructure deployment' vs H1 'AI infrastructure deployment: Demand is easy. Execution is hard.': 50% of title content words in H1; numbers title ['3'] H1 []",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 meta description(s)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "190 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Meta promises 'three operational priorities—power, infrastructure capacity, and workforce' which the page does not deliver as structure",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'AI infrastructure deployment' in meta description",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3 in meta: none",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "slug '3-operational-priorities-for-successful-ai-infrastructure-deployment'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "slug '3-operational-priorities-for-successful-ai-infrastructure-deployment'; hyphens, lowercase",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "query='' fragment=''",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "slug 68 chars, 8 words (convention <=60 chars)",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Slug matches the title, correctly spelt",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 H1: ['AI infrastructure deployment: Demand is easy. Execution is hard.']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "649 body words, 5 H2/H3 -> ~130 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "All 5 H2s descriptive questions, e.g. 'How do fungible designs keep AI projects moving?'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'What is Pipeline Integrity?', 'Energy in homes', 'Innovation is both the key and the challenge to efficiency improvement', 'Smart ports: How modernizing ports can reduce downtime risks']",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "title: '3 operational priorities for successful AI infrastructure deployment'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "H1: 'AI infrastructure deployment: Demand is easy. Execution is hard.'",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "first 150 words contain all of ['ai', 'infrastructure', 'deployment']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "subheads with topic: ['What does AI infrastructure deployment at scale mean?', 'How does Schneider Electric support repeatable AI infrastructure deployment?']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "exact phrase x1 (~0.46% of words; stuffing trigger >3%); in 40% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target.",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "proposed_level": 2,
+      "rationale": "c1 fail; c2 fail; c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Power path, workforce and schedule risk are raised as questions but not answered in sections",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "'fungible designs' and 'e-house' used without definition",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Only one specific: 'I see customers building 50 MW a year'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "One topic: executing AI infrastructure deployment",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "649 words; no padding",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "proposed_level": 4,
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Byline 'Gary Lamora'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "byline 'Gary Lamora' -> https://blog.se.com/author/gary-lamora/",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND: no role or credential visible on the article",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "'expected to triple by 2030' linked to mckinsey.com",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No checkable error found",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "proposed_level": 3,
+      "rationale": "c2 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "'I see customers building 50 MW a year and others building ten or twenty times that.'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND: no first-party data",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Typology: 'The fully committed', 'The pragmatists', 'The reactives'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Photo only (Background-1024x443.png); no original diagram",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Original opinion piece",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "visible date 2026-10-06",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "visible 2026-10-06 vs markup published 2026-10-06",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "published 2026-10-06, modified 2026-10-16",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "dateModified 2026-10-16 is 10 days after publication; no visible 'Updated' label",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No stale facts",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "3 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'prefabricated modular data center' -> se.com/ww/en/work/solutions/ai-factory/prefab/",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "generic anchors none; same anchor -> different URLs none",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "internal links with tracking/ID params: none",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "non-crawlable hrefs: none; all in-body links are <a href>",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "'expected to triple by 2030' -> mckinsey.com",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "1 outbound editorial links; rel values ['noreferrer noopener']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "McKinsey research is relevant and reputable",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "proposed_level": 4,
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1/1 content images have non-empty alt",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "alt 'Technician working on electrical equipment in a data center infrastructure room'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "non-descriptive filenames: ['Background-1024x443.png']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Image sits after the intro and illustrates data center electrical work",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Article; missing none",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "author Person 'Gary Lamora', url=https://blog.se.com/author/gary-lamora/, sameAs=['https://www.linkedin.com/in/glamora/']",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "markup headline 'AI infrastructure deployment: Demand is easy. Execution is hard.' vs H1/title; markup author 'Gary Lamora' vs byline 'Gary Lamora'; dates 2026-10-06 vs 2026-10-06",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "missing none; og:url = canonical; og:title 'AI infrastructure deployment: Demand is easy. Execution is hard.'",
+          "source": "computed"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "SG1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG4",
+      "triggered": true,
+      "evidence": "Title '3 operational priorities...' and meta 'power, infrastructure capacity, and workforce' not delivered; H1 is a different headline 'Demand is easy. Execution is hard.'"
+    },
+    {
+      "id": "SG5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_text_or_links",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_intro",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate_dominant",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "ai_listed_author",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "generic_anchor_overload",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E1",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/']; page URL https://blog.se.com/datacenter/2026/10/06/3-operational-priorities-for-successful-ai-infrastructure-deployment/"
+    },
+    {
+      "id": "E4",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "result": "pass",
+      "evidence": "649 body words in server HTML"
+    }
+  ]
+}

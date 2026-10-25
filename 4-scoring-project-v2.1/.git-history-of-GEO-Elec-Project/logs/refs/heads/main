@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 bbb63eecb36b22cea8857384a5b20c77087ce02f qa <qa@local> 1792476553 +0530	commit (initial): baseline
+bbb63eecb36b22cea8857384a5b20c77087ce02f 8d7995d48f9e9fb0e4eace14c48b3d8da78abbf9 qa <qa@local> 1792477021 +0530	commit: v2.1: anchors/caps in code, half-up rounding, G1 fix, consolidate fixes, metadata rebuild, single final method, docs sync
+8d7995d48f9e9fb0e4eace14c48b3d8da78abbf9 5c0f5fa9ebf2e70c8026ebd95f260487eacb0008 qa <qa@local> 1792477031 +0530	commit: changelog: note the one band change

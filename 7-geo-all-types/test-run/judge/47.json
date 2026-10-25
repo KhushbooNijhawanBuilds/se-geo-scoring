@@ -1,0 +1,478 @@
+{
+ "page": {
+  "id": "47",
+  "type": "software_hub",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-operations-management/",
+  "topic": "EcoStruxure Building operations management software for large buildings",
+  "target_prompts": [
+   "What software can I use to manage building operations and power systems in large buildings?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "6 product cards -> hub, Consideration (default)"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Simplify the management and maintenance of HVAC and lighting systems (no category noun)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Operations Management"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Simplify the management and maintenance of HVAC and lighting systems to provide occupant comfort and building performance."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "sections open with product cards, not answers"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "4/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Maximize uptime with our SCADA system"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "For large and critical buildings"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Automate HVAC, lighting, and blinds based on occupancy"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "this 200+ acre mixed-use campus has lowered its energy costs, improved staff productivity, and decreased its carbon footprint"
+    }
+   ]
+  },
+  {
+   "id": "SW-7",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Advisor Proactive analytics-based service delivering optimized power performance"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Power management software"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Operation vs Advisor vs Expert not explained"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": 4,
+   "rationale": "4/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Automate HVAC, lighting, and blinds based on occupancy through a building management system and sensors."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Utilize advanced power forensics to understand the causes and effects of events in your electrical system."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Power uptime¹ (number missing)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Get predictive maintenance and prioritize activities based on key metrics, including cost, energy savings, and asset life."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "an edge control solution for distributed energy"
+    }
+   ]
+  },
+  {
+   "id": "SW-2",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "end-to-end, open technology connects all building systems (unbacked)"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "an edge control solution for distributed energy"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "implemented by EcoXpert partner C&C group"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-6",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "200+ acre mixed-use campus (unnamed in text, unquantified)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Power uptime¹ / Savings in operations and labor expenses² (no numbers)"
+    }
+   ]
+  },
+  {
+   "id": "SW-8",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "4/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Building management software"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Monitor and manage building systems from one convenient, mobile-enabled control center."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Gain real-time monitoring of your electrical power distribution to optimize system performance, reliability, and power quality."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Operation"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "hero statistics have no numbers in text (image only)"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Maximize uptime with our SCADA system"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "to drive peak operational efficiency"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Operation"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Explore our customer success story"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "ZZ_Paragraph Title / ZZ_Paragraph Content"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

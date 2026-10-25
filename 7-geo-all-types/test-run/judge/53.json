@@ -1,0 +1,426 @@
+{
+ "page": {
+  "type": "news",
+  "stage": "Education",
+  "url": "https://www.se.com/ww/en/about-us/newsroom/news/press-releases/Schneider-Electric-releases-pioneering-study-assessing-arc-flash-risk-in-800-VDC-data-centers-aligning-with-world27s-leading-hyperscalers-6a705327421430d7d4009133/",
+  "topic": "Arc flash risk in 800 VDC data centers study",
+  "target_prompts": [
+   "How dangerous is arc flash in 800 VDC data centers and how can the risk be managed?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "NEWS-1",
+   "proposed_level": 3,
+   "rationale": "Key finding missing from headline/deck",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Schneider Electric releases pioneering study assessing arc flash risk in 800 VDC data centers"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Key result ('comparable to typical AC systems') not in headline or deck"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Evaluating risks with ETAP’s advanced software and digital twins accurately model fault scenarios"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "arc flash risk in 800 VDC data centers"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "What/who/when/outcome",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "a first-of-its-kind analysis that provides practical guidance on how to assess and manage arc flash risk in 800 VDC power architectures"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for AI data centers"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "safely adopting new power architectures for AI data centers"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Findings demonstrate that arc flash outcomes depend strongly on architecture, capacitor placement, and fault-clearing behavior."
+    }
+   ]
+  },
+  {
+   "id": "NEWS-2",
+   "proposed_level": 4,
+   "rationale": "Numeric date",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "03/08/2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Rueil-Malmaison, France"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The findings are now available in a white paper"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "No inconsistent milestones"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 2,
+   "rationale": "Threshold quantified; few numbers; hype; VDC/PPE undefined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "results showed incident energy well below the referenced 1.2 cal/cm² PPE threshold"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~4 facts in ~1,200 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "pioneering study / first-of-its-kind"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "VDC and PPE not defined"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "incident energy well below the referenced 1.2 cal/cm² PPE threshold, even without protection devices"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-3",
+   "proposed_level": 3,
+   "rationale": "Case-study basis + titled WP; claims unscoped; no independent validation",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "In a sidecar (also called power rack) case study using conservative methods and assumptions"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "pioneering / first-of-its-kind / world's leading hyperscalers (unscoped)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Hyperscalers unnamed; no standard by number"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "white paper titled, 'DC Arc Flash Analysis: A Practical Study on 800 VDC in Data Centers'"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-4",
+   "proposed_level": 4,
+   "rationale": "SE + ETAP quotes with mechanism",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "said Manish Kumar, EVP Secure Power & Data Centers, Schneider Electric"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "engineers must evaluate system topology, fault behavior, protection coordination, converter response, switching logic"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "said Tanuj Khandelwal, CEO of ETAP"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "800 VDC power distribution represents a significant shift"
+    }
+   ]
+  },
+  {
+   "id": "NEWS-5",
+   "proposed_level": 3,
+   "rationale": "Research release",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "'now available' — no markets"
+    },
+    {
+     "id": "c2",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "1.2 cal/cm² PPE threshold"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "NEWS-6",
+   "proposed_level": 1,
+   "rationale": "No About block; WP titled",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "'DC Arc Flash Analysis: A Practical Study on 800 VDC in Data Centers'"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NVIDIA / ETAP not described"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "Plain-text subhead; good finding lists",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "'Assessment Performed for Two Distinct 800 VDC Architectures' is plain text"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Transient behavior matters: ... Simulation improves accuracy: ... Design choices reduce risk:"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Paragraphs ≤4 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Architectures named"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Findings in HTML"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Full coverage",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "arc flash risk in 800 VDC systems can be managed, and in many cases, is comparable to typical AC systems"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "rack vs centralized, transient, protection"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "One study"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "capacitor placement, reverse‑blocking devices, and millisecond‑scale protection are key levers"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Limits stated; hype; standards criticised without naming",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Arc flash analysis is already a standard practice in AC data centers"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "considering a conservative, less realistic architecture with no overcurrent protection"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "pioneering study / first-of-its-kind analysis"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Current standards are shown to overestimate arc flash risk (standards not named)"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "No standard numbers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "800 VDC"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "No standard numbers (e.g. IEEE 1584 / NFPA 70E) though relevant"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "No contradictions"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "5 Principles for 800 VDC in AI Data Centers: Rack-level Architectures as the Immediate Enabler"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

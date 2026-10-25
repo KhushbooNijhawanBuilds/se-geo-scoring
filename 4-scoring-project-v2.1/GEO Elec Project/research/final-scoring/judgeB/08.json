@@ -1,0 +1,642 @@
+{
+  "page": {
+    "id": "08",
+    "type": "solution",
+    "stage": "Consideration",
+    "topic": "Industrial automation solutions (EcoStruxure Plant)",
+    "industry": "Industry / process and hybrid manufacturing",
+    "target_prompts": [
+      "Which industrial automation solutions improve plant efficiency and cybersecurity?"
+    ],
+    "prompts_inferred": false,
+    "fan_out": [
+      "What components make up an industrial automation architecture (DCS, PLC/PAC, SCADA, safety, software)?",
+      "How much efficiency or OEE gain do plants achieve, with what evidence?",
+      "Which OT cybersecurity standards (IEC 62443) and features are built in?",
+      "Does it work with existing/legacy and third-party control systems (open, IEC 61499)?",
+      "Which industries and plant types is it suited to, and how is it implemented?"
+    ],
+    "fan_out_inferred": true,
+    "rendered_file": "corpus/rendered/08_solution-page.md",
+    "scorer": "judgeB"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Optimize efficiency, cybersecurity, and sustainability and drive operational profitability improvements.",
+          "location": "Industrial automation solutions"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "# Industrial automation solutions",
+          "location": "Industrial automation solutions"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Optimize efficiency, cybersecurity, and sustainability and drive operational profitability improvements.",
+          "location": "Industrial automation solutions"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Understand your assets' profitability by accessing meaningful information and turning it into business intelligence.",
+          "location": "Boost plant efficiency and profitability"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "H1 matches the prompt noun phrase and the hero states the aims, but no definition or answer naming the solutions; no section answers or summary.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our industrial automation solutions enable the scalable design and operation of connected systems",
+          "location": "Discover EcoStruxure Plant successes"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "drive operational profitability improvements",
+          "location": "Industrial automation solutions"
+        }
+      ],
+      "rationale": "Vague category statement only; no audience, application trigger or concrete outcome in the top block.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## Transform your operations with EcoStruxure Plant",
+          "location": "Transform your operations with EcoStruxure Plant"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "- Efficiency and profitability",
+          "location": "Transform your operations with EcoStruxure Plant"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Respond to changes in the market and business condition in real-time.",
+          "location": "Smart operations"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Delivering operational and engineering efficiency to our distribution center in Shanghai.",
+          "location": "EcoStruxure Automation Expert"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "[hidden] ### Safety and stability for Sinopec Hainan",
+          "location": "Safety and stability for Sinopec Hainan [hidden]"
+        }
+      ],
+      "rationale": "Slogan headings, label-only lists, most content in hidden tabs/carousels with image-only cards; cloned card titles.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No sources, standards, quotes, first-party data or owner.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our industrial automation solutions enable the scalable design and operation of connected systems with best-in-class cybersecurity.",
+          "location": "Discover EcoStruxure Plant successes"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Grow your revenue, expertise, and profitability through membership in the Alliance Program.",
+          "location": "Discover our Alliance Partner Programs"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Names EcoStruxure Plant / Automation Expert against efficiency and cybersecurity but no fan-out answered; sprawls into partner program, blogs, videos.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Empower your staff to make decisions that improve productivity.",
+          "location": "Workforce empowerment"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "connected systems with best-in-class cybersecurity",
+          "location": "Discover EcoStruxure Plant successes"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Sales voice throughout ('best-in-class', 'Boost', 'Empower'); no limits.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated; no dated facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "## Discover software, services, and products for EcoStruxure Plant",
+          "location": "Discover software, services, and products for EcoStruxure Plant"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "For system integrators",
+          "location": "Discover our Alliance Partner Programs"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Get your e-guide",
+          "location": "EcoStruxure™ Automation Expert"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "- Customer stories",
+          "location": "Explore more about our EcoStruxure Plant solutions"
+        }
+      ],
+      "rationale": "Teaser hub rather than Consideration-level comparison; CTA 'Get your e-guide' names no asset; links to stories/white papers.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Production assets are the biggest capital in an industrial facility",
+          "location": "Reliability and performance optimization [hidden]"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Generic problem statements in hidden tabs, no numbers or source.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "[hidden] EcoStruxure™ Control Expert",
+          "location": "Protect your critical assets [hidden]"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No architecture prose; products are label-only hidden cards without roles or protocols.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "No quantified outcomes.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "### Dogfish Head Craft Brewery",
+          "location": "Dogfish Head Craft Brewery"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Designing more effective beer production while having future expansions in mind.",
+          "location": "Dogfish Head Craft Brewery"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Customer names as teaser titles (Dogfish Head, Sinopec, Veolia) without results or quotes (c2 fail -> <= 2; torn -> 1).",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Using water technologies for a safe, reliable, sustainable, and efficient water cycle.",
+          "location": "Water and Wastewater"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Industry list with one-line context; no scope, fit or installed-base guidance.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SOL-8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "[hidden] Modernization and upgrade",
+          "location": "Discover software, services, and products for EcoStruxure Plant [hidden]"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No implementation phases, delivery roles or timeline; services appear only as hidden labels.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "failed_tags": {
+    "U1": "T",
+    "U2": "A",
+    "U3": "T",
+    "U5": "A",
+    "U6": "A",
+    "U7": "A",
+    "U9": "T",
+    "U10": "A",
+    "SOL-1": "A",
+    "SOL-2": "A",
+    "SOL-4": "A",
+    "SOL-5": "A",
+    "SOL-7": "A",
+    "SOL-8": "A"
+  },
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": "Not triggered."
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": "Not triggered."
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": "Script fluff 0.57/100w."
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": "Not applied."
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": "Duplicated card titles scored in U3 (R7)."
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": "Not applied."
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: server/rendered words ~0.45 (636/1416); ~55% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) -> SE Digital.",
+    "Card titles render twice (e.g. 'Open Industrial Software Open Industrial Software') -> template owner."
+  ],
+  "stage_fit": {
+    "fits": false,
+    "note": "Consideration needs solution comparison/fit; page is a navigation hub."
+  }
+}

@@ -1,0 +1,641 @@
+{
+  "page": {
+    "id": "38",
+    "type": "service_project",
+    "stage": "Consideration",
+    "topic": "EcoFit modernization and circularity",
+    "industry": "Buildings / industry / data centers",
+    "target_prompts": [
+      "What are the options to modernize aging switchgear, UPS and PLCs instead of replacing them?",
+      "What does a switchgear retrofit include and how long does it take?",
+      "How much asset life does modernization add?",
+      "Which equipment can be retrofitted?",
+      "What happens to old equipment (take-back)?"
+    ],
+    "prompts_inferred": true,
+    "prompt_source": "seed from assignments.json; fan-outs inferred",
+    "content_basis": "rendered page capture (corpus/rendered), standard v2.0",
+    "rendered_file": "corpus/rendered/38_service-page.md"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoFit helps you solve these problems and modernize your equipment and installations.",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoFit™: Modernization and circularity services",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Extend the life of your equipment and reduce your environmental footprint.",
+          "location": "Top"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Update your switchgear with pre-engineered retrofit solutions for MV and LV circuit breakers, contactors, and protection relays.",
+          "location": "Section openers"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "'helps you' opener; judge proposes 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "It enables high-performance digital technologies and supports your decarbonization journey by leveraging circularity services.",
+          "location": "Intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Upgrade your old data center",
+          "location": "UPS"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Outdated equipment and installations waste energy and increase operating costs, reducing efficiency.",
+          "location": "Challenges"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "EcoFit can extend asset life by up to 25%",
+          "location": "Approaches"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Switchgear modernization",
+          "location": "Headings"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Asset life up to 25%",
+          "location": "List"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Retrofit only active components to save resources and reduce CO2 emissions.",
+          "location": "Fragment"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Manage your spare parts and anticipate their replacement.",
+          "location": "Scope visible"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Anchor 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Update your switchgear with pre-engineered retrofit solutions",
+          "location": "Informational"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform.",
+          "location": "Fluff 1.0/100w"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not comparison",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "Anchor 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the modern Modicon platform",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform.",
+          "location": "Successor"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "T"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Take advantage of two EcoFit approaches: Modernization and circularity",
+          "location": "Options"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Switchgear modernization",
+          "location": "Language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Learn more",
+          "location": "Vague"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Not sure where to start? Get hold of Schneider Electric consultants",
+          "location": "Next step"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Anchor 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "pre-engineered retrofit solutions for MV and LV circuit breakers, contactors, and protection relays",
+          "location": "Switchgear"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "We collect all equipment to reuse after modernization or recycle.",
+          "location": "Take-back"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Combine your EcoFit modernization with an EcoCare membership",
+          "location": "Add-on"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Upgrade your old data center by replacing UPS and cooling systems",
+          "location": "On page"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "No duration/downtime.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "MV and LV circuit breakers, contactors, and protection relays",
+          "location": "Switchgear"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform.",
+          "location": "Migration"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Get hold of Schneider Electric consultants who can audit, evaluate, and map your electrical and automation assets and systems.",
+          "location": "Start"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "1.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Take advantage of two EcoFit approaches: Modernization and circularity",
+          "location": "Options"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Retrofit only active components to save resources and reduce CO2 emissions.",
+          "location": "Option"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "EcoFit can extend asset life by up to 25%",
+          "location": "List"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "EcoFit can extend asset life by up to 25%, reducing your carbon footprint.",
+          "location": "List"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Savings up to 90%",
+          "location": "No basis"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "extend asset life",
+          "location": "KPI"
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "c3 fail -> <=3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Learn more, Discover more, Read more, Discover now, Learn how."
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Server/rendered word ratio 1.01 (no material crawler gap by ratio). Hidden 'Download the MIT report' and video only.",
+    "Global 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) excluded from evidence; it is template content."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Consideration."
+  }
+}

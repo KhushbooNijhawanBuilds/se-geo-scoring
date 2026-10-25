@@ -1,0 +1,495 @@
+{
+  "page": {
+    "id": "50_news-press-release",
+    "type": "news",
+    "stage": "Consideration",
+    "topic": "Software-Defined Medium Voltage switchgear (launch)",
+    "industry": "Data centers / power distribution",
+    "audience": "Data center developers, electrical engineers",
+    "target_prompts": [
+      "What is software-defined medium voltage switchgear?",
+      "Benefits of software-defined MV switchgear vs traditional engineered-to-order MV",
+      "When will Schneider Electric software-defined MV switchgear be available?",
+      "Which Schneider Electric MV ranges will be software-defined?",
+      "Has software-defined MV switchgear been deployed in a data center?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric unveils the world’s first fully Software-Defined Medium Voltage switchgear",
+          "location": "H1"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "up to 3× faster ordering and manufacturing, up to 2× faster commissioning",
+          "location": "deck"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Architecture piloted with Equinix in a live colocation data center environment",
+          "location": "deck"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Software-Defined Medium Voltage switchgear to accelerate the speed and scalability of AI factories",
+          "location": "v2 c4: category noun (MV switchgear)"
+        }
+      ],
+      "rationale": "Specific headline (category noun) and quantified deck; the unscoped 'world's first' is judged under NEWS-3/U7 (v2).",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "which decouples system intelligence from hardware",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "the energy technology partner for the organizations that run critical operations",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "As electrification accelerates and AI factories drive data center demand",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "up to 3× faster ordering and manufacturing",
+          "location": ""
+        }
+      ],
+      "rationale": "What/who/when/outcome in the top block; outcome quantified in deck; definition indirect.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "28/09/2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Las Vegas, NV, USA",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Announced at YOTTA 2026 (September 28–30, Las Vegas)",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Pilot programs continue through 2027, with broader availability to follow in 2028.",
+          "location": ""
+        }
+      ],
+      "rationale": "Event dates and roadmap years explicit; numeric date format.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "up to 3× faster ordering and manufacturing",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.19 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "The result is a simpler, smarter, and more sustainable power ecosystem.",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "GM AirSeT™, RM AirSeT™, and SM AirSeT™",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "enabling up to 2× faster commissioning and onsite acceptance testing",
+          "location": ""
+        }
+      ],
+      "rationale": "Quantified benefits with baseline; hype verbs; no electrical ratings.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Based on Schneider Electric studies and estimations, this approach delivers up to 3× faster ordering and manufacturing",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "the world’s first fully Software-Defined Medium Voltage (MV) switchgear",
+          "location": "no scope/basis"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "through a pilot with Equinix, conducted in a live colocation data center environment",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "visit the web or download the white paper",
+          "location": "asset unnamed"
+        }
+      ],
+      "rationale": "Basis for multipliers stated and live pilot named; 'world's first' unsupported; white paper unnamed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Melton Chang, Executive Vice President, Power Systems Division, Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "so customers can deploy in a fraction of the time",
+          "location": "vague"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "said Greg Metcalf, Senior Director, Global Data Center Design and Innovation at Equinix",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "With Software Defined MV switchgear, we are bringing the logic of software to medium voltage equipment",
+          "location": ""
+        }
+      ],
+      "rationale": "Executive and customer quotes; no checkable facts in quotes.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Pilot programs continue through 2027, with broader availability to follow in 2028.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "register for product and availability updates",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "a simplified footprint with less wiring and fewer components",
+          "location": "no ratings"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "already deployed in the field through a pilot with Equinix",
+          "location": ""
+        }
+      ],
+      "rationale": "Roadmap and pilot status explicit; no voltage/current ratings or standards.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no About block"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric, a global energy technology leader, today unveiled",
+          "location": "descriptor only"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "visit the web or download the white paper",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Senior Director, Global Data Center Design and Innovation at Equinix",
+          "location": "Equinix undescribed"
+        }
+      ],
+      "rationale": "No About boilerplate, one-line descriptor only, generic 'visit the web', partner undescribed.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no body headings"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Standardized hardware platforms replace bespoke designs",
+          "location": "benefits in prose"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Software Defined MV Equipment represents a shift toward a more dynamic and future-ready model",
+          "location": "paragraph length ok"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Software Defined MV Equipment addresses these constraints by shifting functionality into software",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "up to 3× faster ordering and manufacturing",
+          "location": "in HTML"
+        }
+      ],
+      "rationale": "No subheads at all, benefits in prose; paragraphs self-contained.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "shifting functionality into software and enabling over-the-air updates",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "including PremSet™ and the AirSeT™ range",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Importantly, upgrades can be implemented with zero operational downtime",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no ratings/standards"
+        }
+      ],
+      "rationale": "Covers what/benefits/availability/ranges/pilot; lacks ratings and standards a Consideration buyer needs.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Traditional Medium Voltage systems rely on engineered-to-order, custom-built designs",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "redefining how electrical distribution systems are designed, deployed, and operated",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Some informative contrast with engineered-to-order MV; promotional elsewhere, no trade-offs.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Software Defined MV Equipment transform the way we design",
+          "location": "vs 'Software-Defined Medium Voltage (MV) switchgear'"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "PremSet™ and the AirSeT™ range",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Pilot programs continue through 2027, with broader availability to follow in 2028.",
+          "location": "consistent with pilot"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "visit the web or download the white paper",
+          "location": ""
+        }
+      ],
+      "rationale": "Offer named four different ways; generic link text.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: page <title>/og:title duplicated (headline concatenated twice); meta description concatenates bullets without spaces -> SE Digital",
+    "Template: no article:published_time meta; visible date numeric DD/MM/YYYY",
+    "Template: in-body subheads are not heading elements in server HTML",
+    "Template: Wiztrust, share and site-footer link lists inside the extracted body"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for news"
+  }
+}

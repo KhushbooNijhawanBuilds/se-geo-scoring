@@ -1,0 +1,553 @@
+{
+  "page": {
+    "id": "41",
+    "type": "service",
+    "stage": "Evaluation",
+    "topic": "Managed security services for OT (24x7 MDR, vulnerability and security-control management)",
+    "industry": "Industry / critical infrastructure",
+    "target_prompts": [
+      "What do OT managed security services include and how do they work?",
+      "Is OT managed detection and response 24x7 and what are the response times/SLAs?",
+      "Which OT assets and security tools are supported?",
+      "Do OT MSS providers align with IEC 62443?",
+      "How is an OT managed security service priced and onboarded?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise",
+          "location": "First section (within 100 words)"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Managed security services",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Effective managed network and security services are crucial for maintaining the continuity of critical infrastructure",
+          "location": "Top"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "How does a managed security service work?",
+          "location": "Question heading answered only by an image"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Definition within first 100 words; question H2 unanswered.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise",
+          "location": "Definition"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "MSS empowers industrial entities to navigate the digital landscape with confidence.",
+          "location": "Who"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "quickly meet internal or external security requirements",
+          "location": "Trigger"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Reduce false positives, enhance visibility, and maximize ROI by properly maintaining and tuning security controls.",
+          "location": "Outcome"
+        }
+      ],
+      "rationale": "All four; outcome unquantified.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Asset visibility and vulnerability management",
+          "location": "Descriptive H2s"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Gain comprehensive visibility of your OT assets.",
+          "location": "Lists"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "We provide specialized OT security expertise to augment your team where your program needs it most.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Ensure their availability.",
+          "location": "Context-dependent bullets"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "How does a managed security service work?",
+          "location": "Process only in an image"
+        }
+      ],
+      "rationale": "Good lists; process in image.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Detection use cases and response playbooks developed for industrial environments, not adapted from IT.",
+          "location": "Informational capability text"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "industry leading solutions",
+          "location": "Fluff"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not a comparison page",
+          "location": ""
+        }
+      ],
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No date"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Evaluation needs SLAs/standards/proof"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "A dedicated OT security operations capability monitoring your assets.",
+          "location": "OT security language"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "Generic CTAs"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Cybersecurity Virtual Academy",
+          "location": "Links to Education content"
+        }
+      ],
+      "rationale": "Below Evaluation depth.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "A dedicated OT security operations capability monitoring your assets.",
+          "location": "24x7 MDR"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Detection use cases and response playbooks developed for industrial environments, not adapted from IT.",
+          "location": "24x7 MDR"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Heading"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No exclusions/options"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Completely manage the end-to-end lifecycle of your security controls.",
+          "location": "Scope in text"
+        }
+      ],
+      "rationale": "Concrete capability lists in text; no exclusions or reporting artefacts. Judge proposes 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Heading"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No response time"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Clear escalation paths and reporting",
+          "location": "Escalation asserted, not described"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Hours only; anchor caps at 2.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "'OT assets' generic"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No eligible systems/tools named.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "How does a managed security service work?",
+          "location": "Process heading without steps"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "We provide specialized OT security expertise to augment your team",
+          "location": "Roles"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Roles only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No plans/model/availability.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "rationale": "No quantified outcomes.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No IEC 62443 / ISO 27001"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No proof or credentials.",
+      "proposed_level": 0,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G-SVC",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Corpus extractor skips aria-hidden elements, so inactive carousel slides/tab panels may exist in raw HTML but are not scored here; verify rendered vs raw HTML with SE Digital. WebFetch (2026-10-19) shows additional blog titles in the resources carousel; no SLA, SOC location, standard or FAQ.",
+    "Template 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) and corporate footer are identical on every page; not content signal."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Natural stage Evaluation."
+  }
+}

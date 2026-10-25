@@ -1,0 +1,604 @@
+{
+  "page": {
+    "id": "23",
+    "title": "Rubis Photosol: Smart monitoring for sustainable renewables performance",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/rubis-photosol/",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Rubis Photosol: Smart monitoring for sustainable renewables performance",
+    "industry": "",
+    "target_prompts": [
+      "How does Rubis Photosol keep its solar parks running at high uptime?",
+      "Examples of predictive maintenance for solar farm transformers",
+      "What is EcoCare for Electrical Distribution Equipment?",
+      "How to achieve 99% uptime in PV plants",
+      "Condition-based maintenance for electrical distribution case study"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/23_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol, EcoCare Electrical Distribution Case Study",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Smart monitoring for sustainable renewables performance",
+          "location": "H1 no outcome",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "summary lacks result and timeframe",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Good profile summary, no result in it.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "the leading independent producer of photovoltaic energy in France",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "50 solar parks with a combined capacity of 600 MWp",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "in France",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "operate 250 medium-voltage transformers",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Complete profile.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Saved €420,000 thanks to accurate diagnosis of at-risk transformer",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Avoided 55 tons of CO₂ emissions",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Prior analyses had flagged four at-risk transformers, but our in-depth diagnostics confirmed only one was truly at risk",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "The installation of IoT sensors took less than four hours",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "This insight saved an estimated €420,000 in replacement costs",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol: Success story highlights",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Two outcomes with baseline; estimated avoided costs, so 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "needed more insightful monitoring to their health",
+          "location": "hidden tab",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "IoT sensors track hydrogen levels, temperature, and vibration",
+          "location": "hidden tab",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Tangible results in hours, not months",
+          "location": "hidden tab",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## Deeper insights into performance",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Full narrative in collapsed tabs.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Only Schneider Electric offers this level of advanced solution.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Johnny Randoux",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Maintenance Manager at Photom Services",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "It’s a major added value",
+          "location": "praise, no fact",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Named quote, not substantive.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "AI-powered condition-based maintenance, 24/7 remote monitoring, predictive analytics, and alarm management",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoStruxure Transformer Expert",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Offer and role explained.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "an estimated €420,000 in replacement costs",
+          "location": "basis = avoided replacement cost",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "period/boundary",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "verification",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Estimate basis only.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "with our EcoCare service plan",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "independent producer of photovoltaic energy",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Aiming to maintain a 99% uptime rate",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Saved €420,000",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "## Rubis Photosol: Success story highlights",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "highlights not a list",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Its subsidiary, Photom Services, is responsible",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol has partnered with Schneider Electric",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "- Challenges",
+          "location": "how/why only in collapsed tabs (R2)",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "T",
+        "c5": "T"
+      },
+      "rationale": "c5 fails → max 2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Rubis Photosol is the leading independent producer of photovoltaic energy in France.",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Explore the effectiveness of a condition-based maintenance strategy",
+          "location": "promo insert mid-story",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Promo insert.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoCare for Electrical Distribution Equipment",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Transformer Expert",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "600 MWp",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read the full story",
+          "location": "generic anchor",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "Consistent.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish/project date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated results",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no review evidence",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Saved €420,000",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "engineering, management, and maintenance",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Access the white paper",
+          "location": "CTA names no asset",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## EcoCare for Electrical Distribution Equipment",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Fits.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 74% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 143 vs rendered 544 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

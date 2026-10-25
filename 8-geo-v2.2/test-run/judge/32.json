@@ -1,0 +1,561 @@
+{
+ "page": {
+  "id": "32",
+  "type": "calculator",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/solutions/data-centers-and-networks/trade-off-tools/data-center-capital-cost-calculator/",
+  "topic": "Data center physical-infrastructure CapEx estimate",
+  "industry": "Data Centers (inferred)",
+  "target_prompts": [
+   "How much does it cost to build a data center with liquid cooling?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "model the physical infrastructure CapEx of data centers, including those with liquid cooling and high-density power distribution",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Data Center Capital Cost Calculator",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "purpose in the intro under the H1",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "no H2 sections about the tool",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This tool estimates the capital cost implications of key physical infrastructure design decisions",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "for both traditional and AI data center deployments",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "support early planning activities",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "The results are intended to illustrate the impact of different design choices",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: segment named, no job role",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-1",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "the tool projects the number of racks required, estimated floor space, and the associated capital costs",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Type the average rack density in kW per rack",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "TradeOff Tools™ are based upon a series of mathematical models developed by the Schneider Electric Data Center Research & Strategy group.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "They should not be used as formal quotations, budget approvals, or procurement estimates.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "unit cost factors not given",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-2",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Servers are traditional designs with internal power supplies (not OCP-style).",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "many assumptions have no value (e.g. All chillers have variable frequency drives (VFD).)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "no cost-data source or price year",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "$ 300 / ft²",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "All cost values are displayed in the local currency. (no price year)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "$ 88.1 M",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "NVIDIA Blackwell-based systems commonly range from about 100 – 150+ kW/rack",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Power: $ 44.6 M (50.6%)",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "results only in the widget",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-4",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Indicate in kW, how much power the data center IT load is projected to consume.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Type in a value between 100 kW and 100,000 kW (100 MW).",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Physical infrastructure capital cost normalized on a per-watt basis using the specified total IT capacity.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "HV to MV switchgear (HV, MV, LV, OCP never expanded)",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "CALC-5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Cost estimates are intended for rough-order-of-magnitude planning and comparison purposes only.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "resulting in higher capital costs than cold-aisle containment",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The cooling system design has a significant influence on capital costs.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Actual labor costs vary by trade, skill level, activity.",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: lever stated without magnitude",
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no descriptive H2/H3 for the tool in page text",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Containment is required above rack densities of 8 kW/rack with room-based coolers",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "panel paragraphs 1-4 sentences",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "panel items name their subject",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "method, assumptions and definitions only in hidden tool panels",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "format does not allow quotes",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "developed by the Schneider Electric Data Center Research & Strategy group",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This tool estimates the capital cost implications of key physical infrastructure design decisions",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "They should not be used as formal quotations, budget approvals, or procurement estimates.",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "no hype in tool text",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no comparative claims",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c2: limits generic",
+   "confidence": "high"
+  },
+  {
+   "id": "U8",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Data Center Capital Cost Calculator",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "TT4 Version 10.1",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "page text consistent; widget messages handled under template_artifact",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "White paper 229, Battery Technology for Data Centers: VRLA vs. Li-ion",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c4: some links generic ('Learn more')",
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "TT4 Version 10.1 – 14-September-2026",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no data year",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "not relevant",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "14-September-2026",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "inputs/outputs/assumptions depth fits Evaluation",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "fits data center designers",
+     "evidence_type": "note"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "White paper 133, Navigating Liquid Cooling Architectures for Data Centers with AI Workloads",
+     "evidence_type": "quote"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Data center electrical power sizing calculator",
+     "evidence_type": "quote"
+    }
+   ],
+   "rationale": "",
+   "proposed_level": 4,
+   "downgrade_reason": "c3: CTA only inside hidden panel",
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G9",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "For the IT capacity selected (10,000 kW), setting a % air-cooled capacity larger than 100% would force the liquid-cooled rack density below the minimum of 40 kW. (self-contradicting tool message; also 'You’ve selected 100% air-cooling' with 60% air-cooled input)"
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  }
+ ],
+ "out_of_scope_observations": [
+  "Much of the tool/story text is only present after JavaScript rendering or in hidden panels (crawler gap)."
+ ],
+ "stage_fit": {
+  "fits": true,
+  "note": "Stage inferred by stage test: rule 2: prices one design ('model the physical infrastructure CapEx of data centers')."
+ }
+}

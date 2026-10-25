@@ -1,0 +1,495 @@
+{
+  "page": {
+    "id": "52_news-press-release",
+    "type": "news",
+    "stage": "Consideration",
+    "topic": "AMD Helios AI factory reference design (partnership)",
+    "industry": "Data centers",
+    "audience": "Data center architects and operators",
+    "target_prompts": [
+      "What is the Schneider Electric and AMD Helios reference design?",
+      "What rack density and cluster size does the Helios reference design support?",
+      "How is the AMD Helios reference design cooled?",
+      "What PUE does the Helios reference design achieve?",
+      "Which standards is the Helios reference design validated to?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "NEWS-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Schneider Electric and AMD release first Helios platform reference design to accelerate AI Factory deployment",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Design supports 246 kW AI racks and large-scale deployments with modular AI clusters of up to 10.4 MW IT load",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Co-engineered reference design provides a proven blueprint for deploying high-density AI clusters faster and with less risk.",
+          "location": "generic bullet"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Helios platform reference design to accelerate AI Factory deployment",
+          "location": "v2 c4: category noun"
+        }
+      ],
+      "rationale": "Specific headline and quantified deck; two deck bullets are generic.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "a jointly developed and validated reference design for the AMD Helios rack-scale solution",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "provide data center architects and operators with tested, scalable designs",
+          "location": "not in top block"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "deploying high-density AI environments faster and with reduced risk and complexity",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Design supports 246 kW AI racks",
+          "location": ""
+        }
+      ],
+      "rationale": "What/when/outcome in lede; audience only named in paragraph 3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "23/07/2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "San Francisco, CA, USA",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "with plans to extend the framework to support IEC standards for global implementations in the future",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "22/07/2026",
+          "location": "attachment date differs"
+        }
+      ],
+      "rationale": "Numeric date; IEC extension undated; attachment date differs.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "High-density AI workloads up to 246 kW per rack",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.76 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "breakthrough AI performance",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "ability to achieve PUE as low as ~1.12 at full load",
+          "location": "PUE/CDU undefined"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "capable of removing up to 84% of heat",
+          "location": ""
+        }
+      ],
+      "rationale": "Rich spec list but undefined acronyms (PUE, CDU) and hype adjectives.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Electrical and thermal design validated using ETAP and EcoStruxure™ IT Design CFD simulation tools",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "The new reference design is the first ever developed to support high-density AI workloads on the Helios rack-scale solution",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The reference design has been validated to ANSI standards for U.S. deployments",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Data Center Reference Design 121: 10.4 and 6.2 MW, Tier III, ANSI, Chilled Water, Liquid-Cooled AI Clusters",
+          "location": ""
+        }
+      ],
+      "rationale": "Validation tools, scoped first, standard family and named design document with specs in HTML; ANSI standard not numbered.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "said Manish Kumar, Executive Vice President, Secure Power & Data Centers at Schneider Electric",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "enabling customers to deploy scalable, high-density AI environments with greater confidence, efficiency, and speed",
+          "location": "generic"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "said Forrest Norrod, executive vice president and general manager, Data Center Solutions Business Group, AMD",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "AMD Helios provides an open, rack-scale architecture",
+          "location": ""
+        }
+      ],
+      "rationale": "Executive and AMD quotes; no facts inside quotes.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "availability/access not stated"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Data Center Reference Design 121",
+          "location": "named asset"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Modular, multi-cluster environments, featuring AI clusters of up to 10.4 MW IT capacity for greenfield deployments",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The reference design has been validated to ANSI standards for U.S. deployments",
+          "location": ""
+        }
+      ],
+      "rationale": "Specs and validation status strong; how/where to obtain the design not stated.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "NEWS-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "Schneider Electric, a global energy technology leader, and AMD today announced",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Data Center Reference Design 121",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Support from AVEVA’s Unified Operations Center",
+          "location": "entity undescribed"
+        }
+      ],
+      "rationale": "Canonical design document named; no About block; ETAP/AVEVA undescribed.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Reference Design Accelerates AMD Helios Deployment",
+          "location": "subhead not a heading"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "High-density AI workloads up to 246 kW per rack",
+          "location": "list"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The reference design has been validated to ANSI standards for U.S. deployments",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "The AMD Helios reference design includes information on four technical areas",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Better energy efficiency, with ability to achieve PUE as low as ~1.12 at full load",
+          "location": ""
+        }
+      ],
+      "rationale": "Plain-text subhead; spec list; self-contained.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "a jointly developed and validated reference design for the AMD Helios rack-scale solution",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Advanced liquid cooling using Motivair by Schneider Electric CDU-based and hybrid air/liquid approaches",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "facility power, facility cooling, IT space, and lifecycle software",
+          "location": "single intent"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "validated to ANSI standards for U.S. deployments",
+          "location": ""
+        }
+      ],
+      "rationale": "Answers all predicted sub-questions in the release.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "reference designs provide data center architects and operators with tested, scalable designs",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "with plans to extend the framework to support IEC standards for global implementations in the future",
+          "location": "limitation"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "As AI workloads push data center infrastructure to unprecedented limits",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Informational framing and a stated scope limit (ANSI-only); hype adjectives.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "AMD Helios rack-scale solution",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Reference Design 121",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "up to 10.4 MW IT capacity",
+          "location": "matches deck"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Data Center Reference Design 121: 10.4 and 6.2 MW",
+          "location": ""
+        }
+      ],
+      "rationale": "Consistent naming and figures; design ID present.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: page <title>/og:title duplicated (headline concatenated twice); meta description concatenates bullets without spaces -> SE Digital",
+    "Template: no article:published_time meta; visible date numeric DD/MM/YYYY",
+    "Template: in-body subheads are not heading elements in server HTML",
+    "Template: Wiztrust, share and site-footer link lists inside the extracted body"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for news"
+  }
+}

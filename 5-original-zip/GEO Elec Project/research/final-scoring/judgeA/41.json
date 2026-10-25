@@ -1,0 +1,642 @@
+{
+  "page": {
+    "id": "41",
+    "type": "service",
+    "stage": "Evaluation",
+    "topic": "OT managed security services",
+    "industry": "Industry / critical infrastructure",
+    "target_prompts": [
+      "What do OT managed security services include and how do they work?",
+      "Is OT MDR 24x7 and what are the response times?",
+      "Which OT assets and tools are supported?",
+      "Do OT MSS align with IEC 62443?",
+      "How is OT MSS priced and onboarded?"
+    ],
+    "prompts_inferred": true,
+    "prompt_source": "seed from assignments.json; fan-outs inferred",
+    "content_basis": "rendered page capture (corpus/rendered), standard v2.0",
+    "rendered_file": "corpus/rendered/41_service-page.md"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise",
+          "location": "First section"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Managed security services",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Effective managed network and security services are crucial for maintaining the continuity of critical infrastructure",
+          "location": "Top"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Step 1: Alert generation",
+          "location": "Question H2 answered with steps"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c5": "A"
+      },
+      "rationale": "4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Our managed security services (MSS) combine cybersecurity and operational technology expertise",
+          "location": "Definition"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "MSS empowers industrial entities to navigate the digital landscape with confidence.",
+          "location": "Who"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "quickly meet internal or external security requirements",
+          "location": "Trigger"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Reduce false positives, enhance visibility, and maximize ROI",
+          "location": "Outcome"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "How does a managed security service work?",
+          "location": "Question heading"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Step 2: Initial alert investigation",
+          "location": "Numbered steps"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "We provide specialized OT security expertise to augment your team where your program needs it most.",
+          "location": "Short"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "L1 analyst receives the alert, investigates, and determines if it's a true positive.",
+          "location": "Self-contained steps"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Security control detects a potential threat and generates an alert.",
+          "location": "Process visible"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Detection use cases and response playbooks developed for industrial environments, not adapted from IT.",
+          "location": "Informational"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Customer Operations Floor: Security control detects a potential threat and generates an alert.",
+          "location": "Fluff 0.84"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "Not comparison",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A"
+      },
+      "rationale": "3.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Current"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "Lifecycle N/A",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c4": "T"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No SLA/standards/proof"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "A dedicated OT security operations capability monitoring your assets.",
+          "location": "Language"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Download the data sheet",
+          "location": "[hidden] MSS data sheet CTA"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Cybersecurity Virtual Academy",
+          "location": "Links to education"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "A"
+      },
+      "rationale": "2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "A dedicated OT security operations capability monitoring your assets.",
+          "location": "MDR"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Detection use cases and response playbooks developed for industrial environments, not adapted from IT.",
+          "location": "MDR"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Cadence"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No exclusions/options"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Completely manage the end-to-end lifecycle of your security controls.",
+          "location": "On page"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "24x7 Managed Detection and Response",
+          "location": "Hours"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No response time"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "If deemed a true positive, L2 analyst initiates advanced threat triage, creates a war room with the customer board room",
+          "location": "Escalation"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c5": "A"
+      },
+      "rationale": "No numbers -> <=2.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "'OT assets' generic"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Step 1: Alert generation",
+          "location": "Steps"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "L2 analyst initiates advanced threat triage, creates a war room with the customer board room, and provides initial remediation steps",
+          "location": "Step 3"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Schneider Electric Security Operations Center L1 Analysts",
+          "location": "Roles"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No onboarding"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Judge proposes 4.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "na",
+          "evidence": "No markers",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "None.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "SVC-7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Schneider Electric Security Operations Center",
+          "location": "Named SOC"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "No IEC 62443 / ISO 27001"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "1.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Server/rendered word ratio 0.71 (no material crawler gap by ratio). The 5-step process (key how-it-works facts) is missing server-side.",
+    "Global 'Need help?' block (Product Selector / Get a Quote / Where to buy? / Help Center) excluded from evidence; it is template content."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "Evaluation."
+  }
+}

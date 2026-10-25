@@ -1,0 +1,182 @@
+{
+  "page": {
+    "id": "56",
+    "url": "https://www.se.com/ww/en/download/document/2025_Sustainability_Report/",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "2025 Sustainability Report",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2025 sustainability report key figures"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "corpus/rendered/57_sustainability-esg-report.md",
+    "input_mode": "rendered capture re-mapped: assigned rendered_file holds a different page; scored corpus/rendered/57_sustainability-esg-report.md (its header URL = this page)",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "page_type_key": "esg_report",
+  "stage": "Evaluation",
+  "raw_score": 18.0,
+  "penalties": [
+    "boilerplate"
+  ],
+  "penalty_points": 2,
+  "gates_triggered": [
+    "G13",
+    "G6"
+  ],
+  "cap": 59,
+  "final_score": 16,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 22,
+      "family": "specs",
+      "m": 1.5,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No KPI on the page (no KPI component).",
+      "confidence": "high",
+      "eff_w": 28.21,
+      "points": 0.0,
+      "impact_points": 28.21
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 14,
+      "family": "proof",
+      "m": 1.4,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No targets/progress on the page.",
+      "confidence": "high",
+      "eff_w": 16.75,
+      "points": 0.0,
+      "impact_points": 16.75
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 10,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "No basis/frameworks/boundary.",
+      "confidence": "high",
+      "eff_w": 8.55,
+      "points": 0.0,
+      "impact_points": 8.55
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 8,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "No assurance/ratings.",
+      "confidence": "high",
+      "eff_w": 6.84,
+      "points": 0.0,
+      "impact_points": 6.84
+    },
+    {
+      "id": "U1",
+      "default_w": 10,
+      "family": "answer_def",
+      "m": 0.9,
+      "level": 1,
+      "checks_passed": "1/5",
+      "rationale": "Title wording checked for company + report + period; summary line is a label; no headline results.",
+      "confidence": "high",
+      "eff_w": 7.69,
+      "points": 1.54,
+      "impact_points": 6.15
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/5",
+      "rationale": "Type/period/date and file link checked; no contents description, companions or edition links.",
+      "confidence": "high",
+      "eff_w": 6.84,
+      "points": 2.74,
+      "impact_points": 4.1
+    },
+    {
+      "id": "U10",
+      "default_w": 4,
+      "family": "commercial",
+      "m": 1.1,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "'Open and download' names no asset; 'Need help?' block (product selector, quote, where to buy) is off-stage for ESG.",
+      "confidence": "high",
+      "eff_w": 3.76,
+      "points": 0.0,
+      "impact_points": 3.76
+    },
+    {
+      "id": "U8",
+      "default_w": 6,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "Report naming and identifiers; no related links; consistency otherwise vacuous.",
+      "confidence": "high",
+      "eff_w": 5.13,
+      "points": 2.05,
+      "impact_points": 3.08
+    },
+    {
+      "id": "U7",
+      "default_w": 4,
+      "family": "tone",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/3",
+      "rationale": "No promotion; nothing balanced (no misses disclosed).",
+      "confidence": "high",
+      "eff_w": 3.42,
+      "points": 1.37,
+      "impact_points": 2.05
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 10,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 4,
+      "checks_passed": "5/5",
+      "rationale": "Release date, period, change note, cadence; 'Latest version' badge ([hidden]) credited per R2.",
+      "confidence": "high",
+      "eff_w": 9.4,
+      "points": 7.52,
+      "impact_points": 1.88
+    },
+    {
+      "id": "DOC-5",
+      "default_w": 4,
+      "family": "other",
+      "m": 1.0,
+      "level": 4,
+      "checks_passed": "3/4",
+      "rationale": "Title/file name/type label; no meta description on the rendered page.",
+      "confidence": "high",
+      "eff_w": 3.42,
+      "points": 2.74,
+      "impact_points": 0.68
+    }
+  ],
+  "warnings": [],
+  "weights_version": "2.0-2026-10-19",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

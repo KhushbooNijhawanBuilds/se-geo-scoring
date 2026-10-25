@@ -1,0 +1,609 @@
+{
+  "page": {
+    "id": "20",
+    "title": "Blackstone: A sustainable business plan",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/blackstone/",
+    "type": "case_study",
+    "stage": "Evaluation",
+    "topic": "Blackstone: A sustainable business plan",
+    "industry": "",
+    "target_prompts": [
+      "How did Blackstone cut energy costs across its portfolio companies?",
+      "Examples of private equity firms using energy management software",
+      "What is EcoStruxure Resource Advisor used for?",
+      "How much did Blackstone save on energy with Schneider Electric?",
+      "How to manage sustainability data across a multi-site portfolio"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/20_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Blackstone Group Customer Story",
+          "location": "title",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "A SUSTAINABLE business plan",
+          "location": "H1",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "One of the world's largest private equity firms achieves tens of millions in energy savings",
+          "location": "22-word lede",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no problem/timeframe",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "tens of millions in energy savings",
+          "location": "vague, no period",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Teaser lede only; $60M/6 years only in meta.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "One of the world's largest private equity firms",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "managing more than $365 billion in assets",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "country",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Active energy management programs and collaboration at over 20 portfolio companies and counting",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "A"
+      },
+      "rationale": "Good profile, no country.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Tens of millions of energy savings",
+          "location": "imprecise",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "baseline",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "period",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "Tens of millions in energy savings from sustainability efforts and strategic energy sourcing",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "key figures",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      },
+      "rationale": "One metric without baseline/period.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Blackstone needed actionable energy and sustainability data for the companies it owns and supports",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "a cloud-based platform that captures and normalizes energy and utility data",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Active energy management programs and collaboration at over 20 portfolio companies",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The Challenge",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Complete narrative; bullets glued into run-on text.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "I have to have good data no matter the location",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Anderson said",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Chief Sustainability Officer at Blackstone",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Having data on past performance helps me make the case to the next business",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Two substantive attributed quotes.",
+      "proposed_level": 5,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Blackstone uses EcoStruxure Resource Advisor, a cloud-based platform",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Energy Efficiency Consulting",
+          "location": "offer links",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Offers named with role.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No method.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "developed an aggressive energy-management and sustainability strategy",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "private equity",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "a portfolio with a sizeable energy spend",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Tens of millions in energy savings",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "All four, outcome imprecise.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "## What does it take to create Buildings of the Future?",
+          "location": "promo heading in story",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Blackstone oversees operations across multiple industries and geographies",
+          "location": "bullets flattened",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "run-on bullet paragraphs",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Blackstone uses EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The Results",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "T",
+        "c3": "T"
+      },
+      "rationale": "Story visible; promo inserts and flattened bullets.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "a cloud-based platform that captures and normalizes energy and utility data",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Unlock more value from your buildings with innovative technology",
+          "location": "promo insert",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Promo inserts.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "generic anchor",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "T"
+      },
+      "rationale": "Consistent.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish/project date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated results",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no review evidence",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "15% reduction of CO2",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "actionable energy and sustainability data",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Read more",
+          "location": "vague CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Resource Advisor",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c3": "T"
+      },
+      "rationale": "Fits Evaluation; vague CTAs.",
+      "proposed_level": 3,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Read more / Explore more / Find out more"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

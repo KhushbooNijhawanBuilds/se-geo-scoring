@@ -1,0 +1,534 @@
+{
+  "page": {
+    "id": "19 McLaren Racing",
+    "type": "case_study",
+    "stage": "Consideration",
+    "topic": "Energy technology supporting a Formula 1 team's facilities and operations",
+    "industry": "Sports & entertainment / motorsport (facilities, data)",
+    "target_prompts": [
+      "How does McLaren Racing use Schneider Electric technology?",
+      "Which Schneider Electric products does McLaren Racing use?",
+      "How do F1 teams manage energy at their factories and trackside?",
+      "Examples of motorsport teams using power monitoring",
+      "What results has McLaren achieved with Schneider Electric?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "McLaren Racing: Innovation in motion",
+          "location": "title line",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation in motion",
+          "location": "H1 (slogan, no outcome)",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary paragraph in server text",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Customer named in title, but H1 is a slogan and there is no summary paragraph; nothing an engine could quote as the story.",
+      "proposed_level": 1,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "during a single F1 racing season",
+          "location": "stat card",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "56,304 sqm floor space at the McLaren Technology Centre",
+          "location": "stat card",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "location",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "deployment scope",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Sector and one scale fact present via stat cards; location and deployment scope missing.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "20+ years length of McLaren Racing and Schneider Electric relationship",
+          "location": "stat card (relationship length, not an outcome)",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "rationale": "All numbers are context/vanity stats (parts, years, floor space); no customer outcome is quantified.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No challenge/solution/results text in server HTML.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No customer quote in server text (testimonial exists only client-side).",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Masterpact™ MTZ/NW/M",
+          "location": "product cards",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "role of products not explained",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "PowerLogic™ Power Meters",
+          "location": "product cards",
+          "id": "c3"
+        }
+      ],
+      "rationale": "Six offers named as image cards; what each did for McLaren is never stated (anchor: listed only = 2).",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "rationale": "No results, so no method.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "what was delivered",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "during a single F1 racing season",
+          "location": "stat card",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Only the sector is inferable; what SE did, when, and outcome absent.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no descriptive H2/H3 in body",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no prose to extract",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "ZZ_Drive performance in real time",
+          "location": "placeholder promo cards; story not in text",
+          "id": "c5"
+        }
+      ],
+      "rationale": "Image/stat-card grid with placeholder blocks; no extractable section.",
+      "proposed_level": 0,
+      "confidence": "medium"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation in motion",
+          "location": "H1 slogan",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "not a comparison",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "rationale": "No informational voice exists in the server text; slogan heading only.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Netbotz™ Security System",
+          "location": "product card (brand is styled NetBotz elsewhere on se.com; verify)",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Masterpact™ MTZ/NW/M",
+          "location": "product card",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "56,304 sqm",
+          "location": "stat card",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "ZZ_Label",
+          "location": "placeholder card labels",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Product names mostly exact, but placeholder card labels and a likely mis-cased brand name.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "whole page",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated facts",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle not relevant to a customer story",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no update evidence",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Undated; no dated facts.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no outcome or approach content for Consideration",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "ZZ_Drive performance in real time",
+          "location": "placeholder CTA cards",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Power Monitoring Expert",
+          "location": "product cards",
+          "id": "c4"
+        }
+      ],
+      "rationale": "Links to products exist; no stage-appropriate content or descriptive CTA.",
+      "proposed_level": 1,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": true,
+      "evidence": "What SE delivers for McLaren and with what result is never stated in the text (U2 = 1, CS-1 = 1)."
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": true,
+      "evidence": "No quantified customer outcome anywhere in the text."
+    },
+    {
+      "id": "G8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "placeholder_text",
+      "applied": true,
+      "evidence": "ZZ_Label / ZZ_Heading / ZZ_Description / ZZ_aprimo image alt text published"
+    }
+  ],
+  "out_of_scope_observations": [
+    "Story narrative, hero summary and customer quote are rendered client-side inside QDS web components (shadow DOM); they are absent from the server HTML that non-JS AI crawlers (GPTBot, ClaudeBot, PerplexityBot) receive. Verified in a browser 2026-10-19 → route to SE Digital (server-render or declarative shadow DOM).",
+    "Image alt text 'ZZ_aprimo image alt text' published (DAM placeholder)."
+  ],
+  "stage_fit": {
+    "fits": false,
+    "note": "Brand-partnership story; reads as sponsorship content, weak fit for Consideration/Evaluation prompts."
+  }
+}

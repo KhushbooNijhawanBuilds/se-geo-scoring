@@ -1,0 +1,519 @@
+{
+  "page": {
+    "id": "03_blog-article",
+    "type": "article",
+    "stage": "Awareness",
+    "topic": "Operational priorities for AI data center deployment at scale",
+    "industry": "Data centers",
+    "audience": "Data center operators / developers (executives)",
+    "target_prompts": [
+      "What determines successful AI data center deployment at scale?",
+      "What does deploying AI infrastructure at scale mean?",
+      "How does prefabrication help build AI data centers faster?",
+      "How do operators secure electrical equipment capacity for AI projects?",
+      "What are the biggest bottlenecks in AI data center construction?"
+    ],
+    "prompts_inferred": true
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "The growing demand for AI is obvious. The real question is: What’s the build plan?",
+          "location": "intro"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "AI infrastructure deployment: Demand is easy. Execution is hard.",
+          "location": "H1 topic phrase"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Know the path to power. Know what capacity is secured. Know who will install it.",
+          "location": "key message at end"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Scale is relative.",
+          "location": "H2 opener"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no summary"
+        }
+      ],
+      "rationale": "Opens with rhetorical questions; the actual three-part answer (power, capacity, installers) comes in the last section; slogan H1.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "No key-takeaways block.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "Demand is easy. Execution is hard.",
+          "location": "H1 slogan"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "3 operational priorities for successful AI infrastructure deployment - Schneider Electric Blog",
+          "location": "html title vs H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## How do fungible designs keep AI projects moving?",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "## What does AI infrastructure deployment at scale mean?",
+          "location": "4/5 question H2s"
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "the three operational priorities—power, infrastructure capacity, and workforce",
+          "location": "meta promise not structured in body"
+        }
+      ],
+      "rationale": "Question-style H2s are good, but H1 is a slogan and differs from SEO title/meta ('3 operational priorities'), which the body never enumerates.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "## How does prefab help operators build at scale?",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "The fully committed: Power path identified. Capacity reserved.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Scale is relative. I see customers building 50 MW a year",
+          "location": "short paragraphs"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "That leads to a more important question",
+          "location": "context-dependent"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Prefab brings modular power, cooling, controls, and other critical AI infrastructure together offsite",
+          "location": ""
+        }
+      ],
+      "rationale": "Question H2s, a typology list, short paragraphs; several context-dependent openers.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "It reduces field time, human error, and onsite commissioning.",
+          "location": "unquantified key claim"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.26 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Scale is relative.",
+          "location": "plain register, fluff 0.13/100w"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "supply capacity agreement, long-term agreement, statement of work, or purchase order",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "fail",
+          "evidence": "That’s the practical value.",
+          "location": "outcome not specified"
+        }
+      ],
+      "rationale": "Few numbers; benefits stated without magnitude.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "even if demand is expected to triple by 2030",
+          "location": "unattributed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "I see customers building 50 MW a year",
+          "location": "observation without method"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Gary Lamora",
+          "location": "byline"
+        }
+      ],
+      "rationale": "Unattributed forecast; no standards, quotes or data; named author only.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "I see customers building 50 MW a year and others building ten or twenty times that.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Not everyone operates the same way. I see three groups.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no first-party data"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "You can’t scale AI infrastructure delivery while buying every project like a spot commodity.",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Know the path to power. Know what capacity is secured. Know who will install it.",
+          "location": ""
+        }
+      ],
+      "rationale": "First-hand customer observation, original operator typology, quotable thesis, practical checklist; no data.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Know the path to power. Know what capacity is secured. Know who will install it.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "The real commitment is capacity over time, tied to a fixed shipping schedule.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Which AI infrastructure operating model describes you?",
+          "location": "single intent"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no quantified problem impact"
+        }
+      ],
+      "rationale": "Seed and sub-questions covered briefly; no quantified impact (cost of delay, lead times).",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Leading operators make those decisions before they win the deal.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "congratulations—you have prefab, but you still don’t have scale",
+          "location": "limitation"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Explore how Schneider Electric can help turn AI data center plans into a build plan",
+          "location": "single closing CTA"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        }
+      ],
+      "rationale": "Advisor voice and an honest limitation of prefab; vendor section is short and placed late.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "prefabricated modular data center",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "The real commitment is capacity over time",
+          "location": "no contradictions"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Explore how Schneider Electric can help turn AI data center plans into a build plan that holds up in the real world.",
+          "location": "non-descriptive destination"
+        }
+      ],
+      "rationale": "Consistent terms, no contradictions; CTA does not name its destination.",
+      "proposed_level": 3,
+      "confidence": "medium"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "October 6, 2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "even if demand is expected to triple by 2030",
+          "location": "current horizon"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "October 6, 2026",
+          "location": ""
+        }
+      ],
+      "rationale": "Visible date; current.",
+      "proposed_level": 4,
+      "confidence": "medium"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "For data center operators, meeting AI demand comes down to turning opportunity into operational capacity.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Can the project schedule survive a site change or a labor shortage?",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Explore how Schneider Electric can help turn AI data center plans into a build plan that holds up in the real world.",
+          "location": "no named asset"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        }
+      ],
+      "rationale": "Executive Awareness framing fits; CTA vague, no named next-stage asset.",
+      "proposed_level": 2,
+      "confidence": "medium"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Template: 'Top picks' related-post headings (often stale/unrelated, e.g. 2019 posts) and 'Add a comment' render as H2s inside <article> -> route to SE Digital",
+    "Template: no visible 'Updated' date although article:modified_time differs -> SE Digital/editorial",
+    "Template: view counter and reading time inside the article text block",
+    "Images: most article images have empty alt text"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "natural stage for blog"
+  }
+}

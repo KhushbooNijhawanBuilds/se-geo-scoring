@@ -1,0 +1,27 @@
+<section id="v22" data-transition="fade" style="background:#F6F6F2;color:#1B2430;font-family:'IBM Plex Sans', Arial, sans-serif;padding:112px 128px 150px;display:flex;flex-direction:column;gap:28px">
+<h2 style="font-size:56px;font-weight:600;line-height:1.15">Version 2.2: same weights, a steadier judge</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FCFCFA;border:1px solid #DADFD8;border-radius:16px;padding:36px">
+<h3 style="font-size:32px;font-weight:600">What changed</h3>
+<ul style="font-size:24px;line-height:1.45;color:#2E3A46">
+<li>The calculator sets each star level from the ticks; the AI can only lower it with a named reason</li>
+<li>A clear test for choosing the buyer’s stage, for every page type</li>
+<li>A missing section counts as a fail, not “not applicable”</li>
+<li>Only real contradictions trigger the deal-breaker</li>
+<li>Hidden or repeated content is penalised once, not three times</li>
+<li>17 fixes in all, found by testing every page</li>
+</ul>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FCFCFA;border:1px solid #DADFD8;border-radius:16px;padding:36px">
+<h3 style="font-size:32px;font-weight:600">What it did</h3>
+<ul style="font-size:24px;line-height:1.45;color:#2E3A46">
+<li><b>55 of 62</b> scorings within 10 points of the previous run</li>
+<li>Average change <b>+3.7</b> points; typical page 34 → 38.5</li>
+<li>Weights unchanged; the old rules still reproduce every earlier score</li>
+<li>All 26 prompts match the calculator exactly</li>
+</ul>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:56px;width:1664px;font-size:22px;color:#6B7480">Content GEO Score · 23 · Full list in CHANGELOG-v2.2</p>
+<aside>Most of the rise comes from the level rule: when every check passes, a topic now gets 5 stars instead of 4. The biggest single moves come from counting text in hidden tabs and tool panels, which the earlier judge had ignored.</aside>
+</section>

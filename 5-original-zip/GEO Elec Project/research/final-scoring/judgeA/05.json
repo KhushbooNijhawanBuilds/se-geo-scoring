@@ -1,0 +1,551 @@
+{
+  "page": {
+    "id": "05",
+    "type": "article",
+    "stage": "Education",
+    "topic": "Treated/recycled water for data centre cooling in India",
+    "industry": "Data centers (India)",
+    "audience": "Architects, MEP consultants, specifiers, contractors",
+    "target_prompts": [
+      "How can Indian data centres use treated and recycled water for cooling?",
+      "Does liquid cooling use more water?",
+      "What water treatment is needed before using recycled water in cooling?",
+      "Which Indian policies require water reuse for data centres?",
+      "Is WUE enough to measure data centre water sustainability?"
+    ],
+    "prompts_inferred": true,
+    "content_source": "corpus/rendered/05_blog-article.md",
+    "judge": "A",
+    "standard": "v2.0-2026-10-19"
+  },
+  "criteria": [
+    {
+      "id": "U1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Operators should first reduce overall water demand, then determine how appropriately treated wastewater, greywater, or other non-potable sources can meet the remaining requirement.",
+          "location": "Summary"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Using treated and recycled water in Indian data centre cooling",
+          "location": "H1"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "A stronger approach is to reduce consumptive water demand first",
+          "location": "intro"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Water Usage Effectiveness (WUE) measures a data centre’s water consumption relative to the energy consumed by its IT equipment.",
+          "location": "6/7 H2s answer-first"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Summary",
+          "location": ""
+        }
+      ],
+      "rationale": "Summary + answer-first intro, prompt-matching title, most H2s open with the answer; summary bullet 4 is truncated.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "ART-1",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Summary",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Liquid cooling can use more liquid while consuming less water.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Operators should first reduce overall water demand",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "all influence the right thermal architectu",
+          "location": "truncated bullet"
+        }
+      ],
+      "rationale": "Good standalone bullets, but the last bullet is cut off mid-word.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c4": "A"
+      }
+    },
+    {
+      "id": "ART-2",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Using treated and recycled water in Indian data centre cooling",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Using treated and recycled water in Indian data centre cooling - Schneider Electric Blog",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Data centre water recycling requires the right water source",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "## Why water availability constrains infrastructure",
+          "location": "1 of 7 question-style"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "## India’s policy direction increasingly favours water reuse",
+          "location": "promise delivered"
+        }
+      ],
+      "rationale": "Descriptive, consistent headings; one question-style H2.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {
+        "c4": "A"
+      }
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "## Go beyond WUE: measure where the water comes from",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Identify appropriate non-potable sources",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Two facilities could therefore report the same WUE",
+          "location": "short paragraphs"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Water Usage Effectiveness (WUE) measures a data centre’s water consumption",
+          "location": "subject named"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Coolant passes through cold plates attached to GPUs and CPUs",
+          "location": ""
+        }
+      ],
+      "rationale": "Descriptive self-contained sections, step list, short paragraphs; truncated summary is the one defect.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "U4",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "India has around 18% of the world’s population but only 4% of its freshwater resources.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND (script: 0.38 quantified facts per 100 words)",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Not every facility needs every technology.",
+          "location": "fluff 0.0/100w"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "zero liquid discharge (ZLD)",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Closed-loop liquid cooling can recirculate more than 95% of its coolant",
+          "location": ""
+        }
+      ],
+      "rationale": "Quantified, conditioned facts; acronyms defined; density 0.38/100w.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A"
+      }
+    },
+    {
+      "id": "U5",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "The Bureau of Energy Efficiency’s 2023 District Cooling Guidelines",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Author: Anuj Kudesia, Managing Director SEPSL & Direct BD",
+          "location": ""
+        }
+      ],
+      "rationale": "Named, dated policy sources and named author; headline statistics unattributed; no standards, quotes or SE data.",
+      "proposed_level": 2,
+      "confidence": "high",
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A"
+      }
+    },
+    {
+      "id": "ART-3",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Reduce consumptive water demand",
+          "location": "step list"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Substituting recycled water for freshwater in an unchanged cooling system addresses only part of the problem.",
+          "location": ""
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Design teams should establish where reclaimed water will enter the thermal system",
+          "location": ""
+        }
+      ],
+      "rationale": "Reusable 5-step strategy and clear thesis with design guidance; no first-hand or SE data.",
+      "proposed_level": 3,
+      "confidence": "high",
+      "failed_tags": {
+        "c1": "A",
+        "c3": "A"
+      }
+    },
+    {
+      "id": "U6",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "reduce consumptive water demand first, then use appropriately treated and recycled water",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Rules introduced in 2025 require bulk users consuming more than 5,000 litres per day",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "## Make water sourcing a Day One cooling decision",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Water quality parameters such as total dissolved solids, hardness, and suspended solids must be controlled",
+          "location": ""
+        }
+      ],
+      "rationale": "All sub-questions answered, incl. policy thresholds; focused.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Higher compute density does not have to mean higher freshwater consumption.",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Not every facility needs every technology.",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Crucially, treated water is not automatically ready for cooling.",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "AWS, for example, has announced plans to use treated sewage water",
+          "location": ""
+        }
+      ],
+      "rationale": "Neutral, names a competitor example fairly, states limits.",
+      "proposed_level": 4,
+      "confidence": "high",
+      "failed_tags": {}
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Coolant Distribution Units (CDUs)",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Rajasthan’s 2025 data centre policy",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Closed-loop liquid cooling can recirculate more than 95% of its coolant",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "R6: no link labels in rendered capture"
+        }
+      ],
+      "rationale": "Consistent naming, policy identifiers, descriptive CTA destination.",
+      "proposed_level": 4,
+      "confidence": "medium",
+      "failed_tags": {}
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "September 29, 2026",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Rules introduced in 2025",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "September 29, 2026",
+          "location": ""
+        }
+      ],
+      "rationale": "Visible date; current policy refs.",
+      "proposed_level": 4,
+      "confidence": "medium",
+      "failed_tags": {}
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Water quality parameters such as total dissolved solids",
+          "location": ""
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "For architects, MEP consultants, specifiers, and contractors",
+          "location": ""
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "download the Liquid Cooling System Architecture Guide",
+          "location": ""
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "",
+          "location": "R6: no link labels in rendered capture"
+        }
+      ],
+      "rationale": "Education depth, named audience, descriptive CTA and hub link.",
+      "proposed_level": 4,
+      "confidence": "medium",
+      "failed_tags": {}
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: none (server/rendered word ratio >= 1.0) -> not material",
+    "[T] 'Top picks' and 'Add a comment' render as H2s after the article; view counter/read time precede the first sentence -> SE Digital",
+    "[T] No visible 'Updated' label although article:modified_time differs -> SE Digital/editorial"
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": "declared stage from assignments.json"
+  }
+}

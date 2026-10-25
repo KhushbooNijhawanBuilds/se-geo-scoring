@@ -1,0 +1,476 @@
+{
+ "page": {
+  "id": "29",
+  "type": "whitepaper_gateway",
+  "stage": "Education",
+  "url": "https://www.se.com/ww/en/download/document/SPD_WP99_EN/",
+  "topic": "Quantifying data center Scope 3 GHG emissions",
+  "industry": "Data Centers (inferred)",
+  "target_prompts": [
+   "How do you quantify a data center's Scope 3 emissions?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 4,
+   "rationale": "title matches intent; abstract leads with the thesis; no takeaways",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "As this happens, Scope 3 becomes a data center’s largest contributor to greenhouse gas (GHG) emissions."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "abstract sits directly under the title, above \"Release date\" metadata"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "no content sections below the abstract"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "WP-1",
+   "proposed_level": 2,
+   "rationale": "abstract duplicated/truncated; conclusion specific",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "abstract appears twice (second copy truncated): \"More data centers are transitioning to renewable energy sources\""
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "This category of emissions is also the least reported and understood."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "we use a single hypothetical data center to demonstrate how to quantify Scope 3 emissions and identify the largest emission sources"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Scope 3 becomes a data center’s largest contributor to greenhouse gas (GHG) emissions"
+    },
+    {
+     "id": "c6",
+     "result": "pass",
+     "evidence": "Quantifying Scope 3 emissions is one of the most important issues the industry is facing."
+    }
+   ]
+  },
+  {
+   "id": "WP-2",
+   "proposed_level": 0,
+   "rationale": "no key findings in HTML; core content only in the PDF",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "no findings above the download block"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "WP-3",
+   "proposed_level": 2,
+   "rationale": "single intent; topics not exposed as headings",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "We provide a calculator that estimates a data center’s lifecycle carbon footprint and other assessment tools. Finally, we describe best practices for reducing emissions."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "only headings: the title repeated and \"Need help?\""
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "at most 1-2 of 5 fan-outs answered"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 0,
+   "rationale": "no quantified claims in the HTML",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "fewer than 1 quantified fact per 100 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "mark the first comprehensive attempt to quantify the details driving Scope 3"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "greenhouse gas (GHG) emissions"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "DOC-8",
+   "proposed_level": 2,
+   "rationale": "publisher + document ref only; no author, references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "we use a single hypothetical data center to demonstrate how to quantify Scope 3 emissions"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Document ref. SPD_WP99_EN"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": 3,
+   "rationale": "date visible; version/currency issues",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Release date 25 May 2023"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Version 1 ... WP99_V1_EN.pdf"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "Version 1"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Release date 25 May 2023"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "\"Latest version\" exists only as a hidden element"
+    }
+   ]
+  },
+  {
+   "id": "DOC-5",
+   "proposed_level": 3,
+   "rationale": "good title; code-only file name; truncated meta description",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "WP99_V1_EN.pdf"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "White Paper"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "More data centers are transitioning to renewable energy sources..."
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 1,
+   "rationale": "no structure; findings only in PDF (cap 2)",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "no descriptive H2/H3 beyond the repeated title"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "abstract is a single 8-sentence paragraph"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "findings live only in the PDF: WP99_V1_EN.pdf"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "names/identifiers ok",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Document ref. SPD_WP99_EN"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Version 1 / WP99_V1_EN.pdf consistent"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Open and download"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "informational voice",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "This category of emissions is also the least reported and understood."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "In this paper, we use a single hypothetical data center"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": "paper does not compare named options"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 1,
+   "rationale": "language fits; non-descriptive download CTA, no related links",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "abstract only; no Education-depth content in HTML"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Quantifying Data Center Scope 3 GHG Emissions to Prioritize Reduction Efforts"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Open and download"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "only generic \"Need help?\" boxes (Product Selector, Get a Quote)"
+    }
+   ]
+  },
+  {
+   "id": "DOC-9",
+   "proposed_level": 0,
+   "rationale": "not gated; criterion dropped",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "na",
+     "evidence": "not gated"
+    },
+    {
+     "id": "c2",
+     "result": "na",
+     "evidence": "not gated"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": "not gated"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": true,
+   "evidence": "WP-2 at level 0: key findings exist only in WP99_V1_EN.pdf"
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": "abstract makes only general assertions; fewer than 3 substantive factual statements"
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Metadata block (Release date / Version / Document ref. / File format) and a truncated copy of the abstract are rendered 2-3 times in the page text"
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

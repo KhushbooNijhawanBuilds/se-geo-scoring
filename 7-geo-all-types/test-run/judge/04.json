@@ -1,0 +1,446 @@
+{
+ "page": {
+  "type": "article",
+  "stage": "Education",
+  "url": "https://blog.se.com/energy-management-energy-efficiency/2026/10/02/leaders-need-a-new-strategy-for-ai-infrastucture-planning/",
+  "topic": "AI infrastructure planning strategy",
+  "target_prompts": [
+   "How should enterprises plan data center infrastructure when AI hardware changes faster than facilities?"
+  ]
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "Opens on rack-density stats, no direct answer; TOC not a summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Five years ago, a typical enterprise data center rack consumed 10-20 kilowatts of power."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "enterprise leaders must rethink AI infrastructure planning for a constantly evolving AI landscape"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "'Most conversations still revolve around GPUs, models, and software.'"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Table of Contents is navigation, not a summary"
+    }
+   ]
+  },
+  {
+   "id": "ART-1",
+   "proposed_level": 0,
+   "rationale": "No takeaways block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "ART-2",
+   "proposed_level": 3,
+   "rationale": "Slogan H1; mostly descriptive H2s",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "AI is moving faster than infrastructure. Leaders need a new strategy."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Leaders need a new strategy for AI infrastructure planning - Schneider Electric Blog"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "The physics of AI are changing infrastructure strategy"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 2,
+   "rationale": "Lists ok; long paragraphs, slogan H2, back-references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "From future-ready to ROI-ready"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "What is your actual rack density ceiling today?"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "'Most conversations still revolve...' paragraph has 5 sentences"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "This creates a fundamental mismatch / This approach allows"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "No facts only in image"
+    }
+   ]
+  },
+  {
+   "id": "U4",
+   "proposed_level": 1,
+   "rationale": "Some numbers; hype words; acronyms undefined",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Building a new data center typically takes 12 to 18 months"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "~6 facts in ~1,100 words"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The implication is profound / an unprecedented pace"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "GPU, HVAC, ROI not defined"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "A task expected to take hours may stretch into days"
+    }
+   ]
+  },
+  {
+   "id": "U5",
+   "proposed_level": 0,
+   "rationale": "No sources, quotes, standards; author role absent",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Five years ago ... 10-20 kilowatts (no source)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Aaron Dudley (no role)"
+    }
+   ]
+  },
+  {
+   "id": "ART-3",
+   "proposed_level": 3,
+   "rationale": "Questions + steps + thesis; no first-hand data",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Start with a facility assessment, not a GPU forecast. First, map your physical constraints. Then evaluate the economics of building versus retrofitting"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "infrastructure—not compute—is increasingly becoming the limiting factor for progress"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "ask these three questions now, before you break ground"
+    }
+   ]
+  },
+  {
+   "id": "U6",
+   "proposed_level": 4,
+   "rationale": "Covers mismatch, density, multi-gen, assessment",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "They must design adaptable platforms with flexible power, scalable cooling, and the operational agility"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Sections on physics, multi-generation design, three questions"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Single intent"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "In some cases, the cost of retrofitting approaches the cost of building a new facility."
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 3,
+   "rationale": "Neutral, no brand; some hype phrasing",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "No brand self-promotion"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "While this strategy doesn’t eliminate the infrastructure timing challenge"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "The implication is profound / That’s ROI‑ready."
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "No identifiers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Consistent terms"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "12 to 18 months vs 18 months consistent"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 4,
+   "rationale": "Dated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "October 2, 2026"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Nothing superseded"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "October 2, 2026"
+    }
+   ]
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "No named next-step asset",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Education depth"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Infrastructure-leader language"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Planning your next AI infrastructure investment? Start by understanding what your environment can support today"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G7",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

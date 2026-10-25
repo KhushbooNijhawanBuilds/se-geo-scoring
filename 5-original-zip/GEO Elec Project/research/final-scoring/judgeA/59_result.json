@@ -1,0 +1,171 @@
+{
+  "page": {
+    "id": "59",
+    "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "topic": "2023 Sustainability Report",
+    "industry": "Corporate / all",
+    "target_prompts": [
+      "Schneider Electric 2023 sustainability report"
+    ],
+    "prompts_inferred": false,
+    "scored_file": "corpus/59_sustainability-esg-report.pdf.md + corpus/index.json",
+    "input_mode": "bare PDF URL: HTML layer absent (certain); PDF metadata/text from coordinator extraction",
+    "rubric_version": "SE Content GEO Scoring Standard v2.0 (weights 2.0-2026-10-19)",
+    "judge": "A (doc_esg)"
+  },
+  "page_type_key": "esg_report",
+  "stage": "Evaluation",
+  "raw_score": 5.5,
+  "penalties": [
+    "superseded_no_notice"
+  ],
+  "penalty_points": 3,
+  "gates_triggered": [
+    "G13",
+    "G6"
+  ],
+  "cap": 59,
+  "final_score": 2,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 22,
+      "family": "specs",
+      "m": 1.5,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "HTML KPI layer absent (PDF content scored in the document module).",
+      "confidence": "high",
+      "eff_w": 29.2,
+      "points": 0.0,
+      "impact_points": 29.2
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 14,
+      "family": "proof",
+      "m": 1.4,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "HTML layer absent.",
+      "confidence": "high",
+      "eff_w": 17.35,
+      "points": 0.0,
+      "impact_points": 17.35
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 10,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "HTML layer absent.",
+      "confidence": "high",
+      "eff_w": 8.85,
+      "points": 0.0,
+      "impact_points": 8.85
+    },
+    {
+      "id": "U1",
+      "default_w": 10,
+      "family": "answer_def",
+      "m": 0.9,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No HTML page; nothing answers the prompt before the PDF is parsed.",
+      "confidence": "high",
+      "eff_w": 7.96,
+      "points": 0.0,
+      "impact_points": 7.96
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 10,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 1,
+      "checks_passed": "1/5",
+      "rationale": "Period only in file name; superseded, no notice possible.",
+      "confidence": "high",
+      "eff_w": 9.73,
+      "points": 1.95,
+      "impact_points": 7.78
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 8,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "HTML layer absent.",
+      "confidence": "high",
+      "eff_w": 7.08,
+      "points": 0.0,
+      "impact_points": 7.08
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "No navigation/companions at URL.",
+      "confidence": "high",
+      "eff_w": 7.08,
+      "points": 0.0,
+      "impact_points": 7.08
+    },
+    {
+      "id": "U10",
+      "default_w": 4,
+      "family": "commercial",
+      "m": 1.1,
+      "level": 0,
+      "checks_passed": "0/3",
+      "rationale": "No next step at URL.",
+      "confidence": "high",
+      "eff_w": 3.89,
+      "points": 0.0,
+      "impact_points": 3.89
+    },
+    {
+      "id": "U8",
+      "default_w": 6,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "1/3",
+      "rationale": "File/metadata 'Sustainability Report' vs cover 'Sustainable Development Report'.",
+      "confidence": "high",
+      "eff_w": 5.31,
+      "points": 2.12,
+      "impact_points": 3.19
+    },
+    {
+      "id": "DOC-5",
+      "default_w": 4,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "PDF title metadata and file name descriptive; no page text/meta.",
+      "confidence": "high",
+      "eff_w": 3.54,
+      "points": 1.42,
+      "impact_points": 2.12
+    }
+  ],
+  "warnings": [
+    "U7 dropped (all/most checks N/A); weight redistributed"
+  ],
+  "weights_version": "2.0-2026-10-19",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

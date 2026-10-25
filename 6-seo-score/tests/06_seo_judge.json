@@ -1,0 +1,663 @@
+{
+  "page": {
+    "url": "https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/",
+    "title": "AI infrastructure in Europe: Why the next decade offers a leadership opportunity - Schneider Electric Blog",
+    "h1": "The next decade of AI infrastructure: Why Europe has an opportunity to lead",
+    "keyword": "AI infrastructure Europe",
+    "keyword_inferred": true,
+    "judge": "Claude strict, 2026-10-23",
+    "inputs": "corpus .md + live HTML (tests/html)"
+  },
+  "criteria": [
+    {
+      "id": "S1",
+      "proposed_level": 3,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Title 'AI infrastructure in Europe: Why the next decade offers a leadership opportunity'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "First 150 words are personal context ('After 30 years at Schneider Electric...'); the 'why' is deferred to 'three areas stand out to me'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Thought-leadership format fits an awareness query",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Speed, power and people sections deliver the 'why'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Close offers a guide only",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 <title>; text 'AI infrastructure in Europe: Why the next decade offers a leadership opportunity - Schneider Electric Blog'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "106 chars, ~824px est. (pass band 30-60 chars, or <=65 chars and <=600px; basis Zyppy rewrite data, Yoast 600px, Screaming Frog 30-60/561px)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "brand 'Schneider Electric Blog' x1, position end",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'AI infrastructure Europe' within first ~45 chars of 'AI infrastructure in Europe: Why the next dec'",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3: none; years none",
+          "source": "computed"
+        },
+        {
+          "id": "c6",
+          "result": "pass",
+          "evidence": "title main 'AI infrastructure in Europe: Why the next decade offers a leadership opportunity' vs H1 'The next decade of AI infrastructure: Why Europe has an opportunity to lead': 75% of title content words in H1; numbers title [] H1 []",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 meta description(s)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "183 chars (pass band 120-160; basis Yoast 121-156, Screaming Frog 70-155, Portent first ~120 chars on mobile; Google sets no limit)",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'how speed, power availability, talent, and innovation can position Europe as a leader'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "keyword 'AI infrastructure Europe' in meta description",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "tokens repeated >=3 in meta: none",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "slug 'the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "slug 'the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead'; hyphens, lowercase",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "query='' fragment=''",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "slug 74 chars, 13 words (convention <=60 chars)",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Slug matches the H1 wording",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "proposed_level": 3,
+      "rationale": "c3 fail; c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "1 H1: ['The next decade of AI infrastructure: Why Europe has an opportunity to lead']",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "912 body words, 3 H2/H3 -> ~304 words per subhead (pass <=350; basis Yoast <=300 words per section, Starter Guide 'break long content into sections')",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "First section has no heading: its label is run into a paragraph, 'In the AI era, speed wins I spent 20 years of my career in supply chain'; 'Looking ahead' is generic",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "non-content H2s inside <article>: ['Add a comment Cancel reply', 'Top picks', 'Nimisha and Naveen’s winning moment of Schneider Go Green 2019', '“You Ask, We Answer” Video Series Takes You Inside the Minds of Schneider Electric Data Center Design Experts', 'What coolant should you use for data center liquid cooling? PG25, dielectric fluids, and ASHRAE recommendations', 'PFAS phase-out and liquid cooling: What US data center operators must do now']",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "title: 'AI infrastructure in Europe: Why the next decade offers a leadership opportunity'",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "H1: 'The next decade of AI infrastructure: Why Europe has an opportunity to lead'",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "first 150 words contain all of ['ai', 'infrastructure', 'europe']",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "subheads with topic: none",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "exact phrase x0 (~0.0% of words; stuffing trigger >3%); in 0% of subheads (trigger >50%). Density is a stuffing tripwire only, never a target.",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S7",
+      "proposed_level": 4,
+      "rationale": "c3 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Covers supply chain speed, power availability by market, skills",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "Few technical terms; 'Edge computing' used plainly",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "fail",
+          "evidence": "Few specifics: '20 or 30MW ... 500MW'; market claims ('France and the Nordics') unquantified",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "One topic",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No padding",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S8",
+      "proposed_level": 4,
+      "rationale": "c4 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Byline 'Damien Dhellemmes'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "byline 'Damien Dhellemmes' -> https://blog.se.com/author/damien-dhellemmes/",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "'After 30 years at Schneider Electric'; image alt 'Senior Vice President, Secure Power and Data Centers, Europe'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "fail",
+          "evidence": "Market claims uncited: 'Markets with available and competitive power, including France and the Nordics, are attracting significant attention'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No checkable error found",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S9",
+      "proposed_level": 4,
+      "rationale": "c2 fail",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "'I spent 20 years of my career in supply chain.'",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "fail",
+          "evidence": "NOT FOUND: no first-party data",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "Thesis: 'supply chain has become one of the most important competitive differentiators in the data center industry'",
+          "source": "judged"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "SE graphic 'End to End AI Infrastructure Digital Twin'",
+          "source": "judged"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "Original first-person piece",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S10",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "visible date 2026-09-28",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "visible 2026-09-28 vs markup published 2026-09-28",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "published 2026-09-28, modified 2026-10-02",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "na",
+          "evidence": "modified 4 day(s) after publication (<7): no visible Updated label expected",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "No stale facts",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S11",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "5 in-body internal links (blog.se.com/se.com) (pass >=3; heuristic, Google gives no number)",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "'to support AI at scale' -> se.com/ww/en/work/solutions/ai-factory/",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "generic anchors none; same anchor -> different URLs none",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "internal links with tracking/ID params: none",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "non-crawlable hrefs: none; all in-body links are <a href>",
+          "source": "computed"
+        }
+      ]
+    },
+    {
+      "id": "S12",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "na",
+          "evidence": "No third-party statistics; all links are SE",
+          "source": "judged"
+        },
+        {
+          "id": "c2",
+          "result": "na",
+          "evidence": "0 outbound editorial links; rel values []",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "na",
+          "evidence": "No outbound third-party links",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S13",
+      "proposed_level": 4,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "2/2 content images have non-empty alt",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "alt 'End to End AI Infrastructure Digital Twin'",
+          "source": "judged"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "non-descriptive filenames: none",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "Digital-twin graphic placed after the powertrain paragraph",
+          "source": "judged"
+        }
+      ]
+    },
+    {
+      "id": "S14",
+      "proposed_level": 5,
+      "rationale": "all applicable checks pass",
+      "confidence": "high",
+      "checks": [
+        {
+          "id": "c1",
+          "result": "pass",
+          "evidence": "Article; missing none",
+          "source": "computed"
+        },
+        {
+          "id": "c2",
+          "result": "pass",
+          "evidence": "author Person 'Damien Dhellemmes', url=https://blog.se.com/author/damien-dhellemmes/, sameAs=None",
+          "source": "computed"
+        },
+        {
+          "id": "c3",
+          "result": "pass",
+          "evidence": "markup headline 'The next decade of AI infrastructure: Why Europe has an opportunity to lead' vs H1/title; markup author 'Damien Dhellemmes' vs byline 'Damien Dhellemmes'; dates 2026-09-28 vs 2026-09-28",
+          "source": "computed"
+        },
+        {
+          "id": "c4",
+          "result": "pass",
+          "evidence": "JSON-LD types ['Article', 'BreadcrumbList', 'ImageObject', 'Person', 'WebPage', 'WebSite']",
+          "source": "computed"
+        },
+        {
+          "id": "c5",
+          "result": "pass",
+          "evidence": "missing none; og:url = canonical; og:title 'The next decade of AI infrastructure: Why Europe has an opportunity to lead'",
+          "source": "computed"
+        }
+      ]
+    }
+  ],
+  "gates": [
+    {
+      "id": "SG1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "SG8",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_text_or_links",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_intro",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate_dominant",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "ai_listed_author",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "generic_anchor_overload",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "eligibility": [
+    {
+      "id": "E1",
+      "result": "pass",
+      "evidence": "curl 2026-10-23: HTTP/2 200, 0 redirects"
+    },
+    {
+      "id": "E2",
+      "result": "pass",
+      "evidence": "meta robots 'index, follow, max-image-preview:large, max-snippet:-1'; no X-Robots-Tag header; robots.txt has no Disallow matching the post path"
+    },
+    {
+      "id": "E3",
+      "result": "pass",
+      "evidence": "canonicals ['https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/']; page URL https://blog.se.com/datacenter/2026/09/28/the-next-decade-of-ai-infrastructure-why-europe-has-an-opportunity-to-lead/"
+    },
+    {
+      "id": "E4",
+      "result": "na",
+      "evidence": "no hreflang tags (blog is single-language en)"
+    },
+    {
+      "id": "E5",
+      "result": "pass",
+      "evidence": "https; http://blog.se.com/ returns 301 to https"
+    },
+    {
+      "id": "E6",
+      "result": "pass",
+      "evidence": "viewport 'width=device-width, initial-scale=1'; mobile content parity not rendered (unverified)"
+    },
+    {
+      "id": "E7",
+      "result": "pass",
+      "evidence": "max-snippet:-1, no nosnippet/noarchive"
+    },
+    {
+      "id": "E8",
+      "result": "pass",
+      "evidence": "912 body words in server HTML"
+    }
+  ]
+}

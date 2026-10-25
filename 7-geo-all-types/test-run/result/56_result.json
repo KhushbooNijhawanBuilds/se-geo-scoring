@@ -1,0 +1,182 @@
+{
+  "page": {
+    "id": "56",
+    "type": "esg_report",
+    "stage": "Evaluation",
+    "url": "https://www.se.com/ww/en/download/document/2025_Sustainability_Report/",
+    "topic": "Schneider Electric 2025 Sustainability Report",
+    "industry": "Energy Management & Sustainability (inferred)",
+    "target_prompts": [
+      "What were Schneider Electric's 2025 sustainability results?"
+    ],
+    "prompts_inferred": true
+  },
+  "page_type_key": "esg_report",
+  "stage": "Evaluation",
+  "raw_score": 12.9,
+  "penalties": [
+    "template_artifact"
+  ],
+  "penalty_points": 2,
+  "gates_triggered": [
+    "G13",
+    "G2",
+    "G6"
+  ],
+  "cap": 39,
+  "final_score": 11,
+  "band": "Poor",
+  "meets_threshold": false,
+  "confidence": "high",
+  "criteria": [
+    {
+      "id": "ESG-1",
+      "default_w": 22,
+      "family": "specs",
+      "m": 1.5,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "no KPIs on the gateway",
+      "confidence": "medium",
+      "eff_w": 28.21,
+      "points": 0.0,
+      "impact_points": 28.21
+    },
+    {
+      "id": "ESG-2",
+      "default_w": 14,
+      "family": "proof",
+      "m": 1.4,
+      "level": 0,
+      "checks_passed": "0/5",
+      "rationale": "no targets",
+      "confidence": "medium",
+      "eff_w": 16.75,
+      "points": 0.0,
+      "impact_points": 16.75
+    },
+    {
+      "id": "ESG-3",
+      "default_w": 10,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "no reporting basis",
+      "confidence": "medium",
+      "eff_w": 8.55,
+      "points": 0.0,
+      "impact_points": 8.55
+    },
+    {
+      "id": "ESG-4",
+      "default_w": 8,
+      "family": "evidence",
+      "m": 1.0,
+      "level": 0,
+      "checks_passed": "0/4",
+      "rationale": "no assurance/ratings",
+      "confidence": "medium",
+      "eff_w": 6.84,
+      "points": 0.0,
+      "impact_points": 6.84
+    },
+    {
+      "id": "U1",
+      "default_w": 10,
+      "family": "answer_def",
+      "m": 0.9,
+      "level": 1,
+      "checks_passed": "1/4",
+      "rationale": "title only; no headline result",
+      "confidence": "medium",
+      "eff_w": 7.69,
+      "points": 1.54,
+      "impact_points": 6.15
+    },
+    {
+      "id": "DOC-7",
+      "default_w": 10,
+      "family": "freshness",
+      "m": 1.1,
+      "level": 2,
+      "checks_passed": "2/4",
+      "rationale": "release date visible; no change note or current-edition statement",
+      "confidence": "medium",
+      "eff_w": 9.4,
+      "points": 3.76,
+      "impact_points": 5.64
+    },
+    {
+      "id": "ESG-5",
+      "default_w": 8,
+      "family": "other",
+      "m": 1.0,
+      "level": 1,
+      "checks_passed": "1/5",
+      "rationale": "type/date only; no description or companions",
+      "confidence": "medium",
+      "eff_w": 6.84,
+      "points": 1.37,
+      "impact_points": 5.47
+    },
+    {
+      "id": "U8",
+      "default_w": 6,
+      "family": "other",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "3/4",
+      "rationale": "identifiers present; G13 cap",
+      "confidence": "medium",
+      "eff_w": 5.13,
+      "points": 2.05,
+      "impact_points": 3.08
+    },
+    {
+      "id": "U10",
+      "default_w": 4,
+      "family": "commercial",
+      "m": 1.1,
+      "level": 1,
+      "checks_passed": "1/4",
+      "rationale": "no stage content; non-descriptive CTA",
+      "confidence": "medium",
+      "eff_w": 3.76,
+      "points": 0.75,
+      "impact_points": 3.01
+    },
+    {
+      "id": "U7",
+      "default_w": 4,
+      "family": "tone",
+      "m": 1.0,
+      "level": 2,
+      "checks_passed": "2/3",
+      "rationale": "neutral; no limitations; G13 cap",
+      "confidence": "medium",
+      "eff_w": 3.42,
+      "points": 1.37,
+      "impact_points": 2.05
+    },
+    {
+      "id": "DOC-5",
+      "default_w": 4,
+      "family": "other",
+      "m": 1.0,
+      "level": 3,
+      "checks_passed": "3/4",
+      "rationale": "descriptive title and file name; minimal meta description",
+      "confidence": "medium",
+      "eff_w": 3.42,
+      "points": 2.05,
+      "impact_points": 1.37
+    }
+  ],
+  "warnings": [
+    "U8: level 2 -> 4 (anchor: checks meet the level-4 definition (judge proposed 2)); using 4",
+    "U7: level 2 -> 3 (anchor: checks meet the level-3 definition (judge proposed 2)); using 3"
+  ],
+  "weights_version": "2.1-2026-10-20",
+  "disclaimer": "Citation-readiness of content only; actual AI citation also depends on retrieval, off-site consensus and technical access."
+}

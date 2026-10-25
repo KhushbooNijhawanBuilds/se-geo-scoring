@@ -1,0 +1,616 @@
+{
+  "page": {
+    "id": "19",
+    "title": "McLaren Racing: Innovation in motion",
+    "url": "https://www.se.com/ww/en/work/campaign/customer-stories/mclaren-racing/",
+    "type": "case_study",
+    "stage": "Consideration",
+    "topic": "McLaren Racing: Innovation in motion",
+    "industry": "",
+    "target_prompts": [
+      "How does McLaren Racing use Schneider Electric technology?",
+      "Which Schneider Electric products does McLaren Racing use?",
+      "How do F1 teams power their factories and trackside operations?",
+      "Examples of motorsport teams using energy monitoring",
+      "What results has McLaren achieved with Schneider Electric?"
+    ],
+    "prompts_inferred": "fan-outs inferred",
+    "content_scored": "corpus/rendered/19_customer-success-story.md",
+    "judge": "A",
+    "standard": "v2.0"
+  },
+  "criteria": [
+    {
+      "id": "CS-1",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "McLaren Racing: Innovation in motion",
+          "location": "title",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "Innovation in motion",
+          "location": "H1 slogan",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "For over 20 years, Schneider Electric has been supporting McLaren Racing in powering",
+          "location": "19-word lede, below 40",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no result/timeframe in lede",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A"
+      },
+      "rationale": "Customer in title only; slogan H1; one-sentence lede with no outcome.",
+      "proposed_level": 1,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Formula 1, F1 Academy, WEC, IndyCar",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "56,304 sqm floor space at the McLaren Technology Centre",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "headquarters in Woking, UK",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "to the new McLaren Racing Center in Indianapolis, and to demanding trackside environments",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Sector, scale, locations and scope stated.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "20+ years length of McLaren Racing and Schneider Electric relationship",
+          "location": "vanity stat",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "By lowering costs and optimizing its infrastructure",
+          "location": "unquantified",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c5"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c6"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A",
+        "c4": "A",
+        "c5": "A",
+        "c6": "A"
+      },
+      "rationale": "No quantified outcome.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-4",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Help provide reliable and resilient power across McLaren Racing’s footprint",
+          "location": "The challenge",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Our medium- and low-voltage switchgear enhance power reliability and efficiency, while energy metering brings visibility",
+          "location": "The solution",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "McLaren Racing can channel more resources into on-track performance",
+          "location": "The results",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The challenge",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Full challenge/solution/results segmentation; results vague.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-5",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "if you're standing still, you're actually going backwards",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Dan Keyworth, Executive Director",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "Executive Director of Performance Technology and Systems, McLaren Racing",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "We want to be the best in our game, and Schneider Electric wants to be the best in theirs.",
+          "location": "generic praise",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "Named, titled quote; no fact or outcome.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-6",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Masterpact™ MTZ/NW/M",
+          "location": "hidden product list",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Open, interoperable EcoStruxure™ software helps McLaren Racing optimize energy usage",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Power Monitoring Expert",
+          "location": "hidden product list",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {},
+      "rationale": "Roles explained at family level (switchgear, metering, software); product list collapsed.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "CS-7",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "",
+          "id": "c3"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "No metrics, no method.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U2",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Our medium- and low-voltage switchgear enhance power reliability",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "supporting McLaren Racing",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "demanding trackside environments around the world",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "channel more resources into on-track performance",
+          "location": "outcome not concrete",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c4": "A"
+      },
+      "rationale": "What/who/when clear; outcome vague.",
+      "proposed_level": 3,
+      "confidence": "high"
+    },
+    {
+      "id": "U3",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "## Where data meets drive",
+          "location": "slogan heading",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Open, interoperable EcoStruxure™ software",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "These solutions scale across McLaren Racing’s entire operations, on and off the track.",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "Open, interoperable EcoStruxure™ software helps McLaren Racing optimize energy usage",
+          "location": "",
+          "id": "c4"
+        },
+        {
+          "result": "pass",
+          "evidence": "## The solution",
+          "location": "story visible",
+          "id": "c5"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A"
+      },
+      "rationale": "Visible, self-contained sections; one slogan heading.",
+      "proposed_level": 4,
+      "confidence": "high"
+    },
+    {
+      "id": "U7",
+      "checks": [
+        {
+          "result": "pass",
+          "evidence": "Help provide reliable and resilient power across McLaren Racing’s footprint",
+          "location": "",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no limitations",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "See how our advanced energy tech helps the team accelerate performance.",
+          "location": "promo",
+          "id": "c3"
+        },
+        {
+          "result": "na",
+          "evidence": "n/a",
+          "location": "",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c2": "A",
+        "c3": "A"
+      },
+      "rationale": "Mixed.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U8",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "Netbotz™ Security System",
+          "location": "brand styled NetBotz on other SE pages",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "Masterpact™ MTZ/NW/M",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "pass",
+          "evidence": "56,304 sqm",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "Discover more",
+          "location": "generic anchor",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c4": "T"
+      },
+      "rationale": "Brand casing; generic anchors.",
+      "proposed_level": 2,
+      "confidence": "high"
+    },
+    {
+      "id": "U9",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no publish/project date",
+          "id": "c1"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no dated results",
+          "id": "c2"
+        },
+        {
+          "result": "na",
+          "evidence": "lifecycle n/a",
+          "location": "",
+          "id": "c3"
+        },
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "no review evidence",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "T",
+        "c2": "A",
+        "c4": "A"
+      },
+      "rationale": "Undated.",
+      "proposed_level": 0,
+      "confidence": "high"
+    },
+    {
+      "id": "U10",
+      "checks": [
+        {
+          "result": "fail",
+          "evidence": "NOT FOUND",
+          "location": "sponsorship story; no proof for Consideration",
+          "id": "c1"
+        },
+        {
+          "result": "pass",
+          "evidence": "reliable and resilient power",
+          "location": "",
+          "id": "c2"
+        },
+        {
+          "result": "fail",
+          "evidence": "Discover more",
+          "location": "vague CTA",
+          "id": "c3"
+        },
+        {
+          "result": "pass",
+          "evidence": "EcoStruxure Power Monitoring Expert",
+          "location": "product links (hidden)",
+          "id": "c4"
+        }
+      ],
+      "failed_tags": {
+        "c1": "A",
+        "c3": "T"
+      },
+      "rationale": "Weak stage fit.",
+      "proposed_level": 2,
+      "confidence": "high"
+    }
+  ],
+  "gates": [
+    {
+      "id": "G1",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G2",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G3",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G4",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G5",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G6",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G7",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G8",
+      "triggered": true,
+      "evidence": "No quantified customer outcome (only relationship years, parts, floor area)."
+    },
+    {
+      "id": "G9",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G10",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G11",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G12",
+      "triggered": false,
+      "evidence": ""
+    },
+    {
+      "id": "G13",
+      "triggered": false,
+      "evidence": ""
+    }
+  ],
+  "penalties": [
+    {
+      "id": "keyword_stuffing",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "fluff_density",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "boilerplate",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "cta_overload",
+      "applied": true,
+      "evidence": "Read the full story / Watch now / Discover more"
+    },
+    {
+      "id": "self_ranking",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "template_artifact",
+      "applied": true,
+      "evidence": "ZZ_Label / ZZ_Heading / ZZ_Description cards in the product tab"
+    },
+    {
+      "id": "superseded_no_notice",
+      "applied": false,
+      "evidence": ""
+    },
+    {
+      "id": "hidden_instructions",
+      "applied": false,
+      "evidence": ""
+    }
+  ],
+  "out_of_scope_observations": [
+    "Crawler gap: 56% of the content is invisible to non-JS AI crawlers (GPTBot/OAI-SearchBot, ClaudeBot, PerplexityBot) → SE Digital (server 210 vs rendered 472 words)."
+  ],
+  "stage_fit": {
+    "fits": true,
+    "note": ""
+  }
+}

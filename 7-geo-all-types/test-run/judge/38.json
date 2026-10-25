@@ -1,0 +1,488 @@
+{
+ "page": {
+  "id": "38",
+  "type": "service_project",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/services/assets-and-systems-services/ecofit/",
+  "topic": "EcoFit modernization and circularity services",
+  "target_prompts": [
+   "What are the options to modernize or retrofit aging electrical equipment instead of replacing it?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Problem/answer intro, descriptive H1; sections are teaser cards; no summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoFit helps you solve these problems and modernize your equipment and installations."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# EcoFit™: Modernization and circularity services"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Extend the life of your equipment and reduce your environmental footprint."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Modernization and repairability services"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "What and scenario clear; who vague; outcome quantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoFit helps you solve these problems and modernize your equipment and installations."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Outdated equipment and installations waste energy and increase operating costs"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoFit can extend asset life by up to 25%"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Descriptive H2 per offer, short paragraphs; empty H2 and teaser-only sections",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## Switchgear modernization"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Asset life up to 25%"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "## Modernization and repairability services"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Learn more"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Fairly plain, no trade-offs; repeated vague CTAs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Retrofit only active components to save resources and reduce CO2 emissions."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Learn more"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Replace your aging or unsupported PLCs with the modern Modicon platform."
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 3,
+   "rationale": "Consideration hub; CTAs generic; cross-links to EcoConsult/EcoCare",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Take advantage of two EcoFit approaches: Modernization and circularity"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Contact Sales"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "## Discover EcoConsult: consulting services for electrical and automation systems"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-1",
+   "proposed_level": 3,
+   "rationale": "Several offers named; specific for switchgear; detail on child pages",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "pre-engineered retrofit solutions for MV and LV circuit breakers, contactors, and protection relays"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "We collect all equipment to reuse after modernization or recycle."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Combine your EcoFit modernization with an EcoCare membership"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Learn more"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-2",
+   "proposed_level": 1,
+   "rationale": "No project commitments",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Combine your EcoFit modernization with an EcoCare membership"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-3",
+   "proposed_level": 3,
+   "rationale": "Categories named, Modicon named; no multi-vendor/eligibility",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## UPS and cooling modernization"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "the modern Modicon platform"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-4",
+   "proposed_level": 1,
+   "rationale": "No process; EcoConsult audit as start",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Get hold of Schneider Electric consultants who can audit, evaluate, and map your electrical and automation assets"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-5",
+   "proposed_level": 1,
+   "rationale": "No plans or model",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "an expert in your country will connect with you"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-6",
+   "proposed_level": 4,
+   "rationale": "Two quantified outcomes, no basis",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Savings up to 90%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoFit can extend asset life by up to 25%"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "reducing your carbon footprint"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SVC-7",
+   "proposed_level": 0,
+   "rationale": "No proof",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G12",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Learn more x4, Discover more x2, Read more"
+  }
+ ]
+}

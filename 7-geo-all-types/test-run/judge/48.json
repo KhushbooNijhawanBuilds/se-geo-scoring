@@ -1,0 +1,478 @@
+{
+ "page": {
+  "id": "48",
+  "type": "software_hub",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/software/ecostruxure-building/large-buildings-energy-management/",
+  "topic": "EcoStruxure energy management software for large buildings",
+  "target_prompts": [
+   "What energy management software can I use to reduce energy costs in large buildings?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "9 product cards -> hub, Consideration (default)"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 1,
+   "rationale": "1/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Monitor, analyze, control, forecast, and optimize energy usage (no category noun)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "Energy Management"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Monitor, analyze, control, forecast, and optimize energy usage by load type to identify where you can save on energy costs."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "sections open with product cards"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "4/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "this edge control solution for distributed energy"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "For large and critical buildings"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Perform load control and peak management and participate in demand response programs."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "achieving reductions in both CO2 emissions and operating costs"
+    }
+   ]
+  },
+  {
+   "id": "SW-7",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Resource Advisor Optimize energy usage by monitoring and analyzing load types"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Energy source, load and grid management software"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Microgrid Operation vs Microgrid Advisor not explained"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": 4,
+   "rationale": "4/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Share data with stakeholders or with occupants in kiosk mode."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "EcoStruxure EV Charging Expert Optimize charging, forecast and control energy use, and manage building loads."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Reduction in energy consumption¹ (number missing)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Participate in grid ancillary services to generate revenue."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence": "Allocate energy costs to increase accountability for energy usage."
+    }
+   ]
+  },
+  {
+   "id": "SW-2",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "end-to-end, open technology (unbacked)"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "edge control solution for distributed energy"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "portfolio level (no architecture)"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-6",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Citycon ... reductions in both CO2 emissions and operating costs (unquantified)"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reduction in energy consumption¹ (no numbers)"
+    }
+   ]
+  },
+  {
+   "id": "SW-8",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 4,
+   "rationale": "4/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Energy source, load and grid management software"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Get granular energy data from floors, areas, or zones."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Optimize energy usage by monitoring and analyzing load types to identify crucial cost-saving opportunities."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure Microgrid Advisor"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "hero statistics only in images"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "the smartest and most energy-efficient real estate on the market"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "the smartest and most energy-efficient real estate on the market"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "comparative claim with no alternatives"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Building Advisor"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure Power Monitoring Expert"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Explore our customer success story"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

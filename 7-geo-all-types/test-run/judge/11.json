@@ -1,0 +1,511 @@
+{
+ "page": {
+  "id": "11",
+  "type": "solution",
+  "stage": "Consideration",
+  "url": "https://www.se.com/ww/en/work/solutions/healthcare/hospital-room-management/",
+  "topic": "EcoStruxure Connected Room Solutions for Healthcare (smart hospital room management)",
+  "target_prompts": [
+   "What is a smart hospital room management system and how does it improve patient experience and staff efficiency?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "Definition-style first sentence; descriptive H1; H2s partially answer-first; no summary",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure™ Connected Room Solutions for Healthcare enhances satisfaction with personalized patient room control"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Smart hospital room management"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "maximizes clinical staff productivity, and increases energy efficiency"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Deliver high-quality patient care and attract skilled staff."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U2",
+   "proposed_level": 3,
+   "rationale": "What, who, when present; outcome not quantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure Connected Room Solutions for Healthcare provides an integrated patient experience"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "# Facility managers and operational staff"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Configure rooms in multiple modes or scenes based on the room occupancy status."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reduce length of stay"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "Good persona lists and short paragraphs; truncated product teasers",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## Why choose our smart hospital room management solution?"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "- Configure rooms in multiple modes or scenes based on the room occupancy status."
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Healthcare facilities face evolving compliance requirements, patient expectations, and resource constraints."
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Reduce airborne contaminants and adjust fresh air circulation in multiple zones..."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Reduce airborne contaminants and adjust fresh air circulation in multiple zones..."
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U5",
+   "proposed_level": 2,
+   "rationale": "Sourced, dated statistics and ASHRAE 170; no quotes/first-party data/owner",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "2Healthcare's Climate Footprint, 2019, Healthcare Without Harm and ARUP"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "following standards such as ASHRAE 170"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U6",
+   "proposed_level": 3,
+   "rationale": "Answered for main fan-outs (components, personas, benefits); no proof/implementation",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "provides an integrated patient experience that puts precise room control in their hands, reduces nurse calls"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "## Delivering value to every customer"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "## Hotels"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U7",
+   "proposed_level": 2,
+   "rationale": "Mostly benefit voice; no trade-offs",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Why choose our smart hospital room management solution?"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Maintain control and optimize healing environments with fresh air flow and circulation"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U9",
+   "proposed_level": 2,
+   "rationale": "Undated; 2019-2022 sources",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "2022 Global Strategy on Human Resources for Health"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "U10",
+   "proposed_level": 5,
+   "rationale": "Consideration depth with persona sections; CTA names asset",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "## Delivering value to every customer"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "integration to EcoStruxure Building Operation"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Discover EcoStruxure for Healthcare"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Discover EcoStruxure Building Operation"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-1",
+   "proposed_level": 4,
+   "rationale": "Quantified, sourced problem facts, but below the top block",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Healthcare facilities face evolving compliance requirements, patient expectations, and resource constraints."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "10 million"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "World Health Organization"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-2",
+   "proposed_level": 3,
+   "rationale": "Components with roles and BMS integration; no quantified parameter",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "integrates clinical and facilities systems to increase efficiency"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "SpaceLogic SE8000 Enable accurate temperature control in any space"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "simple integration with customers’ third-party systems and the IoT cloud"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "[hidden] ## Room sensors"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-4",
+   "proposed_level": 1,
+   "rationale": "Outcomes unquantified",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Reduce length of stay"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "reduces nurse calls"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence": ""
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-5",
+   "proposed_level": 0,
+   "rationale": "No references",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-7",
+   "proposed_level": 3,
+   "rationale": "Applications per persona; no scope boundaries",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Configure rooms in multiple modes or scenes based on the room occupancy status."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "simple integration with customers’ third-party systems and the IoT cloud"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "SOL-8",
+   "proposed_level": 0,
+   "rationale": "Only install-speed claim",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "install quickly and with minimal interruption"
+    }
+   ],
+   "confidence": "high"
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

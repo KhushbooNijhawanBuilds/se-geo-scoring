@@ -1,0 +1,483 @@
+{
+ "page": {
+  "id": "45",
+  "type": "software_product",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/work/software/data-center-infrastructure-management-dcim/",
+  "topic": "EcoStruxure IT DCIM software",
+  "target_prompts": [
+   "What is EcoStruxure IT DCIM software and what can it do for my data center?"
+  ],
+  "prompts_inferred": true,
+  "stage_reason": "Single software platform capabilities page -> Evaluation (default)"
+ },
+ "criteria": [
+  {
+   "id": "U1",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Intelligent DCIM software in the AI era"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Data center infrastructure management (DCIM) software is used to monitor, measure, and manage data centers"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "EcoStruxure IT DCIM software for todays data center challenges (heading repeated, no answer)"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "U2",
+   "proposed_level": 4,
+   "rationale": "4/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Design, simulate, and optimize data center or colocation infrastructure"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "whether on-premise, at the edge, or in hybrid environments"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Deploying EcoStruxure IT boosted data center efficiency by cutting emissions by 30%"
+    }
+   ]
+  },
+  {
+   "id": "SW-1",
+   "proposed_level": 2,
+   "rationale": "2/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Monitor temperature and airflow for optimal operating conditions."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "IT Expert, IT Advisor, Data Center Expert, NetBotz named but not mapped"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Forecast future IT needs and ensure resources are available."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "Security and access management / Environmental and security alarms (label-only)"
+    }
+   ]
+  },
+  {
+   "id": "SW-2",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Supports multi-vendor ecosystems. (unbacked)"
+    }
+   ]
+  },
+  {
+   "id": "SW-3",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "on-premise/edge/hybrid refers to the infrastructure, not the software"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Ready to go or custom-tailored solutions (vague; torn -> fail)"
+    }
+   ]
+  },
+  {
+   "id": "SW-4",
+   "proposed_level": 4,
+   "rationale": "3/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "mandatory two-factor authentication and high encryption standards"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Secure, GDPR-compliant monitoring of critical infrastructure"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure IT policies"
+    }
+   ]
+  },
+  {
+   "id": "SW-5",
+   "proposed_level": 1,
+   "rationale": "1/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Start a free trial (one term only)"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "Create an account"
+    }
+   ]
+  },
+  {
+   "id": "SW-6",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "Deploying EcoStruxure IT boosted data center efficiency by cutting emissions by 30%"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no baseline/timeframe"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "setting expectations of 5-10% savings in power and energy"
+    }
+   ]
+  },
+  {
+   "id": "SW-7",
+   "proposed_level": 0,
+   "rationale": "0/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "IT Expert, IT Advisor, Data Center Expert listed without differentiation"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  },
+  {
+   "id": "SW-8",
+   "proposed_level": 2,
+   "rationale": "1/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "access release notes and more"
+    }
+   ]
+  },
+  {
+   "id": "U3",
+   "proposed_level": 3,
+   "rationale": "3/5 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Discover the benefits of EcoStruxure IT / Tools and resources"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence": "Monitoring and management Oversee and control assets, environmental conditions, and security"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "Optimize power with smart insights."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform."
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence": "customer references only as logo images (torn -> fail)"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "Take your business above and beyond"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence": "Try now / Start a free trial / Contact sales stacked"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence": ""
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 3,
+   "rationale": "2/4 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence": "EcoStruxure IT is Schneider Electric's comprehensive DCIM software platform."
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "no version"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence": "EcoStruxure IT Expert, IT Advisor, Data Center Expert, and NetBotz"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "Learn more / Read more"
+    }
+   ]
+  },
+  {
+   "id": "U9",
+   "proposed_level": 0,
+   "rationale": "0/3 checks pass",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    },
+    {
+     "id": "c3",
+     "result": "na",
+     "evidence": ""
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence": "NOT FOUND"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G11",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": true,
+   "evidence": "Section \"EcoStruxure IT DCIM software for todays data center challenges\" + 4 tiles rendered twice"
+  },
+  {
+   "id": "cta_overload",
+   "applied": true,
+   "evidence": "Learn more / Read more / Explore now / Try now"
+  }
+ ]
+}
