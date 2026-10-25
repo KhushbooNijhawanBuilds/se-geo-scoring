@@ -1,19 +1,39 @@
-"""LLM judge (standard v2.2): builds the per-type rubric prompt, calls Claude, verifies quotes.
+"""LLM judge (standard v2.2): builds the per-type rubric prompt, calls Google Gemini, verifies quotes.
 
 The system prompt is the v2.2 Copilot judge prompt for the selected page type (standard/prompts/), with the
 Copilot-only parts (open the URL yourself, compute the score, write a report, paste a JSON block) replaced by
 app instructions. Checks, gates, caps, anchors, stage tests and note-allowed checks are therefore exactly the
 v2.2 ones. The judge only answers checks with evidence; levels, weights, penalties and caps are computed by
 engine/geo_score_calc.py.
+
+Model calls use the official Google Gen AI SDK (package google-genai):
+    from google import genai
+    client = genai.Client(api_key=...)
+    client.models.generate_content(model=..., contents=..., config=...)
+Structured output uses Gemini JSON mode (response_mime_type "application/json" + a response_json_schema that is
+the same JSON Schema the calculator expects, including the v2.2 fields evidence_type, downgrade_reason and the
+nullable proposed_level).
 """
 import json
+import os
 import re
 
-import anthropic
+from google import genai
+from google.genai import errors, types
 
 from .catalog import ORDERED_KEYS, PAGE_TYPES, appendix_a, prompt_path
 
-DEFAULT_MODEL = "claude-opus-5-5"
+# One place to change the judge model. Overridable via st.secrets / env GEMINI_MODEL (see resolve_model()).
+GEMINI_MODEL = "gemini-2.5-flash"
+# Backwards-compatible alias (app.py and older callers import DEFAULT_MODEL).
+DEFAULT_MODEL = GEMINI_MODEL
+# Alternative model offered in the sidebar (more thorough, but not available on every key/tier).
+GEMINI_MODEL_ALT = "gemini-2.5-pro"
+
+# Gemini has no "effort" knob; the nearest equivalent is the thinking budget (tokens the model may spend
+# reasoning before answering). -1 lets the model decide dynamically. The API clamps values per model.
+_EFFORT_THINKING_BUDGET = {"medium": 4096, "high": 16384, "xhigh": -1}
+
 STAGE_ENUM = ["Awareness", "Education", "Consideration", "Evaluation", "Decision"]
 
 JSON_SCHEMA = {
@@ -144,66 +164,117 @@ class JudgeError(Exception):
     pass
 
 
-def _call(client, model, effort, system, user, schema, with_fallbacks, max_tokens=64000):
-    extra = {}
-    if with_fallbacks:
-        # Server-side refusal fallback (routes a declined request to a recommended model).
-        extra = {"extra_headers": {"anthropic-beta": "server-side-fallback-2026-07-01"},
-                 "extra_body": {"fallbacks": "default"}}
-    with client.messages.stream(
-        model=model,
-        max_tokens=max_tokens,
-        system=system,
-        messages=[{"role": "user", "content": user}],
-        output_config={"effort": effort, "format": {"type": "json_schema", "schema": schema}},
-        **extra,
-    ) as stream:
-        return stream.get_final_message()
+def resolve_model(model=None):
+    """The judge model: an explicit choice, else st.secrets/env GEMINI_MODEL, else the GEMINI_MODEL constant."""
+    if model:
+        return model
+    try:  # st.secrets is only importable inside a Streamlit run; keep judge usable without Streamlit.
+        import streamlit as st
+        secret = st.secrets.get("GEMINI_MODEL", "")
+        if secret:
+            return secret
+    except Exception:
+        pass
+    return os.environ.get("GEMINI_MODEL") or GEMINI_MODEL
+
+
+def _api_key(api_key):
+    """Explicit key, else st.secrets GEMINI_API_KEY, else env GEMINI_API_KEY. Returns None if none found."""
+    if api_key:
+        return api_key
+    try:
+        import streamlit as st
+        key = st.secrets.get("GEMINI_API_KEY", "")
+        if key:
+            return key
+    except Exception:
+        pass
+    return os.environ.get("GEMINI_API_KEY") or None
+
+
+def _config(system_text, effort, schema, max_tokens):
+    budget = _EFFORT_THINKING_BUDGET.get(effort)
+    kwargs = dict(
+        system_instruction=system_text,
+        response_mime_type="application/json",
+        # The calculator's JSON Schema is passed straight through as standard JSON Schema (anyOf/null for the
+        # nullable proposed_level, evidence_type and downgrade_reason all survive here).
+        response_json_schema=schema,
+        max_output_tokens=max_tokens,
+        temperature=0,
+    )
+    if budget is not None:
+        kwargs["thinking_config"] = types.ThinkingConfig(thinking_budget=budget, include_thoughts=False)
+    return types.GenerateContentConfig(**kwargs)
+
+
+def _build_request(api_key, model, effort, system_text, user, schema, max_tokens=64000):
+    """Build the resolved (model, contents, config) without sending. Lets tests inspect the request."""
+    return resolve_model(model), user, _config(system_text, effort, schema, max_tokens)
+
+
+def _finish_reason(response):
+    try:
+        return str(response.candidates[0].finish_reason or "")
+    except (AttributeError, IndexError, TypeError):
+        return ""
 
 
 def _run(api_key, model, effort, system_text, user, schema, max_tokens=64000):
-    client = anthropic.Anthropic(api_key=api_key) if api_key else anthropic.Anthropic()
-    system = [{"type": "text", "text": system_text, "cache_control": {"type": "ephemeral"}}]
+    key = _api_key(api_key)
+    if not key:
+        raise JudgeError("No Gemini API key found. Add GEMINI_API_KEY to .streamlit/secrets.toml (see README), "
+                         "set the GEMINI_API_KEY environment variable, or paste a key in the sidebar.")
+    model = resolve_model(model)
+    config = _config(system_text, effort, schema, max_tokens)
+    client = genai.Client(api_key=key)
     try:
-        try:
-            message = _call(client, model, effort, system, user, schema, True, max_tokens)
-        except anthropic.BadRequestError as e:
-            body = e.body if isinstance(e.body, dict) else {}
-            detail = ((body.get("error") or {}).get("message") or e.message).lower()
-            if "fallback" not in detail:
-                raise
-            message = _call(client, model, effort, system, user, schema, False, max_tokens)
-    except anthropic.AuthenticationError:
-        raise JudgeError("The API key was rejected. Check it in the sidebar.")
-    except anthropic.PermissionDeniedError:
-        raise JudgeError("This API key doesn't have permission for the selected model.")
-    except anthropic.NotFoundError:
-        raise JudgeError(f"Model '{model}' was not found for this key.")
-    except anthropic.RateLimitError:
-        raise JudgeError("Rate limited by the API. Wait a minute and try again.")
-    except anthropic.BadRequestError as e:
-        body = e.body if isinstance(e.body, dict) else {}
-        detail = (body.get("error") or {}).get("message") or e.message
-        if "credit balance" in detail.lower():
-            raise JudgeError("The Anthropic account behind this API key has no credit left. "
-                             "Add credits in the Claude Console (Plans & Billing) or use another key.")
+        response = client.models.generate_content(model=model, contents=user, config=config)
+    except errors.ClientError as e:
+        code = getattr(e, "code", None)
+        detail = (getattr(e, "message", None) or str(e))
+        low = detail.lower()
+        if code == 401 or "api key not valid" in low or "api_key_invalid" in low:
+            raise JudgeError("The API key was rejected. Check it in the sidebar.")
+        if code == 403 or "permission" in low:
+            raise JudgeError(f"This API key doesn't have permission for model '{model}'.")
+        if code == 404 or "not found" in low:
+            raise JudgeError(f"Model '{model}' was not found for this key.")
+        if code == 429 or "quota" in low or "rate" in low or "resource_exhausted" in low:
+            raise JudgeError("Rate limited or out of quota on the Gemini API. "
+                             "Wait a minute and try again, or check billing/quota in Google AI Studio.")
         raise JudgeError(f"The API rejected the request: {detail}")
-    except anthropic.APIStatusError as e:
-        raise JudgeError(f"API error {e.status_code}: {e.message}")
-    except anthropic.APIConnectionError:
-        raise JudgeError("Could not reach the Anthropic API. Check the network connection.")
-    if message.stop_reason == "refusal":
+    except errors.ServerError as e:
+        raise JudgeError(f"Gemini API error {getattr(e, 'code', '')}: {getattr(e, 'message', None) or str(e)}")
+    except errors.APIError as e:
+        raise JudgeError(f"Gemini API error: {getattr(e, 'message', None) or str(e)}")
+    except Exception as e:  # network / transport failures
+        raise JudgeError(f"Could not reach the Gemini API. Check the network connection. ({e})")
+
+    reason = _finish_reason(response).upper()
+    if "SAFETY" in reason or "BLOCK" in reason or "RECITATION" in reason or "PROHIBITED" in reason:
         raise JudgeError("The model declined this request. Try another page, or paste the text without unusual content.")
-    if message.stop_reason == "max_tokens":
+    if "MAX_TOKENS" in reason:
         raise JudgeError("The judgement was cut off (output limit). Try a shorter page or paste only the main content.")
-    text = next((b.text for b in message.content if b.type == "text"), "")
+    text = (getattr(response, "text", None) or "").strip()
+    if not text:
+        raise JudgeError("The judge returned an empty response. Run it again.")
     try:
         data = json.loads(text)
     except json.JSONDecodeError:
-        raise JudgeError("The judge returned output that isn't valid JSON. Run it again.")
-    usage = {"input_tokens": message.usage.input_tokens, "output_tokens": message.usage.output_tokens,
-             "cache_read_input_tokens": getattr(message.usage, "cache_read_input_tokens", 0) or 0,
-             "model": message.model}
+        # Fallback: pull the outermost JSON object if the model wrapped it in prose or a code fence.
+        m = re.search(r"\{.*\}", text, flags=re.S)
+        if not m:
+            raise JudgeError("The judge returned output that isn't valid JSON. Run it again.")
+        try:
+            data = json.loads(m.group(0))
+        except json.JSONDecodeError:
+            raise JudgeError("The judge returned output that isn't valid JSON. Run it again.")
+    um = getattr(response, "usage_metadata", None)
+    usage = {"input_tokens": getattr(um, "prompt_token_count", 0) or 0,
+             "output_tokens": getattr(um, "candidates_token_count", 0) or 0,
+             "cache_read_input_tokens": getattr(um, "cached_content_token_count", 0) or 0,
+             "model": getattr(response, "model_version", None) or model}
     return data, usage
 
 

@@ -13,7 +13,7 @@ from geoscore.capture import CaptureError, capture
 from geoscore.catalog import GROUPS, PAGE_TYPES, STAGES, appendix_a, load_weights, type_label
 from geoscore.type_info import render as render_type_info
 from geoscore.explain import explain, normalise
-from geoscore.judge import DEFAULT_MODEL, JudgeError, classify_type, run_judge, to_calc_judge, verify_quotes
+from geoscore.judge import GEMINI_MODEL, GEMINI_MODEL_ALT, JudgeError, classify_type, resolve_model, run_judge, to_calc_judge, verify_quotes
 
 HERE = Path(__file__).resolve().parent
 EXAMPLES = {
@@ -37,15 +37,15 @@ def _fmt(v):
 
 
 def saved_api_key():
-    """Key from .streamlit/secrets.toml, else the ANTHROPIC_API_KEY environment variable. Never shown."""
+    """Key from .streamlit/secrets.toml, else the GEMINI_API_KEY environment variable. Never shown."""
     try:
-        key = st.secrets.get("ANTHROPIC_API_KEY", "")
+        key = st.secrets.get("GEMINI_API_KEY", "")
         if key:
             return key, "the secrets file on this computer"
     except Exception:
         pass
-    if os.environ.get("ANTHROPIC_API_KEY"):
-        return os.environ["ANTHROPIC_API_KEY"], "the ANTHROPIC_API_KEY environment variable"
+    if os.environ.get("GEMINI_API_KEY"):
+        return os.environ["GEMINI_API_KEY"], "the GEMINI_API_KEY environment variable"
     return "", ""
 
 
@@ -70,16 +70,20 @@ with st.sidebar:
     st.header("Setup")
     saved_key, key_source = saved_api_key()
     if saved_key:
-        st.success(f"Using your saved Anthropic API key (from {key_source}).")
+        st.success(f"Using your saved Gemini API key (from {key_source}).")
         override = st.text_input("Use a different key for this session (optional)", type="password", value="")
         api_key = override or saved_key
     else:
         st.warning("No saved API key found. Add it to .streamlit/secrets.toml (see README), or paste it below for this session only.")
-        api_key = st.text_input("Anthropic API key", type="password", value="")
-    model = st.selectbox("Judge model", [DEFAULT_MODEL, "claude-sonnet-5-5"], index=0,
-                         help="Claude Opus 5.5 is recommended for judging.")
+        api_key = st.text_input("Gemini API key", type="password", value="",
+                                help="A Google AI Studio API key. Get one at https://aistudio.google.com/apikey")
+    default_model = resolve_model()
+    model_choices = list(dict.fromkeys([default_model, GEMINI_MODEL, GEMINI_MODEL_ALT]))
+    model = st.selectbox("Judge model", model_choices, index=0,
+                         help="Google Gemini model. Gemini 2.5 Pro is recommended for judging. "
+                              "Set GEMINI_MODEL in secrets.toml or the environment to change the default.")
     effort = st.selectbox("Judge effort", ["high", "medium", "xhigh"], index=0,
-                          help="Higher effort = more careful checks, slower and costlier.")
+                          help="Mapped to the Gemini thinking budget. Higher effort = more careful checks, slower and costlier.")
     rules = st.radio("Scoring rules", ["v2.2", "v2.1"], index=0, horizontal=True,
                      help="v2.2 (default): the level is set by the calculator from the checks; the judge can only lower it with a reason. "
                           "v2.1: the older level logic, for comparison only (same weights).")
@@ -140,7 +144,7 @@ with tab_score:
         if missing:
             st.error("Please fill in the required fields: " + ", ".join(missing) + ".")
         elif not api_key:
-            st.error("Add your Anthropic API key (see the sidebar) to score a page. You can try the Replay tab without a key.")
+            st.error("Add your Gemini API key (see the sidebar) to score a page. You can try the Replay tab without a key.")
         else:
             if not intake["target_prompts"]:
                 st.warning("No target question given: the judge will infer one, and the result will say so.")

@@ -3,15 +3,15 @@
 Scores how ready a page's content is to be understood, trusted and quoted by AI answer engines, using the
 SE Content GEO Scoring Standard **v2.2** for all 26 page types, and shows exactly how the score was calculated.
 
-The AI judge (Claude) only answers each pass/fail check with evidence. **The calculator sets every level**
+The AI judge (Google Gemini) only answers each pass/fail check with evidence. **The calculator sets every level**
 (v2.2 rule) and computes weights, penalties, gate caps and the final score in code (`engine/geo_score_calc.py`).
 
 ## Setup (once)
 
 1. Install Python 3.9 or later (https://www.python.org/downloads/).
-2. Put your Anthropic API key in a secrets file:
+2. Put your Google Gemini API key (from https://aistudio.google.com/apikey) in a secrets file:
    copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` and replace the placeholder with your key.
-   (Or set the `ANTHROPIC_API_KEY` environment variable, or paste the key in the sidebar for one session.)
+   (Or set the `GEMINI_API_KEY` environment variable, or paste the key in the sidebar for one session.)
    **Never share, zip or commit `secrets.toml`.** It is excluded by `.gitignore`.
 3. Start the app:
    - Mac: double-click `start_mac.command` (first run installs everything into `.venv`).
@@ -34,7 +34,8 @@ Mandatory fields (marked *):
 
 Recommended: target question(s) a buyer asks AI. Optional: audience, country.
 
-Model: `claude-opus-5-5` (default) or `claude-sonnet-5-5`; effort high by default.
+Model: `gemini-2.5-pro` (default) or `gemini-2.5-flash`; effort high by default (mapped to the Gemini thinking
+budget). Change the default by setting `GEMINI_MODEL` in `secrets.toml` or the environment.
 
 ## Page types
 
@@ -78,7 +79,7 @@ Saved judgements and v2.1 judge files also replay.
 |---|---|
 | `app.py` | The Streamlit app |
 | `geoscore/capture.py` | Fetches the page and extracts text and signals |
-| `geoscore/judge.py` | Builds the per-type v2.2 prompt, the type classifier, calls Claude, verifies quotes |
+| `geoscore/judge.py` | Builds the per-type v2.2 prompt, the type classifier, calls Google Gemini, verifies quotes |
 | `geoscore/explain.py` | Runs the calculator and explains every step |
 | `geoscore/type_info.py` | The "How this page type is scored" panel |
 | `geoscore/catalog.py` | Page types, groups, gates, penalties, names |
