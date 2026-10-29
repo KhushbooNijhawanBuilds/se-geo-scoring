@@ -25,6 +25,7 @@ EXAMPLES = {
     "Test run 44, software hub: industrial software portfolio": "v22_testrun_44_software_hub.json",
     "Test run 56, ESG report download page: 2025 Sustainability Report": "v22_testrun_56_esg_report.json",
 }
+SE_INVENTORY = HERE / "examples" / "se_inventory"
 AUTO_TYPE = "auto"
 DETECT = "Detect automatically (v2.2 stage test for the page type)"
 BAND_COLORS = {"Excellent": "#0F766E", "Good": "#15803D", "Average": "#B45309", "Poor": "#B91C1C"}
@@ -47,6 +48,23 @@ def saved_api_key():
     if os.environ.get("GEMINI_API_KEY"):
         return os.environ["GEMINI_API_KEY"], "the GEMINI_API_KEY environment variable"
     return "", ""
+
+
+@st.cache_data(show_spinner=False)
+def se_inventory():
+    """The bundled Schneider scorings, grouped by content type. Empty if the folder isn't bundled."""
+    path = SE_INVENTORY / "index.json"
+    if not path.exists():
+        return [], {}
+    entries = json.loads(path.read_text(encoding="utf-8"))
+    groups = {}
+    for e in entries:
+        groups.setdefault(e["inventory_type"], []).append(e)
+    return entries, groups
+
+
+def se_page_label(e):
+    return f"{e['id']} · {e['title']} · score {e['expected_final_score']} {e['expected_band']}"
 
 
 def type_options():
@@ -176,6 +194,7 @@ with tab_score:
                     judge_json["usage"] = usage
                     st.session_state["judge"] = judge_json
                     st.session_state["page_text"] = captured["text"]
+                    st.session_state["expected"] = None
                     status.update(label="Scored.", state="complete", expanded=False)
                 except (CaptureError, JudgeError) as e:
                     status.update(label="Could not score the page.", state="error")
@@ -183,6 +202,35 @@ with tab_score:
 
 with tab_replay:
     st.write("Load a judgement saved earlier (or one of the examples) to see the full calculation without calling the API.")
+
+    entries, se_groups = se_inventory()
+    if entries:
+        st.subheader("Load a Schneider page we have already scored")
+        st.caption(f"{len(entries)} pages from the Schneider content inventory, scored with standard v2.2. "
+                   "Pick a content type, then the page. No API key needed.")
+        s1, s2 = st.columns([1, 2])
+        with s1:
+            se_type = st.selectbox("Content type", list(se_groups),
+                                   format_func=lambda t: f"{t} ({len(se_groups[t])})",
+                                   key="se_type")
+        with s2:
+            pages = {e["id"]: e for e in se_groups[se_type]}
+            se_id = st.selectbox(f"Page ({len(pages)} of this type)", list(pages),
+                                 format_func=lambda i: se_page_label(pages[i]), key=f"se_page_{se_type}")
+            se_page = pages[se_id]
+        st.markdown(f"**Stage:** {se_page['stage']} · **Page type:** {type_label(se_page['page_type_key'])} "
+                    f"(`{se_page['page_type_key']}`)")
+        st.markdown(f"[{se_page['url']}]({se_page['url']})")
+        if se_page["note"]:
+            st.info(se_page["note"])
+        if st.button("Show this page's calculation", type="primary", key="se_show"):
+            data = json.loads((SE_INVENTORY / f"{se_page['id']}.json").read_text(encoding="utf-8"))
+            st.session_state["judge"] = normalise(data)
+            st.session_state["page_text"] = None
+            st.session_state["expected"] = se_page
+        st.divider()
+        st.markdown("**Or replay your own judgement**")
+
     choice = st.selectbox("Example", ["(choose)"] + list(EXAMPLES))
     upload = st.file_uploader("...or upload a judge JSON", type=["json"])
     pasted_json = st.text_area("...or paste the JSON block from any of the 26 v2.2 Copilot prompts here. No API key needed.", height=150,
@@ -208,6 +256,7 @@ with tab_replay:
         if data is not None:
             st.session_state["judge"] = normalise(data)
             st.session_state["page_text"] = None
+            st.session_state["expected"] = None
 
 
 # ---------- results ----------
@@ -222,6 +271,18 @@ if judge:
     page = judge.get("page", {})
     tkey = r["page_type_key"]
     st.divider()
+    exp = st.session_state.get("expected")
+    if exp:
+        if r["final_score"] == exp["expected_final_score"] and r["band"] == exp["expected_band"]:
+            st.success(f"Bundled Schneider page {exp['id']}: recomputed score {r['final_score']} ({r['band']}) "
+                       "matches the recorded result for this page.")
+        else:
+            st.warning(f"Bundled Schneider page {exp['id']}: the recomputed score is {r['final_score']} ({r['band']}) "
+                       f"but the recorded result is {exp['expected_final_score']} ({exp['expected_band']}). "
+                       "The engine or weights may have changed since this page was scored.")
+        if exp["note"]:
+            st.caption(exp["note"])
+        st.caption(f"Page: [{exp['url']}]({exp['url']})")
     st.subheader(f"Result: {page.get('topic') or type_label(tkey, False)}")
     if page.get("url"):
         st.caption(page["url"])

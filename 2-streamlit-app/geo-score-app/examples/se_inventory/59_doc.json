@@ -1,0 +1,438 @@
+{
+ "page": {
+  "type": "esg_report_doc",
+  "stage": "Evaluation",
+  "url": "https://www.se.com/ww/en/assets/564/document/466155/2023-sustainability-report.pdf",
+  "topic": "Schneider Electric 2023 Sustainable Development Report",
+  "target_prompts": [
+   "What were Schneider Electric's 2023 GHG emissions and sustainability results?"
+  ],
+  "prompts_inferred": true
+ },
+ "criteria": [
+  {
+   "id": "DOC-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "2023 highlights"
+    },
+    {
+     "id": "c2",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "553M Tonnes of saved and avoided CO 2 emissions for our customers since 2018 (+112 MT vs. 2022)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "This report is an extract from Schneider Electric’s 2023 Universal Registration Document."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Consult Schneider’s GRI reports on the Sustainability Reports page on www.se.com"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "63% Sustainable packaging for our products (vs. 45% in 2022)"
+    }
+   ]
+  },
+  {
+   "id": "ESG-1",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Sustainability Impact score, outperforming 2023 target (6.00/10)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(2) TCO e 2 112,792"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Estimated coverage (% total GHG emissions) % 99% 99% 99% 99%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "NOTE: section 8.1 GHG table extracts as label / GRI code / unit / 2023-2020 values rows"
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-5 Absolute reduction vs base year (2021)(2) % -31.2% -22.0%"
+    }
+   ]
+  },
+  {
+   "id": "ESG-2",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Improve energy efficiency in our sites 2019: 0% 13% 15%"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "25 targets for 2021-2025 Baseline(1) 2023 Progress(2) 2025 Target"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Improve energy efficiency in our sites 2019: 0% 13% 15%"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "The Group’s Net-Zero commitment was validated with the Corporate Net-Zero Standard in 2022."
+    },
+    {
+     "id": "c5",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Read more about the SSE indicators methodology on pages 206 to 211."
+    }
+   ]
+  },
+  {
+   "id": "ESG-3",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Electric has reported in accordance with the GRI Standards for the period from January 1 to December 31, 2023."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Scope 2 emissions are quantified with the market-based methodology and the location-based methodology, following GHG Protocol Scope 2 guidance"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Electric reports CSR data at Group level for all fi nancially consolidated entities over which it has operational control."
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Previous GWP value of 23,500 (AR5) has been updated to 24,300 (AR6) for 2023 and historical emissions."
+    }
+   ]
+  },
+  {
+   "id": "ESG-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "In 2023, we obtained “reasonable” assurance from an independent th ird-party verifier on our Scopes 1 and 2 reported Greenhouse Gas (GHG) emissions"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "“limited” assurance on our Scope 3 reported GHG emissions"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "2023 Schneider score 88/100 A 73/100 88/100 AAA Low risk"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Reasonable assurance report from one of the Statutory Auditors on a selection of Schneider Electric’s non-financial performance indicators"
+    }
+   ]
+  },
+  {
+   "id": "ESG-5",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "3.2 Schneider Electric’s greenhouse gas footprint 95"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "\"outline_entries\": 307"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "7.4 Task-Force on Climate Related Financial Disclosures (TCFD) correspondence table 230"
+    },
+    {
+     "id": "c4",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "To access all Schneider Electric ESG data, please download the disclosure dashboard"
+    },
+    {
+     "id": "c5",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  },
+  {
+   "id": "DOC-4",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "\"pages_without_text\": 1"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "\"tagged_pdf\": true"
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "note",
+     "evidence": "NOTE: SSE targets table extracts with scrambled cells ('-1.00% - .00 1 % 0 67%.')"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "note",
+     "evidence": "NOTE: units split in extraction ('TCO e 2', 'CO 2 emissions'), hyphenation breaks ('fi nancially')"
+    }
+   ]
+  },
+  {
+   "id": "DOC-7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND - no publication/release date stated in the text"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Annual CSR data is reported for the calendar year (CY) preceding the publication year, i.e. 2023 in this report"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "The historical values of this indicator have been updated to be in line with the latest Global Warming Potential (GWP) value of SF 6"
+    },
+    {
+     "id": "c4",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND - no current/superseded statement"
+    },
+    {
+     "id": "c5",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "NOT FOUND - no other editions linked"
+    }
+   ]
+  },
+  {
+   "id": "U8",
+   "proposed_level": 4,
+   "downgrade_reason": "c1: report named both '2023 Sustainability Report' (metadata) and '2023 Sustainable Development Report' (text)",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "Schneider Sustainability Impact (SSI)"
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "305-1 Direct (Scope 1) GHG emissions(2)"
+    },
+    {
+     "id": "c3",
+     "result": "pass",
+     "evidence_type": "note",
+     "evidence": "NOTE: checked highlights vs SSI/indicator tables and GHG table vs footprint text: no conflicting values"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  },
+  {
+   "id": "U7",
+   "proposed_level": null,
+   "downgrade_reason": "",
+   "rationale": "",
+   "checks": [
+    {
+     "id": "c1",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "I couldn’t be prouder of the impact we made in 2023."
+    },
+    {
+     "id": "c2",
+     "result": "pass",
+     "evidence_type": "quote",
+     "evidence": "SSE #12 “Social Excellence” program is under development."
+    },
+    {
+     "id": "c3",
+     "result": "fail",
+     "evidence_type": "quote",
+     "evidence": "primarily due to the outstanding progress on sourcing more and more renewable electricity"
+    },
+    {
+     "id": "c4",
+     "result": "na",
+     "evidence_type": "note",
+     "evidence": "na"
+    }
+   ]
+  }
+ ],
+ "gates": [
+  {
+   "id": "G1",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G2",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G4",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G5",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G6",
+   "triggered": false,
+   "evidence": ""
+  },
+  {
+   "id": "G13",
+   "triggered": false,
+   "evidence": ""
+  }
+ ],
+ "penalties": [
+  {
+   "id": "hidden_instructions",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "keyword_stuffing",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "self_ranking",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "superseded_no_notice",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "fluff_density",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "boilerplate",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "template_artifact",
+   "applied": false,
+   "evidence": ""
+  },
+  {
+   "id": "cta_overload",
+   "applied": false,
+   "evidence": ""
+  }
+ ]
+}

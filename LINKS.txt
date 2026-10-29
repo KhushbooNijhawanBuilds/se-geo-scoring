@@ -1,4 +1,28 @@
-Deck (Slides): https://claude.ai/artifact/7qm4EUk8KKxtQMC92wgZmn
-User guide: https://claude.ai/artifact/HGiHsbDhZK4LVmZuPcYfYy
-Scoring logic / QA doc: https://claude.ai/code/artifact/cf77ff2f-5b12-4751-8f81-645c9072c7f0
-Run the app: open 2-streamlit-app/geo-score-app, double-click start_mac.command (see README.md)
+LINKS
+
+Deck — Content GEO Score, all content types (35 slides, current):
+  https://claude.ai/artifact/T2ooe4UGSVCVdXnoQJK9S2
+
+Deck — earlier blog-focused version (v2.2, 29 slides):
+  https://claude.ai/artifact/7qm4EUk8KKxtQMC92wgZmn
+
+User guide and prompt:
+  https://claude.ai/artifact/HGiHsbDhZK4LVmZuPcYfYy
+
+Scoring logic / QA document:
+  https://claude.ai/code/artifact/cf77ff2f-5b12-4751-8f81-645c9072c7f0
+
+GitHub (private):
+  https://github.com/KhushbooNijhawanBuilds/se-geo-scoring
+
+RUN THE APP (Python 3.9+; the venv is already built on the original laptop,
+rebuild it with the commands in PROJECT_MAP.md on a new one):
+  cd ~/"Documents/geo scoring project/2-streamlit-app/geo-score-app"
+  ./.venv/bin/streamlit run app.py
+  Opens at http://localhost:8501 — first load takes about 20 seconds.
+  Needs a Gemini API key in .streamlit/secrets.toml (not in the repo).
+  The Replay tab needs no key.
+
+DEMO WITHOUT THE APP
+  Open the file for your page type in 9-prompts-by-content-type/GEO v2.2/,
+  paste it into Copilot, give the page URL.

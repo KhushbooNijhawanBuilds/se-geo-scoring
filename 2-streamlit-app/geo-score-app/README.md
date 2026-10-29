@@ -63,6 +63,21 @@ So checks, gates, caps, anchors, stage tests and the checks that may pass on a j
 The sidebar toggle **Scoring rules v2.2 / v2.1** re-scores the same judgement with the older v2.1 level logic for comparison
 (same weights). v2.2 is the default.
 
+## Try a page we already scored (no API key)
+
+The app bundles the 62 Schneider scorings from the v2.2 test run (10 content types, 60 pages: #44 is a duplicate URL
+of #43, and the two 2023/2024 sustainability reports were also scored from their PDF text).
+
+In the **Replay** tab, under **Load a Schneider page we have already scored**, pick a content type (the count of pages
+is shown) and then the page, labelled `NN · Title · score NN Band`. Click **Show this page's calculation** to get the
+full breakdown — steps, per-criterion table, gates, penalties, evidence, top gaps and the page-type logic — plus the
+page's URL and buyer-journey stage. The app re-runs the calculator and confirms the score matches the recorded result;
+if it ever differs, it says so.
+
+- Data: `examples/se_inventory/<NN>.json` plus `examples/se_inventory/index.json`.
+- Rebuild it from the test-run folders: `python3 tools/build_se_inventory.py`.
+- Check all 62 recompute to their recorded score: `python3 tools/verify_se_inventory.py`.
+
 ## Copilot workflow (no API key)
 
 1. Open `standard/prompts/copilot_prompt_<type>_v2.2.txt` for the page type (Appendix A in
@@ -87,3 +102,5 @@ Saved judgements and v2.1 judge files also replay.
 | `engine/geo_score_calc.py`, `engine/weights.json` | The v2.2 calculator and weights (`--selftest` to check) |
 | `standard/` | The v2.2 standard, Appendix A and the 26 Copilot prompts |
 | `examples/` | Example judgements for the Replay tab |
+| `examples/se_inventory/` | The 62 already-scored Schneider pages and their index |
+| `tools/build_se_inventory.py`, `tools/verify_se_inventory.py` | Rebuild and verify that bundle |

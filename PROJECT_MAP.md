@@ -11,14 +11,23 @@ cd se-geo-scoring
 
 The app's API key is **not** in the repo (it's gitignored). On the new laptop you add it once — see "Run the app" below.
 
-## The two current, authoritative things
+## Start here
 
 | Use this for | Folder |
 | --- | --- |
 | **GEO scoring — the latest standard, engine, prompts, test results** | `8-geo-v2.2/` |
+| **The presentation (35 slides, all content types)** | `1-deck-all-content-types/` |
 | **The app you demo** | `2-streamlit-app/geo-score-app/` |
 | **Prompts to paste into Copilot, named by content type** | `9-prompts-by-content-type/` |
 | **SEO scoring (blogs only, separate score)** | `6-seo-score/` |
+
+### If you only read three files
+1. `8-geo-v2.2/HOW_THE_SCORE_IS_CALCULATED.md` — the method, in plain language, with a worked example.
+2. `8-geo-v2.2/GEO_Scoring_Standard_All_Types_v2.2.md` — the full standard, all 26 content types.
+3. `8-geo-v2.2/test-run/GEO_v2.2_vs_previous_vs_v2.1.xlsx` — every Schneider page scored, by page and by type.
+
+### The presentation
+`1-deck-all-content-types/` holds the slide files (`deck.json` = the order, `slides/*.html` = one file per slide). 35 slides: credibility and sources up front, a clickable contents slide, the method (checks → levels → weights → stages → deal-breakers → penalties), then one slide per content type with a real Schneider example and its calculation, detail slides for solution/range/editorial, and SEO at the end. It is also published at the Claude artifact link in `LINKS.txt`.
 
 Everything else is background, source material, or older versions kept for traceability.
 
